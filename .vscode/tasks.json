@@ -31,7 +31,7 @@
             "label": "Check Setup.py",
             "type": "shell",
             "command": "python setup.py check",
-            "group": "build",
+            "group": "test",
             "dependsOn": [
                 "Update Package"
             ]
@@ -46,12 +46,40 @@
             ]
         },
         {
+            "label": "Run PyTest",
+            "type": "shell",
+            "command": "pytest",
+            "group": "test",
+            "dependsOn": [
+                "Make distribution of Package"
+            ]
+        },
+        {
+            "label": "Run PyLint",
+            "type": "shell",
+            "command": "pylint garlandtools",
+            "group": "test",
+            "dependsOn": [
+                "Make distribution of Package"
+            ]
+        },
+        {
+            "label": "Run Tests",
+            "group": "test",
+            "dependsOn": [
+                "Check Setup.py",
+                "Run PyTest",
+                "Run PyLint"
+            ]
+        },
+        {
             "label": "Upload to package distribution service (TestPyPi)",
             "type": "shell",
             "command": "twine upload --repository-url https://test.pypi.org/legacy/ dist/*",
             "group": "build",
             "dependsOn": [
-                "Make distribution of Package"
+                "Make distribution of Package",
+                "Run Tests"
             ]
         },
         {
@@ -60,7 +88,8 @@
             "command": "twine upload --repository-url https://upload.pypi.org/legacy/ dist/*",
             "group": "build",
             "dependsOn": [
-                "Make distribution of Package"
+                "Make distribution of Package",
+                "Run Tests"
             ]
         }
     ]

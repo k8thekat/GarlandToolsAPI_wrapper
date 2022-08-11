@@ -46,19 +46,12 @@
             ]
         },
         {
-            "label": "Run Tests",
-            "type": "shell",
-            "command": "python -m test -v",
-            "group": "test"
-        },
-        {
             "label": "Upload to package distribution service (TestPyPi)",
             "type": "shell",
             "command": "twine upload --repository-url https://test.pypi.org/legacy/ dist/*",
             "group": "build",
             "dependsOn": [
-                "Make distribution of Package",
-                "Run Tests"
+                "Make distribution of Package"
             ]
         },
         {
@@ -67,8 +60,7 @@
             "command": "twine upload --repository-url https://upload.pypi.org/legacy/ dist/*",
             "group": "build",
             "dependsOn": [
-                "Make distribution of Package",
-                "Run Tests"
+                "Make distribution of Package"
             ]
         }
     ]

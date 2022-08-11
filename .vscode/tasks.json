@@ -1,0 +1,67 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Install Requirements",
+            "type": "shell",
+            "command": "pip install -r requirements.txt",
+            "group": "build",
+        },
+        {
+            "label": "Install Package",
+            "type": "shell",
+            "command": "pip install .",
+            "group": "build",
+            "dependsOn":[
+                "Install Requirements"
+            ]
+        },
+        {
+            "label": "Update Package",
+            "type": "shell",
+            "command": "pip install --upgrade .",
+            "group": "build",
+            "dependsOn": [
+                "Install Package"
+            ]
+        },
+        {
+            "label": "Check Setup.py",
+            "type": "shell",
+            "command": "python setup.py check",
+            "group": "build",
+            "dependsOn": [
+                "Update Package"
+            ]
+        },
+        {
+            "label": "Make distribution of Package",
+            "type": "shell",
+            "command": "python setup.py sdist",
+            "group": "build",
+            "dependsOn": [
+                "Check Setup.py"
+            ]
+        },
+        {
+            "label": "Upload to package distribution service (TestPyPi)",
+            "type": "shell",
+            "command": "twine upload --repository-url https://test.pypi.org/legacy/ dist/*",
+            "group": "build",
+            "dependsOn": [
+                "Make distribution of Package"
+            ]
+        },
+        {
+            "label": "!!! Upload to package distribution service (PyPi)",
+            "type": "shell",
+            "command": "twine upload --repository-url https://upload.pypi.org/legacy/ dist/*",
+            "group": "build",
+            "dependsOn": [
+                "Make distribution of Package"
+            ]
+        }
+    ]
+}

@@ -1,7 +1,5 @@
 """
-garlandtools.
-
-Python PIP module for GarlandTools.
+GarlandTools Python Module
 """
 
 __version__ = "0.1.0"

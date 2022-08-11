@@ -8,3 +8,7 @@ __credits__ = 'GarlandTools'
 
 GarlandToolsEndpoint = 'https://www.garlandtools.org'
 
+import requests_cache
+
+session = requests_cache.CachedSession('garlandtools_cache', backend='sqlite', expire_after=3600)
+result = session.get(GarlandToolsEndpoint)

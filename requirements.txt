@@ -1,6 +1,7 @@
 mpi4py>=2.0
 setuptools>=58.0
 requests>=2.0
+requests-cache>=0.9
 twine>=4.0
 pylint 
 pytest

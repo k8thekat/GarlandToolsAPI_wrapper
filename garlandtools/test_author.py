@@ -5,7 +5,7 @@ Tests for Author being correctly set in __init__.py
 from garlandtools import __author__
 
 
-def test_version():
+def test_author():
     """
     Tests for Author being correctly set in __init__.py
     """

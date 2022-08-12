@@ -9,6 +9,7 @@ from .endpoint_achievement import *
 from .endpoint_data import *
 from .endpoint_endgame_gear import *
 from .endpoint_fate import *
+from .endpoint_fishing import *
 
 
 __version__ = "0.1.0"

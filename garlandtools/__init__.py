@@ -14,6 +14,7 @@ from .endpoint_icon import *
 from .endpoint_instance import *
 from .endpoint_leve import *
 from .endpoint_leveling_gear import *
+from .endpoint_map import *
 
 
 __version__ = "0.1.0"

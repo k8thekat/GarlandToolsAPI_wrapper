@@ -12,10 +12,11 @@ def test_item_is_ok():
     response = item(2)
     assert response.ok
 
+
 def test_item_is_json():
     """
     Tests if an item request returns JSON
     """
     response = item(2)
     response_json = response.json()
-    assert type(response_json) is dict
+    assert isinstance(response_json) is dict

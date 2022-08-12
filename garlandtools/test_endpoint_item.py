@@ -18,5 +18,7 @@ def test_item_is_json():
     Tests if an item request returns JSON
     """
     response = item(2)
+    assert response.ok
+
     response_json = response.json()
     assert isinstance(response_json, dict)

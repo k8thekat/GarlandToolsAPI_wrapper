@@ -82,16 +82,6 @@
                 "Make distribution of Package",
                 "Run Tests"
             ]
-        },
-        {
-            "label": "!!! Upload to package distribution service (PyPi)",
-            "type": "shell",
-            "command": "twine upload --repository-url https://upload.pypi.org/legacy/ dist/*",
-            "group": "build",
-            "dependsOn": [
-                "Make distribution of Package",
-                "Run Tests"
-            ]
         }
     ]
 }

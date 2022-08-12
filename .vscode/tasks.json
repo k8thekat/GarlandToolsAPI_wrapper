@@ -48,7 +48,7 @@
         {
             "label": "Run PyTest",
             "type": "shell",
-            "command": "pytest --show-capture all",
+            "command": "pytest -s",
             "group": "test",
             "dependsOn": [
                 "Install Requirements"

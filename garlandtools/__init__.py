@@ -12,6 +12,7 @@ from .endpoint_fate import *
 from .endpoint_fishing import *
 from .endpoint_icon import *
 from .endpoint_instance import *
+from .endpoint_leve import *
 
 
 __version__ = "0.1.0"

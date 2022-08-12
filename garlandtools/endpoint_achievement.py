@@ -1,5 +1,5 @@
 """
-Wrapper for GarlandTools Item Endpoint
+Wrapper for GarlandTools Achievement Endpoint
 """
 
 from .globals import GARLAND_TOOLS_ENDPOINT, GARLAND_TOOLS_LANGUAGE, SESSION

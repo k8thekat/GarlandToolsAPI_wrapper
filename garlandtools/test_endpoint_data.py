@@ -1,5 +1,5 @@
 """
-Tests for wrapper for GarlandTools Item Endpoint
+Tests for wrapper for GarlandTools Data Endpoint
 """
 
 from . import data

@@ -1,0 +1,13 @@
+mode: auto
+silent: false
+branchName: full
+autoCloseIssue: true
+defaultBranch: 'main'
+openDraftPR: true
+openPR: false
+copyIssueDescriptionToPR: true
+copyIssueLabelsToPR: true
+copyIssueAssigneeToPR: true
+copyIssueProjectsToPR: true
+copyIssueMilestoneToPR: true
+commentMessage: 'Branch ${branchName} created for issue: ${issue.title}'

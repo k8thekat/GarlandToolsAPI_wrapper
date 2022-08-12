@@ -7,7 +7,7 @@ from .globals import GARLAND_TOOLS_ENDPOINT, SESSION
 GARLAND_TOOLS_MAP_ENDPOINT = f'{GARLAND_TOOLS_ENDPOINT}files/maps/'
 
 
-def map(zone: str):
+def map_zone(zone: str):
     """
     Returns a specific map by the zone.
     Some zones require the parent zone as well.

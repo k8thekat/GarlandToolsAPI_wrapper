@@ -33,7 +33,7 @@
             "command": "python setup.py check",
             "group": "test",
             "dependsOn": [
-                "Update Package"
+                "Install Requirements"
             ]
         },
         {
@@ -51,7 +51,7 @@
             "command": "pytest",
             "group": "test",
             "dependsOn": [
-                "Make distribution of Package"
+                "Install Requirements"
             ]
         },
         {
@@ -60,7 +60,7 @@
             "command": "pylint garlandtools",
             "group": "test",
             "dependsOn": [
-                "Make distribution of Package"
+                "Install Requirements"
             ]
         },
         {

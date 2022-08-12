@@ -2,7 +2,7 @@
 GarlandTools Python Module
 """
 
-import requests_cache
+from .globals import *
 
 __version__ = "0.1.0"
 __author__ = 'Lukas Weber'

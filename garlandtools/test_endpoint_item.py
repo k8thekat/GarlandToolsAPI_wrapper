@@ -19,4 +19,4 @@ def test_item_is_json():
     """
     response = item(2)
     response_json = response.json()
-    assert isinstance(response_json) is dict
+    assert isinstance(response_json, dict)

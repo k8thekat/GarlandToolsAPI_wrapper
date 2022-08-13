@@ -11,5 +11,6 @@ def search(query: str):
     """
     Submits a search query and returns the results
     """
-    result = SESSION.get(f'{GARLAND_TOOLS_SEARCH_ENDPOINT}?text={query}&lang={GARLAND_TOOLS_LANGUAGE}')
+    result = SESSION.get(f'{GARLAND_TOOLS_SEARCH_ENDPOINT}'
+                         + f'?text={query}&lang={GARLAND_TOOLS_LANGUAGE}')
     return result

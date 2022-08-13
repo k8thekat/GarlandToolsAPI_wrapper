@@ -20,6 +20,7 @@ from .endpoint_node import *
 from .endpoint_npc import *
 from .endpoint_search import *
 from .endpoint_status import *
+from .endpoint_quest import *
 
 
 __version__ = "0.1.0"

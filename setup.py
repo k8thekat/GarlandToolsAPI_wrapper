@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='garlandtools',
-    version='0.1.0',
+    version='1.0.0',
     description='Python PIP module for GarlandTools',
     url='https://github.com/Sakul6499/GarlandTools-PIP',
     author='Lukas Weber',
@@ -19,7 +19,8 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Operating System :: POSIX :: Linux',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.10',
     ],
 )

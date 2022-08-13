@@ -16,6 +16,7 @@ from .endpoint_leve import *
 from .endpoint_leveling_gear import *
 from .endpoint_map import *
 from .endpoint_mob import *
+from .endpoint_node import *
 
 
 __version__ = "0.1.0"

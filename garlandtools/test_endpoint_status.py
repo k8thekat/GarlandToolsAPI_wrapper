@@ -38,7 +38,6 @@ def test_statuses_is_json():
     """
     response = statuses()
     assert response.ok
-    print(response.url)
 
     response_json = response.json()
     assert isinstance(response_json, dict)

@@ -12,7 +12,7 @@ setup(
     long_description="Unofficial Python wrapper for [GarlandTools](https://garlandtools.org/) API. Check the [GitHub Repository](https://github.com/Sakul6499/GarlandTools-PIP) for more information.",
     long_description_content_type='text/markdown',
     install_requires=['mpi4py>=2.0',
-                      'requests>=2.0'],
+                      'requests-cache>=0.9'],
     classifiers=[
         'Development Status :: 1 - Planning',
         'Intended Audience :: Science/Research',

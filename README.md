@@ -60,6 +60,18 @@ There is an additional `search(query: str)` function to submit a search query.
 All functions utilize a caching request package ([Requests-Cache]) which will create a local database of requests and refresh every > 60m.  
 [GarlandTools] only update rarely and after patches.
 
+Each function returns a request which can be useful for debugging.  
+E.g.: `response.url` to check what you have queried.  
+The main use of this is using the `response.json()` method though:
+
+```python
+some_item_response = garlandtools.item(12345)
+if some_item_response.ok:
+    some_item = some_item_response.json()
+```
+
+Or, alternatively, use `response.text` or `response.content` to retrieve bytes (e.g. for PNGs).
+
 ### Credits
 
 I want to credit [GarlandTools] and [GarlandTools NodeJS project](https://github.com/karashiiro/garlandtools-api) without which this wouldn't be possible.

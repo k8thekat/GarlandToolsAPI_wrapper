@@ -20,7 +20,7 @@ pipeline {
                 sh 'python3 -m pip install --upgrade -r requirements.txt'
             }
         }
-        
+
         stage('Tests') {
             parallel {
                 stage("PyLint") {
@@ -29,7 +29,7 @@ pipeline {
                     }   
 
                     steps {
-                        sh 'pylint garlandtools'
+                        sh 'python3 -m pylint garlandtools'
                     }
                 }
                 stage("PyTest") {
@@ -38,7 +38,7 @@ pipeline {
                     }
 
                     steps {
-                        sh 'pytest'
+                        sh 'python3 -m pytest'
                     }
                 }
             }

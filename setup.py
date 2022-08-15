@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='garlandtools',
-    version='1.0.1',
+    version='2.0.0',
     description='Python PIP module for GarlandTools',
     url='https://github.com/Sakul6499/GarlandTools-PIP',
     author='Lukas Weber',

@@ -7,6 +7,15 @@ Unofficial Python wrapper for [GarlandTools] API.
 
 Special thanks to [GarlandTools] for providing this API and keeping it updated.
 
+## Table of Contents
+
+- [GarlandTools PIP](#garlandtools-pip)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [Versions](#versions)
+
 ## Installation
 
 ```bash

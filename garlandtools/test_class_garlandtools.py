@@ -523,7 +523,6 @@ def test_quests_is_json():
     garlandtools = make_test_garlandtools()
     response = garlandtools.quests()
     assert response.ok
-    print(response.url)
 
     response_json = response.json()
     assert isinstance(response_json, dict)

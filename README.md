@@ -116,3 +116,12 @@ I want to credit [GarlandTools] and [GarlandTools NodeJS project](https://github
 
 [GarlandTools]: garlandtools.org/
 [Requests-Cache]: https://pypi.org/project/requests-cache/
+
+## Versions
+
+| Version | Supported | Description                                           |
+| ------- | --------- | ----------------------------------------------------- |
+| v2.0.0  | ✅         | Major rewrite, simpler to use and more organized now. |
+| v1.0.1  | ✅         | Minor bug fixes for v1.0.0.                           |
+| v1.0.0  | ❌         | Official first version.                               |
+| v0.1.0  | ❌         | Initial package. **DO NOT USE.**                      |

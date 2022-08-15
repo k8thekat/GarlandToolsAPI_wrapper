@@ -41,6 +41,15 @@ pipeline {
                         sh 'python3 -m pytest'
                     }
                 }
+                stage("Make Distribution") {
+                    agent {
+                        label 'python3'
+                    }
+
+                    steps {
+                        sh 'python3 setup.py sdist'
+                    }
+                }
             }
         }
     }

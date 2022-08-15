@@ -31,10 +31,6 @@ pipeline {
             }
         }
         stage('Tests') {
-            agent {
-                label 'python3'
-            }   
-
             parallel {
                 stage("PyLint") {
                     agent {

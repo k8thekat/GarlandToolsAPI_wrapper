@@ -15,9 +15,11 @@ pip install garlandtools
 
 ## Usage
 
-All [GarlandTools] Endpoints are implemented in this API.
-Simply call them by their function name.
-Everything will be done for you: building the request, submitting the request, retrieving the answer and returning it to your call.
+All [GarlandTools] Endpoints are implemented in this API.  
+Below is a table showing all endpoints and whether they have an _id_ and/or _all_ endpoint.  
+An _id_ endpoint means there is a unique identifier that can be used to query information.
+Commonly an integer. However, there is also a `Job` enum and string endpoints.  
+An _all_ endpoint simply returns all data of that endpoint in a massive JSON file, no id needed but requires more filtering.
 
 Most endpoints return a JSON which can be used as a `dict` in Python.  
 In some cases a JSON of the `list` form or even a PNG is returned.  
@@ -43,34 +45,70 @@ A full overview is below:
 | Search        | ✅ (`str`)       | ❌                  | JSON (`list`) |
 | Status        | ✅               | ✅                  | JSON (`dict`) |
 
-Each endpoint has it's own function.  
-E.g. "Achievement" will have a `achievement(id: int)` function.
+To use the API, first initialize the `GarlandTools` class:
 
-Additionally, if an endpoint is able to return **all** entries of that type an id-less function will be present.  
-E.g. "Achievement" will not only have a `achievement(id: int)`, but also an `achievements()` function.
+```python
+api = GarlandTools()
 
-Most functions use an id (integer) to query.
-However, said ids rarely start a 0 or 1.  
-In some cases, like icons, map or search, a string is instead used.  
-Furthermore, the endgame gear and leveling gear endpoints are using the `Job` enum instead.
+# Optionally you can change the parameters:
+api = GarlandTools(cache_location=cache_location, cache_expire_after=cache_expire_after, language=language)
+# `cache_location` defines where the cache will be stored
+# `cache_expire_after` defines when the cache is expired (please don't disable `0` this or set it to some short amount of time. Item data is usually only updated on patches!)
+# `language` defines the language GarlandTools is returning the names and descriptions in
+```
+
+Each endpoint has it's own function implemented in the `GarlandTools` class.  
+Simply call them and supply parameters if needed (_id_ endpoints, not on _all_ endpoints).  
+For example: Say we want to query a specific item and we know the item id is `2`.  
+All we need to do is:
+
+```python
+# 1. Initialize API
+api = GarlandTools()
+
+# 2. Query item
+item_id = 2
+response = api.item(item_id)
+
+# 3. Check if successful and retrieve JSON
+if response.ok:
+    item_json = response.json()
+else:
+    print(f'Failed querying item id '{item_id}' ({response.url}): [{response.status_code}] {response.reason}')
+```
+
+Alternatively, you can also try using `Response::json()` and catch exceptions:
+
+```python
+# 1. Initialize API
+api = GarlandTools()
+
+# 2. Query item
+item_id = 2
+response = api.item(item_id)
+
+# 3. Check if successful and retrieve JSON
+try:
+    item_json = response.json()
+except:
+    print(f'Failed querying item id '{item_id}' ({response.url}): [{response.status_code}] {response.reason}')
+```
+
+The resulting JSON is in most cases a `dict` in Python.  
+We can simply query it as an array: `item_json['query goes here']`.  
+It may also be helpful to use `print(item_json)` to see all the values.  
+
+> Tip: You can use `print(response.url)` to print out the query URL and open this in your browser.
+> Most browsers have a much better than JSON viewer than most IDEs/Editors.
+
+However, please keep in mind that select endpoints do not return JSON (or not `dict`, but `list`).
+In these cases the `Response::json()` will fail. Use `Response::text` or `Response::content` instead.
 
 There is an additional `search(query: str)` function to submit a search query.
 **However, please use this endpoint only if absolutely necessary and you don't know a certain ID.**
 
-All functions utilize a caching request package ([Requests-Cache]) which will create a local database of requests and refresh every > 60m.  
-[GarlandTools] only update rarely and after patches.
-
-Each function returns a request which can be useful for debugging.  
-E.g.: `response.url` to check what you have queried.  
-The main use of this is using the `response.json()` method though:
-
-```python
-some_item_response = garlandtools.item(12345)
-if some_item_response.ok:
-    some_item = some_item_response.json()
-```
-
-Or, alternatively, use `response.text` or `response.content` to retrieve bytes (e.g. for PNGs).
+All functions utilize a request caching package ([Requests-Cache]) which will create a local database of requests and only refresh after the cache is expired (default setting: 24h).  
+[GarlandTools] only updates after patches usually.
 
 ### Credits
 

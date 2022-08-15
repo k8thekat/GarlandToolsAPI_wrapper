@@ -51,7 +51,7 @@ class GarlandTools():
         E.g.: White Mage => WHM; Warrior => WAR; Ninja => NIN
         """
         result = self.session.get(
-            f'{GARLAND_TOOLS_DATA_ENDPOINT.replace(GARLAND_LANGUAGE_TOKEN, self.language)}{job}.json')
+            f'{GARLAND_TOOLS_ENDGAME_GEAR_ENDPOINT.replace(GARLAND_LANGUAGE_TOKEN, self.language)}{job}.json')
         return result
 
     def fate(self, fate_id: int):

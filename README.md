@@ -110,7 +110,7 @@ There is an additional `search(query: str)` function to submit a search query.
 All functions utilize a request caching package ([Requests-Cache]) which will create a local database of requests and only refresh after the cache is expired (default setting: 24h).  
 [GarlandTools] only updates after patches usually.
 
-### Credits
+## Credits
 
 I want to credit [GarlandTools] and [GarlandTools NodeJS project](https://github.com/karashiiro/garlandtools-api) without which this wouldn't be possible.
 

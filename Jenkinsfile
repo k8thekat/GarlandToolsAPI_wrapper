@@ -20,16 +20,7 @@ pipeline {
                 sh 'python3 -m pip install --upgrade -r requirements.txt'
             }
         }
-
-        stage('Run Notebook') {
-            agent {
-                label 'python3'
-            }
-
-            steps {
-                sh 'python3 -m nbconvert --execute --inplace  velocities.ipynb'
-            }
-        }
+        
         stage('Tests') {
             parallel {
                 stage("PyLint") {

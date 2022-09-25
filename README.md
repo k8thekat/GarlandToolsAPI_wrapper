@@ -30,8 +30,9 @@ An _id_ endpoint means there is a unique identifier that can be used to query in
 Commonly an integer. However, there is also a `Job` enum and string endpoints.  
 An _all_ endpoint simply returns all data of that endpoint in a massive JSON file, no id needed but requires more filtering.
 
-Most endpoints return a JSON which can be used as a `dict` in Python.  
-In some cases a JSON of the `list` form or even a PNG is returned.  
+All endpoints return JSON which is parsed into **unstructured** `dict`.
+This is true for all, but two endpoints: Map and Icon, which return a **binary PNG** instead.
+Additionally, the Search endpoint returns a `list`.  
 A full overview is below:
 
 | Endpoint Name | Has id endpoint | Has 'all' endpoint | Returns       |
@@ -41,12 +42,12 @@ A full overview is below:
 | Endgame Gear  | ❌ (`Job`)       | ❌                  | JSON (`dict`) |
 | Fate          | ✅               | ✅                  | JSON (`dict`) |
 | Fishing       | ❌               | ✅                  | JSON (`dict`) |
-| Icon          | ✅ (`str`)       | ❌                  | PNG           |
+| Icon          | ✅ (`str`)       | ❌                  | Binary PNG           |
 | Instance      | ✅               | ✅                  | JSON (`dict`) |
 | Item          | ✅               | ❌                  | JSON (`dict`) |
 | Leve          | ✅               | ✅                  | JSON (`dict`) |
 | Leveling Gear | ❌ (`Job`)       | ❌                  | JSON (`dict`) |
-| Map           | ✅ (`str`)       | ❌                  | PNG           |
+| Map           | ✅ (`str`)       | ❌                  | Binary PNG           |
 | Mob           | ✅               | ✅                  | JSON (`dict`) |
 | Node          | ✅               | ✅                  | JSON (`dict`) |
 | NPC           | ✅               | ✅                  | JSON (`dict`) |

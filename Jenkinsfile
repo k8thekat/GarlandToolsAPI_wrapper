@@ -16,7 +16,7 @@ pipeline {
 
             steps {
                 sh 'python3 --version'
-                sh 'python3 -m pip --version'
+                sh 'pip --version'
             }
         }
 
@@ -50,7 +50,7 @@ pipeline {
                     }   
 
                     steps {
-                        sh 'python3 -m pylint garlandtools'
+                        sh 'pylint garlandtools'
                     }
                 }
                 stage("PyTest") {
@@ -63,7 +63,7 @@ pipeline {
                     }
 
                     steps {
-                        sh 'python3 -m pytest'
+                        sh 'pytest'
                     }
                 }
                 stage("Make Distribution") {

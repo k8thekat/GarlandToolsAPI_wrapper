@@ -7,7 +7,7 @@ pipeline {
         stage('Versions') {
             agent {
                 docker {
-                    image 'python3:latest'
+                    image 'python:latest'
                     // Reuse the same node, avoids having to clone the repository on all nodes
                     reuseNode true
                 }
@@ -22,7 +22,7 @@ pipeline {
         stage('Dependencies') {
             agent {
                 docker {
-                    image 'python3:latest'
+                    image 'python:latest'
                     // Reuse the same node, avoids having to clone the repository on all nodes
                     reuseNode true
                 }
@@ -39,7 +39,7 @@ pipeline {
                 stage("PyLint") {
                     agent {
                         docker {
-                            image 'python3:latest'
+                            image 'python:latest'
                             // Reuse the same node, avoids having to clone the repository on all nodes
                             reuseNode true
                         }
@@ -52,7 +52,7 @@ pipeline {
                 stage("PyTest") {
                     agent {
                         docker {
-                            image 'python3:latest'
+                            image 'python:latest'
                             // Reuse the same node, avoids having to clone the repository on all nodes
                             reuseNode true
                         }
@@ -65,7 +65,7 @@ pipeline {
                 stage("Make Distribution") {
                     agent {
                         docker {
-                            image 'python3:latest'
+                            image 'python:latest'
                             // Reuse the same node, avoids having to clone the repository on all nodes
                             reuseNode true
                         }

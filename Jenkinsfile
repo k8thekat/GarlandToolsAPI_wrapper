@@ -4,28 +4,28 @@ pipeline {
     }
 
     stages {
-        stage('Versions') {
+        stage("PyLint") {
             agent {
                 docker {
                     image 'python:latest'
-                    // Reuse the same node, avoids having to clone the repository on all nodes
-                    reuseNode true
                     args '-u root'
                 }
-            }
+            }   
 
             steps {
-                sh 'python3 --version'
-                sh 'pip --version'
+                sh 'apt-get update'
+                sh 'apt-get install -y libopenmpi-dev'
+                sh 'pip install --upgrade pip'
+                sh 'pip install -r requirements.txt'
+                sh 'pip install pylint'
+                sh 'pylint garlandtools'
             }
         }
 
-        stage('Dependencies') {
+        stage("PyTest: Testing") {
             agent {
                 docker {
                     image 'python:latest'
-                    // Reuse the same node, avoids having to clone the repository on all nodes
-                    reuseNode true
                     args '-u root'
                 }
             }
@@ -35,93 +35,25 @@ pipeline {
                 sh 'apt-get install -y libopenmpi-dev'
                 sh 'pip install --upgrade pip'
                 sh 'pip install -r requirements.txt'
+                sh 'pip install pytest'
+                sh 'pytest'
             }
         }
 
-        stage('Tests') {
-            parallel {
-                stage("PyLint") {
-                    agent none
-
-                    stages {
-                        stage("PyLint: Dependencies") {
-                            agent {
-                                docker {
-                                    image 'python:latest'
-                                    // Reuse the same node, avoids having to clone the repository on all nodes
-                                    reuseNode true
-                                    args '-u root'
-                                }
-                            }   
-
-                            steps {
-                                sh 'pip install pylint'
-                            }
-                        }
-                        stage("PyLint: Test") {
-                            agent {
-                                docker {
-                                    image 'python:latest'
-                                    // Reuse the same node, avoids having to clone the repository on all nodes
-                                    reuseNode true
-                                    args '-u root'
-                                }
-                            }   
-
-                            steps {
-                                sh 'python3 -m pylint garlandtools'
-                            }
-                        }
-                    }
+        stage("Make Distribution") {
+            agent {
+                docker {
+                    image 'python:latest'
+                    args '-u root'
                 }
-                stage("PyTest") {
-                    agent none
-                    
-                    stages {
-                        stage("PyTest: Dependencies") {
-                            agent {
-                                docker {
-                                    image 'python:latest'
-                                    // Reuse the same node, avoids having to clone the repository on all nodes
-                                    reuseNode true
-                                    args '-u root'
-                                }
-                            }
+            }
 
-                            steps {
-                                sh 'pip install pytest'
-                            }
-                        }
-                        stage("PyTest: Testing") {
-                            agent {
-                                docker {
-                                    image 'python:latest'
-                                    // Reuse the same node, avoids having to clone the repository on all nodes
-                                    reuseNode true
-                                    args '-u root'
-                                }
-                            }
-
-                            steps {
-                                sh 'python3 -m pytest'
-                            }
-                        }
-                    }
-                }
-                stage("Make Distribution") {
-                    agent {
-                        docker {
-                            image 'python:latest'
-                            // Reuse the same node, avoids having to clone the repository on all nodes
-                            reuseNode true
-                            args '-u root'
-                        }
-                    }
-
-                    steps {
-                        sh 'python3 setup.py sdist'
-                    }
-                }
+            steps {
+                sh 'apt-get update'
+                sh 'apt-get install -y libopenmpi-dev'
+                sh 'pip install --upgrade pip'
+                sh 'pip install -r requirements.txt'
+                sh 'python3 setup.py sdist'
             }
         }
     }

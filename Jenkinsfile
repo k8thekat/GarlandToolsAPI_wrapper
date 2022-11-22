@@ -29,8 +29,8 @@ pipeline {
             }
 
             steps {
-                sh 'python3 -m pip install --upgrade pip'
-                sh 'python3 -m pip install --upgrade -r requirements.txt'
+                sh 'python3 -m pip install --user --upgrade pip'
+                sh 'python3 -m pip install --user --upgrade -r requirements.txt'
             }
         }
 

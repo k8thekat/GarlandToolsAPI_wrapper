@@ -1,18 +1,31 @@
 pipeline {
-    agent none
-
-    options {
-        buildDiscarder logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '', daysToKeepStr: '30', numToKeepStr: '3')
-    }
-
-    triggers {
-        pollSCM 'H/5 * * * *'
+    agent {
+        label 'docker'
     }
 
     stages {
+        stage('Versions') {
+            agent {
+                docker {
+                    image 'python3:latest'
+                    // Reuse the same node, avoids having to clone the repository on all nodes
+                    reuseNode true
+                }
+            }
+
+            steps {
+                sh 'python3 --version'
+                sh 'python3 -m pip --version'
+            }
+        }
+
         stage('Dependencies') {
             agent {
-                label 'python3'
+                docker {
+                    image 'python3:latest'
+                    // Reuse the same node, avoids having to clone the repository on all nodes
+                    reuseNode true
+                }
             }
 
             steps {
@@ -25,7 +38,11 @@ pipeline {
             parallel {
                 stage("PyLint") {
                     agent {
-                        label 'python3'
+                        docker {
+                            image 'python3:latest'
+                            // Reuse the same node, avoids having to clone the repository on all nodes
+                            reuseNode true
+                        }
                     }   
 
                     steps {
@@ -34,7 +51,11 @@ pipeline {
                 }
                 stage("PyTest") {
                     agent {
-                        label 'python3'
+                        docker {
+                            image 'python3:latest'
+                            // Reuse the same node, avoids having to clone the repository on all nodes
+                            reuseNode true
+                        }
                     }
 
                     steps {
@@ -43,7 +64,11 @@ pipeline {
                 }
                 stage("Make Distribution") {
                     agent {
-                        label 'python3'
+                        docker {
+                            image 'python3:latest'
+                            // Reuse the same node, avoids having to clone the repository on all nodes
+                            reuseNode true
+                        }
                     }
 
                     steps {

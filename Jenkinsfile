@@ -10,6 +10,7 @@ pipeline {
                     image 'python:latest'
                     // Reuse the same node, avoids having to clone the repository on all nodes
                     reuseNode true
+                    args '-u root'
                 }
             }
 
@@ -25,6 +26,7 @@ pipeline {
                     image 'python:latest'
                     // Reuse the same node, avoids having to clone the repository on all nodes
                     reuseNode true
+                    args '-u root'
                 }
             }
 

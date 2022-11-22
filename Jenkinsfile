@@ -29,8 +29,8 @@ pipeline {
             }
 
             steps {
-                sh 'apt update'
-                sh 'apt install -y libopenmpi-dev'
+                sh 'apt-get update'
+                sh 'apt-get install -y libopenmpi-dev'
                 sh 'pip install --upgrade pip'
                 sh 'pip install -r requirements.txt'
             }

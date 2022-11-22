@@ -41,31 +41,65 @@ pipeline {
         stage('Tests') {
             parallel {
                 stage("PyLint") {
-                    agent {
-                        docker {
-                            image 'python:latest'
-                            // Reuse the same node, avoids having to clone the repository on all nodes
-                            reuseNode true
-                            args '-u root'
-                        }
-                    }   
+                    agent none
+                    stage("PyLint: Dependencies") {
+                        agent {
+                            docker {
+                                image 'python:latest'
+                                // Reuse the same node, avoids having to clone the repository on all nodes
+                                reuseNode true
+                                args '-u root'
+                            }
+                        }   
 
-                    steps {
-                        sh 'pylint garlandtools'
+                        steps {
+                            sh 'pip install pylint'
+                        }
+                    }
+                    stage("PyLint: Test") {
+                        agent {
+                            docker {
+                                image 'python:latest'
+                                // Reuse the same node, avoids having to clone the repository on all nodes
+                                reuseNode true
+                                args '-u root'
+                            }
+                        }   
+
+                        steps {
+                            sh 'python3 -m pylint garlandtools'
+                        }
                     }
                 }
                 stage("PyTest") {
-                    agent {
-                        docker {
-                            image 'python:latest'
-                            // Reuse the same node, avoids having to clone the repository on all nodes
-                            reuseNode true
-                            args '-u root'
+                    agent none
+                    stage("PyTest: Dependencies") {
+                        agent {
+                            docker {
+                                image 'python:latest'
+                                // Reuse the same node, avoids having to clone the repository on all nodes
+                                reuseNode true
+                                args '-u root'
+                            }
+                        }
+
+                        steps {
+                            sh 'pip install pytest'
                         }
                     }
+                    stage("PyTest: Testing") {
+                        agent {
+                            docker {
+                                image 'python:latest'
+                                // Reuse the same node, avoids having to clone the repository on all nodes
+                                reuseNode true
+                                args '-u root'
+                            }
+                        }
 
-                    steps {
-                        sh 'pytest'
+                        steps {
+                            sh 'python3 -m pytest'
+                        }
                     }
                 }
                 stage("Make Distribution") {

@@ -25,6 +25,8 @@ jobs:
       run: |
         sudo apt-get install libopenmpi-dev
         pip install -r requirements.txt
+        pip install pylint
+        pip install pytest
     - name: PyLint
       run: |
         pylint garlandtools

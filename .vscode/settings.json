@@ -1,13 +1,12 @@
 {
-    "python.testing.pytestArgs": [
-        "garlandtools"
-    ],
-    "python.testing.unittestEnabled": false,
-    "python.testing.pytestEnabled": true,
+    "autoDocstring.customTemplatePath": "./numpy_template/numpy.mustache",
+    "autoDocstring.startOnNewLine": false,
+    "autoDocstring.quoteStyle": "\"\"\"",
+    "autoDocstring.guessTypes": true,
+    "autoDocstring.generateDocstringOnEnter": true,
+    "python.terminal.activateEnvironment": true,
     "cSpell.words": [
-        "ASTROLOGIAN",
-        "garlandtools",
-        "leve",
-        "leves"
+        "desynthed",
+        "ilvl"
     ]
 }

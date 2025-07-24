@@ -1,0 +1,27 @@
+name: changelog
+# This fires only when we push to the `development` branch.
+on:
+  push:
+    branches: [ development ]
+
+jobs:
+  build:
+    permissions:
+      id-token: write
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.2.1
+        with:
+          fetch-depth: 0
+      
+      - name: Change directory
+        run: |
+          cd /home/runner/work/GarlandToolsAPI_Wrapper/garlandtools
+
+      - name: Generate Changelog
+        uses: actions/setup-python@v5.2.0
+        with:
+          python-version: '3.12'
+      - run: python ~/work/GarlandToolsAPI_Wrapper/garlandtools/.github/workflows/scripts/gen_changelog.py $$ 

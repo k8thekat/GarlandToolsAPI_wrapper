@@ -18,10 +18,10 @@ jobs:
       
       - name: Change directory
         run: |
-          cd /home/runner/work/GarlandToolsAPI_Wrapper/garlandtools
+          cd /home/runner/work/GarlandToolsAPI_wrapper/GarlandToolsAPI_wrapper/
 
       - name: Generate Changelog
         uses: actions/setup-python@v5.2.0
         with:
           python-version: '3.12'
-      - run: python ~/work/GarlandToolsAPI_Wrapper/garlandtools/.github/workflows/scripts/gen_changelog.py $$ 
+      - run: python ~/work/GarlandToolsAPI_Wrapper/GarlandToolsAPI_wrapper/garlandtools/.github/workflows/scripts/gen_changelog.py $$ 

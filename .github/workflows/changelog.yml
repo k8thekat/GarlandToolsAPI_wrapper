@@ -21,4 +21,4 @@ jobs:
         uses: actions/setup-python@v5.2.0
         with:
           python-version: '3.12'
-      - run: python ~/work/GarlandToolsAPI_wrapper/GarlandToolsAPI_wrapper/.github/workflows/scripts/gen_changelog.py $$ 
+      - run: python ~/work/GarlandToolsAPI_wrapper/GarlandToolsAPI_wrapper/.github/scripts/gen_changelog.py $$ 

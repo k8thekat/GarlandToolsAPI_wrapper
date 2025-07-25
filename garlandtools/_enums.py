@@ -20,7 +20,7 @@ Software Foundation, 51 Franklin Street - Fifth Floor, Boston, MA
 
 from enum import Enum, IntEnum
 
-__all__ = ["IconType", "Job", "Language", "Patch"]
+__all__ = ["IconType", "Job", "Language"]
 
 
 class Job(Enum):
@@ -78,15 +78,6 @@ class IconType(Enum):
     marker = "marker"
     node = "node"
     fate = "fate"
-
-
-class Patch(Enum):
-    arr = 1
-    hw = 2
-    sb = 3
-    shb = 4
-    ew = 5
-    dt = 6
 
 
 class Language(Enum):

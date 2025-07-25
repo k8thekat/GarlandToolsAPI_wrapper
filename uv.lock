@@ -175,12 +175,14 @@ wheels = [
 name = "garlandtoolsapi-wrapper"
 source = { editable = "." }
 dependencies = [
+    { name = "aiohttp" },
     { name = "aiohttp-client-cache" },
     { name = "aiosqlite" },
 ]
 
 [package.metadata]
 requires-dist = [
+    { name = "aiohttp", specifier = ">=3.12.13" },
     { name = "aiohttp-client-cache", specifier = ">=0.13.0" },
     { name = "aiosqlite", specifier = ">=0.21.0" },
 ]

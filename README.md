@@ -26,7 +26,7 @@ Special thanks to [GarlandTools] for providing this API and keeping it updated.
 - [Endpoints](#endpoints)
 - [Usage](#usage)
 - [Credits](#credits)
-- [Changelog](#versions)
+- [Changelog]
 
 ## Installation
 
@@ -132,4 +132,5 @@ I want to credit [GarlandTools] and [GarlandTools-PIP] project for providing a s
 [GTAsync]: GarlandToolsAsync
 [GarlandTools]: garlandtools.org/
 [GarlandTools-PIP]: https://github.com/SakulFlee/GarlandTools-PIP
+[changelog]: https://github.com/k8thekat/GarlandToolsAPI_wrapper/blob/master/CHANGELOG.md
 [aiohttp-cache]: https://pypi.org/project/aiohttp-client-cache/

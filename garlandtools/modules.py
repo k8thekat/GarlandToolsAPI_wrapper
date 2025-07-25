@@ -136,7 +136,7 @@ class Object(NamedTuple):
 
 
 class GarlandToolsAsync:
-    """An `ASYNC` version of the GarlandTools API.
+    """An `async` version of the GarlandTools API.
 
     Supports context manager `async with` functionality.
     """

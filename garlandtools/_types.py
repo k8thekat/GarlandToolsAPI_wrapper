@@ -28,15 +28,17 @@ DataTypeAliases = Union[list["PartialIndex"]]
 
 
 class MultiPartResponse(TypedDict):
+    """The JSON structure for multiple :class:`GarlandTools` functions.
+
+    - Typically the `fetch all` type endpoints eg :class:`GarlandTools.achievements()`.
+    """
+
     browse: DataTypeAliases
-    # achievement: NotRequired[Achievement]
-    # fate: NotRequired[FateResponse]
-    # mob: NotRequired[MobResponse]
-    # npc: NotRequired[NPCResponse]
-    # quest: NotRequired[QuestResponse]
 
 
 class AchievementResponse(TypedDict):
+    """The JSON structure from :class:`GarlandToolsAsync.achievement()`."""
+
     achievement: Achievement
 
 
@@ -59,20 +61,18 @@ class Coffer(TypedDict):
 
 
 class Craft(TypedDict):
-    """The JSON structure from :class:`GarlandToolsAPI_ItemKeysTyped.craft`."""
-
-    id: int  # 907
-    job: int  # 15
-    rlvl: int  # 4
-    durability: int  # 40
-    quality: int  # 104
-    progress: int  # 10
-    lvl: int  # 4
-    materialQualityFactor: int  # 0
-    yield_: NotRequired[int]  # 3
-    hq: int  # 1
-    quickSynth: int  # 1
-    complexity: NQHQ  # {"nq": 31, "hq": 51}
+    id: int
+    job: int
+    rlvl: int
+    durability: int
+    quality: int
+    progress: int
+    lvl: int
+    materialQualityFactor: int
+    yield_: NotRequired[int]
+    hq: int
+    quickSynth: int
+    complexity: NQHQ
     stars: NotRequired[int]
     craftsmanshipReq: NotRequired[int]
     quickSynthCraftsmanship: NotRequired[int]
@@ -81,7 +81,9 @@ class Craft(TypedDict):
 
 
 class DataResponse(TypedDict):
-    patch: PatchResponse
+    """The JSON structure from :class:`GarlandToolsAsync.data()`."""
+
+    patch: PatchData
     xp: list[int]
     jobs: list[JobData]
     # The key `id` in JobCategories is the same key for the attribute key.
@@ -103,11 +105,15 @@ class DataResponse(TypedDict):
 
 
 class GearResponse(TypedDict):
+    """The JSON structure from :class:`GarlandToolsAsync.endgame_gear()` and :class:`GarlandToolsAsync.leveling_gear()`."""
+
     equip: dict[str, list[dict[str, int]]]
     partials: list[PartialTypeIDObj]
 
 
 class FateResponse(TypedDict):
+    """The JSON structure from :class:`GarlandToolsAsync.fate()`."""
+
     fate: Fate
 
 
@@ -159,8 +165,6 @@ class IDType(TypedDict):
 
 
 class IDAmount(TypedDict):
-    """The JSON structure from :class:`GarlandToolsAPI_CraftTyped.ingredients`."""
-
     id: int
     amount: int
 
@@ -196,6 +200,8 @@ class Ingredients(TypedDict):
 
 
 class InstanceResponse(TypedDict):
+    """The JSON structure from :class:`GarlandToolsAsync.instance()`."""
+
     instance: InstanceData
     partials: PartialTypeIDObj
 
@@ -222,8 +228,6 @@ class InstanceData(TypedDict):
 
 
 class Item(TypedDict):
-    """The JSON structure for :class:`GarlandToolsAPI_ItemTyped.item`."""
-
     id: int
     name: str
     description: str
@@ -251,12 +255,7 @@ class Item(TypedDict):
     nodes: NotRequired[list[int]]
     vendors: NotRequired[list[int]]
     tradeShops: NotRequired[list[TradeShops]]
-    ingredients_of: NotRequired[
-        dict[
-            str,
-            int,
-        ]
-    ]
+    ingredients_of: NotRequired[dict[str, int]]
     "The Crafted Item ID as the KEY and the VALUE is the number of them to make the Crafted Item."
     levels: NotRequired[list[int]]
     desyntheFrom: NotRequired[list[int]]
@@ -287,9 +286,50 @@ class Item(TypedDict):
     "The items(in terms of sequence) just above this in terms of ilvl/stats"
 
     # This belows to Fish type items specifically.
-    fish: NotRequired[ItemFish]
+    fish: NotRequired[Fish]
     fishingSpots: NotRequired[list[int]]
     "This probably belongs to FFXIV and lines up with a Zone ID"
+
+
+class ItemAttribute(TypedDict):
+    pysical_damage: int
+    magic_damage: int
+    delay: float
+    strength: int
+    dexterity: int
+    vitality: int
+    intelligence: int
+    mind: int
+    piety: int
+    gp: int
+    cp: int
+    tenacity: int
+    direct_hit_rate: int
+    critical_hit: int
+    fire_resistance: int
+    ice_resistance: int
+    wind_resistance: int
+    earth_resistance: int
+    lightning_resistance: int
+    water_resistance: int
+    determination: int
+    skill_speed: int
+    spell_speed: int
+    slow_resistance: int
+    petrification_resistance: int
+    paralysis_resistance: int
+    silence_resistance: int
+    blind_resistance: int
+    poison_resistance: int
+    stun_resistance: int
+    sleep_resistance: int
+    bind_resistance: int
+    heavy_resistance: int
+    doom_resistance: int
+    craftsmanship: int
+    control: int
+    gathering: int
+    perception: int
 
 
 class ItemData(TypedDict):
@@ -298,6 +338,27 @@ class ItemData(TypedDict):
     seriesIndex: dict[str, IDName]
     partialIndex: dict[str, PartialIndex]
     ingredients: dict[str, Ingredients]
+
+
+class Fish(TypedDict):
+    guide: str
+    "Appears to be a little guide or tip; just a duplicate of the `description`"
+    icon: int
+    "Appears to be the fishing Guide Icon ID."
+    spots: list[FishingSpots]
+    "This related to information stored on `https://en.ff14angler.com` website."
+
+
+class FishingSpots(TypedDict):
+    spot: int
+    "Possibly related to a map/loc, same field as `fishingSpots` - `https://www.garlandtools.org/db/#fishing/{spot}`"
+    hookset: str
+    tug: str
+    "The strength of the bite."
+    ff14angerId: int
+    "This key belongs to the FF14 Angler Website. - `https://{language}.ff14angler.com/fish/{ff14angerId}`"
+    baits: list[list[int]]
+    "This key has a list of ints that relate to garlandtools urls. -`https://www.garlandtools.org/db/#item/{baits.id}`"
 
 
 class ItemRateAMount(TypedDict):
@@ -338,6 +399,8 @@ class LocationIndex(TypedDict):
 
 
 class LeveResponse(TypedDict):
+    """The JSON structure from :class:`GarlandTools.leve()` function."""
+
     leve: dict
     rewards: Rewards
     ingredients: list[Ingredients]
@@ -383,6 +446,8 @@ class MateriaJoinRates(TypedDict):
 
 
 class MobResponse(TypedDict):
+    """The JSON structure from :class:`GarlandTools.mob()` function."""
+
     mob: Mob
 
 
@@ -405,6 +470,8 @@ class NodeBonusIndex(TypedDict):
 
 
 class NodeResponse(TypedDict):
+    """The JSON structure from :class:`GarlandTools.node()` function."""
+
     node: Node
     partials: list[PartialTypeIDObj]
 
@@ -424,12 +491,63 @@ class Node(TypedDict):
     coords: list[float]
 
 
+class NPC(TypedDict):
+    name: str
+    id: int
+    patch: float
+    title: NotRequired[str]
+    coords: list[float | str]
+    zoneid: int
+    areaid: int
+    appearance: NotRequired[NPCAppearance]
+    photo: NotRequired[str]
+    "eg. Enpc_1000236.png"
+
+
+class NPCAppearance(TypedDict):
+    gender: str
+    race: str
+    tribe: str
+    height: int
+    face: int
+    jaw: int
+    eyebrows: int
+    nose: int
+    "Two numeric values separated by a comma. eg `24, 2`"
+    skinColor: str
+    "Typically a hex code. `#DAB29E`"
+    skinColorCode: str
+    bust: int
+    hairStyle: int
+    "Two numeric values separated by a comma. eg `1, 3`"
+    hairColor: str
+    "Typically a hex code. `#BFBFBF`"
+    hairColorCode: str
+    eyeSize: str
+    eyeShape: int
+    "Two numeric values separated by a comma. eg`2, 5`"
+    eyeColor: str
+    "Typically a hex code. `#B9AF90`"
+    eyeColorCode: str
+    mouth: int
+    extraFeatureName: str
+    extraFeatureShape: int
+    extraFeatureSize: int
+    hash: int  # 1864024670
+
+
+class NPCResponse(TypedDict):
+    """The JSON structure from :class:`GarlandAPIWrapper.npc()` function."""
+
+    npc: NPC
+
+
 class NQHQ(TypedDict):
     nq: int
     hq: int
 
 
-class PatchResponse(TypedDict):
+class PatchData(TypedDict):
     current: str
     partialIndex: dict[str, Patch]
     categoryIndex: dict[str, str]
@@ -472,6 +590,8 @@ class PartialTypeIDObj(TypedDict):
 
 
 class QuestResponse(TypedDict):
+    """The JSON structure from :class:`GarlandAPIWrapper.quest()` function."""
+
     quest: Quest
     partials: list[PartialTypeIDObj]
 
@@ -510,12 +630,21 @@ class Reqs(TypedDict):
 
 
 class SearchResponse(TypedDict):
+    """The JSON structure from :class:`GarlandAPIWrapper.search()` function."""
+
     type: Any
     id: str
     obj: PartialIndex
 
 
+class ShopListings(TypedDict):
+    item: list[IDAmount]
+    currency: list[IDAmount]
+
+
 class StatusResponse(TypedDict):
+    """The JSON structure from :class:`GarlandAPIWrapper.status()` function."""
+
     status: Status
 
 
@@ -540,6 +669,14 @@ class Submarine(TypedDict):
     stars: int
     rank: int
     tanks: int
+
+
+class TradeShops(TypedDict):
+    shop: str
+    "The Shop Name."
+    npcs: list[int]
+    "A list of NPC IDs."
+    listings: list[ShopListings]
 
 
 class VentureIndex(TypedDict):
@@ -568,146 +705,3 @@ class WeatherRateIndex(TypedDict):
 class WeatherRate(TypedDict):
     weather: int
     rate: int
-
-
-# Old TypedDicts below..
-
-
-class ItemAttribute(TypedDict):
-    """The JSON structure for :class:`GarlandToolsAPI_ItemTyped.attr`."""
-
-    pysical_damage: int
-    magic_damage: int
-    delay: float
-    strength: int
-    dexterity: int
-    vitality: int
-    intelligence: int
-    mind: int
-    piety: int
-    gp: int
-    cp: int
-    tenacity: int
-    direct_hit_rate: int
-    critical_hit: int
-    fire_resistance: int
-    ice_resistance: int
-    wind_resistance: int
-    earth_resistance: int
-    lightning_resistance: int
-    water_resistance: int
-    determination: int
-    skill_speed: int
-    spell_speed: int
-    slow_resistance: int
-    petrification_resistance: int
-    paralysis_resistance: int
-    silence_resistance: int
-    blind_resistance: int
-    poison_resistance: int
-    stun_resistance: int
-    sleep_resistance: int
-    bind_resistance: int
-    heavy_resistance: int
-    doom_resistance: int
-    craftsmanship: int
-    control: int
-    gathering: int
-    perception: int
-
-
-class ItemFish(TypedDict):
-    """The JSON structure for :class:`GarlandToolsAPI_ItemTyped.fish`."""
-
-    guide: str  # Appears to be a little Guide/tip; just a duplicate of the "description"
-    icon: int  # Appears to be the fishing Guide ICON
-    spots: list[ItemFishingSpots]
-
-
-class ItemFishingSpots(TypedDict):
-    """The JSON structure for :class:`GarlandToolsAPI_ItemFishTyped.spots`.
-
-    Parameters
-    ----------
-    spot: :class:`int`
-        Possibly related to a Map/loc -- Unsure.. Same field as `fishingSpots`.
-        -> `https://www.garlandtools.org/db/#fishing/{spot}
-    hookset: :class:`str`
-        The type of Hook action to use
-    tug: :class:`str`
-        The strength of the bite
-    ff14angerId: :class:`int`
-        This key belongs to the FF14 Angler Website.
-        - `https://{loc}.ff14angler.com/fish/{ff14angerId}`
-    baits: :class:`list[list[int]]`
-        This key has a list of ints that related to
-        - `https://www.garlandtools.org/db/#item/{baits.id}`
-
-    """
-
-    spot: int
-    hookset: str
-    tug: str
-    ff14angerId: int
-    baits: list[list[int]]
-
-
-class TradeShops(TypedDict):
-    """The JSON structure from :class:`GarlandToolsAPI_Item.tradeShops`."""
-
-    shop: str  # The Shop Name
-    npcs: list[int]  # A list of NPC IDs.
-    listings: list[ShopListings]
-
-
-class ShopListings(TypedDict):
-    """The JSON structure from :class:`GarlandToolsAPI_ItemTradeShopsTyped.listings`."""
-
-    item: list[IDAmount]
-    currency: list[IDAmount]
-
-
-class NPCAppearance(TypedDict):
-    """The JSON structure from :class:`GarlandToolsAPI_NPCTyped.appearance`."""
-
-    gender: str  # "Female",
-    race: str  # "Miqo'te",
-    tribe: str  # "Seeker of the Sun",
-    height: int  # 50,
-    face: int  # 1,
-    jaw: int  # 1,
-    eyebrows: int  # 1,
-    nose: int  # 1,
-    skinColor: str  # "24, 2",
-    skinColorCode: str  # "#DAB29E",
-    bust: int  # 0,
-    hairStyle: int  # 134201,
-    hairColor: str  # "1, 3",
-    hairColorCode: str  # "#BFBFBF",
-    eyeSize: str  # "Large",
-    eyeShape: int  # 1,
-    eyeColor: str  # "2, 5",
-    eyeColorCode: str  # "#B9AF90",
-    mouth: int  # 1,
-    extraFeatureName: str  # "Tail",
-    extraFeatureShape: int  # 1,
-    extraFeatureSize: int  # 50,
-    hash: int  # 1864024670
-
-
-class NPCResponse(TypedDict):
-    npc: NPC
-
-
-class NPC(TypedDict):
-    """Tthe JSON structure from :class:`GarlandAPIWrapper.npc()` function."""
-
-    name: str
-    id: int
-    patch: float
-    title: NotRequired[str]
-    coords: list[float | str]
-    zoneid: int
-    areaid: int
-    appearance: NotRequired[NPCAppearance]
-    photo: NotRequired[str]  # "Enpc_1000236.png"

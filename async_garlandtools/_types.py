@@ -223,7 +223,7 @@ class InstanceData(TypedDict):
     max_lvl: int
     min_ilvl: int
     rewards: list[int]
-    fights: list[dict]
+    fights: list[Fights]
     unlockedByQuest: int
 
 
@@ -401,7 +401,7 @@ class LocationIndex(TypedDict):
 class LeveResponse(TypedDict):
     """The JSON structure from :class:`GarlandTools.leve()` function."""
 
-    leve: dict
+    leve: Leve
     rewards: Rewards
     ingredients: list[Ingredients]
     partials: list[PartialTypeIDObj]

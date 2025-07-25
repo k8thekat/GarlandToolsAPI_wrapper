@@ -242,8 +242,7 @@ class GarlandToolsAsync:
     async def close(self) -> None:
         """Closes any open resources."""
         LOGGER.debug("<%s._close()> | Closing open `%s` %s", __class__.__name__, type(self._session), self._session)
-        if self._session is not None:
-            await self._session.close()
+        await self._session.close()
 
     async def __aexit__(  # noqa: D105
         self,

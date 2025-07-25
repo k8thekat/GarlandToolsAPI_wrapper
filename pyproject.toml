@@ -73,7 +73,7 @@ parametrize-names-type = "tuple"
 [tool.pyright]
 venvPath = "."
 venv = ".venv"
-# typeCheckingMode = "strict"
+typeCheckingMode = "strict"
 pythonVersion = "3.12"
 exclude = ["logs/**", "**/.venv/**", "**/.vscode-server/", "/usr/*"]
 include = [""]

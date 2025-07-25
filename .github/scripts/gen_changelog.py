@@ -7,7 +7,7 @@ import re
 # Unique information for the project.
 user = "k8thekat"
 project: str = "GarlandToolsAPI_wrapper"
-project_dir: pathlib.Path = pathlib.Path().joinpath("garlandtools")
+project_dir: pathlib.Path = pathlib.Path().joinpath("async_garlandtools")
 project_branch: str = "development"
 repo_url = f"https://github.com/k8thekat/{project}"
 
@@ -17,11 +17,11 @@ _flag: bool = False
 
 # Grab Version from __init__.py
 version = ""
-with Path().parent.parent.parent.parent.joinpath("garlandtools/__init__.py").open() as file:
+with Path().parent.parent.parent.parent.joinpath("async_garlandtools/__init__.py").open() as file:
     version = re.search(r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]', file.read(), re.MULTILINE).group(1)  # type:ignore
 
 if not version:
-    raise RuntimeError("version is not set")
+    raise RuntimeError("Version is not set")
 
 
 cl_file: pathlib.Path = pathlib.Path().parent.parent.parent.parent.joinpath("CHANGELOG.md")
@@ -143,11 +143,9 @@ def gitHub_initial_commit() -> None:
 def update_changelog(version: str, new_commit: str, files: dict) -> None:
     # Format the data into the `CHANGELOG.md`
     set_version = f"## Version - {version} - [{new_commit[:7]}]({repo_url}/commit/{new_commit})\n"
-    # add_changelog: str = f"#### CHANGELOG.md\n- Version info from `{cl_ver}` added.\n\n"
-    # add_init: str = f"#### Version bump to `{version}`\n\n"
     data = set_version
     for file_name, file_changes in files.items():
-        data: str = data + "#### " + file_name + "\n" + "\n".join(file_changes) + "\n\n"
+        data: str = data + "## " + file_name + "\n" + "\n".join(file_changes) + "\n\n"
 
     data = data + changelog_data
     with cl_file.open("r+", encoding="utf-8") as changelog:

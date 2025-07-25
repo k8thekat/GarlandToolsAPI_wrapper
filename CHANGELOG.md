@@ -1,3 +1,10 @@
+# Version - 0.1.3-dev - [e8a9bf5](https://github.com/k8thekat/GarlandToolsAPI_wrapper/commit/e8a9bf5)
+### Minor Type changing.
+- Updated typecheckingMode for pyright to `strict`.
+- Fixed typing for `InstanceData` and `LeveResponse`.
+- Removed un-needed logic in `GarlandToolsAsync.close()` function.
+- Removed an unused import from `_enums.py`.
+
 # Version - 0.1.2-dev - [016e13a](https://github.com/k8thekat/GarlandToolsAPI_wrapper/commit/016e13a)
 ### Minor changes to Changelog structure.
 - Fixed older changelog structure.

@@ -1,0 +1,2531 @@
+{
+    "item": {
+        "name": "Magitek Repair Materials",
+        "description": "Various materials used in the repair and maintenance of large-hulled airships and submersibles.",
+        "id": 10373,
+        "patch": 3.0,
+        "patchCategory": 5,
+        "price": 2772,
+        "ilvl": 70,
+        "category": 61,
+        "dyecount": 0,
+        "tradeable": 1,
+        "sell_price": 10,
+        "rarity": 1,
+        "stackSize": 999,
+        "icon": 21003,
+        "craft": [
+            {
+                "id": 30971,
+                "job": 8,
+                "rlvl": 70,
+                "durability": 80,
+                "quality": 2500,
+                "progress": 250,
+                "lvl": 50,
+                "materialQualityFactor": 0,
+                "stars": 2,
+                "quickSynth": 1,
+                "craftsmanshipReq": 347,
+                "quickSynthCraftsmanship": 391,
+                "unlockId": 7778,
+                "ingredients": [
+                    {
+                        "id": 10335,
+                        "amount": 1
+                    },
+                    {
+                        "id": 10386,
+                        "amount": 5
+                    },
+                    {
+                        "id": 10,
+                        "amount": 5
+                    },
+                    {
+                        "id": 9,
+                        "amount": 5
+                    }
+                ],
+                "complexity": {
+                    "nq": 119,
+                    "hq": 139
+                }
+            },
+            {
+                "id": 30987,
+                "job": 9,
+                "rlvl": 70,
+                "durability": 80,
+                "quality": 2500,
+                "progress": 250,
+                "lvl": 50,
+                "materialQualityFactor": 0,
+                "stars": 2,
+                "quickSynth": 1,
+                "craftsmanshipReq": 347,
+                "quickSynthCraftsmanship": 391,
+                "unlockId": 7779,
+                "ingredients": [
+                    {
+                        "id": 10335,
+                        "amount": 1
+                    },
+                    {
+                        "id": 10386,
+                        "amount": 5
+                    },
+                    {
+                        "id": 8,
+                        "amount": 5
+                    },
+                    {
+                        "id": 11,
+                        "amount": 5
+                    }
+                ],
+                "complexity": {
+                    "nq": 119,
+                    "hq": 139
+                }
+            },
+            {
+                "id": 31023,
+                "job": 10,
+                "rlvl": 70,
+                "durability": 80,
+                "quality": 2500,
+                "progress": 250,
+                "lvl": 50,
+                "materialQualityFactor": 0,
+                "stars": 2,
+                "quickSynth": 1,
+                "craftsmanshipReq": 347,
+                "quickSynthCraftsmanship": 391,
+                "unlockId": 7780,
+                "ingredients": [
+                    {
+                        "id": 10335,
+                        "amount": 1
+                    },
+                    {
+                        "id": 10386,
+                        "amount": 5
+                    },
+                    {
+                        "id": 9,
+                        "amount": 5
+                    },
+                    {
+                        "id": 11,
+                        "amount": 5
+                    }
+                ],
+                "complexity": {
+                    "nq": 119,
+                    "hq": 139
+                }
+            },
+            {
+                "id": 31052,
+                "job": 11,
+                "rlvl": 70,
+                "durability": 80,
+                "quality": 2500,
+                "progress": 250,
+                "lvl": 50,
+                "materialQualityFactor": 0,
+                "stars": 2,
+                "quickSynth": 1,
+                "craftsmanshipReq": 347,
+                "quickSynthCraftsmanship": 391,
+                "unlockId": 7781,
+                "ingredients": [
+                    {
+                        "id": 10335,
+                        "amount": 1
+                    },
+                    {
+                        "id": 10386,
+                        "amount": 5
+                    },
+                    {
+                        "id": 10,
+                        "amount": 5
+                    },
+                    {
+                        "id": 8,
+                        "amount": 5
+                    }
+                ],
+                "complexity": {
+                    "nq": 119,
+                    "hq": 139
+                }
+            },
+            {
+                "id": 31094,
+                "job": 12,
+                "rlvl": 70,
+                "durability": 80,
+                "quality": 2500,
+                "progress": 250,
+                "lvl": 50,
+                "materialQualityFactor": 0,
+                "stars": 2,
+                "quickSynth": 1,
+                "craftsmanshipReq": 347,
+                "quickSynthCraftsmanship": 391,
+                "unlockId": 7782,
+                "ingredients": [
+                    {
+                        "id": 10335,
+                        "amount": 1
+                    },
+                    {
+                        "id": 10386,
+                        "amount": 5
+                    },
+                    {
+                        "id": 11,
+                        "amount": 5
+                    },
+                    {
+                        "id": 10,
+                        "amount": 5
+                    }
+                ],
+                "complexity": {
+                    "nq": 119,
+                    "hq": 139
+                }
+            },
+            {
+                "id": 31157,
+                "job": 13,
+                "rlvl": 70,
+                "durability": 80,
+                "quality": 2500,
+                "progress": 250,
+                "lvl": 50,
+                "materialQualityFactor": 0,
+                "stars": 2,
+                "quickSynth": 1,
+                "craftsmanshipReq": 347,
+                "quickSynthCraftsmanship": 391,
+                "unlockId": 7783,
+                "ingredients": [
+                    {
+                        "id": 10335,
+                        "amount": 1
+                    },
+                    {
+                        "id": 10386,
+                        "amount": 5
+                    },
+                    {
+                        "id": 12,
+                        "amount": 5
+                    },
+                    {
+                        "id": 10,
+                        "amount": 5
+                    }
+                ],
+                "complexity": {
+                    "nq": 119,
+                    "hq": 139
+                }
+            },
+            {
+                "id": 31192,
+                "job": 14,
+                "rlvl": 70,
+                "durability": 80,
+                "quality": 2500,
+                "progress": 250,
+                "lvl": 50,
+                "materialQualityFactor": 0,
+                "stars": 2,
+                "quickSynth": 1,
+                "craftsmanshipReq": 347,
+                "quickSynthCraftsmanship": 391,
+                "unlockId": 7784,
+                "ingredients": [
+                    {
+                        "id": 10335,
+                        "amount": 1
+                    },
+                    {
+                        "id": 10386,
+                        "amount": 5
+                    },
+                    {
+                        "id": 13,
+                        "amount": 5
+                    },
+                    {
+                        "id": 12,
+                        "amount": 5
+                    }
+                ],
+                "complexity": {
+                    "nq": 119,
+                    "hq": 139
+                }
+            },
+            {
+                "id": 31217,
+                "job": 15,
+                "rlvl": 70,
+                "durability": 80,
+                "quality": 2500,
+                "progress": 250,
+                "lvl": 50,
+                "materialQualityFactor": 0,
+                "stars": 2,
+                "quickSynth": 1,
+                "craftsmanshipReq": 347,
+                "quickSynthCraftsmanship": 391,
+                "unlockId": 7785,
+                "ingredients": [
+                    {
+                        "id": 10335,
+                        "amount": 1
+                    },
+                    {
+                        "id": 10386,
+                        "amount": 5
+                    },
+                    {
+                        "id": 8,
+                        "amount": 5
+                    },
+                    {
+                        "id": 13,
+                        "amount": 5
+                    }
+                ],
+                "complexity": {
+                    "nq": 119,
+                    "hq": 139
+                }
+            }
+        ]
+    },
+    "ingredients": [
+        {
+            "name": "Dark Matter Cluster",
+            "id": 10335,
+            "icon": 20407,
+            "category": 60,
+            "ilvl": 70,
+            "price": 693,
+            "ventures": [
+                576,
+                577
+            ],
+            "nodes": [
+                211,
+                212,
+                213,
+                214,
+                215,
+                216,
+                217,
+                218,
+                219,
+                220,
+                221,
+                222,
+                223,
+                224,
+                225,
+                226,
+                227,
+                230,
+                231,
+                232,
+                233,
+                234,
+                235,
+                236,
+                237,
+                238,
+                239,
+                240,
+                241,
+                242,
+                245,
+                246,
+                247,
+                248,
+                249,
+                250,
+                252,
+                340
+            ]
+        },
+        {
+            "name": "Grade 6 Dark Matter",
+            "id": 10386,
+            "icon": 20404,
+            "category": 60,
+            "ilvl": 1,
+            "price": 120,
+            "voyages": [
+                {
+                    "id": 27,
+                    "type": 1
+                }
+            ],
+            "desynthedFrom": [
+                20067,
+                20089,
+                20113,
+                20088,
+                20118,
+                20130,
+                12823,
+                12826,
+                12828,
+                12832,
+                12835,
+                15627,
+                15631,
+                16746,
+                16756,
+                17587,
+                17589,
+                20070,
+                17583,
+                17588,
+                20033,
+                20136,
+                20060,
+                20031,
+                20140,
+                20110,
+                20114,
+                20122,
+                20145,
+                20146,
+                20152,
+                20156,
+                20161,
+                20165,
+                20166,
+                20169,
+                20182,
+                20202,
+                20204,
+                20217,
+                20218
+            ],
+            "tradeShops": [
+                {
+                    "shop": "Miscellaneous",
+                    "npcs": [],
+                    "listings": [
+                        {
+                            "item": [
+                                {
+                                    "id": "10386",
+                                    "amount": 1
+                                }
+                            ],
+                            "currency": [
+                                {
+                                    "id": "25",
+                                    "amount": 100
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "shop": "Maelstrom",
+                    "npcs": [
+                        1002387
+                    ],
+                    "listings": [
+                        {
+                            "item": [
+                                {
+                                    "id": "10386",
+                                    "amount": 1
+                                }
+                            ],
+                            "currency": [
+                                {
+                                    "id": "20",
+                                    "amount": 345
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "shop": "Order of the Twin Adder",
+                    "npcs": [
+                        1002393
+                    ],
+                    "listings": [
+                        {
+                            "item": [
+                                {
+                                    "id": "10386",
+                                    "amount": 1
+                                }
+                            ],
+                            "currency": [
+                                {
+                                    "id": "21",
+                                    "amount": 345
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "shop": "Immortal Flames",
+                    "npcs": [
+                        1002390
+                    ],
+                    "listings": [
+                        {
+                            "item": [
+                                {
+                                    "id": "10386",
+                                    "amount": 1
+                                }
+                            ],
+                            "currency": [
+                                {
+                                    "id": "22",
+                                    "amount": 345
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "vendors": [
+                1000238,
+                1051633,
+                1001207,
+                1001972,
+                1005159,
+                1007732,
+                1008847,
+                1008848,
+                1008849,
+                1008850,
+                1008851,
+                1008852,
+                1008853,
+                1008854,
+                1008855,
+                1008856,
+                1013119,
+                1013120,
+                1018674,
+                1018675,
+                1018676,
+                1018677,
+                1018678,
+                1018679,
+                1018680,
+                1018681,
+                1018682,
+                1018683,
+                1018684,
+                1018685,
+                1024560,
+                1024561,
+                1024562,
+                1024563,
+                1024564,
+                1024565,
+                1024566,
+                1024567,
+                1024568,
+                1024569,
+                1024570,
+                1024571,
+                1025040,
+                1025044,
+                1027016,
+                1045243,
+                1045257,
+                1011207,
+                1017189,
+                1018091,
+                1018094,
+                1018097,
+                1019111,
+                1039493,
+                1019443,
+                1019513,
+                1020837,
+                1021554,
+                1018991,
+                1019152,
+                1019165,
+                1019226,
+                1019194,
+                1021501,
+                1019254,
+                1019384,
+                1019419,
+                1019340,
+                1019317,
+                1020802,
+                1020815,
+                1019269,
+                1020866,
+                1020883,
+                1020891,
+                1022983,
+                1023042,
+                1031689,
+                1005422,
+                1032822,
+                1032910,
+                1033940,
+                1035541,
+                1033785,
+                1035213,
+                1052589,
+                1052601,
+                1052609,
+                1052610,
+                1025718,
+                1026170,
+                1019296
+            ]
+        }
+    ],
+    "partials": [
+        {
+            "type": "node",
+            "id": "211",
+            "obj": {
+                "i": 211,
+                "n": "Providence Point",
+                "l": 50,
+                "t": 2,
+                "z": 63,
+                "s": 1,
+                "lt": "Unspoiled",
+                "ti": [
+                    9
+                ]
+            }
+        },
+        {
+            "type": "node",
+            "id": "212",
+            "obj": {
+                "i": 212,
+                "n": "Dragonhead",
+                "l": 50,
+                "t": 2,
+                "z": 63,
+                "s": 1,
+                "lt": "Unspoiled",
+                "ti": [
+                    13
+                ]
+            }
+        },
+        {
+            "type": "node",
+            "id": "213",
+            "obj": {
+                "i": 213,
+                "n": "Whitebrim",
+                "l": 50,
+                "t": 2,
+                "z": 63,
+                "s": 1,
+                "lt": "Unspoiled",
+                "ti": [
+                    17
+                ]
+            }
+        },
+        {
+            "type": "node",
+            "id": "214",
+            "obj": {
+                "i": 214,
+                "n": "Bloodshore",
+                "l": 50,
+                "t": 2,
+                "z": 32,
+                "s": 1,
+                "lt": "Unspoiled",
+                "ti": [
+                    9
+                ]
+            }
+        },
+        {
+            "type": "node",
+            "id": "215",
+            "obj": {
+                "i": 215,
+                "n": "North Silvertear",
+                "l": 50,
+                "t": 2,
+                "z": 67,
+                "lt": "Unspoiled",
+                "ti": [
+                    1,
+                    5,
+                    9
+                ]
+            }
+        },
+        {
+            "type": "node",
+            "id": "216",
+            "obj": {
+                "i": 216,
+                "n": "Nine Ivies",
+                "l": 50,
+                "t": 3,
+                "z": 55,
+                "s": 1,
+                "lt": "Unspoiled",
+                "ti": [
+                    1
+                ]
+            }
+        },
+        {
+            "type": "node",
+            "id": "217",
+            "obj": {
+                "i": 217,
+                "n": "The Bramble Patch",
+                "l": 50,
+                "t": 3,
+                "z": 55,
+                "s": 1,
+                "lt": "Unspoiled",
+                "ti": [
+                    5
+                ]
+            }
+        },
+        {
+            "type": "node",
+            "id": "218",
+            "obj": {
+                "i": 218,
+                "n": "The Honey Yard",
+                "l": 50,
+                "t": 3,
+                "z": 55,
+                "s": 1,
+                "lt": "Unspoiled",
+                "ti": [
+                    21
+                ]
+            }
+        },
+        {
+            "type": "node",
+            "id": "219",
+            "obj": {
+                "i": 219,
+                "n": "Bloodshore",
+                "l": 50,
+                "t": 3,
+                "z": 32,
+                "s": 1,
+                "lt": "Unspoiled",
+                "ti": [
+                    5
+                ]
+            }
+        },
+        {
+            "type": "node",
+            "id": "220",
+            "obj": {
+                "i": 220,
+                "n": "Raincatcher Gully",
+                "l": 50,
+                "t": 3,
+                "z": 32,
+                "s": 1,
+                "lt": "Unspoiled",
+                "ti": [
+                    13
+                ]
+            }
+        },
+        {
+            "type": "node",
+            "id": "221",
+            "obj": {
+                "i": 221,
+                "n": "Drybone",
+                "l": 50,
+                "t": 3,
+                "z": 44,
+                "s": 1,
+                "lt": "Unspoiled",
+                "ti": [
+                    13
+                ]
+            }
+        },
+        {
+            "type": "node",
+            "id": "222",
+            "obj": {
+                "i": 222,
+                "n": "Dragonhead",
+                "l": 50,
+                "t": 0,
+                "z": 63,
+                "s": 1,
+                "lt": "Unspoiled",
+                "ti": [
+                    1
+                ]
+            }
+        },
+        {
+            "type": "node",
+            "id": "223",
+            "obj": {
+                "i": 223,
+                "n": "The Burning Wall",
+                "l": 50,
+                "t": 0,
+                "z": 44,
+                "s": 1,
+                "lt": "Unspoiled",
+                "ti": [
+                    9
+                ]
+            }
+        },
+        {
+            "type": "node",
+            "id": "224",
+            "obj": {
+                "i": 224,
+                "n": "Raincatcher Gully",
+                "l": 50,
+                "t": 1,
+                "z": 32,
+                "s": 1,
+                "lt": "Unspoiled",
+                "ti": [
+                    17
+                ]
+            }
+        },
+        {
+            "type": "node",
+            "id": "225",
+            "obj": {
+                "i": 225,
+                "n": "Dragonhead",
+                "l": 50,
+                "t": 1,
+                "z": 63,
+                "s": 1,
+                "lt": "Unspoiled",
+                "ti": [
+                    21
+                ]
+            }
+        },
+        {
+            "type": "node",
+            "id": "226",
+            "obj": {
+                "i": 226,
+                "n": "Yugr'am River",
+                "l": 50,
+                "t": 1,
+                "z": 44,
+                "s": 1,
+                "lt": "Unspoiled",
+                "ti": [
+                    5
+                ]
+            }
+        },
+        {
+            "type": "node",
+            "id": "227",
+            "obj": {
+                "i": 227,
+                "n": "North Silvertear",
+                "l": 50,
+                "t": 1,
+                "z": 67,
+                "lt": "Unspoiled",
+                "ti": [
+                    13,
+                    17,
+                    21
+                ]
+            }
+        },
+        {
+            "type": "node",
+            "id": "230",
+            "obj": {
+                "i": 230,
+                "n": "Alder Springs",
+                "l": 50,
+                "t": 2,
+                "z": 57,
+                "s": 2,
+                "lt": "Unspoiled",
+                "ti": [
+                    3
+                ]
+            }
+        },
+        {
+            "type": "node",
+            "id": "231",
+            "obj": {
+                "i": 231,
+                "n": "Summerford",
+                "l": 50,
+                "t": 2,
+                "z": 30,
+                "s": 2,
+                "lt": "Unspoiled",
+                "ti": [
+                    9
+                ]
+            }
+        },
+        {
+            "type": "node",
+            "id": "232",
+            "obj": {
+                "i": 232,
+                "n": "Bronze Lake",
+                "l": 50,
+                "t": 2,
+                "z": 34,
+                "s": 2,
+                "lt": "Unspoiled",
+                "ti": [
+                    7
+                ]
+            }
+        },
+        {
+            "type": "node",
+            "id": "233",
+            "obj": {
+                "i": 233,
+                "n": "Sorrel Haven",
+                "l": 50,
+                "t": 3,
+                "z": 54,
+                "s": 2,
+                "lt": "Unspoiled",
+                "ti": [
+                    2
+                ]
+            }
+        },
+        {
+            "type": "node",
+            "id": "234",
+            "obj": {
+                "i": 234,
+                "n": "Quarterstone",
+                "l": 50,
+                "t": 3,
+                "z": 33,
+                "s": 2,
+                "lt": "Unspoiled",
+                "ti": [
+                    8
+                ]
+            }
+        },
+        {
+            "type": "node",
+            "id": "235",
+            "obj": {
+                "i": 235,
+                "n": "Cedarwood",
+                "l": 50,
+                "t": 3,
+                "z": 31,
+                "s": 2,
+                "lt": "Unspoiled",
+                "ti": [
+                    6
+                ]
+            }
+        },
+        {
+            "type": "node",
+            "id": "236",
+            "obj": {
+                "i": 236,
+                "n": "Raubahn's Push",
+                "l": 50,
+                "t": 0,
+                "z": 46,
+                "s": 2,
+                "lt": "Unspoiled",
+                "ti": [
+                    3
+                ]
+            }
+        },
+        {
+            "type": "node",
+            "id": "237",
+            "obj": {
+                "i": 237,
+                "n": "Black Brush",
+                "l": 50,
+                "t": 0,
+                "z": 43,
+                "s": 2,
+                "lt": "Unspoiled",
+                "ti": [
+                    4
+                ]
+            }
+        },
+        {
+            "type": "node",
+            "id": "238",
+            "obj": {
+                "i": 238,
+                "n": "Moraby Bay",
+                "l": 50,
+                "t": 0,
+                "z": 31,
+                "s": 2,
+                "lt": "Unspoiled",
+                "ti": [
+                    18
+                ]
+            }
+        },
+        {
+            "type": "node",
+            "id": "239",
+            "obj": {
+                "i": 239,
+                "n": "Zephyr Drift",
+                "l": 50,
+                "t": 1,
+                "z": 30,
+                "s": 1,
+                "lt": "Unspoiled",
+                "ti": [
+                    19
+                ]
+            }
+        },
+        {
+            "type": "node",
+            "id": "240",
+            "obj": {
+                "i": 240,
+                "n": "Lower Paths",
+                "l": 50,
+                "t": 1,
+                "z": 56,
+                "s": 1,
+                "lt": "Unspoiled",
+                "ti": [
+                    6
+                ]
+            }
+        },
+        {
+            "type": "node",
+            "id": "241",
+            "obj": {
+                "i": 241,
+                "n": "Hammerlea",
+                "l": 50,
+                "t": 1,
+                "z": 42,
+                "s": 1,
+                "lt": "Unspoiled",
+                "ti": [
+                    5
+                ]
+            }
+        },
+        {
+            "type": "node",
+            "id": "242",
+            "obj": {
+                "i": 242,
+                "n": "Upper Paths",
+                "l": 50,
+                "t": 2,
+                "z": 56,
+                "s": 1,
+                "lt": "Unspoiled",
+                "ti": [
+                    2
+                ]
+            }
+        },
+        {
+            "type": "node",
+            "id": "245",
+            "obj": {
+                "i": 245,
+                "n": "Greentear",
+                "l": 50,
+                "t": 2,
+                "z": 54,
+                "s": 2,
+                "lt": "Unspoiled",
+                "ti": [
+                    6
+                ]
+            }
+        },
+        {
+            "type": "node",
+            "id": "246",
+            "obj": {
+                "i": 246,
+                "n": "Wellwick Wood",
+                "l": 50,
+                "t": 1,
+                "z": 44,
+                "s": 2,
+                "lt": "Unspoiled",
+                "ti": [
+                    2
+                ]
+            }
+        },
+        {
+            "type": "node",
+            "id": "247",
+            "obj": {
+                "i": 247,
+                "n": "Broken Water",
+                "l": 50,
+                "t": 0,
+                "z": 45,
+                "s": 3,
+                "lt": "Unspoiled",
+                "ti": [
+                    4
+                ]
+            }
+        },
+        {
+            "type": "node",
+            "id": "248",
+            "obj": {
+                "i": 248,
+                "n": "Zephyr Drift",
+                "l": 50,
+                "t": 2,
+                "z": 30,
+                "s": 3,
+                "lt": "Unspoiled",
+                "ti": [
+                    4
+                ]
+            }
+        },
+        {
+            "type": "node",
+            "id": "249",
+            "obj": {
+                "i": 249,
+                "n": "Bentbranch",
+                "l": 50,
+                "t": 2,
+                "z": 54,
+                "s": 3,
+                "lt": "Unspoiled",
+                "ti": [
+                    10
+                ]
+            }
+        },
+        {
+            "type": "node",
+            "id": "250",
+            "obj": {
+                "i": 250,
+                "n": "Red Mantis Falls",
+                "l": 50,
+                "t": 1,
+                "z": 32,
+                "s": 3,
+                "lt": "Unspoiled",
+                "ti": [
+                    1
+                ]
+            }
+        },
+        {
+            "type": "node",
+            "id": "252",
+            "obj": {
+                "i": 252,
+                "n": "Bluefog",
+                "l": 50,
+                "t": 0,
+                "z": 46,
+                "s": 3,
+                "lt": "Unspoiled",
+                "ti": [
+                    17
+                ]
+            }
+        },
+        {
+            "type": "node",
+            "id": "340",
+            "obj": {
+                "i": 340,
+                "n": "Chocobo Forest",
+                "l": 50,
+                "t": 3,
+                "z": 2000,
+                "s": 3,
+                "lt": "Unspoiled",
+                "ti": [
+                    2,
+                    14
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1000238",
+            "obj": {
+                "i": 1000238,
+                "n": "Alaric",
+                "l": 53,
+                "s": 1,
+                "q": 1,
+                "t": "Independent Tinker",
+                "a": 564,
+                "c": [
+                    14.36,
+                    8.81
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1051633",
+            "obj": {
+                "i": 1051633,
+                "n": "Sundries Vendor",
+                "l": 4754,
+                "s": 1,
+                "c": [
+                    6.42,
+                    6.79
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001207",
+            "obj": {
+                "i": 1001207,
+                "n": "Unsynrael",
+                "l": 29,
+                "s": 1,
+                "t": "Dyemonger",
+                "a": 745,
+                "c": [
+                    6.08,
+                    12.33
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1001972",
+            "obj": {
+                "i": 1001972,
+                "n": "Nanabe",
+                "l": 41,
+                "s": 1,
+                "t": "Independent Merchant",
+                "a": 646,
+                "c": [
+                    14.29,
+                    11.06
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1005159",
+            "obj": {
+                "i": 1005159,
+                "n": "Haneko Burneko",
+                "l": 356,
+                "s": 1,
+                "t": "Scion Supplier",
+                "c": [
+                    "6.2",
+                    "4.9"
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1007732",
+            "obj": {
+                "i": 1007732,
+                "n": "Haneko Burneko",
+                "l": 356,
+                "s": 1,
+                "t": "Scion Supplier",
+                "c": [
+                    "6.2",
+                    "5.0"
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008847",
+            "obj": {
+                "i": 1008847,
+                "n": "Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008848",
+            "obj": {
+                "i": 1008848,
+                "n": "Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008849",
+            "obj": {
+                "i": 1008849,
+                "n": "Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008850",
+            "obj": {
+                "i": 1008850,
+                "n": "Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008851",
+            "obj": {
+                "i": 1008851,
+                "n": "Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008852",
+            "obj": {
+                "i": 1008852,
+                "n": "Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008853",
+            "obj": {
+                "i": 1008853,
+                "n": "Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008854",
+            "obj": {
+                "i": 1008854,
+                "n": "Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008855",
+            "obj": {
+                "i": 1008855,
+                "n": "Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008856",
+            "obj": {
+                "i": 1008856,
+                "n": "Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013119",
+            "obj": {
+                "i": 1013119,
+                "n": "Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1013120",
+            "obj": {
+                "i": 1013120,
+                "n": "Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1018674",
+            "obj": {
+                "i": 1018674,
+                "n": "Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1018675",
+            "obj": {
+                "i": 1018675,
+                "n": "Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1018676",
+            "obj": {
+                "i": 1018676,
+                "n": "Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1018677",
+            "obj": {
+                "i": 1018677,
+                "n": "Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1018678",
+            "obj": {
+                "i": 1018678,
+                "n": "Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1018679",
+            "obj": {
+                "i": 1018679,
+                "n": "Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1018680",
+            "obj": {
+                "i": 1018680,
+                "n": "Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1018681",
+            "obj": {
+                "i": 1018681,
+                "n": "Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1018682",
+            "obj": {
+                "i": 1018682,
+                "n": "Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1018683",
+            "obj": {
+                "i": 1018683,
+                "n": "Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1018684",
+            "obj": {
+                "i": 1018684,
+                "n": "Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1018685",
+            "obj": {
+                "i": 1018685,
+                "n": "Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024560",
+            "obj": {
+                "i": 1024560,
+                "n": "Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024561",
+            "obj": {
+                "i": 1024561,
+                "n": "Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024562",
+            "obj": {
+                "i": 1024562,
+                "n": "Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024563",
+            "obj": {
+                "i": 1024563,
+                "n": "Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024564",
+            "obj": {
+                "i": 1024564,
+                "n": "Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024565",
+            "obj": {
+                "i": 1024565,
+                "n": "Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024566",
+            "obj": {
+                "i": 1024566,
+                "n": "Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024567",
+            "obj": {
+                "i": 1024567,
+                "n": "Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024568",
+            "obj": {
+                "i": 1024568,
+                "n": "Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024569",
+            "obj": {
+                "i": 1024569,
+                "n": "Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024570",
+            "obj": {
+                "i": 1024570,
+                "n": "Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1024571",
+            "obj": {
+                "i": 1024571,
+                "n": "Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1025040",
+            "obj": {
+                "i": 1025040,
+                "n": "Allagan Commerce Node",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1025044",
+            "obj": {
+                "i": 1025044,
+                "n": "Ananta Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1027016",
+            "obj": {
+                "i": 1027016,
+                "n": "Kojin Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1045243",
+            "obj": {
+                "i": 1045243,
+                "n": "Loporrit Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1045257",
+            "obj": {
+                "i": 1045257,
+                "n": "Loporrit Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011207",
+            "obj": {
+                "i": 1011207,
+                "n": "Frine",
+                "l": 2301,
+                "s": 1,
+                "q": 1,
+                "t": "Merchant & Mender",
+                "a": 2317,
+                "c": [
+                    6.07,
+                    9.98
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1017189",
+            "obj": {
+                "i": 1017189,
+                "n": "Junkmonger",
+                "l": 2082,
+                "s": 1,
+                "c": [
+                    "6.0",
+                    "7.2"
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1018091",
+            "obj": {
+                "i": 1018091,
+                "n": "Apartment Merchant",
+                "l": 1813,
+                "s": 11,
+                "r": 1,
+                "a": 1146,
+                "c": [
+                    6.15,
+                    6.03
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1018094",
+            "obj": {
+                "i": 1018094,
+                "n": "Apartment Merchant",
+                "l": 1811,
+                "s": 11,
+                "r": 1,
+                "a": 1146,
+                "c": [
+                    6.15,
+                    6.03
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1018097",
+            "obj": {
+                "i": 1018097,
+                "n": "Apartment Merchant",
+                "l": 1815,
+                "s": 11,
+                "r": 1,
+                "a": 1146,
+                "c": [
+                    6.15,
+                    6.03
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019111",
+            "obj": {
+                "i": 1019111,
+                "n": "Apartment Merchant",
+                "l": 2272,
+                "s": 11,
+                "r": 1,
+                "c": [
+                    "6.1",
+                    "6.0"
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1039493",
+            "obj": {
+                "i": 1039493,
+                "n": "Apartment Merchant",
+                "l": 3694,
+                "s": 11,
+                "r": 1,
+                "a": 1146,
+                "c": [
+                    6.17,
+                    5.94
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019443",
+            "obj": {
+                "i": 1019443,
+                "n": "Independent Merchant",
+                "l": 2403,
+                "s": 10,
+                "c": [
+                    "12.7",
+                    "11.0"
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019513",
+            "obj": {
+                "i": 1019513,
+                "n": "Merchant & Mender",
+                "l": 2406,
+                "s": 7,
+                "c": [
+                    "8.7",
+                    "10.9"
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020837",
+            "obj": {
+                "i": 1020837,
+                "n": "Independent Merchant",
+                "l": 2407,
+                "s": 7,
+                "c": [
+                    "24.6",
+                    "5.7"
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021554",
+            "obj": {
+                "i": 1021554,
+                "n": "Merchant & Mender",
+                "l": 2407,
+                "s": 7,
+                "c": [
+                    "19.6",
+                    "11.0"
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1018991",
+            "obj": {
+                "i": 1018991,
+                "n": "Tokohana",
+                "l": 2404,
+                "s": 1,
+                "t": "Independent Peddler",
+                "a": 2917,
+                "c": [
+                    12.91,
+                    12.24
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019152",
+            "obj": {
+                "i": 1019152,
+                "n": "Hingan Merchant & Mender",
+                "l": 2409,
+                "s": 7,
+                "c": [
+                    "38.8",
+                    "37.7"
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019165",
+            "obj": {
+                "i": 1019165,
+                "n": "Merchant & Mender",
+                "l": 2409,
+                "s": 7,
+                "c": [
+                    "31.4",
+                    "36.6"
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019226",
+            "obj": {
+                "i": 1019226,
+                "n": "Village Merchant & Mender",
+                "l": 2409,
+                "s": 7,
+                "c": [
+                    "5.9",
+                    "11.4"
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019194",
+            "obj": {
+                "i": 1019194,
+                "n": "Enclave Merchant",
+                "l": 2409,
+                "s": 7,
+                "c": [
+                    "21.0",
+                    "20.4"
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1021501",
+            "obj": {
+                "i": 1021501,
+                "n": "Independent Merchant",
+                "l": 2409,
+                "s": 7,
+                "c": [
+                    "23.3",
+                    "9.2"
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019254",
+            "obj": {
+                "i": 1019254,
+                "n": "Village Merchant",
+                "l": 2410,
+                "s": 7,
+                "a": 2793,
+                "c": [
+                    30.3,
+                    18.14
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019384",
+            "obj": {
+                "i": 1019384,
+                "n": "Mol Merchant & Mender",
+                "l": 2411,
+                "s": 7,
+                "c": [
+                    "31.2",
+                    "11.3"
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019419",
+            "obj": {
+                "i": 1019419,
+                "n": "Oroniri Merchant",
+                "l": 2411,
+                "s": 7,
+                "c": [
+                    "23.4",
+                    "21.9"
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019340",
+            "obj": {
+                "i": 1019340,
+                "n": "Traveling Merchant",
+                "l": 2411,
+                "s": 1,
+                "c": [
+                    "32.5",
+                    "28.9"
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019317",
+            "obj": {
+                "i": 1019317,
+                "n": "Dotharli Merchant & Mender",
+                "l": 2411,
+                "s": 7,
+                "c": [
+                    "11.8",
+                    "33.5"
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020802",
+            "obj": {
+                "i": 1020802,
+                "n": "Tribe Merchant",
+                "l": 2406,
+                "s": 7,
+                "c": [
+                    "30.6",
+                    "25.9"
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020815",
+            "obj": {
+                "i": 1020815,
+                "n": "Blessed Merchant",
+                "l": 2406,
+                "s": 7,
+                "c": [
+                    "27.0",
+                    "19.8"
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019269",
+            "obj": {
+                "i": 1019269,
+                "n": "Independent Merchant",
+                "l": 2410,
+                "s": 7,
+                "a": 2805,
+                "c": [
+                    24.89,
+                    13.06
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020866",
+            "obj": {
+                "i": 1020866,
+                "n": "Independent Merchant",
+                "l": 2407,
+                "s": 7,
+                "c": [
+                    "16.5",
+                    "36.5"
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020883",
+            "obj": {
+                "i": 1020883,
+                "n": "Merchant & Mender",
+                "l": 2407,
+                "s": 7,
+                "c": [
+                    "27.7",
+                    "29.0"
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1020891",
+            "obj": {
+                "i": 1020891,
+                "n": "Merchant & Mender",
+                "l": 2407,
+                "s": 7,
+                "c": [
+                    "27.0",
+                    "36.7"
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1022983",
+            "obj": {
+                "i": 1022983,
+                "n": "Independent Merchant",
+                "l": 2408,
+                "s": 7,
+                "c": [
+                    "10.5",
+                    "21.3"
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1023042",
+            "obj": {
+                "i": 1023042,
+                "n": "Local Merchant",
+                "l": 2408,
+                "s": 7,
+                "c": [
+                    "34.1",
+                    "34.3"
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1031689",
+            "obj": {
+                "i": 1031689,
+                "n": "Eilonwy",
+                "l": 3435,
+                "s": 1,
+                "t": "Merchant & Mender",
+                "a": 3436,
+                "c": [
+                    12.23,
+                    14.27
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1005422",
+            "obj": {
+                "i": 1005422,
+                "n": "Merchant & Mender",
+                "s": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1032822",
+            "obj": {
+                "i": 1032822,
+                "n": "Merchant & Mender",
+                "l": 3477,
+                "s": 1,
+                "c": [
+                    6.12,
+                    6.14
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1032910",
+            "obj": {
+                "i": 1032910,
+                "n": "Merchant & Mender",
+                "l": 1647,
+                "s": 1,
+                "a": 2255,
+                "c": [
+                    8.69,
+                    18.77
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1033940",
+            "obj": {
+                "i": 1033940,
+                "n": "Merchant & Mender",
+                "l": 1647,
+                "s": 1,
+                "a": 2255,
+                "c": [
+                    8.69,
+                    18.77
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1035541",
+            "obj": {
+                "i": 1035541,
+                "n": "Merchant & Mender",
+                "l": 1647,
+                "s": 1,
+                "a": 2255,
+                "c": [
+                    8.69,
+                    18.77
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1033785",
+            "obj": {
+                "i": 1033785,
+                "n": "Anna",
+                "l": 3435,
+                "s": 1,
+                "t": "Merchant & Scrip Trader",
+                "a": 3476,
+                "c": [
+                    14.25,
+                    12.62
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1035213",
+            "obj": {
+                "i": 1035213,
+                "n": "Diana",
+                "l": 3435,
+                "s": 1,
+                "t": "Merchant & Scrip Trader",
+                "a": 3636,
+                "c": [
+                    9.85,
+                    8.46
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1052589",
+            "obj": {
+                "i": 1052589,
+                "n": "Godgyth",
+                "l": 5219,
+                "s": 36,
+                "t": "Merchant & Mender",
+                "c": [
+                    21.89,
+                    21.87
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1052601",
+            "obj": {
+                "i": 1052601,
+                "n": "Godgyth",
+                "l": 5219,
+                "s": 36,
+                "t": "Merchant & Mender",
+                "c": [
+                    21.89,
+                    21.87
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1052609",
+            "obj": {
+                "i": 1052609,
+                "n": "Godgyth",
+                "l": 5219,
+                "s": 36,
+                "t": "Merchant & Mender",
+                "c": [
+                    21.89,
+                    21.86
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1052610",
+            "obj": {
+                "i": 1052610,
+                "n": "Godgyth",
+                "l": 5219,
+                "s": 36,
+                "t": "Merchant & Mender",
+                "c": [
+                    21.89,
+                    21.86
+                ]
+            }
+        },
+        {
+            "type": "item",
+            "id": "25",
+            "obj": {
+                "i": 25,
+                "n": "Wolf Mark",
+                "l": 55,
+                "c": 65014,
+                "t": 63
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002387",
+            "obj": {
+                "i": 1002387,
+                "n": "Storm Quartermaster",
+                "l": 28,
+                "s": 1,
+                "r": 1,
+                "a": 755,
+                "c": [
+                    13.17,
+                    12.79
+                ]
+            }
+        },
+        {
+            "type": "item",
+            "id": "20",
+            "obj": {
+                "i": 20,
+                "n": "Storm Seal",
+                "l": 1,
+                "c": 65004,
+                "t": 63
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002393",
+            "obj": {
+                "i": 1002393,
+                "n": "Serpent Quartermaster",
+                "l": 52,
+                "s": 1,
+                "r": 1,
+                "a": 591,
+                "c": [
+                    9.89,
+                    11.03
+                ]
+            }
+        },
+        {
+            "type": "item",
+            "id": "21",
+            "obj": {
+                "i": 21,
+                "n": "Serpent Seal",
+                "l": 1,
+                "c": 65005,
+                "t": 63
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1002390",
+            "obj": {
+                "i": 1002390,
+                "n": "Flame Quartermaster",
+                "l": 40,
+                "s": 1,
+                "r": 1,
+                "a": 614,
+                "c": [
+                    8.38,
+                    9.08
+                ]
+            }
+        },
+        {
+            "type": "item",
+            "id": "22",
+            "obj": {
+                "i": 22,
+                "n": "Flame Seal",
+                "l": 1,
+                "c": 65006,
+                "t": 63
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1025718",
+            "obj": {
+                "i": 1025718,
+                "n": "Namazu Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1026170",
+            "obj": {
+                "i": 1026170,
+                "n": "Namazu Junkmonger",
+                "s": 2
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019296",
+            "obj": {
+                "i": 1019296,
+                "n": "Merchant & Mender",
+                "l": 2410,
+                "s": 7,
+                "c": [
+                    "15.7",
+                    "31.2"
+                ]
+            }
+        },
+        {
+            "type": "item",
+            "id": "7778",
+            "obj": {
+                "i": 7778,
+                "n": "Master Carpenter I",
+                "l": 1,
+                "c": 26002,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "10335",
+            "obj": {
+                "i": 10335,
+                "n": "Dark Matter Cluster",
+                "l": 70,
+                "c": 20407,
+                "t": 60
+            }
+        },
+        {
+            "type": "item",
+            "id": "10386",
+            "obj": {
+                "i": 10386,
+                "n": "Grade 6 Dark Matter",
+                "l": 1,
+                "c": 20404,
+                "t": 60,
+                "p": 120
+            }
+        },
+        {
+            "type": "item",
+            "id": "7779",
+            "obj": {
+                "i": 7779,
+                "n": "Master Blacksmith I",
+                "l": 1,
+                "c": 26002,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "7780",
+            "obj": {
+                "i": 7780,
+                "n": "Master Armorer I",
+                "l": 1,
+                "c": 26002,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "7781",
+            "obj": {
+                "i": 7781,
+                "n": "Master Goldsmith I",
+                "l": 1,
+                "c": 26002,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "7782",
+            "obj": {
+                "i": 7782,
+                "n": "Master Leatherworker I",
+                "l": 1,
+                "c": 26002,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "7783",
+            "obj": {
+                "i": 7783,
+                "n": "Master Weaver I",
+                "l": 1,
+                "c": 26002,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "7784",
+            "obj": {
+                "i": 7784,
+                "n": "Master Alchemist I",
+                "l": 1,
+                "c": 26002,
+                "t": 63
+            }
+        },
+        {
+            "type": "item",
+            "id": "7785",
+            "obj": {
+                "i": 7785,
+                "n": "Master Culinarian I",
+                "l": 1,
+                "c": 26002,
+                "t": 63
+            }
+        }
+    ]
+}

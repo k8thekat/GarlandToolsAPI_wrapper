@@ -81,11 +81,11 @@ useLibraryCodeForTypes = true
 reportIncompatibleMethodOverride = false
 
 [tool.setuptools]
-packages = ["garlandtools"]
+packages = ["async_garlandtools"]
 include-package-data = true
 
 [tool.setuptools.dynamic]
-version = { attr = "garlandtools.__version__" }
+version = { attr = "async_garlandtools.__version__" }
 
 [build-system]
 requires = ["setuptools>=61.0"]

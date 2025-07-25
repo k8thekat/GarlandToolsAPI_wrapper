@@ -1,0 +1,19 @@
+{
+    "fate": {
+        "name": "Harder, Bigger, Faster, Stronger",
+        "description": "After years of experimentation, Amalj'aa beast tamers have finally perfected a new breed of biologically augmented drakes and have moved to testing the creatures in the field. Use this opportunity to slay the war creatures before they are taken back to their cages.",
+        "id": 441,
+        "patch": 1.0,
+        "lvl": 28,
+        "maxlvl": 33,
+        "type": "Slay Enemies",
+        "zoneid": 45,
+        "coords": [
+            16,
+            12
+        ],
+        "items": [
+            7852
+        ]
+    }
+}

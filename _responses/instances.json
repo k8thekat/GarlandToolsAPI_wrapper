@@ -1,0 +1,4240 @@
+{
+    "browse": [
+        {
+            "i": 1,
+            "n": "The Thousand Maws of Toto-Rak",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 24,
+            "max_lvl": 27
+        },
+        {
+            "i": 2,
+            "n": "The Tam-Tara Deepcroft",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 16,
+            "max_lvl": 19
+        },
+        {
+            "i": 3,
+            "n": "Copperbell Mines",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 17,
+            "max_lvl": 20
+        },
+        {
+            "i": 4,
+            "n": "Sastasha",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 15,
+            "max_lvl": 18
+        },
+        {
+            "i": 5,
+            "n": "The Aurum Vale",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 47,
+            "max_lvl": 49
+        },
+        {
+            "i": 6,
+            "n": "Haukke Manor",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 28,
+            "max_lvl": 31
+        },
+        {
+            "i": 7,
+            "n": "Halatali",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 20,
+            "max_lvl": 23
+        },
+        {
+            "i": 8,
+            "n": "Brayflox's Longstop",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 32,
+            "max_lvl": 34
+        },
+        {
+            "i": 9,
+            "n": "The Sunken Temple of Qarn",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 35,
+            "max_lvl": 37
+        },
+        {
+            "i": 10,
+            "n": "The Wanderer's Palace",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 45,
+            "max_ilvl": 110
+        },
+        {
+            "i": 11,
+            "n": "The Stone Vigil",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 41,
+            "max_lvl": 43
+        },
+        {
+            "i": 12,
+            "n": "Cutter's Cry",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 38,
+            "max_lvl": 40
+        },
+        {
+            "i": 13,
+            "n": "Dzemael Darkhold",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 44,
+            "max_lvl": 46
+        },
+        {
+            "i": 14,
+            "n": "Amdapor Keep",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 45,
+            "max_ilvl": 110
+        },
+        {
+            "i": 15,
+            "n": "Castrum Meridianum",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 42,
+            "max_ilvl": 60
+        },
+        {
+            "i": 17,
+            "n": "Pharos Sirius",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 48,
+            "max_ilvl": 110
+        },
+        {
+            "i": 18,
+            "n": "Copperbell Mines (Hard)",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 48,
+            "max_ilvl": 110
+        },
+        {
+            "i": 19,
+            "n": "Haukke Manor (Hard)",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 48,
+            "max_ilvl": 110
+        },
+        {
+            "i": 20,
+            "n": "Brayflox's Longstop (Hard)",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 55,
+            "max_ilvl": 110
+        },
+        {
+            "i": 21,
+            "n": "Halatali (Hard)",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 55,
+            "max_ilvl": 110
+        },
+        {
+            "i": 22,
+            "n": "The Lost City of Amdapor",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 55,
+            "max_ilvl": 110
+        },
+        {
+            "i": 23,
+            "n": "Hullbreaker Isle",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 70,
+            "max_ilvl": 110
+        },
+        {
+            "i": 24,
+            "n": "The Tam-Tara Deepcroft (Hard)",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 70,
+            "max_ilvl": 110
+        },
+        {
+            "i": 25,
+            "n": "The Stone Vigil (Hard)",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 70,
+            "max_ilvl": 110
+        },
+        {
+            "i": 26,
+            "n": "The Sunken Temple of Qarn (Hard)",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 80
+        },
+        {
+            "i": 27,
+            "n": "Snowcloak",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 80
+        },
+        {
+            "i": 28,
+            "n": "Sastasha (Hard)",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 80
+        },
+        {
+            "i": 29,
+            "n": "Amdapor Keep (Hard)",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 90
+        },
+        {
+            "i": 30,
+            "n": "The Wanderer's Palace (Hard)",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 90
+        },
+        {
+            "i": 31,
+            "n": "The Great Gubal Library",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 59,
+            "max_lvl": 60,
+            "min_ilvl": 120,
+            "max_ilvl": 150
+        },
+        {
+            "i": 32,
+            "n": "The Keeper of the Lake",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 90
+        },
+        {
+            "i": 33,
+            "n": "Neverreap",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 145,
+            "max_ilvl": 210
+        },
+        {
+            "i": 34,
+            "n": "The Vault",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 57,
+            "max_lvl": 58,
+            "min_ilvl": 115
+        },
+        {
+            "i": 35,
+            "n": "The Fractal Continuum",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 145,
+            "max_ilvl": 210
+        },
+        {
+            "i": 36,
+            "n": "The Dusk Vigil",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 51,
+            "max_lvl": 52,
+            "min_ilvl": 100
+        },
+        {
+            "i": 37,
+            "n": "Sohm Al",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 53,
+            "max_lvl": 54,
+            "min_ilvl": 105
+        },
+        {
+            "i": 38,
+            "n": "The Aetherochemical Research Facility",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 142,
+            "max_ilvl": 180
+        },
+        {
+            "i": 39,
+            "n": "The Aery",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 55,
+            "max_lvl": 56,
+            "min_ilvl": 110
+        },
+        {
+            "i": 40,
+            "n": "Pharos Sirius (Hard)",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 170,
+            "max_ilvl": 240
+        },
+        {
+            "i": 41,
+            "n": "Saint Mocianne's Arboretum",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 170,
+            "max_ilvl": 240
+        },
+        {
+            "i": 42,
+            "n": "The Lost City of Amdapor (Hard)",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 180
+        },
+        {
+            "i": 43,
+            "n": "The Antitower",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 180
+        },
+        {
+            "i": 44,
+            "n": "Sohr Khai",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 200
+        },
+        {
+            "i": 45,
+            "n": "Hullbreaker Isle (Hard)",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 200
+        },
+        {
+            "i": 46,
+            "n": "Xelphatol",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 210
+        },
+        {
+            "i": 47,
+            "n": "The Great Gubal Library (Hard)",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 210
+        },
+        {
+            "i": 48,
+            "n": "Baelsar's Wall",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 230
+        },
+        {
+            "i": 49,
+            "n": "Sohm Al (Hard)",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 230
+        },
+        {
+            "i": 50,
+            "n": "Shisui of the Violet Tides",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 63,
+            "max_lvl": 64,
+            "min_ilvl": 245
+        },
+        {
+            "i": 51,
+            "n": "The Temple of the Fist",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 280,
+            "max_ilvl": 340
+        },
+        {
+            "i": 52,
+            "n": "The Sirensong Sea",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 61,
+            "max_lvl": 62,
+            "min_ilvl": 240
+        },
+        {
+            "i": 53,
+            "n": "Bardam's Mettle",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 65,
+            "max_lvl": 66,
+            "min_ilvl": 250
+        },
+        {
+            "i": 54,
+            "n": "Doma Castle",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 67,
+            "max_lvl": 68,
+            "min_ilvl": 255
+        },
+        {
+            "i": 55,
+            "n": "Castrum Abania",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 69,
+            "max_lvl": 70,
+            "min_ilvl": 260,
+            "max_ilvl": 290
+        },
+        {
+            "i": 56,
+            "n": "Ala Mhigo",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 280,
+            "max_ilvl": 310
+        },
+        {
+            "i": 57,
+            "n": "Kugane Castle",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 280,
+            "max_ilvl": 340
+        },
+        {
+            "i": 58,
+            "n": "The Drowned City of Skalla",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 300,
+            "max_ilvl": 370
+        },
+        {
+            "i": 59,
+            "n": "Hells' Lid",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 310
+        },
+        {
+            "i": 60,
+            "n": "The Fractal Continuum (Hard)",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 310
+        },
+        {
+            "i": 61,
+            "n": "The Swallow's Compass",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 330
+        },
+        {
+            "i": 62,
+            "n": "Saint Mocianne's Arboretum (Hard)",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 340
+        },
+        {
+            "i": 63,
+            "n": "The Burn",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 340
+        },
+        {
+            "i": 64,
+            "n": "The Ghimlyt Dark",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 360
+        },
+        {
+            "i": 65,
+            "n": "Dohn Mheg",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 73,
+            "max_lvl": 74,
+            "min_ilvl": 375
+        },
+        {
+            "i": 66,
+            "n": "The Qitana Ravel",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 75,
+            "max_lvl": 76,
+            "min_ilvl": 380
+        },
+        {
+            "i": 67,
+            "n": "Amaurot",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 410,
+            "max_ilvl": 440
+        },
+        {
+            "i": 68,
+            "n": "The Twinning",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 410,
+            "max_ilvl": 470
+        },
+        {
+            "i": 69,
+            "n": "Malikah's Well",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 77,
+            "max_lvl": 78,
+            "min_ilvl": 385
+        },
+        {
+            "i": 70,
+            "n": "Mt. Gulg",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 79,
+            "max_lvl": 80,
+            "min_ilvl": 390,
+            "max_ilvl": 420
+        },
+        {
+            "i": 71,
+            "n": "Akadaemia Anyder",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 410,
+            "max_ilvl": 470
+        },
+        {
+            "i": 72,
+            "n": "Holminster Switch",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 71,
+            "max_lvl": 72,
+            "min_ilvl": 370
+        },
+        {
+            "i": 73,
+            "n": "The Grand Cosmos",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 430,
+            "max_ilvl": 470
+        },
+        {
+            "i": 74,
+            "n": "Anamnesis Anyder",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 440,
+            "max_ilvl": 500
+        },
+        {
+            "i": 75,
+            "n": "The Heroes' Gauntlet",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 460,
+            "max_ilvl": 500
+        },
+        {
+            "i": 76,
+            "n": "Matoya's Relict",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 470
+        },
+        {
+            "i": 77,
+            "n": "Paglth'an",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 490
+        },
+        {
+            "i": 78,
+            "n": "The Tower of Zot",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 81,
+            "max_lvl": 82,
+            "min_ilvl": 500
+        },
+        {
+            "i": 79,
+            "n": "The Stigma Dreamscape",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 540,
+            "max_ilvl": 600
+        },
+        {
+            "i": 80,
+            "n": "The Tower of Babil",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 83,
+            "max_lvl": 84,
+            "min_ilvl": 505
+        },
+        {
+            "i": 81,
+            "n": "The Aitiascope",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 89,
+            "max_lvl": 90,
+            "min_ilvl": 520,
+            "max_ilvl": 550
+        },
+        {
+            "i": 82,
+            "n": "Ktisis Hyperboreia",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 87,
+            "max_lvl": 88,
+            "min_ilvl": 515
+        },
+        {
+            "i": 83,
+            "n": "Vanaspati",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 85,
+            "max_lvl": 86,
+            "min_ilvl": 510
+        },
+        {
+            "i": 84,
+            "n": "The Dead Ends",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 540,
+            "max_ilvl": 570
+        },
+        {
+            "i": 85,
+            "n": "Smileton",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 540,
+            "max_ilvl": 600
+        },
+        {
+            "i": 86,
+            "n": "The Praetorium",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 42,
+            "max_ilvl": 60
+        },
+        {
+            "i": 87,
+            "n": "Alzadaal's Legacy",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 560,
+            "max_ilvl": 600
+        },
+        {
+            "i": 88,
+            "n": "The Fell Court of Troia",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 575,
+            "max_ilvl": 630
+        },
+        {
+            "i": 89,
+            "n": "Lapis Manalis",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 590,
+            "max_ilvl": 630
+        },
+        {
+            "i": 90,
+            "n": "The Aetherfont",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 605
+        },
+        {
+            "i": 91,
+            "n": "The Lunar Subterrane",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 620
+        },
+        {
+            "i": 92,
+            "n": "Worqor Zormor",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 93,
+            "max_lvl": 94,
+            "min_ilvl": 635
+        },
+        {
+            "i": 93,
+            "n": "Origenics",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 99,
+            "max_lvl": 100,
+            "min_ilvl": 650,
+            "max_ilvl": 680
+        },
+        {
+            "i": 94,
+            "n": "Ihuykatumu",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 91,
+            "max_lvl": 92,
+            "min_ilvl": 630
+        },
+        {
+            "i": 95,
+            "n": "Alexandria",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 100,
+            "max_lvl": 100,
+            "min_ilvl": 670,
+            "max_ilvl": 700
+        },
+        {
+            "i": 96,
+            "n": "The Skydeep Cenote",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 95,
+            "max_lvl": 96,
+            "min_ilvl": 640
+        },
+        {
+            "i": 97,
+            "n": "Vanguard",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 97,
+            "max_lvl": 98,
+            "min_ilvl": 645
+        },
+        {
+            "i": 98,
+            "n": "Tender Valley",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 100,
+            "max_lvl": 100,
+            "min_ilvl": 670,
+            "max_ilvl": 730
+        },
+        {
+            "i": 99,
+            "n": "The Strayborough Deadwalk",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 100,
+            "max_lvl": 100,
+            "min_ilvl": 670,
+            "max_ilvl": 730
+        },
+        {
+            "i": 100,
+            "n": "Yuweyawata Field Station",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 100,
+            "max_lvl": 100,
+            "min_ilvl": 690,
+            "max_ilvl": 730
+        },
+        {
+            "i": 101,
+            "n": "The Underkeep",
+            "c": 61801,
+            "t": "Dungeons",
+            "min_lvl": 100,
+            "max_lvl": 100,
+            "min_ilvl": 705
+        },
+        {
+            "i": 20001,
+            "n": "The Bowl of Embers",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 20,
+            "max_lvl": 22
+        },
+        {
+            "i": 20002,
+            "n": "The Navel",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 34,
+            "max_lvl": 36
+        },
+        {
+            "i": 20003,
+            "n": "The Howling Eye",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 44,
+            "max_lvl": 46
+        },
+        {
+            "i": 20004,
+            "n": "The Bowl of Embers (Hard)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 49
+        },
+        {
+            "i": 20005,
+            "n": "The Navel (Hard)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 57
+        },
+        {
+            "i": 20006,
+            "n": "The Howling Eye (Hard)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 52
+        },
+        {
+            "i": 20008,
+            "n": "The Bowl of Embers (Extreme)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 70
+        },
+        {
+            "i": 20009,
+            "n": "The Navel (Extreme)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 67
+        },
+        {
+            "i": 20010,
+            "n": "The Howling Eye (Extreme)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 65
+        },
+        {
+            "i": 20011,
+            "n": "Thornmarch (Hard)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 54
+        },
+        {
+            "i": 20012,
+            "n": "Thornmarch (Extreme)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 80
+        },
+        {
+            "i": 20013,
+            "n": "The Minstrel's Ballad: Ultima's Bane",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 61
+        },
+        {
+            "i": 20014,
+            "n": "The Gilded Araya",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 90,
+            "max_lvl": 90
+        },
+        {
+            "i": 20017,
+            "n": "The Whorleater (Hard)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 60
+        },
+        {
+            "i": 20018,
+            "n": "The Whorleater (Extreme)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 80
+        },
+        {
+            "i": 20019,
+            "n": "A Relic Reborn: the Chimera",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 52
+        },
+        {
+            "i": 20020,
+            "n": "A Relic Reborn: the Hydra",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 52
+        },
+        {
+            "i": 20021,
+            "n": "Battle on the Big Bridge",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 50
+        },
+        {
+            "i": 20022,
+            "n": "The Striking Tree (Hard)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 65
+        },
+        {
+            "i": 20023,
+            "n": "The Striking Tree (Extreme)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 85
+        },
+        {
+            "i": 20024,
+            "n": "The Akh Afah Amphitheatre (Hard)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 80
+        },
+        {
+            "i": 20025,
+            "n": "The Akh Afah Amphitheatre (Extreme)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 95
+        },
+        {
+            "i": 20026,
+            "n": "The Dragon's Neck",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 80
+        },
+        {
+            "i": 20027,
+            "n": "Urth's Fount",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 95
+        },
+        {
+            "i": 20029,
+            "n": "The Chrysalis",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 90
+        },
+        {
+            "i": 20030,
+            "n": "Battle in the Big Keep",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 90
+        },
+        {
+            "i": 20031,
+            "n": "Thok ast Thok (Hard)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 53,
+            "max_lvl": 54
+        },
+        {
+            "i": 20032,
+            "n": "Thok ast Thok (Extreme)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 175
+        },
+        {
+            "i": 20033,
+            "n": "The Limitless Blue (Hard)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 57,
+            "max_lvl": 58
+        },
+        {
+            "i": 20034,
+            "n": "The Limitless Blue (Extreme)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 165
+        },
+        {
+            "i": 20035,
+            "n": "The Singularity Reactor",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 142
+        },
+        {
+            "i": 20036,
+            "n": "The Minstrel's Ballad: Thordan's Reign",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 190
+        },
+        {
+            "i": 20037,
+            "n": "Containment Bay S1T7",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 190
+        },
+        {
+            "i": 20038,
+            "n": "Containment Bay S1T7 (Extreme)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 205
+        },
+        {
+            "i": 20039,
+            "n": "The Final Steps of Faith",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 205
+        },
+        {
+            "i": 20040,
+            "n": "The Minstrel's Ballad: Nidhogg's Rage",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 220
+        },
+        {
+            "i": 20041,
+            "n": "Containment Bay P1T6",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 220
+        },
+        {
+            "i": 20042,
+            "n": "Containment Bay P1T6 (Extreme)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 235
+        },
+        {
+            "i": 20043,
+            "n": "Containment Bay Z1T9",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 235
+        },
+        {
+            "i": 20044,
+            "n": "Containment Bay Z1T9 (Extreme)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 250
+        },
+        {
+            "i": 20045,
+            "n": "The Royal Menagerie",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 280
+        },
+        {
+            "i": 20046,
+            "n": "The Pool of Tribute",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 63,
+            "max_lvl": 64
+        },
+        {
+            "i": 20047,
+            "n": "The Pool of Tribute (Extreme)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 300
+        },
+        {
+            "i": 20048,
+            "n": "Emanation",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 67,
+            "max_lvl": 68
+        },
+        {
+            "i": 20049,
+            "n": "Emanation (Extreme)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 300
+        },
+        {
+            "i": 20050,
+            "n": "The Minstrel's Ballad: Shinryu's Domain",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 320
+        },
+        {
+            "i": 20051,
+            "n": "The Jade Stoa",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 325
+        },
+        {
+            "i": 20052,
+            "n": "The Jade Stoa (Extreme)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 340
+        },
+        {
+            "i": 20053,
+            "n": "The Great Hunt",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 320
+        },
+        {
+            "i": 20054,
+            "n": "The Great Hunt (Extreme)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 350
+        },
+        {
+            "i": 20055,
+            "n": "Castrum Fluminis",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 335
+        },
+        {
+            "i": 20056,
+            "n": "The Minstrel's Ballad: Tsukuyomi's Pain",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 350
+        },
+        {
+            "i": 20057,
+            "n": "Hells' Kier",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 355
+        },
+        {
+            "i": 20058,
+            "n": "Hells' Kier (Extreme)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 370
+        },
+        {
+            "i": 20059,
+            "n": "Kugane Ohashi",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 365
+        },
+        {
+            "i": 20060,
+            "n": "The Wreath of Snakes",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 365
+        },
+        {
+            "i": 20061,
+            "n": "The Wreath of Snakes (Extreme)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 380
+        },
+        {
+            "i": 20062,
+            "n": "The Dancing Plague",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 73,
+            "max_lvl": 74
+        },
+        {
+            "i": 20063,
+            "n": "The Dancing Plague (Extreme)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 430
+        },
+        {
+            "i": 20064,
+            "n": "The Crown of the Immaculate",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 79,
+            "max_lvl": 80,
+            "max_ilvl": 420
+        },
+        {
+            "i": 20065,
+            "n": "The Crown of the Immaculate (Extreme)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 430
+        },
+        {
+            "i": 20066,
+            "n": "The Dying Gasp",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 410
+        },
+        {
+            "i": 20067,
+            "n": "The Minstrel's Ballad: Hades's Elegy",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 450
+        },
+        {
+            "i": 20068,
+            "n": "Cinder Drift",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 455
+        },
+        {
+            "i": 20069,
+            "n": "Cinder Drift (Extreme)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 470
+        },
+        {
+            "i": 20070,
+            "n": "Memoria Misera (Extreme)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 470
+        },
+        {
+            "i": 20071,
+            "n": "The Seat of Sacrifice",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 465
+        },
+        {
+            "i": 20072,
+            "n": "The Seat of Sacrifice (Extreme)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 480
+        },
+        {
+            "i": 20073,
+            "n": "Castrum Marinum",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 485
+        },
+        {
+            "i": 20074,
+            "n": "Castrum Marinum (Extreme)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 500
+        },
+        {
+            "i": 20075,
+            "n": "The Cloud Deck",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 495
+        },
+        {
+            "i": 20076,
+            "n": "The Cloud Deck (Extreme)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 510
+        },
+        {
+            "i": 20077,
+            "n": "The Mothercrystal",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 89,
+            "max_lvl": 90,
+            "max_ilvl": 550
+        },
+        {
+            "i": 20078,
+            "n": "The Minstrel's Ballad: Hydaelyn's Call",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 560
+        },
+        {
+            "i": 20079,
+            "n": "The Final Day",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 540,
+            "max_ilvl": 570
+        },
+        {
+            "i": 20080,
+            "n": "The Dark Inside",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 83,
+            "max_lvl": 84
+        },
+        {
+            "i": 20081,
+            "n": "The Minstrel's Ballad: Zodiark's Fall",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 560
+        },
+        {
+            "i": 20082,
+            "n": "The Porta Decumana",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 42,
+            "max_ilvl": 60
+        },
+        {
+            "i": 20083,
+            "n": "The Minstrel's Ballad: Endsinger's Aria",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 580
+        },
+        {
+            "i": 20084,
+            "n": "Storm's Crown",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 585
+        },
+        {
+            "i": 20085,
+            "n": "Storm's Crown (Extreme)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 600
+        },
+        {
+            "i": 20086,
+            "n": "Mount Ordeals",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 595
+        },
+        {
+            "i": 20087,
+            "n": "Mount Ordeals (Extreme)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 610
+        },
+        {
+            "i": 20088,
+            "n": "The Gilded Araya",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 625
+        },
+        {
+            "i": 20089,
+            "n": "The Voidcast Dais",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 615
+        },
+        {
+            "i": 20090,
+            "n": "The Voidcast Dais (Extreme)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 630
+        },
+        {
+            "i": 20091,
+            "n": "The Abyssal Fracture",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 625
+        },
+        {
+            "i": 20092,
+            "n": "The Abyssal Fracture (Extreme)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 640
+        },
+        {
+            "i": 20093,
+            "n": "Worqor Lar Dor",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 93,
+            "max_lvl": 94
+        },
+        {
+            "i": 20094,
+            "n": "Worqor Lar Dor (Extreme)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 100,
+            "max_lvl": 100,
+            "min_ilvl": 690
+        },
+        {
+            "i": 20095,
+            "n": "The Interphos",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 100,
+            "max_lvl": 100,
+            "min_ilvl": 670,
+            "max_ilvl": 700
+        },
+        {
+            "i": 20096,
+            "n": "Everkeep",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 99,
+            "max_lvl": 100,
+            "max_ilvl": 680
+        },
+        {
+            "i": 20097,
+            "n": "Everkeep (Extreme)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 100,
+            "max_lvl": 100,
+            "min_ilvl": 690
+        },
+        {
+            "i": 20098,
+            "n": "The Cloud of Darkness (Chaotic)",
+            "c": 61850,
+            "t": "Chaotic Alliance Raid",
+            "min_lvl": 100,
+            "max_lvl": 100,
+            "min_ilvl": 710,
+            "max_ilvl": 735
+        },
+        {
+            "i": 20099,
+            "n": "The Minstrel's Ballad: Sphene's Burden",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 100,
+            "max_lvl": 100,
+            "min_ilvl": 710
+        },
+        {
+            "i": 20100,
+            "n": "Recollection",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 100,
+            "max_lvl": 100,
+            "min_ilvl": 715
+        },
+        {
+            "i": 20101,
+            "n": "Recollection (Extreme)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 100,
+            "max_lvl": 100,
+            "min_ilvl": 730
+        },
+        {
+            "i": 25001,
+            "n": "The Haunted Manor",
+            "c": 61801,
+            "t": "Seasonal Dungeon",
+            "min_lvl": 1,
+            "max_lvl": 1
+        },
+        {
+            "i": 25002,
+            "n": "The Valentione's Ceremony",
+            "c": 61801,
+            "t": "Seasonal Dungeon",
+            "min_lvl": 1,
+            "max_lvl": 1
+        },
+        {
+            "i": 25003,
+            "n": "The Phantoms' Feast",
+            "c": 61801,
+            "t": "Seasonal Dungeon",
+            "min_lvl": 1,
+            "max_lvl": 1
+        },
+        {
+            "i": 26001,
+            "n": "Triple Triad Open Tournament",
+            "c": 61820,
+            "t": "Gold Saucer",
+            "min_lvl": 1
+        },
+        {
+            "i": 26002,
+            "n": "Triple Triad Invitational Parlor",
+            "c": 61820,
+            "t": "Gold Saucer",
+            "min_lvl": 1
+        },
+        {
+            "i": 30001,
+            "n": "The Labyrinth of the Ancients",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 50
+        },
+        {
+            "i": 30002,
+            "n": "The Binding Coil of Bahamut - Turn 1",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 70
+        },
+        {
+            "i": 30003,
+            "n": "The Binding Coil of Bahamut - Turn 2",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 73
+        },
+        {
+            "i": 30004,
+            "n": "The Binding Coil of Bahamut - Turn 3",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 70
+        },
+        {
+            "i": 30005,
+            "n": "The Binding Coil of Bahamut - Turn 4",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 77
+        },
+        {
+            "i": 30006,
+            "n": "The Binding Coil of Bahamut - Turn 5",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 82
+        },
+        {
+            "i": 30007,
+            "n": "The Second Coil of Bahamut - Turn 1",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 90
+        },
+        {
+            "i": 30008,
+            "n": "The Second Coil of Bahamut - Turn 2",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 95
+        },
+        {
+            "i": 30009,
+            "n": "The Second Coil of Bahamut - Turn 3",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 100
+        },
+        {
+            "i": 30010,
+            "n": "The Second Coil of Bahamut - Turn 4",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 105
+        },
+        {
+            "i": 30011,
+            "n": "Syrcus Tower",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 70
+        },
+        {
+            "i": 30012,
+            "n": "The Second Coil of Bahamut (Savage) - Turn 1",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 105
+        },
+        {
+            "i": 30013,
+            "n": "The Second Coil of Bahamut (Savage) - Turn 2",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 105
+        },
+        {
+            "i": 30014,
+            "n": "The Second Coil of Bahamut (Savage) - Turn 3",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 105
+        },
+        {
+            "i": 30015,
+            "n": "The Second Coil of Bahamut (Savage) - Turn 4",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 105
+        },
+        {
+            "i": 30016,
+            "n": "The Final Coil of Bahamut - Turn 1",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 110
+        },
+        {
+            "i": 30017,
+            "n": "The Final Coil of Bahamut - Turn 2",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 115
+        },
+        {
+            "i": 30018,
+            "n": "The Final Coil of Bahamut - Turn 3",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 120
+        },
+        {
+            "i": 30019,
+            "n": "The Final Coil of Bahamut - Turn 4",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 123
+        },
+        {
+            "i": 30020,
+            "n": "The World of Darkness",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 50,
+            "max_lvl": 50,
+            "min_ilvl": 90
+        },
+        {
+            "i": 30021,
+            "n": "Alexander - The Fist of the Father",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 170
+        },
+        {
+            "i": 30022,
+            "n": "Alexander - The Cuff of the Father",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 170
+        },
+        {
+            "i": 30023,
+            "n": "Alexander - The Arm of the Father",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 170
+        },
+        {
+            "i": 30024,
+            "n": "Alexander - The Burden of the Father",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 170
+        },
+        {
+            "i": 30025,
+            "n": "Alexander - The Fist of the Father (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 190
+        },
+        {
+            "i": 30026,
+            "n": "Alexander - The Cuff of the Father (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 195
+        },
+        {
+            "i": 30027,
+            "n": "Alexander - The Arm of the Father (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 200
+        },
+        {
+            "i": 30028,
+            "n": "Alexander - The Burden of the Father (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 205
+        },
+        {
+            "i": 30029,
+            "n": "The Void Ark",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 175
+        },
+        {
+            "i": 30030,
+            "n": "Alexander - The Fist of the Son",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 200
+        },
+        {
+            "i": 30031,
+            "n": "Alexander - The Cuff of the Son",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 200
+        },
+        {
+            "i": 30032,
+            "n": "Alexander - The Arm of the Son",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 200
+        },
+        {
+            "i": 30033,
+            "n": "Alexander - The Burden of the Son",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 200
+        },
+        {
+            "i": 30034,
+            "n": "Alexander - The Fist of the Son (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 215
+        },
+        {
+            "i": 30035,
+            "n": "Alexander - The Cuff of the Son (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 220
+        },
+        {
+            "i": 30036,
+            "n": "Alexander - The Arm of the Son (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 225
+        },
+        {
+            "i": 30037,
+            "n": "Alexander - The Burden of the Son (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 225
+        },
+        {
+            "i": 30038,
+            "n": "The Weeping City of Mhach",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 205
+        },
+        {
+            "i": 30039,
+            "n": "Alexander - The Eyes of the Creator",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 230
+        },
+        {
+            "i": 30040,
+            "n": "Alexander - The Breath of the Creator",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 230
+        },
+        {
+            "i": 30041,
+            "n": "Alexander - The Heart of the Creator",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 230
+        },
+        {
+            "i": 30042,
+            "n": "Alexander - The Soul of the Creator",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 230
+        },
+        {
+            "i": 30043,
+            "n": "Alexander - The Eyes of the Creator (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 245
+        },
+        {
+            "i": 30044,
+            "n": "Alexander - The Breath of the Creator (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 250
+        },
+        {
+            "i": 30045,
+            "n": "Alexander - The Heart of the Creator (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 255
+        },
+        {
+            "i": 30046,
+            "n": "Alexander - The Soul of the Creator (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 255
+        },
+        {
+            "i": 30047,
+            "n": "Dun Scaith",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 60,
+            "max_lvl": 60,
+            "min_ilvl": 235
+        },
+        {
+            "i": 30049,
+            "n": "Deltascape V1.0",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 295
+        },
+        {
+            "i": 30050,
+            "n": "Deltascape V2.0",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 295
+        },
+        {
+            "i": 30051,
+            "n": "Deltascape V3.0",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 295
+        },
+        {
+            "i": 30052,
+            "n": "Deltascape V4.0",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 295
+        },
+        {
+            "i": 30053,
+            "n": "Deltascape V1.0 (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 310
+        },
+        {
+            "i": 30054,
+            "n": "Deltascape V2.0 (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 315
+        },
+        {
+            "i": 30055,
+            "n": "Deltascape V3.0 (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 320
+        },
+        {
+            "i": 30056,
+            "n": "Deltascape V4.0 (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 320
+        },
+        {
+            "i": 30057,
+            "n": "The Unending Coil of Bahamut (Ultimate)",
+            "c": 61832,
+            "t": "Ultimate Raids",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "max_ilvl": 345
+        },
+        {
+            "i": 30058,
+            "n": "The Royal City of Rabanastre",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 305
+        },
+        {
+            "i": 30059,
+            "n": "Sigmascape V1.0",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 325
+        },
+        {
+            "i": 30060,
+            "n": "Sigmascape V2.0",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 325
+        },
+        {
+            "i": 30061,
+            "n": "Sigmascape V3.0",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 325
+        },
+        {
+            "i": 30062,
+            "n": "Sigmascape V4.0",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 325
+        },
+        {
+            "i": 30063,
+            "n": "Sigmascape V1.0 (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 340
+        },
+        {
+            "i": 30064,
+            "n": "Sigmascape V2.0 (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 345
+        },
+        {
+            "i": 30065,
+            "n": "Sigmascape V3.0 (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 350
+        },
+        {
+            "i": 30066,
+            "n": "Sigmascape V4.0 (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 350
+        },
+        {
+            "i": 30067,
+            "n": "The Weapon's Refrain (Ultimate)",
+            "c": 61832,
+            "t": "Ultimate Raids",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "max_ilvl": 375
+        },
+        {
+            "i": 30068,
+            "n": "The Ridorana Lighthouse",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 335
+        },
+        {
+            "i": 30069,
+            "n": "Alphascape V1.0",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 355
+        },
+        {
+            "i": 30070,
+            "n": "Alphascape V2.0",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 355
+        },
+        {
+            "i": 30071,
+            "n": "Alphascape V3.0",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 355
+        },
+        {
+            "i": 30072,
+            "n": "Alphascape V4.0",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 355
+        },
+        {
+            "i": 30073,
+            "n": "Alphascape V1.0 (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 370
+        },
+        {
+            "i": 30074,
+            "n": "Alphascape V2.0 (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 375
+        },
+        {
+            "i": 30075,
+            "n": "Alphascape V3.0 (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 380
+        },
+        {
+            "i": 30076,
+            "n": "Alphascape V4.0 (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 380
+        },
+        {
+            "i": 30077,
+            "n": "The Orbonne Monastery",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 70,
+            "max_lvl": 70,
+            "min_ilvl": 365
+        },
+        {
+            "i": 30078,
+            "n": "Eden's Gate: Resurrection",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 425
+        },
+        {
+            "i": 30079,
+            "n": "Eden's Gate: Resurrection (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 440
+        },
+        {
+            "i": 30080,
+            "n": "Eden's Gate: Inundation",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 425
+        },
+        {
+            "i": 30081,
+            "n": "Eden's Gate: Inundation (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 450
+        },
+        {
+            "i": 30082,
+            "n": "Eden's Gate: Descent",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 425
+        },
+        {
+            "i": 30083,
+            "n": "Eden's Gate: Descent (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 445
+        },
+        {
+            "i": 30084,
+            "n": "Eden's Gate: Sepulture",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 425
+        },
+        {
+            "i": 30085,
+            "n": "Eden's Gate: Sepulture (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 450
+        },
+        {
+            "i": 30086,
+            "n": "The Epic of Alexander (Ultimate)",
+            "c": 61832,
+            "t": "Ultimate Raids",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "max_ilvl": 475
+        },
+        {
+            "i": 30087,
+            "n": "The Copied Factory",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 435
+        },
+        {
+            "i": 30088,
+            "n": "Eden's Verse: Fulmination",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 455
+        },
+        {
+            "i": 30089,
+            "n": "Eden's Verse: Fulmination (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 470
+        },
+        {
+            "i": 30090,
+            "n": "Eden's Verse: Furor",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 455
+        },
+        {
+            "i": 30091,
+            "n": "Eden's Verse: Furor (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 475
+        },
+        {
+            "i": 30092,
+            "n": "Eden's Verse: Iconoclasm",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 455
+        },
+        {
+            "i": 30093,
+            "n": "Eden's Verse: Iconoclasm (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 480
+        },
+        {
+            "i": 30094,
+            "n": "Eden's Verse: Refulgence",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 455
+        },
+        {
+            "i": 30095,
+            "n": "Eden's Verse: Refulgence (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 480
+        },
+        {
+            "i": 30096,
+            "n": "The Puppets' Bunker",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 465
+        },
+        {
+            "i": 30097,
+            "n": "Eden's Promise: Umbra",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 485
+        },
+        {
+            "i": 30098,
+            "n": "Eden's Promise: Umbra (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 500
+        },
+        {
+            "i": 30099,
+            "n": "Eden's Promise: Litany",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 485
+        },
+        {
+            "i": 30100,
+            "n": "Eden's Promise: Litany (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 505
+        },
+        {
+            "i": 30101,
+            "n": "Eden's Promise: Anamorphosis",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 485
+        },
+        {
+            "i": 30102,
+            "n": "Eden's Promise: Anamorphosis (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 510
+        },
+        {
+            "i": 30103,
+            "n": "Eden's Promise: Eternity",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 485
+        },
+        {
+            "i": 30104,
+            "n": "Eden's Promise: Eternity (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 510
+        },
+        {
+            "i": 30105,
+            "n": "The Tower at Paradigm's Breach",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 80,
+            "max_lvl": 80,
+            "min_ilvl": 495
+        },
+        {
+            "i": 30106,
+            "n": "Dragonsong's Reprise (Ultimate)",
+            "c": 61832,
+            "t": "Ultimate Raids",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "max_ilvl": 605
+        },
+        {
+            "i": 30107,
+            "n": "Asphodelos: The Fourth Circle",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 565
+        },
+        {
+            "i": 30108,
+            "n": "Asphodelos: The Fourth Circle (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 580
+        },
+        {
+            "i": 30109,
+            "n": "Asphodelos: The Third Circle",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 565
+        },
+        {
+            "i": 30110,
+            "n": "Asphodelos: The Third Circle (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 580
+        },
+        {
+            "i": 30111,
+            "n": "Asphodelos: The First Circle",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 565
+        },
+        {
+            "i": 30112,
+            "n": "Asphodelos: The First Circle (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 570
+        },
+        {
+            "i": 30113,
+            "n": "Asphodelos: The Second Circle",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 565
+        },
+        {
+            "i": 30114,
+            "n": "Asphodelos: The Second Circle (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 575
+        },
+        {
+            "i": 30115,
+            "n": "Aglaia",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 565
+        },
+        {
+            "i": 30116,
+            "n": "Abyssos: The Fifth Circle",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 585
+        },
+        {
+            "i": 30117,
+            "n": "Abyssos: The Fifth Circle (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 600
+        },
+        {
+            "i": 30118,
+            "n": "Abyssos: The Seventh Circle",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 585
+        },
+        {
+            "i": 30119,
+            "n": "Abyssos: The Seventh Circle (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 610
+        },
+        {
+            "i": 30120,
+            "n": "Abyssos: The Sixth Circle",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 585
+        },
+        {
+            "i": 30121,
+            "n": "Abyssos: The Sixth Circle (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 605
+        },
+        {
+            "i": 30122,
+            "n": "Abyssos: The Eighth Circle",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 585
+        },
+        {
+            "i": 30123,
+            "n": "Abyssos: The Eighth Circle (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 610
+        },
+        {
+            "i": 30124,
+            "n": "The Omega Protocol (Ultimate)",
+            "c": 61832,
+            "t": "Ultimate Raids",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "max_ilvl": 635
+        },
+        {
+            "i": 30125,
+            "n": "Euphrosyne",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 595
+        },
+        {
+            "i": 30126,
+            "n": "Anabaseios: The Ninth Circle",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 615
+        },
+        {
+            "i": 30127,
+            "n": "Anabaseios: The Ninth Circle (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 630
+        },
+        {
+            "i": 30128,
+            "n": "Anabaseios: The Tenth Circle",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 615
+        },
+        {
+            "i": 30129,
+            "n": "Anabaseios: The Tenth Circle (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 635
+        },
+        {
+            "i": 30130,
+            "n": "Anabaseios: The Eleventh Circle",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 615
+        },
+        {
+            "i": 30131,
+            "n": "Anabaseios: The Eleventh Circle (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 640
+        },
+        {
+            "i": 30132,
+            "n": "Anabaseios: The Twelfth Circle",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 615
+        },
+        {
+            "i": 30133,
+            "n": "Anabaseios: The Twelfth Circle (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 640
+        },
+        {
+            "i": 30134,
+            "n": "Thaleia",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 625
+        },
+        {
+            "i": 30135,
+            "n": "AAC Light-heavyweight M1",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 100,
+            "max_lvl": 100,
+            "min_ilvl": 685
+        },
+        {
+            "i": 30136,
+            "n": "AAC Light-heavyweight M1 (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 100,
+            "max_lvl": 100,
+            "min_ilvl": 700
+        },
+        {
+            "i": 30137,
+            "n": "AAC Light-heavyweight M2",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 100,
+            "max_lvl": 100,
+            "min_ilvl": 685
+        },
+        {
+            "i": 30138,
+            "n": "AAC Light-heavyweight M2 (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 100,
+            "max_lvl": 100,
+            "min_ilvl": 705
+        },
+        {
+            "i": 30139,
+            "n": "AAC Light-heavyweight M3",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 100,
+            "max_lvl": 100,
+            "min_ilvl": 685
+        },
+        {
+            "i": 30140,
+            "n": "AAC Light-heavyweight M3 (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 100,
+            "max_lvl": 100,
+            "min_ilvl": 710
+        },
+        {
+            "i": 30141,
+            "n": "AAC Light-heavyweight M4",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 100,
+            "max_lvl": 100,
+            "min_ilvl": 685
+        },
+        {
+            "i": 30142,
+            "n": "AAC Light-heavyweight M4 (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 100,
+            "max_lvl": 100,
+            "min_ilvl": 710
+        },
+        {
+            "i": 30143,
+            "n": "Futures Rewritten (Ultimate)",
+            "c": 61832,
+            "t": "Ultimate Raids",
+            "min_lvl": 100,
+            "max_lvl": 100,
+            "max_ilvl": 735
+        },
+        {
+            "i": 30144,
+            "n": "Jeuno: The First Walk",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 100,
+            "max_lvl": 100,
+            "min_ilvl": 695
+        },
+        {
+            "i": 30145,
+            "n": "AAC Cruiserweight M1",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 100,
+            "max_lvl": 100,
+            "min_ilvl": 715
+        },
+        {
+            "i": 30146,
+            "n": "AAC Cruiserweight M1 (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 100,
+            "max_lvl": 100,
+            "min_ilvl": 730
+        },
+        {
+            "i": 30147,
+            "n": "AAC Cruiserweight M2",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 100,
+            "max_lvl": 100,
+            "min_ilvl": 715
+        },
+        {
+            "i": 30148,
+            "n": "AAC Cruiserweight M2 (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 100,
+            "max_lvl": 100,
+            "min_ilvl": 735
+        },
+        {
+            "i": 30149,
+            "n": "AAC Cruiserweight M3",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 100,
+            "max_lvl": 100,
+            "min_ilvl": 715
+        },
+        {
+            "i": 30150,
+            "n": "AAC Cruiserweight M3 (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 100,
+            "max_lvl": 100,
+            "min_ilvl": 740
+        },
+        {
+            "i": 30151,
+            "n": "AAC Cruiserweight M4",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 100,
+            "max_lvl": 100,
+            "min_ilvl": 715
+        },
+        {
+            "i": 30152,
+            "n": "AAC Cruiserweight M4 (Savage)",
+            "c": 61802,
+            "t": "Raids",
+            "min_lvl": 100,
+            "max_lvl": 100,
+            "min_ilvl": 740
+        },
+        {
+            "i": 35001,
+            "n": "All's Well That Starts Well",
+            "c": 61836,
+            "t": "The Masked Carnivale",
+            "min_lvl": 50,
+            "max_lvl": 50
+        },
+        {
+            "i": 35002,
+            "n": "Much Ado About Pudding",
+            "c": 61836,
+            "t": "The Masked Carnivale",
+            "min_lvl": 50,
+            "max_lvl": 50
+        },
+        {
+            "i": 35003,
+            "n": "Waiting for Golem",
+            "c": 61836,
+            "t": "The Masked Carnivale",
+            "min_lvl": 50,
+            "max_lvl": 50
+        },
+        {
+            "i": 35004,
+            "n": "Gentlemen Prefer Swords",
+            "c": 61836,
+            "t": "The Masked Carnivale",
+            "min_lvl": 50,
+            "max_lvl": 50
+        },
+        {
+            "i": 35005,
+            "n": "The Threepenny Turtles",
+            "c": 61836,
+            "t": "The Masked Carnivale",
+            "min_lvl": 50,
+            "max_lvl": 50
+        },
+        {
+            "i": 35006,
+            "n": "Eye Society",
+            "c": 61836,
+            "t": "The Masked Carnivale",
+            "min_lvl": 50,
+            "max_lvl": 50
+        },
+        {
+            "i": 35007,
+            "n": "A Chorus Slime",
+            "c": 61836,
+            "t": "The Masked Carnivale",
+            "min_lvl": 50,
+            "max_lvl": 50
+        },
+        {
+            "i": 35008,
+            "n": "Bomb-edy of Errors",
+            "c": 61836,
+            "t": "The Masked Carnivale",
+            "min_lvl": 50,
+            "max_lvl": 50
+        },
+        {
+            "i": 35009,
+            "n": "To Kill a Mockingslime",
+            "c": 61836,
+            "t": "The Masked Carnivale",
+            "min_lvl": 50,
+            "max_lvl": 50
+        },
+        {
+            "i": 35010,
+            "n": "A Little Knight Music",
+            "c": 61836,
+            "t": "The Masked Carnivale",
+            "min_lvl": 50,
+            "max_lvl": 50
+        },
+        {
+            "i": 35011,
+            "n": "Some Like It Excruciatingly Hot",
+            "c": 61836,
+            "t": "The Masked Carnivale",
+            "min_lvl": 50,
+            "max_lvl": 50
+        },
+        {
+            "i": 35012,
+            "n": "The Plant-om of the Opera",
+            "c": 61836,
+            "t": "The Masked Carnivale",
+            "min_lvl": 50,
+            "max_lvl": 50
+        },
+        {
+            "i": 35013,
+            "n": "Beauty and a Beast",
+            "c": 61836,
+            "t": "The Masked Carnivale",
+            "min_lvl": 50,
+            "max_lvl": 50
+        },
+        {
+            "i": 35014,
+            "n": "Blobs in the Woods",
+            "c": 61836,
+            "t": "The Masked Carnivale",
+            "min_lvl": 50,
+            "max_lvl": 50
+        },
+        {
+            "i": 35015,
+            "n": "The Me Nobody Nodes",
+            "c": 61836,
+            "t": "The Masked Carnivale",
+            "min_lvl": 50,
+            "max_lvl": 50
+        },
+        {
+            "i": 35016,
+            "n": "Sunset Bull-evard",
+            "c": 61836,
+            "t": "The Masked Carnivale",
+            "min_lvl": 50,
+            "max_lvl": 50
+        },
+        {
+            "i": 35017,
+            "n": "The Sword of Music",
+            "c": 61836,
+            "t": "The Masked Carnivale",
+            "min_lvl": 50,
+            "max_lvl": 50
+        },
+        {
+            "i": 35018,
+            "n": "Midsummer Night's Explosion",
+            "c": 61836,
+            "t": "The Masked Carnivale",
+            "min_lvl": 50,
+            "max_lvl": 50
+        },
+        {
+            "i": 35019,
+            "n": "On a Clear Day You Can Smell Forever",
+            "c": 61836,
+            "t": "The Masked Carnivale",
+            "min_lvl": 50,
+            "max_lvl": 50
+        },
+        {
+            "i": 35020,
+            "n": "Miss Typhon",
+            "c": 61836,
+            "t": "The Masked Carnivale",
+            "min_lvl": 50,
+            "max_lvl": 50
+        },
+        {
+            "i": 35021,
+            "n": "Chimera on a Hot Tin Roof",
+            "c": 61836,
+            "t": "The Masked Carnivale",
+            "min_lvl": 50,
+            "max_lvl": 50
+        },
+        {
+            "i": 35022,
+            "n": "Here Comes the Boom",
+            "c": 61836,
+            "t": "The Masked Carnivale",
+            "min_lvl": 50,
+            "max_lvl": 50
+        },
+        {
+            "i": 35023,
+            "n": "Behemoths and Broomsticks",
+            "c": 61836,
+            "t": "The Masked Carnivale",
+            "min_lvl": 50,
+            "max_lvl": 50
+        },
+        {
+            "i": 35024,
+            "n": "Amazing Technicolor Pit Fiends",
+            "c": 61836,
+            "t": "The Masked Carnivale",
+            "min_lvl": 50,
+            "max_lvl": 50
+        },
+        {
+            "i": 35025,
+            "n": "Dirty Rotten Azulmagia",
+            "c": 61836,
+            "t": "The Masked Carnivale",
+            "min_lvl": 50,
+            "max_lvl": 50
+        },
+        {
+            "i": 35026,
+            "n": "Papa Mia",
+            "c": 61836,
+            "t": "The Masked Carnivale",
+            "min_lvl": 60,
+            "max_lvl": 60
+        },
+        {
+            "i": 35027,
+            "n": "Lock up Your Snorters",
+            "c": 61836,
+            "t": "The Masked Carnivale",
+            "min_lvl": 60,
+            "max_lvl": 60
+        },
+        {
+            "i": 35028,
+            "n": "Dangerous When Dead",
+            "c": 61836,
+            "t": "The Masked Carnivale",
+            "min_lvl": 60,
+            "max_lvl": 60
+        },
+        {
+            "i": 35029,
+            "n": "Red, Fraught, and Blue",
+            "c": 61836,
+            "t": "The Masked Carnivale",
+            "min_lvl": 60,
+            "max_lvl": 60
+        },
+        {
+            "i": 35030,
+            "n": "The Catch of the Siegfried",
+            "c": 61836,
+            "t": "The Masked Carnivale",
+            "min_lvl": 60,
+            "max_lvl": 60
+        },
+        {
+            "i": 35031,
+            "n": "Anything Gogo's",
+            "c": 61836,
+            "t": "The Masked Carnivale",
+            "min_lvl": 70,
+            "max_lvl": 70
+        },
+        {
+            "i": 35032,
+            "n": "A Golden Opportunity",
+            "c": 61836,
+            "t": "The Masked Carnivale",
+            "min_lvl": 80,
+            "max_lvl": 80
+        },
+        {
+            "i": 36001,
+            "n": "The Sil'dihn Subterrane",
+            "c": 61846,
+            "t": "V&C Dungeon Finder",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 575,
+            "max_ilvl": 635
+        },
+        {
+            "i": 36002,
+            "n": "Mount Rokkon",
+            "c": 61846,
+            "t": "V&C Dungeon Finder",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 605,
+            "max_ilvl": 665
+        },
+        {
+            "i": 36003,
+            "n": "Aloalo Island",
+            "c": 61846,
+            "t": "V&C Dungeon Finder",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 605,
+            "max_ilvl": 665
+        },
+        {
+            "i": 37001,
+            "n": "Another Sil'dihn Subterrane",
+            "c": 61846,
+            "t": "V&C Dungeon Finder",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 610,
+            "max_ilvl": 635
+        },
+        {
+            "i": 37002,
+            "n": "Another Sil'dihn Subterrane (Savage)",
+            "c": 61846,
+            "t": "V&C Dungeon Finder",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "max_ilvl": 635
+        },
+        {
+            "i": 37003,
+            "n": "Another Mount Rokkon",
+            "c": 61846,
+            "t": "V&C Dungeon Finder",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 640,
+            "max_ilvl": 665
+        },
+        {
+            "i": 37004,
+            "n": "Another Mount Rokkon (Savage)",
+            "c": 61846,
+            "t": "V&C Dungeon Finder",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "max_ilvl": 665
+        },
+        {
+            "i": 37005,
+            "n": "Another Aloalo Island",
+            "c": 61846,
+            "t": "V&C Dungeon Finder",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "min_ilvl": 640,
+            "max_ilvl": 665
+        },
+        {
+            "i": 37006,
+            "n": "Another Aloalo Island (Savage)",
+            "c": 61846,
+            "t": "V&C Dungeon Finder",
+            "min_lvl": 90,
+            "max_lvl": 90,
+            "max_ilvl": 665
+        },
+        {
+            "i": 40027,
+            "n": "The Palaistra",
+            "c": 61806,
+            "t": "PvP",
+            "min_lvl": 30
+        },
+        {
+            "i": 40028,
+            "n": "The Volcanic Heart",
+            "c": 61806,
+            "t": "PvP",
+            "min_lvl": 30
+        },
+        {
+            "i": 40029,
+            "n": "Cloud Nine",
+            "c": 61806,
+            "t": "PvP",
+            "min_lvl": 30
+        },
+        {
+            "i": 40033,
+            "n": "Crystalline Conflict (Custom Match - The Palaistra)",
+            "c": 61806,
+            "t": "PvP",
+            "min_lvl": 30
+        },
+        {
+            "i": 40034,
+            "n": "Crystalline Conflict (Custom Match - The Volcanic Heart)",
+            "c": 61806,
+            "t": "PvP",
+            "min_lvl": 30
+        },
+        {
+            "i": 40035,
+            "n": "Crystalline Conflict (Custom Match - Cloud Nine)",
+            "c": 61806,
+            "t": "PvP",
+            "min_lvl": 30
+        },
+        {
+            "i": 40036,
+            "n": "The Clockwork Castletown",
+            "c": 61806,
+            "t": "PvP",
+            "min_lvl": 30
+        },
+        {
+            "i": 40037,
+            "n": "The Clockwork Castletown",
+            "c": 61806,
+            "t": "PvP",
+            "min_lvl": 30
+        },
+        {
+            "i": 40038,
+            "n": "Crystalline Conflict (Custom Match - The Clockwork Castletown)",
+            "c": 61806,
+            "t": "PvP",
+            "min_lvl": 30
+        },
+        {
+            "i": 40039,
+            "n": "The Red Sands",
+            "c": 61806,
+            "t": "PvP",
+            "min_lvl": 30
+        },
+        {
+            "i": 40040,
+            "n": "The Red Sands",
+            "c": 61806,
+            "t": "PvP",
+            "min_lvl": 30
+        },
+        {
+            "i": 40041,
+            "n": "Crystalline Conflict (Custom Match - The Red Sands)",
+            "c": 61806,
+            "t": "PvP",
+            "min_lvl": 30
+        },
+        {
+            "i": 50001,
+            "n": "The Borderland Ruins (Secure)",
+            "c": 61806,
+            "t": "PvP",
+            "min_lvl": 30
+        },
+        {
+            "i": 50004,
+            "n": "Seal Rock (Seize)",
+            "c": 61806,
+            "t": "PvP",
+            "min_lvl": 30
+        },
+        {
+            "i": 50005,
+            "n": "The Fields of Glory (Shatter)",
+            "c": 61806,
+            "t": "PvP",
+            "min_lvl": 30
+        },
+        {
+            "i": 50006,
+            "n": "Onsal Hakair (Danshig Naadam)",
+            "c": 61806,
+            "t": "PvP",
+            "min_lvl": 30
+        },
+        {
+            "i": 51001,
+            "n": "Astragalos",
+            "c": 61806,
+            "t": "PvP",
+            "min_lvl": 30
+        },
+        {
+            "i": 51002,
+            "n": "Hidden Gorge",
+            "c": 61806,
+            "t": "PvP",
+            "min_lvl": 30
+        },
+        {
+            "i": 55001,
+            "n": "The Aquapolis",
+            "c": 61808,
+            "t": "Treasure Hunt",
+            "min_lvl": 1,
+            "max_lvl": 60,
+            "max_ilvl": 180
+        },
+        {
+            "i": 55002,
+            "n": "The Lost Canals of Uznair",
+            "c": 61808,
+            "t": "Treasure Hunt",
+            "min_lvl": 1,
+            "max_lvl": 70,
+            "max_ilvl": 370
+        },
+        {
+            "i": 55003,
+            "n": "The Hidden Canals of Uznair",
+            "c": 61808,
+            "t": "Treasure Hunt",
+            "min_lvl": 1,
+            "max_lvl": 70,
+            "max_ilvl": 370
+        },
+        {
+            "i": 55004,
+            "n": "The Shifting Altars of Uznair",
+            "c": 61808,
+            "t": "Treasure Hunt",
+            "min_lvl": 1,
+            "max_lvl": 70,
+            "max_ilvl": 370
+        },
+        {
+            "i": 55006,
+            "n": "The Dungeons of Lyhe Ghiah",
+            "c": 61808,
+            "t": "Treasure Hunt",
+            "min_lvl": 1,
+            "max_lvl": 80,
+            "max_ilvl": 505
+        },
+        {
+            "i": 55008,
+            "n": "The Shifting Oubliettes of Lyhe Ghiah",
+            "c": 61808,
+            "t": "Treasure Hunt",
+            "min_lvl": 1,
+            "max_lvl": 80,
+            "max_ilvl": 505
+        },
+        {
+            "i": 55009,
+            "n": "The Excitatron 6000",
+            "c": 61808,
+            "t": "Treasure Hunt",
+            "min_lvl": 1,
+            "max_lvl": 90,
+            "max_ilvl": 635
+        },
+        {
+            "i": 55011,
+            "n": "The Shifting Gymnasion Agonon",
+            "c": 61808,
+            "t": "Treasure Hunt",
+            "min_lvl": 1,
+            "max_lvl": 90,
+            "max_ilvl": 635
+        },
+        {
+            "i": 55012,
+            "n": "Cenote Ja Ja Gural",
+            "c": 61808,
+            "t": "Treasure Hunt",
+            "min_lvl": 1,
+            "max_lvl": 100
+        },
+        {
+            "i": 60001,
+            "n": "The Palace of the Dead (Floors 1-10)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 1
+        },
+        {
+            "i": 60002,
+            "n": "The Palace of the Dead (Floors 11-20)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 1
+        },
+        {
+            "i": 60003,
+            "n": "The Palace of the Dead (Floors 21-30)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 1
+        },
+        {
+            "i": 60004,
+            "n": "The Palace of the Dead (Floors 31-40)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 1
+        },
+        {
+            "i": 60005,
+            "n": "The Palace of the Dead (Floors 41-50)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 1
+        },
+        {
+            "i": 60006,
+            "n": "The Palace of the Dead (Floors 51-60)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 1
+        },
+        {
+            "i": 60007,
+            "n": "The Palace of the Dead (Floors 61-70)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 1
+        },
+        {
+            "i": 60008,
+            "n": "The Palace of the Dead (Floors 71-80)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 1
+        },
+        {
+            "i": 60009,
+            "n": "The Palace of the Dead (Floors 81-90)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 1
+        },
+        {
+            "i": 60010,
+            "n": "The Palace of the Dead (Floors 91-100)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 1
+        },
+        {
+            "i": 60011,
+            "n": "The Palace of the Dead (Floors 101-110)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 1
+        },
+        {
+            "i": 60012,
+            "n": "The Palace of the Dead (Floors 111-120)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 1
+        },
+        {
+            "i": 60013,
+            "n": "The Palace of the Dead (Floors 121-130)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 1
+        },
+        {
+            "i": 60014,
+            "n": "The Palace of the Dead (Floors 131-140)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 1
+        },
+        {
+            "i": 60015,
+            "n": "The Palace of the Dead (Floors 141-150)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 1
+        },
+        {
+            "i": 60016,
+            "n": "The Palace of the Dead (Floors 151-160)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 1
+        },
+        {
+            "i": 60017,
+            "n": "The Palace of the Dead (Floors 161-170)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 1
+        },
+        {
+            "i": 60018,
+            "n": "The Palace of the Dead (Floors 171-180)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 1
+        },
+        {
+            "i": 60019,
+            "n": "The Palace of the Dead (Floors 181-190)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 1
+        },
+        {
+            "i": 60020,
+            "n": "The Palace of the Dead (Floors 191-200)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 1
+        },
+        {
+            "i": 60021,
+            "n": "Heaven-on-High (Floors 1-10)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 61
+        },
+        {
+            "i": 60022,
+            "n": "Heaven-on-High (Floors 11-20)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 61
+        },
+        {
+            "i": 60023,
+            "n": "Heaven-on-High (Floors 21-30)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 61
+        },
+        {
+            "i": 60024,
+            "n": "Heaven-on-High (Floors 31-40)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 61
+        },
+        {
+            "i": 60025,
+            "n": "Heaven-on-High (Floors 41-50)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 61
+        },
+        {
+            "i": 60026,
+            "n": "Heaven-on-High (Floors 51-60)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 61
+        },
+        {
+            "i": 60027,
+            "n": "Heaven-on-High (Floors 61-70)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 61
+        },
+        {
+            "i": 60028,
+            "n": "Heaven-on-High (Floors 71-80)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 61
+        },
+        {
+            "i": 60029,
+            "n": "Heaven-on-High (Floors 81-90)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 61
+        },
+        {
+            "i": 60030,
+            "n": "Heaven-on-High (Floors 91-100)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 61
+        },
+        {
+            "i": 60031,
+            "n": "Eureka Orthos (Floors 1-10)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 81
+        },
+        {
+            "i": 60032,
+            "n": "Eureka Orthos (Floors 11-20)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 81
+        },
+        {
+            "i": 60033,
+            "n": "Eureka Orthos (Floors 21-30)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 81
+        },
+        {
+            "i": 60034,
+            "n": "Eureka Orthos (Floors 31-40)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 81
+        },
+        {
+            "i": 60035,
+            "n": "Eureka Orthos (Floors 41-50)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 81
+        },
+        {
+            "i": 60036,
+            "n": "Eureka Orthos (Floors 51-60)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 81
+        },
+        {
+            "i": 60037,
+            "n": "Eureka Orthos (Floors 61-70)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 81
+        },
+        {
+            "i": 60038,
+            "n": "Eureka Orthos (Floors 71-80)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 81
+        },
+        {
+            "i": 60039,
+            "n": "Eureka Orthos (Floors 81-90)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 81
+        },
+        {
+            "i": 60040,
+            "n": "Eureka Orthos (Floors 91-100)",
+            "c": 61824,
+            "t": "Deep Dungeons",
+            "min_lvl": 81
+        },
+        {
+            "i": 61001,
+            "n": "Novice Mahjong (Full Ranked Match)",
+            "c": 61820,
+            "t": "Gold Saucer",
+            "min_lvl": 1
+        },
+        {
+            "i": 61002,
+            "n": "Advanced Mahjong (Full Ranked Match)",
+            "c": 61820,
+            "t": "Gold Saucer",
+            "min_lvl": 1
+        },
+        {
+            "i": 61003,
+            "n": "Four-player Mahjong (Full Match, Kuitan Enabled)",
+            "c": 61820,
+            "t": "Gold Saucer",
+            "min_lvl": 1
+        },
+        {
+            "i": 61004,
+            "n": "Four-player Mahjong (Full Match, Kuitan Disabled)",
+            "c": 61820,
+            "t": "Gold Saucer",
+            "min_lvl": 1
+        },
+        {
+            "i": 61005,
+            "n": "Novice Mahjong (Quick Ranked Match)",
+            "c": 61820,
+            "t": "Gold Saucer",
+            "min_lvl": 1
+        },
+        {
+            "i": 61006,
+            "n": "Advanced Mahjong (Quick Ranked Match)",
+            "c": 61820,
+            "t": "Gold Saucer",
+            "min_lvl": 1
+        },
+        {
+            "i": 61007,
+            "n": "Four-player Mahjong (Quick Match, Kuitan Enabled)",
+            "c": 61820,
+            "t": "Gold Saucer",
+            "min_lvl": 1
+        },
+        {
+            "i": 61008,
+            "n": "Four-player Mahjong (Quick Match, Kuitan Disabled)",
+            "c": 61820,
+            "t": "Gold Saucer",
+            "min_lvl": 1
+        },
+        {
+            "i": 62000,
+            "n": "Air Force One",
+            "c": 61820,
+            "t": "Gold Saucer",
+            "min_lvl": 1
+        },
+        {
+            "i": 62001,
+            "n": "Air Force One",
+            "c": 61820,
+            "t": "Gold Saucer",
+            "min_lvl": 1
+        },
+        {
+            "i": 62002,
+            "n": "Air Force One",
+            "c": 61820,
+            "t": "Gold Saucer",
+            "min_lvl": 1
+        },
+        {
+            "i": 63000,
+            "n": "Ocean Fishing",
+            "c": 61815,
+            "t": "Disciples of the Land",
+            "min_lvl": 1
+        },
+        {
+            "i": 63001,
+            "n": "Ocean Fishing",
+            "c": 61815,
+            "t": "Disciples of the Land",
+            "min_lvl": 1
+        },
+        {
+            "i": 63002,
+            "n": "Ocean Fishing",
+            "c": 61815,
+            "t": "Disciples of the Land",
+            "min_lvl": 1
+        },
+        {
+            "i": 63003,
+            "n": "Ocean Fishing",
+            "c": 61815,
+            "t": "Disciples of the Land",
+            "min_lvl": 1
+        },
+        {
+            "i": 63004,
+            "n": "Ocean Fishing",
+            "c": 61815,
+            "t": "Disciples of the Land",
+            "min_lvl": 1
+        },
+        {
+            "i": 63005,
+            "n": "Ocean Fishing",
+            "c": 61815,
+            "t": "Disciples of the Land",
+            "min_lvl": 1
+        },
+        {
+            "i": 63006,
+            "n": "Ocean Fishing",
+            "c": 61815,
+            "t": "Disciples of the Land",
+            "min_lvl": 1
+        },
+        {
+            "i": 63007,
+            "n": "Ocean Fishing",
+            "c": 61815,
+            "t": "Disciples of the Land",
+            "min_lvl": 1
+        },
+        {
+            "i": 63008,
+            "n": "Ocean Fishing",
+            "c": 61815,
+            "t": "Disciples of the Land",
+            "min_lvl": 1
+        },
+        {
+            "i": 63009,
+            "n": "Ocean Fishing",
+            "c": 61815,
+            "t": "Disciples of the Land",
+            "min_lvl": 1
+        },
+        {
+            "i": 63010,
+            "n": "Ocean Fishing",
+            "c": 61815,
+            "t": "Disciples of the Land",
+            "min_lvl": 1
+        },
+        {
+            "i": 63011,
+            "n": "Ocean Fishing",
+            "c": 61815,
+            "t": "Disciples of the Land",
+            "min_lvl": 1
+        },
+        {
+            "i": 63012,
+            "n": "Ocean Fishing",
+            "c": 61815,
+            "t": "Disciples of the Land",
+            "min_lvl": 1
+        },
+        {
+            "i": 63013,
+            "n": "Ocean Fishing",
+            "c": 61815,
+            "t": "Disciples of the Land",
+            "min_lvl": 1
+        },
+        {
+            "i": 63014,
+            "n": "Ocean Fishing",
+            "c": 61815,
+            "t": "Disciples of the Land",
+            "min_lvl": 1
+        },
+        {
+            "i": 63015,
+            "n": "Ocean Fishing",
+            "c": 61815,
+            "t": "Disciples of the Land",
+            "min_lvl": 1
+        },
+        {
+            "i": 63016,
+            "n": "Ocean Fishing",
+            "c": 61815,
+            "t": "Disciples of the Land",
+            "min_lvl": 1
+        },
+        {
+            "i": 63017,
+            "n": "Ocean Fishing",
+            "c": 61815,
+            "t": "Disciples of the Land",
+            "min_lvl": 1
+        },
+        {
+            "i": 64010,
+            "n": "Hells' Kier (Unreal)",
+            "c": 61804,
+            "t": "Trials",
+            "min_lvl": 100,
+            "max_lvl": 100,
+            "min_ilvl": 690,
+            "max_ilvl": 695
+        }
+    ]
+}

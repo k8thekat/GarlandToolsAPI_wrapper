@@ -1,0 +1,11 @@
+{
+    "status": {
+        "name": "Stun",
+        "description": "Unable to execute actions.",
+        "id": 2,
+        "icon": 215004,
+        "patch": 4.56,
+        "category": 2,
+        "canDispel": true
+    }
+}

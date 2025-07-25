@@ -1,0 +1,11 @@
+{
+    "achievement": {
+        "name": "To Crush Your Enemies IV",
+        "description": "Defeat 5,000 enemies.",
+        "id": 4,
+        "patch": 2.0,
+        "points": 10,
+        "category": 1,
+        "icon": 2565
+    }
+}

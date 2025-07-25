@@ -1,0 +1,202 @@
+{
+    "instance": {
+        "name": "Urth's Fount",
+        "category": "Trials",
+        "description": "In the moons following the Calamity, myriad rumors of ghastly creatures stalking the Twelveswood began spreading across the realm like wildfire. While most of the rumors have since been deemed unfounded, there is one series of events that has remained difficult to cast off as merely the ravings of broken-minded smallfolk: that concerning the supposed Dark Rider of the Shroud. After several deaths attributed to this mysterious figure, Seedseer O-App-Pesi sought communion with the spirits of the Twelveswood, only to learn that the rider was none other than the elder primal Odin. Slain in the Third Astral Era by an Allagan hero, why and how the primal has returned to Eorzea remains a mystery\u2500one now in the capable hands of Eorzea's adventurers.",
+        "id": 20027,
+        "patch": 2.38,
+        "categoryIcon": 61804,
+        "time": 60,
+        "min_lvl": 50,
+        "fullIcon": 112065,
+        "healer": 2,
+        "tank": 2,
+        "ranged": 2,
+        "melee": 2,
+        "max_lvl": 50,
+        "min_ilvl": 95,
+        "rewards": [
+            9823,
+            10037,
+            10038,
+            10039,
+            10040,
+            10041,
+            10152,
+            10153,
+            10154,
+            17651,
+            17651,
+            28,
+            10037,
+            10038,
+            10039,
+            10040,
+            10041,
+            10152,
+            10153,
+            10154,
+            9823
+        ],
+        "fights": [
+            {
+                "type": "Boss",
+                "currency": [
+                    {
+                        "id": 28,
+                        "amount": "15"
+                    }
+                ],
+                "coffer": {
+                    "items": [
+                        10037,
+                        10152,
+                        10038,
+                        10153,
+                        10039,
+                        10040,
+                        10154,
+                        10041,
+                        17651
+                    ]
+                }
+            }
+        ],
+        "unlockedByQuest": 65969
+    },
+    "partials": [
+        {
+            "type": "item",
+            "id": "9823",
+            "obj": {
+                "i": 9823,
+                "n": "Odin Card",
+                "l": 1,
+                "c": 27665,
+                "t": 86
+            }
+        },
+        {
+            "type": "item",
+            "id": "10037",
+            "obj": {
+                "i": 10037,
+                "n": "Dark Divinity Hjalmr",
+                "l": 50,
+                "c": 40183,
+                "t": 34
+            }
+        },
+        {
+            "type": "item",
+            "id": "10038",
+            "obj": {
+                "i": 10038,
+                "n": "Dark Divinity Herklaedi",
+                "l": 50,
+                "c": 48072,
+                "t": 35
+            }
+        },
+        {
+            "type": "item",
+            "id": "10039",
+            "obj": {
+                "i": 10039,
+                "n": "Dark Divinity Hanzkar",
+                "l": 50,
+                "c": 48457,
+                "t": 37
+            }
+        },
+        {
+            "type": "item",
+            "id": "10040",
+            "obj": {
+                "i": 10040,
+                "n": "Dark Divinity Brok",
+                "l": 50,
+                "c": 45523,
+                "t": 36
+            }
+        },
+        {
+            "type": "item",
+            "id": "10041",
+            "obj": {
+                "i": 10041,
+                "n": "Dark Divinity Skor",
+                "l": 50,
+                "c": 46973,
+                "t": 38
+            }
+        },
+        {
+            "type": "item",
+            "id": "10152",
+            "obj": {
+                "i": 10152,
+                "n": "Dark Divinity Auga",
+                "l": 50,
+                "c": 40943,
+                "t": 34
+            }
+        },
+        {
+            "type": "item",
+            "id": "10153",
+            "obj": {
+                "i": 10153,
+                "n": "Dark Divinity Feldr",
+                "l": 50,
+                "c": 42423,
+                "t": 35
+            }
+        },
+        {
+            "type": "item",
+            "id": "10154",
+            "obj": {
+                "i": 10154,
+                "n": "Dark Divinity Spjarrar",
+                "l": 50,
+                "c": 45540,
+                "t": 36
+            }
+        },
+        {
+            "type": "item",
+            "id": "17651",
+            "obj": {
+                "i": 17651,
+                "n": "Faded Copy of The Corpse Hall",
+                "l": 1,
+                "c": 25958,
+                "t": 94
+            }
+        },
+        {
+            "type": "quest",
+            "id": "65969",
+            "obj": {
+                "i": 65969,
+                "n": "Fear and Odin in the Shroud",
+                "g": 15,
+                "l": "Gridania",
+                "s": 8,
+                "f": 1
+            }
+        },
+        {
+            "type": "item",
+            "id": "28",
+            "obj": {
+                "i": 28,
+                "n": "Allagan Tomestone of Poetics",
+                "l": 1,
+                "c": 65023,
+                "t": 63
+            }
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "npc": {
+        "name": "Gyotaku",
+        "id": 1025610,
+        "patch": 4.3,
+        "coords": [
+            6.7,
+            23.31
+        ],
+        "zoneid": 2411,
+        "areaid": 2850
+    }
+}

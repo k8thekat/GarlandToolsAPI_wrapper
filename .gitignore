@@ -137,7 +137,4 @@ dmypy.json
 cache/
 
 # Project specific
-NOTES.md
 *logs
-*/_responses
-*local.py

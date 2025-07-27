@@ -1,3 +1,9 @@
+# Version - 0.2.0-dev - [248205f](https://github.com/k8thekat/GarlandToolsAPI_wrapper/commit/248205f)
+### Bug fix for language var.
+- Key error with `item()` endpoint fixed.
+- Failure to setup language parameter during init fixed.
+- Sorted classes in `_types` file.
+
 # Version - 0.1.3-dev - [e8a9bf5](https://github.com/k8thekat/GarlandToolsAPI_wrapper/commit/e8a9bf5)
 ### Minor Type changing.
 - Updated typecheckingMode for pyright to `strict`.

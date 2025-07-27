@@ -136,6 +136,27 @@ class Fights(TypedDict):
     coffer: Coffer
 
 
+class Fish(TypedDict):
+    guide: str
+    "Appears to be a little guide or tip; just a duplicate of the `description`"
+    icon: int
+    "Appears to be the fishing Guide Icon ID."
+    spots: list[FishingSpots]
+    "This related to information stored on `https://en.ff14angler.com` website."
+
+
+class FishingSpots(TypedDict):
+    spot: int
+    "Possibly related to a map/loc, same field as `fishingSpots` - `https://www.garlandtools.org/db/#fishing/{spot}`"
+    hookset: str
+    tug: str
+    "The strength of the bite."
+    ff14angerId: int
+    "This key belongs to the FF14 Angler Website. - `https://{language}.ff14angler.com/fish/{ff14angerId}`"
+    baits: list[list[int]]
+    "This key has a list of ints that relate to garlandtools urls. -`https://www.garlandtools.org/db/#item/{baits.id}`"
+
+
 class IDLvl(TypedDict):
     id: int
     lvl: int
@@ -338,27 +359,6 @@ class ItemData(TypedDict):
     seriesIndex: dict[str, IDName]
     partialIndex: dict[str, PartialIndex]
     ingredients: dict[str, Ingredients]
-
-
-class Fish(TypedDict):
-    guide: str
-    "Appears to be a little guide or tip; just a duplicate of the `description`"
-    icon: int
-    "Appears to be the fishing Guide Icon ID."
-    spots: list[FishingSpots]
-    "This related to information stored on `https://en.ff14angler.com` website."
-
-
-class FishingSpots(TypedDict):
-    spot: int
-    "Possibly related to a map/loc, same field as `fishingSpots` - `https://www.garlandtools.org/db/#fishing/{spot}`"
-    hookset: str
-    tug: str
-    "The strength of the bite."
-    ff14angerId: int
-    "This key belongs to the FF14 Angler Website. - `https://{language}.ff14angler.com/fish/{ff14angerId}`"
-    baits: list[list[int]]
-    "This key has a list of ints that relate to garlandtools urls. -`https://www.garlandtools.org/db/#item/{baits.id}`"
 
 
 class ItemRateAMount(TypedDict):

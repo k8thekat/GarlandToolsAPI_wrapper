@@ -140,7 +140,7 @@ def gitHub_initial_commit() -> None:
     update_changelog(version=version, new_commit=new_commit, files=files)
 
 
-def update_changelog(version: str, new_commit: str, files: dict) -> None:
+def update_changelog(version: str, new_commit: str, files: dict[str, list[str]]) -> None:
     # Format the data into the `CHANGELOG.md`
     set_version = f"# Version - {version} - [{new_commit[:7]}]({repo_url}/commit/{new_commit})\n"
     data = set_version

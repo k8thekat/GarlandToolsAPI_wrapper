@@ -23,7 +23,7 @@ from __future__ import annotations
 __title__ = "GarlandToolsAPI_wrapper"
 __author__ = "k8thekat"
 __license__ = "GNU"
-__version__ = "0.1.3-dev"
+__version__ = "0.2.0-dev"
 __credits__ = "Universalis, GarlandTools, GarlandTools-PIP and SquareEnix"
 
 from typing import Literal, NamedTuple
@@ -41,8 +41,8 @@ class VersionInfo(NamedTuple):  # noqa: D101
 
 version_info: VersionInfo = VersionInfo(  # noqa: F821
     major=0,
-    minor=1,
-    revision=3,
+    minor=2,
+    revision=0,
     release_level="development",
 )
 

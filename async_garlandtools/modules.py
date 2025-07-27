@@ -198,6 +198,8 @@ class GarlandToolsAsync:
                     )
                     break
                 self.language = Language.English
+        else:
+            self.language = language
 
         # This handles local cache building.
         if session is None:
@@ -526,7 +528,7 @@ class GarlandToolsAsync:
 
         """
         result: ResponseDataAlias = await self._request(f"{ITEM_ENDPOINT.replace(LANGUAGE, self.language.value)}{item_id}.json")
-        if not ("ingredients" in result and "item" in result) or isinstance(result, list):
+        if not ("partials" in result and "item" in result) or isinstance(result, list):
             raise GarlandToolsKeyError(key_name="item", func="item")
         return result
 

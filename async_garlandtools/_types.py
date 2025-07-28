@@ -632,7 +632,8 @@ class Reqs(TypedDict):
 class SearchResponse(TypedDict):
     """The JSON structure from :class:`GarlandAPIWrapper.search()` function."""
 
-    type: Any
+    type: str
+    "The type of the data. (eg. 'item', 'action', 'status', etc...)"
     id: str
     obj: PartialIndex
 

@@ -243,8 +243,8 @@ class GarlandToolsAsync:
 
     async def close(self) -> None:
         """Closes any open resources."""
-        LOGGER.debug("<%s._close()> | Closing open `%s` %s", __class__.__name__, type(self._session), self._session)
-        await self._session.close()
+        LOGGER.debug("<%s._close()> | Closing open `%s` %s", __class__.__name__, type(self.session), self.session)
+        await self.session.close()
 
     async def __aexit__(  # noqa: D105
         self,
@@ -316,9 +316,12 @@ class GarlandToolsAsync:
 
         # Currently used by icon and map_zone function.
         if content_only:
-            return await data.content.read()
+            content = await data.content.read()
+            LOGGER.debug("<%s._request> | Data: %s", __class__.__name__, content)
+            return content
 
         res: Any = await data.json()
+        LOGGER.debug("<%s._request> | Data: %s", __class__.__name__, res)
         return res
 
     async def achievement(self, achievement_id: int) -> AchievementResponse:
@@ -528,7 +531,7 @@ class GarlandToolsAsync:
 
         """
         result: ResponseDataAlias = await self._request(f"{ITEM_ENDPOINT.replace(LANGUAGE, self.language.value)}{item_id}.json")
-        if not ("partials" in result and "item" in result) or isinstance(result, list):
+        if "item" not in result or "voyages" in result or isinstance(result, list):
             raise GarlandToolsKeyError(key_name="item", func="item")
         return result
 

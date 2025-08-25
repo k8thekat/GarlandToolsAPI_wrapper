@@ -371,8 +371,8 @@ class ItemResponse(TypedDict):
     """The JSON structure from :class:`GarlandTools.item()` function."""
 
     item: Item
-    ingredients: list[Ingredients]
-    partials: list[PartialTypeIDObj]
+    ingredients: NotRequired[list[Ingredients]]
+    partials: NotRequired[list[PartialTypeIDObj]]
 
 
 class JobCategories(TypedDict):

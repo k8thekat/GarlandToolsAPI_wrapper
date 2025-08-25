@@ -23,13 +23,16 @@ from __future__ import annotations
 __title__ = "GarlandToolsAPI_wrapper"
 __author__ = "k8thekat"
 __license__ = "GNU"
-__version__ = "0.2.1-dev"
+__version__ = "1.0.0-dev"
 __credits__ = "Universalis, GarlandTools, GarlandTools-PIP and SquareEnix"
 
-from typing import Literal, NamedTuple
+from typing import TYPE_CHECKING, Literal, NamedTuple
 
 from ._enums import *
 from .modules import *
+
+if TYPE_CHECKING:
+    from ._types import *
 
 
 class VersionInfo(NamedTuple):  # noqa: D101
@@ -40,9 +43,9 @@ class VersionInfo(NamedTuple):  # noqa: D101
 
 
 version_info: VersionInfo = VersionInfo(  # noqa: F821
-    major=0,
-    minor=2,
-    revision=1,
+    major=1,
+    minor=0,
+    revision=0,
     release_level="development",
 )
 

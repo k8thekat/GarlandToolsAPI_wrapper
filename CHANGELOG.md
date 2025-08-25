@@ -1,3 +1,8 @@
+# Version - 0.2.1-dev - [4125129](https://github.com/k8thekat/GarlandToolsAPI_wrapper/commit/4125129)
+### Minor type update for Searches.
+- Updated `type` key for `SearchResponse` from `Any` to `str`.
+	- Added a brief doc showcasing some of its possible values.
+
 # Version - 0.2.0-dev - [248205f](https://github.com/k8thekat/GarlandToolsAPI_wrapper/commit/248205f)
 ### Bug fix for language var.
 - Key error with `item()` endpoint fixed.

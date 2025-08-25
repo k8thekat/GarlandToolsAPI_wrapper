@@ -1,3 +1,10 @@
+# Version - 1.0.0-dev - [3cedb59](https://github.com/k8thekat/GarlandToolsAPI_wrapper/commit/3cedb59)
+### Overall
+Merge remote-tracking branch 'refs/remotes/origin/development' into development
+- Logic for data structure checking was incorrect, causing a key error.
+- Updated `GarlandToolsKeyError` message to be more clear.
+- Updated `ItemResponse` key types.
+
 # Version - 0.2.1-dev - [4125129](https://github.com/k8thekat/GarlandToolsAPI_wrapper/commit/4125129)
 ### Minor type update for Searches.
 - Updated `type` key for `SearchResponse` from `Any` to `str`.

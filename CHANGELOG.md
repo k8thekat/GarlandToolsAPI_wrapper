@@ -1,3 +1,8 @@
+# Version - 1.1.0-dev - [029b3b9](https://github.com/k8thekat/GarlandToolsAPI_wrapper/commit/029b3b9)
+### Fixed type's for session objects to include `CachedSession`.
+- Fixed logic bug in the `node` function.
+- Changed `Item.patch` type from `int` to `float`.
+
 # Version - 1.0.0-dev - [3cedb59](https://github.com/k8thekat/GarlandToolsAPI_wrapper/commit/3cedb59)
 ### Overall
 Merge remote-tracking branch 'refs/remotes/origin/development' into development

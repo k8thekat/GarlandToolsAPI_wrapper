@@ -148,7 +148,7 @@ class GarlandToolsAsync:
     def __init__(
         self,
         *,
-        session: Optional[aiohttp.ClientSession] = None,
+        session: Optional[aiohttp.ClientSession | CachedSession] = None,
         cache_location: Optional[Path] = None,
         cache_expire_after: datetime.datetime | int | datetime.timedelta = 86400,
         language: str | Language = Language.English,
@@ -657,7 +657,7 @@ class GarlandToolsAsync:
 
         """
         result: ResponseDataAlias = await self._request(f"{NODE_ENDPOINT.replace(LANGUAGE, self.language.value)}{node_id}.json")
-        if not ("node" in result and "partials" in result) or isinstance(result, list):
+        if "node" not in result or isinstance(result, list):
             # if "node" not in result and "partials" not in result:
             raise GarlandToolsKeyError(key_name="node", func="node")
         return result

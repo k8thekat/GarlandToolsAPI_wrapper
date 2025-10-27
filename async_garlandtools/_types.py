@@ -260,7 +260,7 @@ class Item(TypedDict):
     "possibly use as a bool"
     elvl: NotRequired[int]
     jobs: NotRequired[int]
-    patch: int
+    patch: float
     patchCategory: int
     price: int
     ilvl: int

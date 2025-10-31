@@ -1,3 +1,7 @@
+# Version - 1.2.2 - [afa3ad7](https://github.com/k8thekat/GarlandToolsAPI_wrapper/commit/afa3ad7)
+### Update for Release.
+- Version bump and updated `__version__`.
+
 # Version - 1.2.1-dev - [348efe4](https://github.com/k8thekat/GarlandToolsAPI_wrapper/commit/348efe4)
 ### Updated pyproject.toml
 - Added a description.

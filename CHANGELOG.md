@@ -1,3 +1,8 @@
+# Version - 1.2.1-dev - [348efe4](https://github.com/k8thekat/GarlandToolsAPI_wrapper/commit/348efe4)
+### Updated pyproject.toml
+- Added a description.
+- Fixed ruff lint exclusions and keys.
+
 # Version - 1.2.0-dev - [8bc2796](https://github.com/k8thekat/GarlandToolsAPI_wrapper/commit/8bc2796)
 ### Updated Error handling
 - Added more information when an error is encountered.

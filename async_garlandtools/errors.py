@@ -33,10 +33,10 @@ class GarlandToolsRequestError(Exception):  # noqa: D101
 
 
 class GarlandToolsKeyError(Exception):  # noqa: D101
-    def __init__(self, key_name: str, func: str) -> None:  # noqa: D107
-        message = "We encountered an KeyError in our response data from GarlandTools in %s. | Missing Key Name: %s"
-        super().__init__(message, func, key_name)
-        LOGGER.error(message, func, key_name)
+    def __init__(self, key_name: str, func: str, *args: object) -> None:  # noqa: D107
+        message = "We encountered an KeyError in our response data from GarlandTools in %s. | Missing Key Name: %s | Args: %s"
+        super().__init__(message, func, key_name, *args)
+        LOGGER.error(message, func, key_name, *args)
 
 
 class GarlandToolsTypeError(Exception):  # noqa: D101

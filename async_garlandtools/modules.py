@@ -343,7 +343,7 @@ class GarlandToolsAsync:
         )
         # if not ("quest" in result and "partials" in result) or isinstance(result, list):
         if "achievement" not in result or isinstance(result, list):
-            raise GarlandToolsKeyError(key_name="achievement", func="achievement")
+            raise GarlandToolsKeyError("achievement", "achievement", achievement_id)  # noqa: EM101 # The message is being assigned and built in the class __init__.
         return result
 
     async def achievements(self) -> list[PartialIndex]:
@@ -408,7 +408,7 @@ class GarlandToolsAsync:
         """
         result: ResponseDataAlias = await self._request(f"{ENDGAME_GEAR_ENDPOINT.replace(LANGUAGE, self.language.value)}{job.value}.json")
         if "equip" not in result or isinstance(result, list):
-            raise GarlandToolsKeyError(key_name="equip", func="endgame_gear")
+            raise GarlandToolsKeyError("equip", "endgame_gear", job)  # noqa: EM101 # The message is being assigned and built in the class __init__.
         return result
 
     async def fate(self, fate_id: int) -> FateResponse:
@@ -427,7 +427,7 @@ class GarlandToolsAsync:
         """
         result: ResponseDataAlias = await self._request(f"{FATE_ENDPOINT.replace(LANGUAGE, self.language.value)}{fate_id}.json")
         if "fate" not in result or isinstance(result, list):
-            raise GarlandToolsKeyError(key_name="fate", func="fate")
+            raise GarlandToolsKeyError("fate", "fate", fate_id)  # noqa: EM101 # The message is being assigned and built in the class __init__.
         return result
 
     async def fates(self) -> list[PartialIndex]:
@@ -499,7 +499,7 @@ class GarlandToolsAsync:
         """
         result: ResponseDataAlias = await self._request(f"{INSTANCE_ENDPOINT.replace(LANGUAGE, self.language.value)}{instance_id}.json")
         if "instance" not in result or isinstance(result, list):
-            raise GarlandToolsKeyError(key_name="instance", func="instance")
+            raise GarlandToolsKeyError("instance", "instance", instance_id)  # noqa: EM101 # The message is being assigned and built in the class __init__.
         return result
 
     async def instances(self) -> list[PartialIndex]:
@@ -532,7 +532,7 @@ class GarlandToolsAsync:
         """
         result: ResponseDataAlias = await self._request(f"{ITEM_ENDPOINT.replace(LANGUAGE, self.language.value)}{item_id}.json")
         if "item" not in result or "voyages" in result or isinstance(result, list):
-            raise GarlandToolsKeyError(key_name="item", func="item")
+            raise GarlandToolsKeyError("item", "item", item_id)  # noqa: EM101 # The message is being assigned and built in the class __init__.
         return result
 
     async def leve(self, leve_id: int) -> LeveResponse:
@@ -551,7 +551,7 @@ class GarlandToolsAsync:
         """
         result: ResponseDataAlias = await self._request(f"{LEVE_ENDPOINT.replace(LANGUAGE, self.language.value)}{leve_id}.json")
         if "leve" not in result or isinstance(result, list):
-            raise GarlandToolsKeyError(key_name="leve", func="leve")
+            raise GarlandToolsKeyError("leve", "leve", leve_id)  # noqa: EM101 # The message is being assigned and built in the class __init__.
         return result
 
     async def leves(self) -> list[PartialIndex]:
@@ -584,7 +584,7 @@ class GarlandToolsAsync:
         """
         result: ResponseDataAlias = await self._request(f"{LEVELLING_ENDPOINT.replace(LANGUAGE, self.language.value)}{job.value}.json")
         if "equip" not in result or isinstance(result, list):
-            raise GarlandToolsKeyError(key_name="equip", func="leveling_gear")
+            raise GarlandToolsKeyError("equip", "leveling_gear", job)  # noqa: EM101 # The message is being assigned and built in the class __init__.
         return result
 
     async def map_zone(self, zone: str) -> Object:
@@ -625,7 +625,7 @@ class GarlandToolsAsync:
         """
         result: ResponseDataAlias = await self._request(f"{MOB_ENDPOINT.replace(LANGUAGE, self.language.value)}{mob_id}.json")
         if "mob" not in result or isinstance(result, list):
-            raise GarlandToolsKeyError(key_name="mob", func="mob")
+            raise GarlandToolsKeyError("mob", "mob", mob_id)  # noqa: EM101 # The message is being assigned and built in the class __init__.
         return result
 
     async def mobs(self) -> list[PartialIndex]:
@@ -659,7 +659,7 @@ class GarlandToolsAsync:
         result: ResponseDataAlias = await self._request(f"{NODE_ENDPOINT.replace(LANGUAGE, self.language.value)}{node_id}.json")
         if "node" not in result or isinstance(result, list):
             # if "node" not in result and "partials" not in result:
-            raise GarlandToolsKeyError(key_name="node", func="node")
+            raise GarlandToolsKeyError("node", "node", node_id)  # noqa: EM101 # The message is being assigned and built in the class __init__.
         return result
 
     async def nodes(self) -> list[PartialIndex]:
@@ -692,7 +692,7 @@ class GarlandToolsAsync:
         """
         result: ResponseDataAlias = await self._request(f"{NPC_ENDPOINT.replace(LANGUAGE, self.language.value)}{npc_id}.json")
         if "npc" not in result or isinstance(result, list):
-            raise GarlandToolsKeyError(key_name="npc", func="npc")
+            raise GarlandToolsKeyError("npc", "npc", npc_id)  # noqa: EM101 # The message is being assigned and built in the class __init__.
         return result
 
     async def npcs(self) -> list[PartialIndex]:
@@ -725,7 +725,7 @@ class GarlandToolsAsync:
         """
         result: ResponseDataAlias = await self._request(f"{QUEST_ENDPOINT.replace(LANGUAGE, self.language.value)}{quest_id}.json")
         if not ("quest" in result and "partials" in result) or isinstance(result, list):
-            raise GarlandToolsKeyError(key_name="quest", func="quest")
+            raise GarlandToolsKeyError("quest", "quest", quest_id)  # noqa: EM101 # The message is being assigned and built in the class __init__.
         return result
 
     async def quests(self) -> list[PartialIndex]:
@@ -780,7 +780,7 @@ class GarlandToolsAsync:
         """
         result: ResponseDataAlias = await self._request(f"{STATUS_ENDPOINT.replace(LANGUAGE, self.language.value)}{status_id}.json")
         if "status" not in result or isinstance(result, list):
-            raise GarlandToolsKeyError(key_name="status", func="status")
+            raise GarlandToolsKeyError("status", "status", status_id)  # noqa: EM101 # The message is being assigned and built in the class __init__.
         return result
 
     async def statuses(self) -> list[PartialIndex]:

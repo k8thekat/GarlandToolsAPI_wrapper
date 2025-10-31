@@ -1,0 +1,93 @@
+{
+    "quest": {
+        "name": "Perfectly Awful",
+        "location": "Old Sharlayan",
+        "id": 69682,
+        "patch": 6.0,
+        "sort": 0,
+        "icon": 101138,
+        "unlocksFunction": 1,
+        "eventIcon": 71341,
+        "issuer": 1039227,
+        "target": 1039220,
+        "genre": 201,
+        "reward": {
+            "items": [
+                {
+                    "num": 2,
+                    "id": 30482
+                }
+            ]
+        },
+        "reqs": {
+            "jobs": [
+                {
+                    "lvl": 80,
+                    "id": 153
+                }
+            ],
+            "quests": [
+                70009
+            ]
+        },
+        "next": [
+            69683
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1039227",
+            "obj": {
+                "i": 1039227,
+                "n": "Debroye",
+                "l": 3706,
+                "q": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1039220",
+            "obj": {
+                "i": 1039220,
+                "n": "Debroye",
+                "l": 3706,
+                "q": 7
+            }
+        },
+        {
+            "type": "item",
+            "id": "30482",
+            "obj": {
+                "i": 30482,
+                "n": "Chili Crab",
+                "l": 490,
+                "c": 24328,
+                "t": 46
+            }
+        },
+        {
+            "type": "quest",
+            "id": "70009",
+            "obj": {
+                "i": 70009,
+                "n": "The Faculty",
+                "g": 204,
+                "l": "Old Sharlayan",
+                "s": 10,
+                "f": 1
+            }
+        },
+        {
+            "type": "quest",
+            "id": "69683",
+            "obj": {
+                "i": 69683,
+                "n": "Make It Sweeter",
+                "g": 201,
+                "l": "Old Sharlayan",
+                "s": 0
+            }
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+[project]
+name = "async_garlandtools"
+dynamic = ["version"]
+authors = [{ name = "k8thekat", email = "Cadwalladerkatelynn@gmail.com" }]
+readme = { file = "README.md", content-type = "text/markdown" }
+description = "An un-offical fork of the Python wrapper for `GarlandTools-PIP` API in a asynchronous format."
+requires-python = ">=3.12.0"
+license = { file = "LICENSE" }
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.12",
+    "Framework :: AsyncIO",
+    "Topic :: Internet",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+    "Typing :: Typed",
+]
+keywords = [""]
+dependencies = [
+    "aiohttp>=3.12.13",
+    "aiohttp-client-cache>=0.13.0",
+    "aiosqlite>=0.21.0",
+]
+
+[project.urls]
+GitHub = "https://github.com/k8thekat/GarlandToolsAPI_wrapper"
+
+
+
+[tool.ruff]
+target-version = "py312"
+line-length = 140
+select = ["ALL"]
+ignore = [
+    "ANN401",
+    "D401", # Ignore "Imperative Mood" statement for docstrings.
+    "ERA001", #Ignore commented out code.
+    "FIX002", # Ignore TODO's telling you to "fix them".
+    "F401",
+    "F402",
+    "F403",
+    "F405",
+    "PERF203",
+    "PLR",
+    "RUF001",
+    "RUF002", # The character U+2013 "–" could be confused with the ASCII character U+002d "-", which is more common in source code.
+    "RUF009",
+    "RUF052", # for filtering "local dummy variable is accessed" eg. - vars using `_`
+    "SIM105",
+    "TD003", # Ignore TODO's not having a link/url to an issue.
+    "UP007",
+    "UP034",
+    "UP045", # Type var `Optional[X]` vs `X | None`
+]
+
+[tool.ruff.lint.isort]
+split-on-trailing-comma = false
+combine-as-imports = true
+
+[tool.ruff.lint.flake8-annotations]
+allow-star-arg-any = true
+
+[tool.ruff.lint.flake8-pytest-style]
+fixture-parentheses = false
+mark-parentheses = false
+parametrize-names-type = "tuple"
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
+typeCheckingMode = "strict"
+pythonVersion = "3.12"
+exclude = ["logs/**", "**/.venv/**", "**/.vscode-server/", "/usr/*"]
+include = [""]
+useLibraryCodeForTypes = true
+reportIncompatibleMethodOverride = false
+
+[tool.setuptools]
+packages = ["async_garlandtools"]
+include-package-data = true
+
+[tool.setuptools.dynamic]
+version = { attr = "async_garlandtools.__version__" }
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

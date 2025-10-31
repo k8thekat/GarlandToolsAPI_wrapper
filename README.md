@@ -1,137 +1,136 @@
-# GarlandTools PIP
+# Async GarlandTools
 
-Unofficial Python wrapper for [GarlandTools] API.  
+Unofficial fork of the Python wrapper for [GarlandTools-PIP] API.  
 
-> ⚠️ This is a public API.  
-> ⚠️ Please do not spam or abuse it in any shape or form.
+__Notable Changes__:
+- Overhauled response types to Typed Dicts
+- Switched from `requests` to `aiohttp`.
+    - Added `aiohttp_client_cache` to keep the features in line with the original [GarlandTools-PIP] project.
+    - *note* - This cannot support/use an old cache object!.
+- Created `Enums` for Language and Icon types to make it easier on the end user.
+- Added support for using the class as a context manager. See [Usage](#usage)
+
+---
+__Replacing GarlandTools-PIP ?__
+
+- Data is returned un-formatted unless mentioned otherwise to allow for an almost "drop-in" replacement from the [GarlandTools-PIP] library.
+- They did not return the `JSON` payload and instead returned the raw `request.Session` object.
+- All endpoint functions "should" overlap along with the parameters aside from one! (`icon`)
+
 
 Special thanks to [GarlandTools] for providing this API and keeping it updated.
 
 ## Table of Contents
 
-- [GarlandTools PIP](#garlandtools-pip)
-  - [Table of Contents](#table-of-contents)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Credits](#credits)
-  - [Versions](#versions)
+- [Installation](#installation)
+- [Endpoints](#endpoints)
+- [Usage](#usage)
+- [Credits](#credits)
+- [Changelog]
 
 ## Installation
 
-```bash
-pip install garlandtools
-```
+`pip install async_garlandtools`
+
+## Endpoints
+
+All [GarlandTools] endpoints are implemented in this API.  
+- All parameters asking for `*_id` are a an identifier from GarlandTools and or LamiaSheet.
+- Some endpoint's support an `Enum`; such as "leveling_gear" and "endgame_gear".
+- Some endpoint's return a generic `Object` class that houses response data as they return a `binary PNG` by default; see "map_zone" or "icon".
+
 
 ## Usage
+To use the API, first initialize the `GarlandToolsAsync` class:
+- The class supports context manager usage. (eg `async with`)
+- You should be closing the `GarlandToolsASync` Sessions via `GarlandToolsAsync.close()` unless you provided your own.
 
-All [GarlandTools] Endpoints are implemented in this API.  
-Below is a table showing all endpoints and whether they have an _id_ and/or _all_ endpoint.  
-An _id_ endpoint means there is a unique identifier that can be used to query information.
-Commonly an integer. However, there is also a `Job` enum and string endpoints.  
-An _all_ endpoint simply returns all data of that endpoint in a massive JSON file, no id needed but requires more filtering.
+**All Responses are TypedDicts outside of `map_zone` and `icon`.**
 
-All endpoints return JSON which is parsed into **unstructured** `dict`.
-This is true for all, but two endpoints: Map and Icon, which return a **binary PNG** instead.
-Additionally, the Search endpoint returns a `list`.  
-A full overview is below:
-
-| Endpoint Name | Has id endpoint | Has 'all' endpoint | Returns       |
-| ------------- | --------------- | ------------------ | ------------- |
-| Achievement   | ✅               | ✅                  | JSON (`dict`) |
-| Data          | ❌               | ✅                  | JSON (`dict`) |
-| Endgame Gear  | ❌ (`Job`)       | ❌                  | JSON (`dict`) |
-| Fate          | ✅               | ✅                  | JSON (`dict`) |
-| Fishing       | ❌               | ✅                  | JSON (`dict`) |
-| Icon          | ✅ (`str`)       | ❌                  | Binary PNG           |
-| Instance      | ✅               | ✅                  | JSON (`dict`) |
-| Item          | ✅               | ❌                  | JSON (`dict`) |
-| Leve          | ✅               | ✅                  | JSON (`dict`) |
-| Leveling Gear | ❌ (`Job`)       | ❌                  | JSON (`dict`) |
-| Map           | ✅ (`str`)       | ❌                  | Binary PNG           |
-| Mob           | ✅               | ✅                  | JSON (`dict`) |
-| Node          | ✅               | ✅                  | JSON (`dict`) |
-| NPC           | ✅               | ✅                  | JSON (`dict`) |
-| Quest         | ✅               | ✅                  | JSON (`dict`) |
-| Search        | ✅ (`str`)       | ❌                  | JSON (`list`) |
-| Status        | ✅               | ✅                  | JSON (`dict`) |
-
-To use the API, first initialize the `GarlandTools` class:
 
 ```python
-api = GarlandTools()
+from pathlib import Path
 
-# Optionally you can change the parameters:
-api = GarlandTools(cache_location=cache_location, cache_expire_after=cache_expire_after, language=language)
-# `cache_location` defines where the cache will be stored
-# `cache_expire_after` defines when the cache is expired (please don't disable `0` this or set it to some short amount of time. Item data is usually only updated on patches!)
-# `language` defines the language GarlandTools is returning the names and descriptions in
+import aiohttp
+from garlandtools import Job, IconType, Language, Object
+# You can import the class however you want, but this is a drop in replacement via naming.
+from garlandtools import GarlandToolsAsync as GarlandTools
+
+if TYPE_CHECKING:
+    from garlandtools._types import GearResponse, ItemResponse
+
+# You can specify a cache location if you want.
+# by default the cache location will be `Path(__file__).parent.joinpath("cache")`
+cache_loc: Path = Path(__file__).parent.joinpath("cache")
+
+# You can also change the language at any point via the `language` property.
+# by default the language is `en`
+lan = Language.English
+
+
+# First will be used as a context manager.
+async def context_sample() -> None:
+    # Also supports providing your own `aiohttp.ClientSession`; 
+    # but that will not allow the cache to be used unless you make a `CachedSession` object
+    # from `aiohttp_client_cache.session`.
+    async with GarlandTools(cache_location=cache_loc, language=lan) as garland_tools:
+        job = Job.DANCER
+        gear: GearResponse = await garland_tools.leveling_gear(job=job)
+        # You can access any relevant information via dict keys.
+        print(gear["equip"])
+        item_id = 10373
+        item: ItemResponse = await garland_tools.item(item_id=item_id)
+        # You can access any relevant information via dict keys.
+        print(item["item"], item["ingredients"])
+
+
+
+
+# Also supports providing your own `aiohttp.ClientSession`;
+# but that will not allow the cache to be used unless you make a `CachedSession` object
+# from `aiohttp_client_cache.session`.
+session = aiohttp.ClientSession()
+
+# This is using the class NOT as a context manager.
+async def sample() -> None:
+    # This GarlandTools object will not be able to cache as I provided an `aiohttp.ClientSession()`.
+    garland_tools = GarlandTools(session=session)
+    zone = "La Noscea/Lower La Noscea"
+    map_resp: Object = await garland_tools.map_zone(zone)
+    # Given `map_zone` used to return a binary PNG, that has been turned into a generic NamedTuple.
+    # You can access the raw bytes via the `data` attribute.
+    zone_raw: bytes = map_resp.data
+    # Maybe you want the direct url, well here ya go.
+    zone_url: str = map_resp.url
+    # You can access the original `zone` parameter you passed into the function.
+    zone_name: str = map_resp.zone
+
+    # -------------------------------------------
+    # Here is how to use the new `icon` endpoint.
+    # https://www.garlandtools.org/files/icons/achievement/2565.png
+    icon_id = 2565  # Achievement, "To Crush Your Enemies IV"
+    icon_type = IconType.achievement
+    # You have access to the same attributes as before as it's another `Object`.
+    icon_resp: Object = await garland_tools.icon(icon_id, icon_type)
+    # We also provide the original Enum to the response object for ease via `icon_type`.
+    print(icon_resp.url, icon_resp.icon_type)
+
+    # Since I provided my own `aiohttp.ClientSession()` I can either close it here via..
+    await garland_tools.close()
+    # or leave it open if I am using the Session elsewhere.
+
+
 ```
 
-Each endpoint has it's own function implemented in the `GarlandTools` class.  
-Simply call them and supply parameters if needed (_id_ endpoints, not on _all_ endpoints).  
-For example: Say we want to query a specific item and we know the item id is `2`.  
-All we need to do is:
-
-```python
-# 1. Initialize API
-api = GarlandTools()
-
-# 2. Query item
-item_id = 2
-response = api.item(item_id)
-
-# 3. Check if successful and retrieve JSON
-if response.ok:
-    item_json = response.json()
-else:
-    print(f'Failed querying item id '{item_id}' ({response.url}): [{response.status_code}] {response.reason}')
-```
-
-Alternatively, you can also try using `Response::json()` and catch exceptions:
-
-```python
-# 1. Initialize API
-api = GarlandTools()
-
-# 2. Query item
-item_id = 2
-response = api.item(item_id)
-
-# 3. Check if successful and retrieve JSON
-try:
-    item_json = response.json()
-except:
-    print(f'Failed querying item id '{item_id}' ({response.url}): [{response.status_code}] {response.reason}')
-```
-
-The resulting JSON is in most cases a `dict` in Python.  
-We can simply query it as an array: `item_json['query goes here']`.  
-It may also be helpful to use `print(item_json)` to see all the values.  
-
-> Tip: You can use `print(response.url)` to print out the query URL and open this in your browser.
-> Most browsers have a much better than JSON viewer than most IDEs/Editors.
-
-However, please keep in mind that select endpoints do not return JSON (or not `dict`, but `list`).
-In these cases the `Response::json()` will fail. Use `Response::text` or `Response::content` instead.
-
-There is an additional `search(query: str)` function to submit a search query.
-**However, please use this endpoint only if absolutely necessary and you don't know a certain ID.**
-
-All functions utilize a request caching package ([Requests-Cache]) which will create a local database of requests and only refresh after the cache is expired (default setting: 24h).  
+All functions utilize a `aiohttp_client_cache` caching package ([aiohttp-cache]) which will create a local database of requests and only refresh after the cache is expired (default setting: 24h).  
 [GarlandTools] only updates after patches usually.
 
 ## Credits
 
-I want to credit [GarlandTools] and [GarlandTools NodeJS project](https://github.com/karashiiro/garlandtools-api) without which this wouldn't be possible.
+I want to credit [GarlandTools] and [GarlandTools-PIP] project for providing a starting point for me to learn.
 
+[GTAsync]: GarlandToolsAsync
 [GarlandTools]: garlandtools.org/
-[Requests-Cache]: https://pypi.org/project/requests-cache/
-
-## Versions
-
-| Version | Supported | Description                                           |
-| ------- | --------- | ----------------------------------------------------- |
-| v2.0.0  | ✅         | Major rewrite, simpler to use and more organized now. |
-| v1.0.1  | ✅         | Minor bug fixes for v1.0.0.                           |
-| v1.0.0  | ❌         | Official first version.                               |
-| v0.1.0  | ❌         | Initial package. **DO NOT USE.**                      |
+[GarlandTools-PIP]: https://github.com/SakulFlee/GarlandTools-PIP
+[changelog]: https://github.com/k8thekat/GarlandToolsAPI_wrapper/blob/master/CHANGELOG.md
+[aiohttp-cache]: https://pypi.org/project/aiohttp-client-cache/

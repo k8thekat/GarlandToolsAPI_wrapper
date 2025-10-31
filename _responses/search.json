@@ -1,0 +1,1183 @@
+[
+    {
+        "type": "action",
+        "id": "17580",
+        "obj": {
+            "i": 17580,
+            "n": "Magitek Acceleration Bomb",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "17634",
+        "obj": {
+            "i": 17634,
+            "n": "Magitek Acceleration Bomb",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "17635",
+        "obj": {
+            "i": 17635,
+            "n": "Magitek Acceleration Bomb",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "item",
+        "id": "45505",
+        "obj": {
+            "i": 45505,
+            "n": "Magitek Attire",
+            "l": 1,
+            "c": 42948,
+            "t": 112,
+            "g": 3,
+            "r": 1
+        }
+    },
+    {
+        "type": "item",
+        "id": "24631",
+        "obj": {
+            "i": 24631,
+            "n": "Magitek Avenger A1 Identification Key",
+            "l": 1,
+            "c": 26014,
+            "t": 63,
+            "g": 17,
+            "r": 1
+        }
+    },
+    {
+        "type": "mob",
+        "id": "78560000006360",
+        "obj": {
+            "i": 78560000006360,
+            "n": "Magitek Avenger E1",
+            "l": "69",
+            "z": 2408
+        }
+    },
+    {
+        "type": "item",
+        "id": "20541",
+        "obj": {
+            "i": 20541,
+            "n": "Magitek Avenger F1",
+            "l": 1,
+            "c": 59657,
+            "t": 81,
+            "g": 11,
+            "r": 1
+        }
+    },
+    {
+        "type": "item",
+        "id": "39493",
+        "obj": {
+            "i": 39493,
+            "n": "Magitek Avenger G1 Identification Key",
+            "l": 1,
+            "c": 26014,
+            "t": 63,
+            "p": 50000000,
+            "g": 17,
+            "r": 1
+        }
+    },
+    {
+        "type": "item",
+        "id": "21053",
+        "obj": {
+            "i": 21053,
+            "n": "Magitek Avenger Identification Key",
+            "l": 1,
+            "c": 26014,
+            "t": 63,
+            "g": 17,
+            "r": 1
+        }
+    },
+    {
+        "type": "action",
+        "id": "20441",
+        "obj": {
+            "i": 20441,
+            "n": "Magitek Bartizan",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "18790",
+        "obj": {
+            "i": 18790,
+            "n": "Magitek Bit",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "19153",
+        "obj": {
+            "i": 19153,
+            "n": "Magitek Bit",
+            "c": 405,
+            "j": null,
+            "t": 4,
+            "l": 0
+        }
+    },
+    {
+        "type": "mob",
+        "id": "20370000002142",
+        "obj": {
+            "i": 20370000002142,
+            "n": "Magitek Bit",
+            "l": "50",
+            "z": 430
+        }
+    },
+    {
+        "type": "action",
+        "id": "21518",
+        "obj": {
+            "i": 21518,
+            "n": "Magitek Bit",
+            "c": 405,
+            "j": null,
+            "t": 4,
+            "l": 0
+        }
+    },
+    {
+        "type": "mob",
+        "id": "23250000002142",
+        "obj": {
+            "i": 23250000002142,
+            "n": "Magitek Bit",
+            "l": "50",
+            "z": 477
+        }
+    },
+    {
+        "type": "action",
+        "id": "23724",
+        "obj": {
+            "i": 23724,
+            "n": "Magitek Bit",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "mob",
+        "id": "64590000005563",
+        "obj": {
+            "i": 64590000005563,
+            "n": "Magitek Bit",
+            "l": "60",
+            "z": 1857
+        }
+    },
+    {
+        "type": "action",
+        "id": "7357",
+        "obj": {
+            "i": 7357,
+            "n": "Magitek Bit",
+            "c": 405,
+            "j": null,
+            "t": 4,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "23952",
+        "obj": {
+            "i": 23952,
+            "n": "Magitek Blaster",
+            "c": 405,
+            "j": null,
+            "t": 4,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "21578",
+        "obj": {
+            "i": 21578,
+            "n": "Magitek Blizzard III",
+            "c": 405,
+            "j": null,
+            "t": 2,
+            "l": 0
+        }
+    },
+    {
+        "type": "item",
+        "id": "39306",
+        "obj": {
+            "i": 39306,
+            "n": "Magitek Bottoms",
+            "l": 1,
+            "c": 47978,
+            "t": 36,
+            "g": 3,
+            "j": 1,
+            "r": 1,
+            "e": 1
+        }
+    },
+    {
+        "type": "action",
+        "id": "19678",
+        "obj": {
+            "i": 19678,
+            "n": "Magitek Burst",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "19679",
+        "obj": {
+            "i": 19679,
+            "n": "Magitek Burst",
+            "c": 405,
+            "j": null,
+            "t": 2,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "19790",
+        "obj": {
+            "i": 19790,
+            "n": "Magitek Burst",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "19791",
+        "obj": {
+            "i": 19791,
+            "n": "Magitek Burst",
+            "c": 405,
+            "j": null,
+            "t": 2,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "23932",
+        "obj": {
+            "i": 23932,
+            "n": "Magitek Burst",
+            "c": 405,
+            "j": null,
+            "t": 4,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "1128",
+        "obj": {
+            "i": 1128,
+            "n": "Magitek Cannon",
+            "c": 61108,
+            "j": 0,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "1204",
+        "obj": {
+            "i": 1204,
+            "n": "Magitek Cannon",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "1430",
+        "obj": {
+            "i": 1430,
+            "n": "Magitek Cannon",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "1432",
+        "obj": {
+            "i": 1432,
+            "n": "Magitek Cannon",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "1439",
+        "obj": {
+            "i": 1439,
+            "n": "Magitek Cannon",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "14963",
+        "obj": {
+            "i": 14963,
+            "n": "Magitek Cannon",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "20108",
+        "obj": {
+            "i": 20108,
+            "n": "Magitek Cannon",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "20109",
+        "obj": {
+            "i": 20109,
+            "n": "Magitek Cannon",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "20110",
+        "obj": {
+            "i": 20110,
+            "n": "Magitek Cannon",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "21337",
+        "obj": {
+            "i": 21337,
+            "n": "Magitek Cannon",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "21505",
+        "obj": {
+            "i": 21505,
+            "n": "Magitek Cannon",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "21950",
+        "obj": {
+            "i": 21950,
+            "n": "Magitek Cannon",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "23178",
+        "obj": {
+            "i": 23178,
+            "n": "Magitek Cannon",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "24067",
+        "obj": {
+            "i": 24067,
+            "n": "Magitek Cannon",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "2434",
+        "obj": {
+            "i": 2434,
+            "n": "Magitek Cannon",
+            "c": 64161,
+            "j": 0,
+            "t": 12,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "24792",
+        "obj": {
+            "i": 24792,
+            "n": "Magitek Cannon",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "24865",
+        "obj": {
+            "i": 24865,
+            "n": "Magitek Cannon",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "24947",
+        "obj": {
+            "i": 24947,
+            "n": "Magitek Cannon",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "24954",
+        "obj": {
+            "i": 24954,
+            "n": "Magitek Cannon",
+            "c": 405,
+            "j": null,
+            "t": 4,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "24975",
+        "obj": {
+            "i": 24975,
+            "n": "Magitek Cannon",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "25100",
+        "obj": {
+            "i": 25100,
+            "n": "Magitek Cannon",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "26231",
+        "obj": {
+            "i": 26231,
+            "n": "Magitek Cannon",
+            "c": 61108,
+            "j": 0,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "27457",
+        "obj": {
+            "i": 27457,
+            "n": "Magitek Cannon",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "27859",
+        "obj": {
+            "i": 27859,
+            "n": "Magitek Cannon",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "28132",
+        "obj": {
+            "i": 28132,
+            "n": "Magitek Cannon",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "28775",
+        "obj": {
+            "i": 28775,
+            "n": "Magitek Cannon",
+            "c": 405,
+            "j": null,
+            "t": 4,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "29180",
+        "obj": {
+            "i": 29180,
+            "n": "Magitek Cannon",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "39006",
+        "obj": {
+            "i": 39006,
+            "n": "Magitek Cannon",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "4711",
+        "obj": {
+            "i": 4711,
+            "n": "Magitek Cannon",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "7352",
+        "obj": {
+            "i": 7352,
+            "n": "Magitek Cannon",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "7619",
+        "obj": {
+            "i": 7619,
+            "n": "Magitek Cannon",
+            "c": 61108,
+            "j": 0,
+            "t": 4,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "7912",
+        "obj": {
+            "i": 7912,
+            "n": "Magitek Cannon",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "8347",
+        "obj": {
+            "i": 8347,
+            "n": "Magitek Cannon",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "8403",
+        "obj": {
+            "i": 8403,
+            "n": "Magitek Cannon",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "8577",
+        "obj": {
+            "i": 8577,
+            "n": "Magitek Cannon",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "8579",
+        "obj": {
+            "i": 8579,
+            "n": "Magitek Cannon",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "9121",
+        "obj": {
+            "i": 9121,
+            "n": "Magitek Cannon",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "9449",
+        "obj": {
+            "i": 9449,
+            "n": "Magitek Cannon",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "25331",
+        "obj": {
+            "i": 25331,
+            "n": "Magitek Chakram",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "mob",
+        "id": "71280000006207",
+        "obj": {
+            "i": 71280000006207,
+            "n": "Magitek Chakram",
+            "l": "67",
+            "z": 2810
+        }
+    },
+    {
+        "type": "action",
+        "id": "19156",
+        "obj": {
+            "i": 19156,
+            "n": "Magitek Charge",
+            "c": 405,
+            "j": null,
+            "t": 4,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "23173",
+        "obj": {
+            "i": 23173,
+            "n": "Magitek Claw",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "23706",
+        "obj": {
+            "i": 23706,
+            "n": "Magitek Claw",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "23795",
+        "obj": {
+            "i": 23795,
+            "n": "Magitek Claw",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "7346",
+        "obj": {
+            "i": 7346,
+            "n": "Magitek Claw",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "npc",
+        "id": "1039362",
+        "obj": {
+            "i": 1039362,
+            "n": "Magitek Colossus ",
+            "l": 3710
+        }
+    },
+    {
+        "type": "mob",
+        "id": "20310000000297",
+        "obj": {
+            "i": 20310000000297,
+            "n": "Magitek Colossus",
+            "l": "50",
+            "z": 260
+        }
+    },
+    {
+        "type": "mob",
+        "id": "21780000000297",
+        "obj": {
+            "i": 21780000000297,
+            "n": "Magitek Colossus",
+            "l": "48",
+            "z": 67
+        }
+    },
+    {
+        "type": "mob",
+        "id": "22490000000297",
+        "obj": {
+            "i": 22490000000297,
+            "n": "Magitek Colossus",
+            "l": "50",
+            "z": 260
+        }
+    },
+    {
+        "type": "mob",
+        "id": "22520000000297",
+        "obj": {
+            "i": 22520000000297,
+            "n": "Magitek Colossus",
+            "l": "50",
+            "z": 430
+        }
+    },
+    {
+        "type": "mob",
+        "id": "64740000005555",
+        "obj": {
+            "i": 64740000005555,
+            "n": "Magitek Colossus",
+            "l": "60",
+            "z": 1857
+        }
+    },
+    {
+        "type": "item",
+        "id": "16763",
+        "obj": {
+            "i": 16763,
+            "n": "Magitek Colossus Card",
+            "l": 1,
+            "c": 27663,
+            "t": 86,
+            "g": 14,
+            "r": 1
+        }
+    },
+    {
+        "type": "mob",
+        "id": "18840000002117",
+        "obj": {
+            "i": 18840000002117,
+            "n": "Magitek Colossus Rubricatus",
+            "l": "50",
+            "z": 260
+        }
+    },
+    {
+        "type": "action",
+        "id": "19120",
+        "obj": {
+            "i": 19120,
+            "n": "Magitek Comet",
+            "c": 405,
+            "j": null,
+            "t": 2,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "27472",
+        "obj": {
+            "i": 27472,
+            "n": "Magitek Compressor",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "27473",
+        "obj": {
+            "i": 27473,
+            "n": "Magitek Compressor",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "27474",
+        "obj": {
+            "i": 27474,
+            "n": "Magitek Compressor",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "item",
+        "id": "23025",
+        "obj": {
+            "i": 23025,
+            "n": "Magitek Conveyor Identification Key",
+            "l": 1,
+            "c": 26014,
+            "t": 63,
+            "g": 17,
+            "r": 1
+        }
+    },
+    {
+        "type": "action",
+        "id": "15864",
+        "obj": {
+            "i": 15864,
+            "n": "Magitek Crossray",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "23991",
+        "obj": {
+            "i": 23991,
+            "n": "Magitek Crossray",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "mob",
+        "id": "19730000002121",
+        "obj": {
+            "i": 19730000002121,
+            "n": "Magitek Death Claw",
+            "l": "50",
+            "z": 430
+        }
+    },
+    {
+        "type": "mob",
+        "id": "22500000002121",
+        "obj": {
+            "i": 22500000002121,
+            "n": "Magitek Death Claw",
+            "l": "50",
+            "z": 260
+        }
+    },
+    {
+        "type": "mob",
+        "id": "22530000002121",
+        "obj": {
+            "i": 22530000002121,
+            "n": "Magitek Death Claw",
+            "l": "50",
+            "z": 430
+        }
+    },
+    {
+        "type": "item",
+        "id": "16759",
+        "obj": {
+            "i": 16759,
+            "n": "Magitek Death Claw Card",
+            "l": 1,
+            "c": 27662,
+            "t": 86,
+            "g": 14,
+            "r": 1
+        }
+    },
+    {
+        "type": "item",
+        "id": "21906",
+        "obj": {
+            "i": 21906,
+            "n": "Magitek Death Claw Identification Key",
+            "l": 1,
+            "c": 26014,
+            "t": 63,
+            "g": 17,
+            "r": 1
+        }
+    },
+    {
+        "type": "action",
+        "id": "18850",
+        "obj": {
+            "i": 18850,
+            "n": "Magitek Decoy",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "8272",
+        "obj": {
+            "i": 8272,
+            "n": "Magitek Disruptor",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "item",
+        "id": "39303",
+        "obj": {
+            "i": 39303,
+            "n": "Magitek Ear Guards",
+            "l": 1,
+            "c": 56566,
+            "t": 34,
+            "g": 3,
+            "j": 1,
+            "r": 1,
+            "e": 1
+        }
+    },
+    {
+        "type": "npc",
+        "id": "1032570",
+        "obj": {
+            "i": 1032570,
+            "n": "Magitek Engineer"
+        }
+    },
+    {
+        "type": "action",
+        "id": "18849",
+        "obj": {
+            "i": 18849,
+            "n": "Magitek Explosive",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "25336",
+        "obj": {
+            "i": 25336,
+            "n": "Magitek Explosive",
+            "c": 405,
+            "j": null,
+            "t": 3,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "12256",
+        "obj": {
+            "i": 12256,
+            "n": "Magitek Field",
+            "c": 405,
+            "j": null,
+            "t": 4,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "1373",
+        "obj": {
+            "i": 1373,
+            "n": "Magitek Field",
+            "c": 405,
+            "j": null,
+            "t": 4,
+            "l": 0
+        }
+    },
+    {
+        "type": "action",
+        "id": "14369",
+        "obj": {
+            "i": 14369,
+            "n": "Magitek Field",
+            "c": 405,
+            "j": null,
+            "t": 2,
+            "l": 0
+        }
+    }
+]

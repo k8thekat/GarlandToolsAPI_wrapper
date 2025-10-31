@@ -1,0 +1,5817 @@
+{
+    "browse": [
+        {
+            "i": 153,
+            "n": "Spineless Basin",
+            "l": 5,
+            "t": 0,
+            "z": 43
+        },
+        {
+            "i": 154,
+            "n": "Hammerlea",
+            "l": 5,
+            "t": 0,
+            "z": 42
+        },
+        {
+            "i": 155,
+            "n": "Black Brush",
+            "l": 10,
+            "t": 0,
+            "z": 43
+        },
+        {
+            "i": 159,
+            "n": "Horizon's Edge",
+            "l": 15,
+            "t": 1,
+            "z": 42
+        },
+        {
+            "i": 11,
+            "n": "Jadeite Thick",
+            "l": 5,
+            "t": 2,
+            "z": 54
+        },
+        {
+            "i": 19,
+            "n": "Bentbranch",
+            "l": 15,
+            "t": 3,
+            "z": 54
+        },
+        {
+            "i": 21,
+            "n": "Bentbranch",
+            "l": 15,
+            "t": 3,
+            "z": 54
+        },
+        {
+            "i": 30,
+            "n": "Summerford",
+            "l": 15,
+            "t": 3,
+            "z": 30
+        },
+        {
+            "i": 10,
+            "n": "Cedarwood",
+            "l": 10,
+            "t": 2,
+            "z": 31
+        },
+        {
+            "i": 12,
+            "n": "Treespeak",
+            "l": 5,
+            "t": 2,
+            "z": 57
+        },
+        {
+            "i": 13,
+            "n": "Treespeak",
+            "l": 5,
+            "t": 2,
+            "z": 57
+        },
+        {
+            "i": 15,
+            "n": "Treespeak",
+            "l": 10,
+            "t": 2,
+            "z": 57
+        },
+        {
+            "i": 16,
+            "n": "Greentear",
+            "l": 10,
+            "t": 2,
+            "z": 54
+        },
+        {
+            "i": 17,
+            "n": "Bentbranch",
+            "l": 15,
+            "t": 2,
+            "z": 54
+        },
+        {
+            "i": 36,
+            "n": "The Red Labyrinth",
+            "l": 35,
+            "t": 1,
+            "z": 45
+        },
+        {
+            "i": 22,
+            "n": "Nine Ivies",
+            "l": 20,
+            "t": 2,
+            "z": 55
+        },
+        {
+            "i": 23,
+            "n": "Nine Ivies",
+            "l": 20,
+            "t": 3,
+            "z": 55
+        },
+        {
+            "i": 24,
+            "n": "Upper Paths",
+            "l": 25,
+            "t": 2,
+            "z": 56
+        },
+        {
+            "i": 14,
+            "n": "Horizon's Edge",
+            "l": 15,
+            "t": 3,
+            "z": 42
+        },
+        {
+            "i": 26,
+            "n": "Alder Springs",
+            "l": 30,
+            "t": 3,
+            "z": 57
+        },
+        {
+            "i": 27,
+            "n": "Silent Arbor",
+            "l": 30,
+            "t": 2,
+            "z": 56
+        },
+        {
+            "i": 28,
+            "n": "Lower Paths",
+            "l": 35,
+            "t": 2,
+            "z": 56
+        },
+        {
+            "i": 29,
+            "n": "Lower Paths",
+            "l": 35,
+            "t": 3,
+            "z": 56
+        },
+        {
+            "i": 18,
+            "n": "Nophica's Wells",
+            "l": 15,
+            "t": 3,
+            "z": 42
+        },
+        {
+            "i": 25,
+            "n": "The Clutch",
+            "l": 15,
+            "t": 3,
+            "z": 43
+        },
+        {
+            "i": 31,
+            "n": "Moraby Bay",
+            "l": 15,
+            "t": 3,
+            "z": 31
+        },
+        {
+            "i": 175,
+            "n": "Spineless Basin",
+            "l": 30,
+            "t": 2,
+            "z": 43
+        },
+        {
+            "i": 33,
+            "n": "Black Brush",
+            "l": 20,
+            "t": 2,
+            "z": 43
+        },
+        {
+            "i": 34,
+            "n": "Cedarwood",
+            "l": 20,
+            "t": 2,
+            "z": 31
+        },
+        {
+            "i": 35,
+            "n": "Skull Valley",
+            "l": 20,
+            "t": 2,
+            "z": 33
+        },
+        {
+            "i": 38,
+            "n": "Sandgate",
+            "l": 20,
+            "t": 3,
+            "z": 44
+        },
+        {
+            "i": 47,
+            "n": "Upper Paths",
+            "l": 25,
+            "t": 0,
+            "z": 56
+        },
+        {
+            "i": 48,
+            "n": "Upper Paths",
+            "l": 25,
+            "t": 1,
+            "z": 56
+        },
+        {
+            "i": 49,
+            "n": "Urth's Gift",
+            "l": 40,
+            "t": 0,
+            "z": 56
+        },
+        {
+            "i": 39,
+            "n": "Quarterstone",
+            "l": 20,
+            "t": 3,
+            "z": 33
+        },
+        {
+            "i": 40,
+            "n": "Drybone",
+            "l": 25,
+            "t": 3,
+            "z": 44
+        },
+        {
+            "i": 173,
+            "n": "Bentbranch",
+            "l": 30,
+            "t": 2,
+            "z": 54
+        },
+        {
+            "i": 41,
+            "n": "Oakwood",
+            "l": 25,
+            "t": 3,
+            "z": 34
+        },
+        {
+            "i": 139,
+            "n": "Three-malm Bend",
+            "l": 30,
+            "t": 2,
+            "z": 30
+        },
+        {
+            "i": 165,
+            "n": "Upper Paths",
+            "l": 30,
+            "t": 2,
+            "z": 56
+        },
+        {
+            "i": 171,
+            "n": "Peacegarden",
+            "l": 30,
+            "t": 2,
+            "z": 57
+        },
+        {
+            "i": 133,
+            "n": "Broken Water",
+            "l": 35,
+            "t": 3,
+            "z": 45
+        },
+        {
+            "i": 134,
+            "n": "Bloodshore",
+            "l": 35,
+            "t": 3,
+            "z": 32
+        },
+        {
+            "i": 137,
+            "n": "Raincatcher Gully",
+            "l": 40,
+            "t": 2,
+            "z": 32
+        },
+        {
+            "i": 184,
+            "n": "Bloodshore",
+            "l": 30,
+            "t": 2,
+            "z": 32
+        },
+        {
+            "i": 140,
+            "n": "Lower Paths",
+            "l": 40,
+            "t": 3,
+            "z": 56
+        },
+        {
+            "i": 141,
+            "n": "Raincatcher Gully",
+            "l": 40,
+            "t": 3,
+            "z": 32
+        },
+        {
+            "i": 142,
+            "n": "Whitebrim",
+            "l": 45,
+            "t": 2,
+            "z": 63
+        },
+        {
+            "i": 143,
+            "n": "Bronze Lake",
+            "l": 45,
+            "t": 3,
+            "z": 34
+        },
+        {
+            "i": 197,
+            "n": "Summerford",
+            "l": 50,
+            "t": 2,
+            "z": 30
+        },
+        {
+            "i": 198,
+            "n": "Raincatcher Gully",
+            "l": 50,
+            "t": 2,
+            "z": 32
+        },
+        {
+            "i": 147,
+            "n": "The Bramble Patch",
+            "l": 50,
+            "t": 2,
+            "z": 55
+        },
+        {
+            "i": 148,
+            "n": "Spineless Basin",
+            "l": 10,
+            "t": 2,
+            "z": 43
+        },
+        {
+            "i": 149,
+            "n": "Sagolii Desert",
+            "l": 50,
+            "t": 3,
+            "z": 45
+        },
+        {
+            "i": 46,
+            "n": "Bronze Lake",
+            "l": 45,
+            "t": 1,
+            "z": 34
+        },
+        {
+            "i": 151,
+            "n": "The Silver Bazaar",
+            "l": 50,
+            "t": 1,
+            "z": 42
+        },
+        {
+            "i": 152,
+            "n": "Treespeak",
+            "l": 10,
+            "t": 0,
+            "z": 57
+        },
+        {
+            "i": 156,
+            "n": "Hammerlea",
+            "l": 10,
+            "t": 0,
+            "z": 42
+        },
+        {
+            "i": 157,
+            "n": "Spineless Basin",
+            "l": 5,
+            "t": 0,
+            "z": 43
+        },
+        {
+            "i": 158,
+            "n": "Horizon's Edge",
+            "l": 15,
+            "t": 0,
+            "z": 42
+        },
+        {
+            "i": 160,
+            "n": "Drybone",
+            "l": 20,
+            "t": 0,
+            "z": 44
+        },
+        {
+            "i": 161,
+            "n": "Skull Valley",
+            "l": 20,
+            "t": 0,
+            "z": 33
+        },
+        {
+            "i": 204,
+            "n": "Nophica's Wells",
+            "l": 30,
+            "t": 1,
+            "z": 42
+        },
+        {
+            "i": 206,
+            "n": "The Tangle",
+            "l": 5,
+            "t": 0,
+            "z": 67
+        },
+        {
+            "i": 164,
+            "n": "Three-malm Bend",
+            "l": 20,
+            "t": 1,
+            "z": 30
+        },
+        {
+            "i": 166,
+            "n": "Skull Valley",
+            "l": 20,
+            "t": 1,
+            "z": 33
+        },
+        {
+            "i": 167,
+            "n": "Oakwood",
+            "l": 25,
+            "t": 1,
+            "z": 34
+        },
+        {
+            "i": 168,
+            "n": "Wellwick Wood",
+            "l": 30,
+            "t": 0,
+            "z": 44
+        },
+        {
+            "i": 169,
+            "n": "Sagolii Desert",
+            "l": 30,
+            "t": 1,
+            "z": 45
+        },
+        {
+            "i": 200,
+            "n": "Nine Ivies",
+            "l": 30,
+            "t": 1,
+            "z": 55
+        },
+        {
+            "i": 201,
+            "n": "Wellwick Wood",
+            "l": 30,
+            "t": 1,
+            "z": 44
+        },
+        {
+            "i": 202,
+            "n": "Broken Water",
+            "l": 30,
+            "t": 1,
+            "z": 45
+        },
+        {
+            "i": 176,
+            "n": "Oakwood",
+            "l": 30,
+            "t": 1,
+            "z": 34
+        },
+        {
+            "i": 177,
+            "n": "Sagolii Desert",
+            "l": 35,
+            "t": 0,
+            "z": 45
+        },
+        {
+            "i": 178,
+            "n": "Sorrel Haven",
+            "l": 35,
+            "t": 0,
+            "z": 54
+        },
+        {
+            "i": 179,
+            "n": "Bloodshore",
+            "l": 35,
+            "t": 0,
+            "z": 32
+        },
+        {
+            "i": 180,
+            "n": "Dragonhead",
+            "l": 40,
+            "t": 0,
+            "z": 63
+        },
+        {
+            "i": 208,
+            "n": "Whitebrim",
+            "l": 5,
+            "t": 0,
+            "z": 63
+        },
+        {
+            "i": 203,
+            "n": "Cedarwood",
+            "l": 30,
+            "t": 1,
+            "z": 31
+        },
+        {
+            "i": 185,
+            "n": "Drybone",
+            "l": 45,
+            "t": 0,
+            "z": 44
+        },
+        {
+            "i": 186,
+            "n": "Bronze Lake",
+            "l": 45,
+            "t": 0,
+            "z": 34
+        },
+        {
+            "i": 187,
+            "n": "Cedarwood",
+            "l": 10,
+            "t": 0,
+            "z": 31
+        },
+        {
+            "i": 20,
+            "n": "Bluefog",
+            "l": 40,
+            "t": 1,
+            "z": 46
+        },
+        {
+            "i": 189,
+            "n": "Bluefog",
+            "l": 50,
+            "t": 0,
+            "z": 46
+        },
+        {
+            "i": 190,
+            "n": "Peacegarden",
+            "l": 20,
+            "t": 0,
+            "z": 57
+        },
+        {
+            "i": 209,
+            "n": "The Bramble Patch",
+            "l": 50,
+            "t": 1,
+            "z": 55
+        },
+        {
+            "i": 210,
+            "n": "Quarterstone",
+            "l": 50,
+            "t": 1,
+            "z": 33
+        },
+        {
+            "i": 150,
+            "n": "The Gods' Grip",
+            "l": 50,
+            "t": 1,
+            "z": 31
+        },
+        {
+            "i": 194,
+            "n": "Black Brush",
+            "l": 15,
+            "t": 1,
+            "z": 43
+        },
+        {
+            "i": 199,
+            "n": "The Clutch",
+            "l": 50,
+            "t": 2,
+            "z": 43
+        },
+        {
+            "i": 205,
+            "n": "Quarterstone",
+            "l": 30,
+            "t": 1,
+            "z": 33
+        },
+        {
+            "i": 211,
+            "n": "Providence Point",
+            "l": 50,
+            "t": 2,
+            "z": 63,
+            "s": 1,
+            "lt": "Unspoiled",
+            "ti": [
+                9
+            ]
+        },
+        {
+            "i": 212,
+            "n": "Dragonhead",
+            "l": 50,
+            "t": 2,
+            "z": 63,
+            "s": 1,
+            "lt": "Unspoiled",
+            "ti": [
+                13
+            ]
+        },
+        {
+            "i": 213,
+            "n": "Whitebrim",
+            "l": 50,
+            "t": 2,
+            "z": 63,
+            "s": 1,
+            "lt": "Unspoiled",
+            "ti": [
+                17
+            ]
+        },
+        {
+            "i": 214,
+            "n": "Bloodshore",
+            "l": 50,
+            "t": 2,
+            "z": 32,
+            "s": 1,
+            "lt": "Unspoiled",
+            "ti": [
+                9
+            ]
+        },
+        {
+            "i": 215,
+            "n": "North Silvertear",
+            "l": 50,
+            "t": 2,
+            "z": 67,
+            "lt": "Unspoiled",
+            "ti": [
+                1,
+                5,
+                9
+            ]
+        },
+        {
+            "i": 216,
+            "n": "Nine Ivies",
+            "l": 50,
+            "t": 3,
+            "z": 55,
+            "s": 1,
+            "lt": "Unspoiled",
+            "ti": [
+                1
+            ]
+        },
+        {
+            "i": 217,
+            "n": "The Bramble Patch",
+            "l": 50,
+            "t": 3,
+            "z": 55,
+            "s": 1,
+            "lt": "Unspoiled",
+            "ti": [
+                5
+            ]
+        },
+        {
+            "i": 218,
+            "n": "The Honey Yard",
+            "l": 50,
+            "t": 3,
+            "z": 55,
+            "s": 1,
+            "lt": "Unspoiled",
+            "ti": [
+                21
+            ]
+        },
+        {
+            "i": 219,
+            "n": "Bloodshore",
+            "l": 50,
+            "t": 3,
+            "z": 32,
+            "s": 1,
+            "lt": "Unspoiled",
+            "ti": [
+                5
+            ]
+        },
+        {
+            "i": 220,
+            "n": "Raincatcher Gully",
+            "l": 50,
+            "t": 3,
+            "z": 32,
+            "s": 1,
+            "lt": "Unspoiled",
+            "ti": [
+                13
+            ]
+        },
+        {
+            "i": 221,
+            "n": "Drybone",
+            "l": 50,
+            "t": 3,
+            "z": 44,
+            "s": 1,
+            "lt": "Unspoiled",
+            "ti": [
+                13
+            ]
+        },
+        {
+            "i": 222,
+            "n": "Dragonhead",
+            "l": 50,
+            "t": 0,
+            "z": 63,
+            "s": 1,
+            "lt": "Unspoiled",
+            "ti": [
+                1
+            ]
+        },
+        {
+            "i": 223,
+            "n": "The Burning Wall",
+            "l": 50,
+            "t": 0,
+            "z": 44,
+            "s": 1,
+            "lt": "Unspoiled",
+            "ti": [
+                9
+            ]
+        },
+        {
+            "i": 224,
+            "n": "Raincatcher Gully",
+            "l": 50,
+            "t": 1,
+            "z": 32,
+            "s": 1,
+            "lt": "Unspoiled",
+            "ti": [
+                17
+            ]
+        },
+        {
+            "i": 225,
+            "n": "Dragonhead",
+            "l": 50,
+            "t": 1,
+            "z": 63,
+            "s": 1,
+            "lt": "Unspoiled",
+            "ti": [
+                21
+            ]
+        },
+        {
+            "i": 226,
+            "n": "Yugr'am River",
+            "l": 50,
+            "t": 1,
+            "z": 44,
+            "s": 1,
+            "lt": "Unspoiled",
+            "ti": [
+                5
+            ]
+        },
+        {
+            "i": 227,
+            "n": "North Silvertear",
+            "l": 50,
+            "t": 1,
+            "z": 67,
+            "lt": "Unspoiled",
+            "ti": [
+                13,
+                17,
+                21
+            ]
+        },
+        {
+            "i": 230,
+            "n": "Alder Springs",
+            "l": 50,
+            "t": 2,
+            "z": 57,
+            "s": 2,
+            "lt": "Unspoiled",
+            "ti": [
+                3
+            ]
+        },
+        {
+            "i": 231,
+            "n": "Summerford",
+            "l": 50,
+            "t": 2,
+            "z": 30,
+            "s": 2,
+            "lt": "Unspoiled",
+            "ti": [
+                9
+            ]
+        },
+        {
+            "i": 232,
+            "n": "Bronze Lake",
+            "l": 50,
+            "t": 2,
+            "z": 34,
+            "s": 2,
+            "lt": "Unspoiled",
+            "ti": [
+                7
+            ]
+        },
+        {
+            "i": 233,
+            "n": "Sorrel Haven",
+            "l": 50,
+            "t": 3,
+            "z": 54,
+            "s": 2,
+            "lt": "Unspoiled",
+            "ti": [
+                2
+            ]
+        },
+        {
+            "i": 234,
+            "n": "Quarterstone",
+            "l": 50,
+            "t": 3,
+            "z": 33,
+            "s": 2,
+            "lt": "Unspoiled",
+            "ti": [
+                8
+            ]
+        },
+        {
+            "i": 235,
+            "n": "Cedarwood",
+            "l": 50,
+            "t": 3,
+            "z": 31,
+            "s": 2,
+            "lt": "Unspoiled",
+            "ti": [
+                6
+            ]
+        },
+        {
+            "i": 236,
+            "n": "Raubahn's Push",
+            "l": 50,
+            "t": 0,
+            "z": 46,
+            "s": 2,
+            "lt": "Unspoiled",
+            "ti": [
+                3
+            ]
+        },
+        {
+            "i": 237,
+            "n": "Black Brush",
+            "l": 50,
+            "t": 0,
+            "z": 43,
+            "s": 2,
+            "lt": "Unspoiled",
+            "ti": [
+                4
+            ]
+        },
+        {
+            "i": 238,
+            "n": "Moraby Bay",
+            "l": 50,
+            "t": 0,
+            "z": 31,
+            "s": 2,
+            "lt": "Unspoiled",
+            "ti": [
+                18
+            ]
+        },
+        {
+            "i": 239,
+            "n": "Zephyr Drift",
+            "l": 50,
+            "t": 1,
+            "z": 30,
+            "s": 1,
+            "lt": "Unspoiled",
+            "ti": [
+                19
+            ]
+        },
+        {
+            "i": 240,
+            "n": "Lower Paths",
+            "l": 50,
+            "t": 1,
+            "z": 56,
+            "s": 1,
+            "lt": "Unspoiled",
+            "ti": [
+                6
+            ]
+        },
+        {
+            "i": 241,
+            "n": "Hammerlea",
+            "l": 50,
+            "t": 1,
+            "z": 42,
+            "s": 1,
+            "lt": "Unspoiled",
+            "ti": [
+                5
+            ]
+        },
+        {
+            "i": 242,
+            "n": "Upper Paths",
+            "l": 50,
+            "t": 2,
+            "z": 56,
+            "s": 1,
+            "lt": "Unspoiled",
+            "ti": [
+                2
+            ]
+        },
+        {
+            "i": 243,
+            "n": "Proud Creek",
+            "l": 5,
+            "t": 2,
+            "z": 57
+        },
+        {
+            "i": 244,
+            "n": "The Tangle",
+            "l": 5,
+            "t": 2,
+            "z": 67
+        },
+        {
+            "i": 170,
+            "n": "Whitebrim",
+            "l": 5,
+            "t": 2,
+            "z": 63
+        },
+        {
+            "i": 181,
+            "n": "Peacegarden",
+            "l": 5,
+            "t": 0,
+            "z": 57
+        },
+        {
+            "i": 245,
+            "n": "Greentear",
+            "l": 50,
+            "t": 2,
+            "z": 54,
+            "s": 2,
+            "lt": "Unspoiled",
+            "ti": [
+                6
+            ]
+        },
+        {
+            "i": 246,
+            "n": "Wellwick Wood",
+            "l": 50,
+            "t": 1,
+            "z": 44,
+            "s": 2,
+            "lt": "Unspoiled",
+            "ti": [
+                2
+            ]
+        },
+        {
+            "i": 247,
+            "n": "Broken Water",
+            "l": 50,
+            "t": 0,
+            "z": 45,
+            "s": 3,
+            "lt": "Unspoiled",
+            "ti": [
+                4
+            ]
+        },
+        {
+            "i": 248,
+            "n": "Zephyr Drift",
+            "l": 50,
+            "t": 2,
+            "z": 30,
+            "s": 3,
+            "lt": "Unspoiled",
+            "ti": [
+                4
+            ]
+        },
+        {
+            "i": 249,
+            "n": "Bentbranch",
+            "l": 50,
+            "t": 2,
+            "z": 54,
+            "s": 3,
+            "lt": "Unspoiled",
+            "ti": [
+                10
+            ]
+        },
+        {
+            "i": 250,
+            "n": "Red Mantis Falls",
+            "l": 50,
+            "t": 1,
+            "z": 32,
+            "s": 3,
+            "lt": "Unspoiled",
+            "ti": [
+                1
+            ]
+        },
+        {
+            "i": 251,
+            "n": "Nine Ivies",
+            "l": 50,
+            "t": 3,
+            "z": 55,
+            "s": 3,
+            "lt": "Unspoiled",
+            "ti": [
+                17
+            ]
+        },
+        {
+            "i": 252,
+            "n": "Bluefog",
+            "l": 50,
+            "t": 0,
+            "z": 46,
+            "s": 3,
+            "lt": "Unspoiled",
+            "ti": [
+                17
+            ]
+        },
+        {
+            "i": 284,
+            "n": "Riversmeet",
+            "l": 50,
+            "t": 0,
+            "z": 2200,
+            "s": 3
+        },
+        {
+            "i": 285,
+            "n": "Gorgagne Holding",
+            "l": 55,
+            "t": 0,
+            "z": 2200
+        },
+        {
+            "i": 286,
+            "n": "Chocobo Forest",
+            "l": 55,
+            "t": 0,
+            "z": 2000
+        },
+        {
+            "i": 287,
+            "n": "The Smoldering Wastes",
+            "l": 55,
+            "t": 0,
+            "z": 2000
+        },
+        {
+            "i": 288,
+            "n": "Twinpools",
+            "l": 55,
+            "t": 1,
+            "z": 2200
+        },
+        {
+            "i": 351,
+            "n": "Red Rim",
+            "l": 60,
+            "t": 0,
+            "z": 2200
+        },
+        {
+            "i": 352,
+            "n": "Avalonia Fallen",
+            "l": 60,
+            "t": 0,
+            "z": 2000,
+            "s": 1
+        },
+        {
+            "i": 353,
+            "n": "The Makers' Quarter",
+            "l": 60,
+            "t": 0,
+            "z": 2001
+        },
+        {
+            "i": 355,
+            "n": "Landlord Colony",
+            "l": 60,
+            "t": 1,
+            "z": 2002,
+            "s": 1
+        },
+        {
+            "i": 354,
+            "n": "Voor Sian Siran",
+            "l": 60,
+            "t": 0,
+            "z": 2100
+        },
+        {
+            "i": 294,
+            "n": "Riversmeet",
+            "l": 50,
+            "t": 2,
+            "z": 2200,
+            "s": 3
+        },
+        {
+            "i": 295,
+            "n": "The Smoldering Wastes",
+            "l": 55,
+            "t": 2,
+            "z": 2000
+        },
+        {
+            "i": 296,
+            "n": "Twinpools",
+            "l": 55,
+            "t": 3,
+            "z": 2200
+        },
+        {
+            "i": 297,
+            "n": "Chocobo Forest",
+            "l": 55,
+            "t": 3,
+            "z": 2000
+        },
+        {
+            "i": 298,
+            "n": "Landlord Colony",
+            "l": 55,
+            "t": 3,
+            "z": 2002
+        },
+        {
+            "i": 356,
+            "n": "Voor Sian Siran",
+            "l": 60,
+            "t": 2,
+            "z": 2100
+        },
+        {
+            "i": 300,
+            "n": "Twinpools",
+            "l": 60,
+            "t": 3,
+            "z": 2200,
+            "s": 1
+        },
+        {
+            "i": 358,
+            "n": "Avalonia Fallen",
+            "l": 60,
+            "t": 3,
+            "z": 2000,
+            "s": 1
+        },
+        {
+            "i": 359,
+            "n": "Four Arms",
+            "l": 60,
+            "t": 3,
+            "z": 2002
+        },
+        {
+            "i": 360,
+            "n": "The Blue Window",
+            "l": 60,
+            "t": 3,
+            "z": 2100
+        },
+        {
+            "i": 361,
+            "n": "The Answering Quarter",
+            "l": 60,
+            "t": 3,
+            "z": 2001
+        },
+        {
+            "i": 305,
+            "n": "Black Iron Bridge",
+            "l": 60,
+            "t": 1,
+            "z": 2200,
+            "s": 1,
+            "lt": "Ephemeral",
+            "ti": [
+                20
+            ]
+        },
+        {
+            "i": 306,
+            "n": "The Smoldering Wastes",
+            "l": 55,
+            "t": 0,
+            "z": 2000,
+            "lt": "Unspoiled",
+            "ti": [
+                4,
+                16
+            ]
+        },
+        {
+            "i": 308,
+            "n": "The Blue Window",
+            "l": 60,
+            "t": 0,
+            "z": 2100,
+            "lt": "Unspoiled",
+            "ti": [
+                2,
+                14
+            ]
+        },
+        {
+            "i": 310,
+            "n": "Mirage Creek",
+            "l": 65,
+            "t": 0,
+            "z": 2406,
+            "lt": "Unspoiled",
+            "ti": [
+                8,
+                20
+            ]
+        },
+        {
+            "i": 307,
+            "n": "Avalonia Fallen",
+            "l": 60,
+            "t": 1,
+            "z": 2000,
+            "s": 1,
+            "lt": "Ephemeral",
+            "ti": [
+                4
+            ]
+        },
+        {
+            "i": 312,
+            "n": "The Crab Pots",
+            "l": 65,
+            "t": 0,
+            "z": 2409,
+            "lt": "Unspoiled",
+            "ti": [
+                10,
+                22
+            ]
+        },
+        {
+            "i": 328,
+            "n": "The Sea of Blades",
+            "l": 70,
+            "t": 0,
+            "z": 2411,
+            "lt": "Unspoiled",
+            "ti": [
+                6,
+                18
+            ]
+        },
+        {
+            "i": 330,
+            "n": "The Belt",
+            "l": 75,
+            "t": 0,
+            "z": 2953,
+            "lt": "Unspoiled",
+            "ti": [
+                4,
+                16
+            ]
+        },
+        {
+            "i": 309,
+            "n": "The Makers' Quarter",
+            "l": 60,
+            "t": 1,
+            "z": 2001,
+            "s": 1,
+            "lt": "Ephemeral",
+            "ti": [
+                8
+            ]
+        },
+        {
+            "i": 332,
+            "n": "Cleric",
+            "l": 75,
+            "t": 0,
+            "z": 2957,
+            "lt": "Unspoiled",
+            "ti": [
+                6,
+                18
+            ]
+        },
+        {
+            "i": 334,
+            "n": "The Norvrandt Slope",
+            "l": 80,
+            "t": 0,
+            "z": 2958,
+            "lt": "Unspoiled",
+            "ti": [
+                8,
+                20
+            ]
+        },
+        {
+            "i": 311,
+            "n": "The Lost Landlord",
+            "l": 60,
+            "t": 1,
+            "z": 2002,
+            "s": 1,
+            "lt": "Ephemeral",
+            "ti": [
+                12
+            ]
+        },
+        {
+            "i": 313,
+            "n": "Ok' Gundu",
+            "l": 60,
+            "t": 1,
+            "z": 2100,
+            "s": 1,
+            "lt": "Ephemeral",
+            "ti": [
+                16
+            ]
+        },
+        {
+            "i": 318,
+            "n": "The Gauntlet",
+            "l": 60,
+            "t": 1,
+            "z": 2100,
+            "lt": "Unspoiled",
+            "ti": [
+                10,
+                22
+            ]
+        },
+        {
+            "i": 320,
+            "n": "Beta Quadrant",
+            "l": 60,
+            "t": 0,
+            "z": 2101,
+            "lt": "Unspoiled",
+            "ti": [
+                0,
+                12
+            ]
+        },
+        {
+            "i": 321,
+            "n": "Riversmeet",
+            "l": 60,
+            "t": 1,
+            "z": 2200,
+            "s": 1,
+            "lt": "Legendary",
+            "ti": [
+                0,
+                12
+            ]
+        },
+        {
+            "i": 323,
+            "n": "Greensward",
+            "l": 60,
+            "t": 0,
+            "z": 2002,
+            "s": 1,
+            "lt": "Legendary",
+            "ti": [
+                2,
+                14
+            ]
+        },
+        {
+            "i": 324,
+            "n": "Voor Sian Siran",
+            "l": 60,
+            "t": 1,
+            "z": 2100,
+            "s": 1,
+            "lt": "Legendary",
+            "ti": [
+                4,
+                16
+            ]
+        },
+        {
+            "i": 325,
+            "n": "The Answering Quarter",
+            "l": 60,
+            "t": 1,
+            "z": 2001,
+            "s": 1,
+            "lt": "Legendary",
+            "ti": [
+                6,
+                18
+            ]
+        },
+        {
+            "i": 326,
+            "n": "The Habisphere",
+            "l": 60,
+            "t": 0,
+            "z": 2101,
+            "s": 1,
+            "lt": "Legendary",
+            "ti": [
+                10,
+                22
+            ]
+        },
+        {
+            "i": 327,
+            "n": "Ok' Vundu Mok",
+            "l": 60,
+            "t": 3,
+            "z": 2100,
+            "s": 1,
+            "lt": "Ephemeral",
+            "ti": [
+                20
+            ]
+        },
+        {
+            "i": 329,
+            "n": "Red Rim",
+            "l": 60,
+            "t": 3,
+            "z": 2200,
+            "s": 1,
+            "lt": "Ephemeral",
+            "ti": [
+                0
+            ]
+        },
+        {
+            "i": 331,
+            "n": "Avalonia Fallen",
+            "l": 60,
+            "t": 3,
+            "z": 2000,
+            "s": 1,
+            "lt": "Ephemeral",
+            "ti": [
+                8
+            ]
+        },
+        {
+            "i": 333,
+            "n": "Greensward",
+            "l": 60,
+            "t": 3,
+            "z": 2002,
+            "s": 1,
+            "lt": "Ephemeral",
+            "ti": [
+                16
+            ]
+        },
+        {
+            "i": 337,
+            "n": "Saint Mocianne's Arboretum",
+            "l": 60,
+            "t": 3,
+            "z": 2001,
+            "s": 1,
+            "lt": "Ephemeral",
+            "ti": [
+                4
+            ]
+        },
+        {
+            "i": 492,
+            "n": "Valley of the Fallen Rainbow",
+            "l": 70,
+            "t": 1,
+            "z": 2410,
+            "s": 2,
+            "lt": "Ephemeral",
+            "ti": [
+                20
+            ]
+        },
+        {
+            "i": 339,
+            "n": "Riversmeet",
+            "l": 55,
+            "t": 3,
+            "z": 2200,
+            "lt": "Unspoiled",
+            "ti": [
+                10,
+                22
+            ]
+        },
+        {
+            "i": 340,
+            "n": "Chocobo Forest",
+            "l": 50,
+            "t": 3,
+            "z": 2000,
+            "s": 3,
+            "lt": "Unspoiled",
+            "ti": [
+                2,
+                14
+            ]
+        },
+        {
+            "i": 341,
+            "n": "Ohl Tahn",
+            "l": 55,
+            "t": 2,
+            "z": 2002,
+            "lt": "Unspoiled",
+            "ti": [
+                0,
+                12
+            ]
+        },
+        {
+            "i": 342,
+            "n": "Vundu Ok' Bendu",
+            "l": 60,
+            "t": 2,
+            "z": 2100,
+            "lt": "Unspoiled",
+            "ti": [
+                6,
+                18
+            ]
+        },
+        {
+            "i": 343,
+            "n": "The Ruling Quarter",
+            "l": 60,
+            "t": 2,
+            "z": 2001,
+            "lt": "Unspoiled",
+            "ti": [
+                4,
+                16
+            ]
+        },
+        {
+            "i": 344,
+            "n": "Twinpools",
+            "l": 60,
+            "t": 3,
+            "z": 2200,
+            "lt": "Unspoiled",
+            "ti": [
+                8,
+                20
+            ]
+        },
+        {
+            "i": 345,
+            "n": "Twinpools",
+            "l": 60,
+            "t": 3,
+            "z": 2200,
+            "s": 1,
+            "lt": "Legendary",
+            "ti": [
+                6,
+                18
+            ]
+        },
+        {
+            "i": 494,
+            "n": "The High Bank",
+            "l": 70,
+            "t": 0,
+            "z": 2408,
+            "s": 2,
+            "lt": "Ephemeral",
+            "ti": [
+                0
+            ]
+        },
+        {
+            "i": 347,
+            "n": "Greensward",
+            "l": 60,
+            "t": 3,
+            "z": 2002,
+            "s": 1,
+            "lt": "Legendary",
+            "ti": [
+                4,
+                16
+            ]
+        },
+        {
+            "i": 348,
+            "n": "The Gauntlet",
+            "l": 60,
+            "t": 2,
+            "z": 2100,
+            "s": 1,
+            "lt": "Legendary",
+            "ti": [
+                0,
+                12
+            ]
+        },
+        {
+            "i": 349,
+            "n": "The Makers' Quarter",
+            "l": 60,
+            "t": 3,
+            "z": 2001,
+            "s": 1,
+            "lt": "Legendary",
+            "ti": [
+                10,
+                22
+            ]
+        },
+        {
+            "i": 350,
+            "n": "Beta Quadrant",
+            "l": 60,
+            "t": 2,
+            "z": 2101,
+            "s": 1,
+            "lt": "Legendary",
+            "ti": [
+                2,
+                14
+            ]
+        },
+        {
+            "i": 395,
+            "n": "Ohl Tahn",
+            "l": 60,
+            "t": 2,
+            "z": 2002,
+            "s": 1,
+            "lt": "Legendary",
+            "ti": [
+                8,
+                20
+            ]
+        },
+        {
+            "i": 496,
+            "n": "Ragill's Reckoning",
+            "l": 70,
+            "t": 0,
+            "z": 2411,
+            "s": 2,
+            "lt": "Ephemeral",
+            "ti": [
+                12
+            ]
+        },
+        {
+            "i": 397,
+            "n": "The Gauntlet",
+            "l": 60,
+            "t": 0,
+            "z": 2100,
+            "s": 1,
+            "lt": "Legendary",
+            "ti": [
+                8,
+                20
+            ]
+        },
+        {
+            "i": 766,
+            "n": "The Ondo Cups",
+            "l": 80,
+            "t": 0,
+            "z": 2958,
+            "s": 1,
+            "lt": "Unspoiled",
+            "ti": [
+                2,
+                14
+            ]
+        },
+        {
+            "i": 767,
+            "n": "Virdjala",
+            "l": 80,
+            "t": 0,
+            "z": 2406,
+            "s": 1,
+            "lt": "Unspoiled",
+            "ti": [
+                10,
+                22
+            ]
+        },
+        {
+            "i": 768,
+            "n": "The Smoldering Wastes",
+            "l": 55,
+            "t": 2,
+            "z": 2000,
+            "lt": "Unspoiled",
+            "ti": [
+                10,
+                22
+            ]
+        },
+        {
+            "i": 769,
+            "n": "Avalonia Fallen",
+            "l": 60,
+            "t": 2,
+            "z": 2000,
+            "lt": "Unspoiled",
+            "ti": [
+                0,
+                12
+            ]
+        },
+        {
+            "i": 391,
+            "n": "Eil Tohm",
+            "l": 60,
+            "t": 2,
+            "z": 2002,
+            "s": 1
+        },
+        {
+            "i": 515,
+            "n": "The Queen's Gardens",
+            "l": 70,
+            "t": 2,
+            "z": 2408,
+            "s": 2,
+            "lt": "Ephemeral",
+            "ti": [
+                4
+            ]
+        },
+        {
+            "i": 289,
+            "n": "Twinpools",
+            "l": 60,
+            "t": 0,
+            "z": 2200,
+            "s": 3,
+            "lt": "Legendary",
+            "ti": [
+                2,
+                14
+            ]
+        },
+        {
+            "i": 290,
+            "n": "The Ruling Quarter",
+            "l": 60,
+            "t": 1,
+            "z": 2001,
+            "s": 3,
+            "lt": "Legendary",
+            "ti": [
+                8,
+                20
+            ]
+        },
+        {
+            "i": 291,
+            "n": "Alpha Quadrant",
+            "l": 60,
+            "t": 0,
+            "z": 2101,
+            "s": 3,
+            "lt": "Legendary",
+            "ti": [
+                6,
+                18
+            ]
+        },
+        {
+            "i": 292,
+            "n": "The Answering Quarter",
+            "l": 60,
+            "t": 2,
+            "z": 2001,
+            "s": 3,
+            "lt": "Legendary",
+            "ti": [
+                0,
+                12
+            ]
+        },
+        {
+            "i": 293,
+            "n": "Delta Quadrant",
+            "l": 60,
+            "t": 3,
+            "z": 2101,
+            "s": 3,
+            "lt": "Legendary",
+            "ti": [
+                4,
+                16
+            ]
+        },
+        {
+            "i": 299,
+            "n": "Greensward",
+            "l": 60,
+            "t": 2,
+            "z": 2002,
+            "s": 3,
+            "lt": "Legendary",
+            "ti": [
+                10,
+                22
+            ]
+        },
+        {
+            "i": 301,
+            "n": "Chocobo Forest",
+            "l": 60,
+            "t": 3,
+            "z": 2000,
+            "s": 3,
+            "lt": "Legendary",
+            "ti": [
+                6,
+                18
+            ]
+        },
+        {
+            "i": 464,
+            "n": "Ruby Price Depths",
+            "l": 65,
+            "t": 5,
+            "z": 2409
+        },
+        {
+            "i": 465,
+            "n": "Tamamizu",
+            "l": 65,
+            "t": 5,
+            "z": 2409
+        },
+        {
+            "i": 466,
+            "n": "Sui\u2013no\u2013Sato",
+            "l": 65,
+            "t": 5,
+            "z": 2409
+        },
+        {
+            "i": 467,
+            "n": "The Adventure",
+            "l": 65,
+            "t": 5,
+            "z": 2409
+        },
+        {
+            "i": 468,
+            "n": "Shisui of the Violet Tides",
+            "l": 65,
+            "t": 5,
+            "z": 2409
+        },
+        {
+            "i": 469,
+            "n": "The One River Southwestern Riverbeds",
+            "l": 65,
+            "t": 5,
+            "z": 2410
+        },
+        {
+            "i": 470,
+            "n": "The One River Southern Riverbeds",
+            "l": 65,
+            "t": 5,
+            "z": 2410
+        },
+        {
+            "i": 471,
+            "n": "Imperial Hypersonic Assault Craft L-XXIII",
+            "l": 65,
+            "t": 5,
+            "z": 2410
+        },
+        {
+            "i": 472,
+            "n": "The Kobayashi Maru",
+            "l": 70,
+            "t": 5,
+            "z": 2409,
+            "s": 1
+        },
+        {
+            "i": 473,
+            "n": "The Sunken Junk",
+            "l": 70,
+            "t": 5,
+            "z": 2410
+        },
+        {
+            "i": 474,
+            "n": "The Dragon's Struggle",
+            "l": 70,
+            "t": 5,
+            "z": 2410
+        },
+        {
+            "i": 475,
+            "n": "Azim Khaat Western Lakebed",
+            "l": 70,
+            "t": 5,
+            "z": 2411
+        },
+        {
+            "i": 476,
+            "n": "Azim Khaat Eastern Lakebed",
+            "l": 70,
+            "t": 5,
+            "z": 2411
+        },
+        {
+            "i": 477,
+            "n": "Loch Seld Northwestern Lakebed",
+            "l": 70,
+            "t": 5,
+            "z": 2408
+        },
+        {
+            "i": 478,
+            "n": "Loch Seld Central Lakebed",
+            "l": 70,
+            "t": 5,
+            "z": 2408
+        },
+        {
+            "i": 479,
+            "n": "Loch Seld Southeastern Lakebed",
+            "l": 70,
+            "t": 5,
+            "z": 2408
+        },
+        {
+            "i": 480,
+            "n": "The Eastern Ruby Sea",
+            "l": 70,
+            "t": 5,
+            "z": 2409,
+            "lt": "Concealed"
+        },
+        {
+            "i": 481,
+            "n": "The Sunken Junk's South Side",
+            "l": 70,
+            "t": 5,
+            "z": 2410,
+            "lt": "Concealed"
+        },
+        {
+            "i": 482,
+            "n": "Azim Khaat Southern Lakebed",
+            "l": 70,
+            "t": 5,
+            "z": 2411,
+            "lt": "Concealed"
+        },
+        {
+            "i": 483,
+            "n": "Loch Seld Deep Lakebed",
+            "l": 70,
+            "t": 5,
+            "z": 2408,
+            "lt": "Concealed"
+        },
+        {
+            "i": 485,
+            "n": "East End",
+            "l": 60,
+            "t": 0,
+            "z": 2406,
+            "s": 2
+        },
+        {
+            "i": 486,
+            "n": "The Striped Hills",
+            "l": 65,
+            "t": 0,
+            "z": 2406
+        },
+        {
+            "i": 487,
+            "n": "Hells' Lid",
+            "l": 65,
+            "t": 0,
+            "z": 2409
+        },
+        {
+            "i": 488,
+            "n": "The Gensui Chain",
+            "l": 65,
+            "t": 0,
+            "z": 2410
+        },
+        {
+            "i": 489,
+            "n": "Rustrock",
+            "l": 65,
+            "t": 1,
+            "z": 2407
+        },
+        {
+            "i": 490,
+            "n": "Rasen Kaikyo",
+            "l": 65,
+            "t": 1,
+            "z": 2409
+        },
+        {
+            "i": 491,
+            "n": "Unseen Spirits Laughing",
+            "l": 70,
+            "t": 0,
+            "z": 2410
+        },
+        {
+            "i": 493,
+            "n": "The High Bank",
+            "l": 70,
+            "t": 0,
+            "z": 2408
+        },
+        {
+            "i": 495,
+            "n": "Onsal Hakair",
+            "l": 70,
+            "t": 1,
+            "z": 2411
+        },
+        {
+            "i": 497,
+            "n": "The Striped Hills",
+            "l": 60,
+            "t": 0,
+            "z": 2406,
+            "s": 2,
+            "lt": "Unspoiled",
+            "ti": [
+                2,
+                14
+            ]
+        },
+        {
+            "i": 498,
+            "n": "East Othard Coastline",
+            "l": 65,
+            "t": 0,
+            "z": 2409,
+            "lt": "Unspoiled",
+            "ti": [
+                0,
+                12
+            ]
+        },
+        {
+            "i": 499,
+            "n": "Rustrock",
+            "l": 70,
+            "t": 0,
+            "z": 2407,
+            "lt": "Unspoiled",
+            "ti": [
+                8,
+                20
+            ]
+        },
+        {
+            "i": 500,
+            "n": "Valley of the Fallen Rainbow",
+            "l": 70,
+            "t": 0,
+            "z": 2410,
+            "lt": "Unspoiled",
+            "ti": [
+                6,
+                18
+            ]
+        },
+        {
+            "i": 501,
+            "n": "The Towering Still",
+            "l": 70,
+            "t": 0,
+            "z": 2411,
+            "lt": "Unspoiled",
+            "ti": [
+                4,
+                16
+            ]
+        },
+        {
+            "i": 502,
+            "n": "Loch Seld",
+            "l": 70,
+            "t": 1,
+            "z": 2408,
+            "lt": "Unspoiled",
+            "ti": [
+                0,
+                12
+            ]
+        },
+        {
+            "i": 503,
+            "n": "Wightrock",
+            "l": 70,
+            "t": 0,
+            "z": 2407,
+            "s": 1,
+            "lt": "Legendary",
+            "ti": [
+                10,
+                22
+            ]
+        },
+        {
+            "i": 504,
+            "n": "Doma",
+            "l": 70,
+            "t": 0,
+            "z": 2410,
+            "s": 1,
+            "lt": "Legendary",
+            "ti": [
+                4,
+                16
+            ]
+        },
+        {
+            "i": 505,
+            "n": "East End",
+            "l": 60,
+            "t": 3,
+            "z": 2406,
+            "s": 2
+        },
+        {
+            "i": 506,
+            "n": "East End",
+            "l": 65,
+            "t": 2,
+            "z": 2406
+        },
+        {
+            "i": 507,
+            "n": "Onokoro",
+            "l": 65,
+            "t": 2,
+            "z": 2409
+        },
+        {
+            "i": 508,
+            "n": "The Heron's Flight",
+            "l": 65,
+            "t": 2,
+            "z": 2410
+        },
+        {
+            "i": 509,
+            "n": "Dimwold",
+            "l": 65,
+            "t": 3,
+            "z": 2406
+        },
+        {
+            "i": 510,
+            "n": "East Othard Coastline",
+            "l": 65,
+            "t": 3,
+            "z": 2409
+        },
+        {
+            "i": 511,
+            "n": "Rasen Kaikyo",
+            "l": 65,
+            "t": 3,
+            "z": 2409
+        },
+        {
+            "i": 512,
+            "n": "The Last Forest",
+            "l": 65,
+            "t": 3,
+            "z": 2407
+        },
+        {
+            "i": 513,
+            "n": "Dimwold",
+            "l": 70,
+            "t": 2,
+            "z": 2406
+        },
+        {
+            "i": 514,
+            "n": "Abalathia's Skull",
+            "l": 70,
+            "t": 2,
+            "z": 2408
+        },
+        {
+            "i": 516,
+            "n": "Mount Yorn",
+            "l": 70,
+            "t": 3,
+            "z": 2407
+        },
+        {
+            "i": 517,
+            "n": "Doma",
+            "l": 70,
+            "t": 3,
+            "z": 2410
+        },
+        {
+            "i": 518,
+            "n": "The Glittering Basin",
+            "l": 70,
+            "t": 3,
+            "z": 2410,
+            "s": 2,
+            "lt": "Ephemeral",
+            "ti": [
+                16
+            ]
+        },
+        {
+            "i": 519,
+            "n": "Nhaama's Retreat",
+            "l": 70,
+            "t": 3,
+            "z": 2411
+        },
+        {
+            "i": 520,
+            "n": "Nhaama's Retreat",
+            "l": 70,
+            "t": 3,
+            "z": 2411,
+            "s": 2,
+            "lt": "Ephemeral",
+            "ti": [
+                8
+            ]
+        },
+        {
+            "i": 522,
+            "n": "The Glittering Basin",
+            "l": 65,
+            "t": 2,
+            "z": 2410,
+            "lt": "Unspoiled",
+            "ti": [
+                10,
+                22
+            ]
+        },
+        {
+            "i": 523,
+            "n": "Onsal Hakair",
+            "l": 70,
+            "t": 2,
+            "z": 2411,
+            "lt": "Unspoiled",
+            "ti": [
+                2,
+                14
+            ]
+        },
+        {
+            "i": 524,
+            "n": "Rustrock",
+            "l": 70,
+            "t": 3,
+            "z": 2407,
+            "s": 1,
+            "lt": "Unspoiled",
+            "ti": [
+                6,
+                18
+            ]
+        },
+        {
+            "i": 525,
+            "n": "Valley of the Fallen Rainbow",
+            "l": 70,
+            "t": 3,
+            "z": 2410,
+            "lt": "Unspoiled",
+            "ti": [
+                8,
+                20
+            ]
+        },
+        {
+            "i": 526,
+            "n": "Abalathia's Skull",
+            "l": 70,
+            "t": 3,
+            "z": 2408,
+            "lt": "Unspoiled",
+            "ti": [
+                4,
+                16
+            ]
+        },
+        {
+            "i": 527,
+            "n": "The High Bank",
+            "l": 70,
+            "t": 2,
+            "z": 2408,
+            "s": 1,
+            "lt": "Legendary",
+            "ti": [
+                6,
+                18
+            ]
+        },
+        {
+            "i": 528,
+            "n": "Onsal Hakair",
+            "l": 70,
+            "t": 3,
+            "z": 2411,
+            "s": 1,
+            "lt": "Legendary",
+            "ti": [
+                0,
+                12
+            ]
+        },
+        {
+            "i": 529,
+            "n": "Rasen Kaikyo",
+            "l": 70,
+            "t": 3,
+            "z": 2409
+        },
+        {
+            "i": 530,
+            "n": "Kobayashi Maru's Northern Wake",
+            "l": 70,
+            "t": 5,
+            "z": 2409,
+            "s": 1,
+            "lt": "Concealed"
+        },
+        {
+            "i": 531,
+            "n": "Sleeping Stones",
+            "l": 60,
+            "t": 0,
+            "z": 2407,
+            "s": 1
+        },
+        {
+            "i": 532,
+            "n": "The Last Forest",
+            "l": 60,
+            "t": 3,
+            "z": 2407,
+            "s": 1
+        },
+        {
+            "i": 533,
+            "n": "The Turquoise Trench",
+            "l": 60,
+            "t": 0,
+            "z": 2409
+        },
+        {
+            "i": 534,
+            "n": "The Isle of Bekko",
+            "l": 60,
+            "t": 3,
+            "z": 2409
+        },
+        {
+            "i": 535,
+            "n": "East Othard Coastline",
+            "l": 70,
+            "t": 0,
+            "z": 2409,
+            "s": 2,
+            "lt": "Legendary",
+            "ti": [
+                6,
+                18
+            ]
+        },
+        {
+            "i": 536,
+            "n": "Nhaama's Retreat",
+            "l": 70,
+            "t": 0,
+            "z": 2411,
+            "s": 2,
+            "lt": "Legendary",
+            "ti": [
+                8,
+                20
+            ]
+        },
+        {
+            "i": 537,
+            "n": "Pike Falls",
+            "l": 70,
+            "t": 2,
+            "z": 2406,
+            "s": 2,
+            "lt": "Legendary",
+            "ti": [
+                4,
+                16
+            ]
+        },
+        {
+            "i": 538,
+            "n": "Mount Yorn",
+            "l": 70,
+            "t": 3,
+            "z": 2407,
+            "s": 2,
+            "lt": "Legendary",
+            "ti": [
+                2,
+                14
+            ]
+        },
+        {
+            "i": 551,
+            "n": "The Bed of Bones",
+            "l": 65,
+            "t": 0,
+            "z": 2200
+        },
+        {
+            "i": 552,
+            "n": "Gorgagne Holding",
+            "l": 65,
+            "t": 3,
+            "z": 2200
+        },
+        {
+            "i": 553,
+            "n": "Landlord Colony",
+            "l": 65,
+            "t": 1,
+            "z": 2002
+        },
+        {
+            "i": 554,
+            "n": "Ohl Tahn",
+            "l": 65,
+            "t": 3,
+            "z": 2002
+        },
+        {
+            "i": 555,
+            "n": "Virdjala",
+            "l": 70,
+            "t": 0,
+            "z": 2406,
+            "s": 3,
+            "lt": "Legendary",
+            "ti": [
+                0,
+                12
+            ]
+        },
+        {
+            "i": 556,
+            "n": "Loch Seld",
+            "l": 70,
+            "t": 0,
+            "z": 2408,
+            "s": 3,
+            "lt": "Legendary",
+            "ti": [
+                10,
+                22
+            ]
+        },
+        {
+            "i": 557,
+            "n": "Rustrock",
+            "l": 70,
+            "t": 2,
+            "z": 2407,
+            "s": 3,
+            "lt": "Legendary",
+            "ti": [
+                4,
+                16
+            ]
+        },
+        {
+            "i": 558,
+            "n": "The Glittering Basin",
+            "l": 70,
+            "t": 3,
+            "z": 2410,
+            "s": 3,
+            "lt": "Legendary",
+            "ti": [
+                2,
+                14
+            ]
+        },
+        {
+            "i": 591,
+            "n": "Twitch",
+            "l": 70,
+            "t": 1,
+            "z": 2955,
+            "s": 2
+        },
+        {
+            "i": 592,
+            "n": "The Bookman's Shelves",
+            "l": 75,
+            "t": 0,
+            "z": 2956
+        },
+        {
+            "i": 593,
+            "n": "Weed",
+            "l": 75,
+            "t": 0,
+            "z": 2953
+        },
+        {
+            "i": 594,
+            "n": "Slowroad",
+            "l": 75,
+            "t": 1,
+            "z": 2954
+        },
+        {
+            "i": 595,
+            "n": "Lozatl's Conquest",
+            "l": 75,
+            "t": 1,
+            "z": 2957
+        },
+        {
+            "i": 596,
+            "n": "The Wild Fete",
+            "l": 80,
+            "t": 0,
+            "z": 2957
+        },
+        {
+            "i": 597,
+            "n": "The K'mul Astropolis",
+            "l": 80,
+            "t": 0,
+            "z": 2957,
+            "s": 2,
+            "lt": "Ephemeral",
+            "ti": [
+                0
+            ]
+        },
+        {
+            "i": 598,
+            "n": "The Church of the First Light",
+            "l": 80,
+            "t": 0,
+            "z": 2953
+        },
+        {
+            "i": 599,
+            "n": "The Exarch Gate",
+            "l": 80,
+            "t": 0,
+            "z": 2953,
+            "s": 2,
+            "lt": "Ephemeral",
+            "ti": [
+                8
+            ]
+        },
+        {
+            "i": 600,
+            "n": "Amity",
+            "l": 80,
+            "t": 1,
+            "z": 2954
+        },
+        {
+            "i": 601,
+            "n": "Komra",
+            "l": 80,
+            "t": 1,
+            "z": 2954,
+            "s": 2,
+            "lt": "Ephemeral",
+            "ti": [
+                16
+            ]
+        },
+        {
+            "i": 602,
+            "n": "Mount Biran Mines",
+            "l": 80,
+            "t": 1,
+            "z": 2955
+        },
+        {
+            "i": 603,
+            "n": "Governor's Row",
+            "l": 70,
+            "t": 0,
+            "z": 2954,
+            "s": 2,
+            "lt": "Unspoiled",
+            "ti": [
+                2,
+                14
+            ]
+        },
+        {
+            "i": 604,
+            "n": "Sextuplet Shallow",
+            "l": 75,
+            "t": 0,
+            "z": 2956,
+            "lt": "Unspoiled",
+            "ti": [
+                6,
+                18
+            ]
+        },
+        {
+            "i": 605,
+            "n": "Cleric",
+            "l": 75,
+            "t": 0,
+            "z": 2957,
+            "lt": "Unspoiled",
+            "ti": [
+                4,
+                16
+            ]
+        },
+        {
+            "i": 606,
+            "n": "Ladle",
+            "l": 80,
+            "t": 0,
+            "z": 2955,
+            "lt": "Unspoiled",
+            "ti": [
+                0,
+                12
+            ]
+        },
+        {
+            "i": 607,
+            "n": "Weed",
+            "l": 80,
+            "t": 0,
+            "z": 2953,
+            "lt": "Unspoiled",
+            "ti": [
+                6,
+                18
+            ]
+        },
+        {
+            "i": 608,
+            "n": "The Caliban Gorge",
+            "l": 80,
+            "t": 0,
+            "z": 2958,
+            "lt": "Unspoiled",
+            "ti": [
+                0,
+                12
+            ]
+        },
+        {
+            "i": 609,
+            "n": "Saint Fathric's Temple",
+            "l": 80,
+            "t": 0,
+            "z": 2956,
+            "s": 1,
+            "lt": "Legendary",
+            "ti": [
+                4,
+                16
+            ]
+        },
+        {
+            "i": 610,
+            "n": "Where the Dry Return",
+            "l": 80,
+            "t": 0,
+            "z": 2958,
+            "s": 1,
+            "lt": "Legendary",
+            "ti": [
+                10,
+                22
+            ]
+        },
+        {
+            "i": 611,
+            "n": "Snitch",
+            "l": 70,
+            "t": 3,
+            "z": 2955,
+            "s": 2
+        },
+        {
+            "i": 612,
+            "n": "The Chiliad",
+            "l": 75,
+            "t": 2,
+            "z": 2953
+        },
+        {
+            "i": 613,
+            "n": "The Church at Dammroen Field",
+            "l": 75,
+            "t": 2,
+            "z": 2956
+        },
+        {
+            "i": 614,
+            "n": "The Bright Cliff",
+            "l": 75,
+            "t": 2,
+            "z": 2954
+        },
+        {
+            "i": 615,
+            "n": "Woven Oath",
+            "l": 75,
+            "t": 2,
+            "z": 2957
+        },
+        {
+            "i": 616,
+            "n": "The Forest of the Lost Shepherd",
+            "l": 75,
+            "t": 3,
+            "z": 2953
+        },
+        {
+            "i": 617,
+            "n": "The Woolen Way",
+            "l": 75,
+            "t": 3,
+            "z": 2956
+        },
+        {
+            "i": 618,
+            "n": "Seagazer",
+            "l": 75,
+            "t": 3,
+            "z": 2954
+        },
+        {
+            "i": 619,
+            "n": "The Deliberating Doll",
+            "l": 75,
+            "t": 3,
+            "z": 2957
+        },
+        {
+            "i": 620,
+            "n": "Ladle",
+            "l": 80,
+            "t": 2,
+            "z": 2955
+        },
+        {
+            "i": 621,
+            "n": "Hare Among Giants",
+            "l": 80,
+            "t": 2,
+            "z": 2953
+        },
+        {
+            "i": 622,
+            "n": "The Bridges",
+            "l": 80,
+            "t": 3,
+            "z": 2953,
+            "s": 2,
+            "lt": "Ephemeral",
+            "ti": [
+                12
+            ]
+        },
+        {
+            "i": 623,
+            "n": "The Wild Fete",
+            "l": 80,
+            "t": 3,
+            "z": 2957
+        },
+        {
+            "i": 624,
+            "n": "The K'mul Astropolis",
+            "l": 80,
+            "t": 3,
+            "z": 2957,
+            "s": 2,
+            "lt": "Ephemeral",
+            "ti": [
+                4
+            ]
+        },
+        {
+            "i": 625,
+            "n": "Scree",
+            "l": 80,
+            "t": 3,
+            "z": 2954
+        },
+        {
+            "i": 626,
+            "n": "Tomra",
+            "l": 80,
+            "t": 3,
+            "z": 2954,
+            "s": 2,
+            "lt": "Ephemeral",
+            "ti": [
+                20
+            ]
+        },
+        {
+            "i": 628,
+            "n": "Phisor Lran",
+            "l": 75,
+            "t": 3,
+            "z": 2956,
+            "lt": "Unspoiled",
+            "ti": [
+                0,
+                12
+            ]
+        },
+        {
+            "i": 629,
+            "n": "Embrasure",
+            "l": 75,
+            "t": 3,
+            "z": 2953,
+            "lt": "Unspoiled",
+            "ti": [
+                10,
+                22
+            ]
+        },
+        {
+            "i": 630,
+            "n": "The Dragging Tail",
+            "l": 80,
+            "t": 3,
+            "z": 2955,
+            "lt": "Unspoiled",
+            "ti": [
+                8,
+                20
+            ]
+        },
+        {
+            "i": 631,
+            "n": "Bowrest",
+            "l": 80,
+            "t": 3,
+            "z": 2957,
+            "lt": "Unspoiled",
+            "ti": [
+                0,
+                12
+            ]
+        },
+        {
+            "i": 632,
+            "n": "Sharptongue Drip",
+            "l": 80,
+            "t": 2,
+            "z": 2954,
+            "lt": "Unspoiled",
+            "ti": [
+                6,
+                18
+            ]
+        },
+        {
+            "i": 633,
+            "n": "Mjrl's Regret",
+            "l": 80,
+            "t": 2,
+            "z": 2957,
+            "s": 1,
+            "lt": "Legendary",
+            "ti": [
+                2,
+                14
+            ]
+        },
+        {
+            "i": 634,
+            "n": "Inviolate Witness",
+            "l": 80,
+            "t": 3,
+            "z": 2953,
+            "s": 1,
+            "lt": "Legendary",
+            "ti": [
+                8,
+                20
+            ]
+        },
+        {
+            "i": 635,
+            "n": "Northeast Source",
+            "l": 70,
+            "t": 5,
+            "z": 2953
+        },
+        {
+            "i": 636,
+            "n": "The Isle of Ken",
+            "l": 75,
+            "t": 5,
+            "z": 2953
+        },
+        {
+            "i": 637,
+            "n": "Southeast Source",
+            "l": 75,
+            "t": 5,
+            "z": 2953
+        },
+        {
+            "i": 638,
+            "n": "North Lyhe Ghiah",
+            "l": 75,
+            "t": 5,
+            "z": 2956
+        },
+        {
+            "i": 639,
+            "n": "Deepwood Swim",
+            "l": 75,
+            "t": 5,
+            "z": 2956
+        },
+        {
+            "i": 640,
+            "n": "Central Longmirror Lake",
+            "l": 80,
+            "t": 5,
+            "z": 2956
+        },
+        {
+            "i": 641,
+            "n": "Thysm Lran",
+            "l": 80,
+            "t": 5,
+            "z": 2956
+        },
+        {
+            "i": 642,
+            "n": "South Longmirror Lake",
+            "l": 80,
+            "t": 5,
+            "z": 2956
+        },
+        {
+            "i": 643,
+            "n": "North Lake Tusi Mek'ta",
+            "l": 80,
+            "t": 5,
+            "z": 2957
+        },
+        {
+            "i": 644,
+            "n": "The Covered Halls of Dwatl",
+            "l": 80,
+            "t": 5,
+            "z": 2957
+        },
+        {
+            "i": 645,
+            "n": "Eastern Isle of Ken",
+            "l": 75,
+            "t": 5,
+            "z": 2953,
+            "lt": "Concealed"
+        },
+        {
+            "i": 646,
+            "n": "East Longmirror Lake",
+            "l": 80,
+            "t": 5,
+            "z": 2956,
+            "lt": "Concealed"
+        },
+        {
+            "i": 647,
+            "n": "Deep Lake Tusi Mek'ta",
+            "l": 80,
+            "t": 5,
+            "z": 2957,
+            "lt": "Concealed"
+        },
+        {
+            "i": 648,
+            "n": "Weed",
+            "l": 80,
+            "t": 3,
+            "z": 2953
+        },
+        {
+            "i": 649,
+            "n": "Stonegazer",
+            "l": 70,
+            "t": 2,
+            "z": 2954,
+            "s": 1
+        },
+        {
+            "i": 650,
+            "n": "Shadow Fault",
+            "l": 70,
+            "t": 1,
+            "z": 2954,
+            "s": 1
+        },
+        {
+            "i": 651,
+            "n": "Thysm Lran",
+            "l": 70,
+            "t": 3,
+            "z": 2956
+        },
+        {
+            "i": 652,
+            "n": "Thysm Lran",
+            "l": 70,
+            "t": 0,
+            "z": 2956
+        },
+        {
+            "i": 653,
+            "n": "The Honey Yard",
+            "l": 5,
+            "t": 2,
+            "z": 55
+        },
+        {
+            "i": 654,
+            "n": "Zephyr Drift",
+            "l": 5,
+            "t": 0,
+            "z": 30
+        },
+        {
+            "i": 655,
+            "n": "Black Brush",
+            "l": 15,
+            "t": 1,
+            "z": 43
+        },
+        {
+            "i": 656,
+            "n": "Sorrel Haven",
+            "l": 35,
+            "t": 2,
+            "z": 54
+        },
+        {
+            "i": 657,
+            "n": "Lower Paths",
+            "l": 45,
+            "t": 3,
+            "z": 56
+        },
+        {
+            "i": 658,
+            "n": "Fool Falls",
+            "l": 35,
+            "t": 0,
+            "z": 34
+        },
+        {
+            "i": 659,
+            "n": "Moraby Bay",
+            "l": 15,
+            "t": 3,
+            "z": 31
+        },
+        {
+            "i": 660,
+            "n": "Providence Point",
+            "l": 45,
+            "t": 0,
+            "z": 63
+        },
+        {
+            "i": 661,
+            "n": "Drybone",
+            "l": 25,
+            "t": 1,
+            "z": 44
+        },
+        {
+            "i": 662,
+            "n": "Gron Rhei",
+            "l": 60,
+            "t": 2,
+            "z": 2002
+        },
+        {
+            "i": 663,
+            "n": "Avalonia Fallen",
+            "l": 55,
+            "t": 3,
+            "z": 2000
+        },
+        {
+            "i": 664,
+            "n": "The Rosehouse",
+            "l": 55,
+            "t": 3,
+            "z": 2100
+        },
+        {
+            "i": 665,
+            "n": "The Answering Quarter",
+            "l": 60,
+            "t": 0,
+            "z": 2001
+        },
+        {
+            "i": 666,
+            "n": "Riversmeet",
+            "l": 55,
+            "t": 1,
+            "z": 2200
+        },
+        {
+            "i": 667,
+            "n": "Grymm & Enid",
+            "l": 65,
+            "t": 2,
+            "z": 2407
+        },
+        {
+            "i": 668,
+            "n": "Ceol Aen",
+            "l": 70,
+            "t": 3,
+            "z": 2411
+        },
+        {
+            "i": 669,
+            "n": "The Hundred Throes",
+            "l": 55,
+            "t": 0,
+            "z": 2000
+        },
+        {
+            "i": 670,
+            "n": "The Glittering Basin",
+            "l": 70,
+            "t": 3,
+            "z": 2410
+        },
+        {
+            "i": 671,
+            "n": "The Turquoise Trench",
+            "l": 65,
+            "t": 0,
+            "z": 2409
+        },
+        {
+            "i": 672,
+            "n": "Loch Seld",
+            "l": 70,
+            "t": 0,
+            "z": 2408
+        },
+        {
+            "i": 673,
+            "n": "Nhaama's Retreat",
+            "l": 70,
+            "t": 1,
+            "z": 2411
+        },
+        {
+            "i": 674,
+            "n": "Bowrest",
+            "l": 80,
+            "t": 2,
+            "z": 2957
+        },
+        {
+            "i": 675,
+            "n": "The Central Hills of Amber",
+            "l": 80,
+            "t": 3,
+            "z": 2955
+        },
+        {
+            "i": 676,
+            "n": "The Forest of the Lost Shepherd",
+            "l": 75,
+            "t": 3,
+            "z": 2953
+        },
+        {
+            "i": 677,
+            "n": "Walls of the Forgotten",
+            "l": 80,
+            "t": 0,
+            "z": 2958
+        },
+        {
+            "i": 678,
+            "n": "Good Jenanna's Grace",
+            "l": 75,
+            "t": 0,
+            "z": 2956
+        },
+        {
+            "i": 679,
+            "n": "The Duergar Mountains",
+            "l": 80,
+            "t": 1,
+            "z": 2954
+        },
+        {
+            "i": 680,
+            "n": "The Footfalls",
+            "l": 25,
+            "t": 3,
+            "z": 42
+        },
+        {
+            "i": 681,
+            "n": "The Isle of Ken",
+            "l": 80,
+            "t": 0,
+            "z": 2953,
+            "s": 2,
+            "lt": "Legendary",
+            "ti": [
+                2,
+                14
+            ]
+        },
+        {
+            "i": 682,
+            "n": "Purpure",
+            "l": 80,
+            "t": 1,
+            "z": 2958,
+            "s": 2,
+            "lt": "Legendary",
+            "ti": [
+                6,
+                18
+            ]
+        },
+        {
+            "i": 683,
+            "n": "Anden's Airs",
+            "l": 80,
+            "t": 2,
+            "z": 2956,
+            "s": 2,
+            "lt": "Legendary",
+            "ti": [
+                8,
+                20
+            ]
+        },
+        {
+            "i": 684,
+            "n": "White Oil Falls",
+            "l": 80,
+            "t": 3,
+            "z": 2954,
+            "s": 2,
+            "lt": "Legendary",
+            "ti": [
+                0,
+                12
+            ]
+        },
+        {
+            "i": 770,
+            "n": "Isari",
+            "l": 65,
+            "t": 2,
+            "z": 2409,
+            "lt": "Unspoiled",
+            "ti": [
+                2,
+                14
+            ]
+        },
+        {
+            "i": 771,
+            "n": "Shoal Rock",
+            "l": 65,
+            "t": 2,
+            "z": 2409,
+            "lt": "Unspoiled",
+            "ti": [
+                4,
+                16
+            ]
+        },
+        {
+            "i": 772,
+            "n": "Doma",
+            "l": 70,
+            "t": 2,
+            "z": 2410,
+            "lt": "Unspoiled",
+            "ti": [
+                0,
+                12
+            ]
+        },
+        {
+            "i": 773,
+            "n": "The Woolen Way",
+            "l": 75,
+            "t": 2,
+            "z": 2956,
+            "lt": "Unspoiled",
+            "ti": [
+                10,
+                22
+            ]
+        },
+        {
+            "i": 774,
+            "n": "The Chisel",
+            "l": 75,
+            "t": 2,
+            "z": 2954,
+            "lt": "Unspoiled",
+            "ti": [
+                8,
+                20
+            ]
+        },
+        {
+            "i": 775,
+            "n": "The Central Hills of Amber",
+            "l": 80,
+            "t": 2,
+            "z": 2955,
+            "lt": "Unspoiled",
+            "ti": [
+                2,
+                14
+            ]
+        },
+        {
+            "i": 776,
+            "n": "The Norvrandt Slope",
+            "l": 80,
+            "t": 2,
+            "z": 2958,
+            "s": 1,
+            "lt": "Unspoiled",
+            "ti": [
+                4,
+                16
+            ]
+        },
+        {
+            "i": 777,
+            "n": "Heather Falls",
+            "l": 80,
+            "t": 2,
+            "z": 2407,
+            "s": 1,
+            "lt": "Unspoiled",
+            "ti": [
+                0,
+                12
+            ]
+        },
+        {
+            "i": 778,
+            "n": "Hemlock",
+            "l": 55,
+            "t": 1,
+            "z": 2200
+        },
+        {
+            "i": 696,
+            "n": "Central Lake Tusi Mek'ta",
+            "l": 70,
+            "t": 5,
+            "z": 2957
+        },
+        {
+            "i": 697,
+            "n": "South Lake Tusi Mek'ta",
+            "l": 70,
+            "t": 5,
+            "z": 2957
+        },
+        {
+            "i": 698,
+            "n": "The Diadem",
+            "l": 1,
+            "t": 0,
+            "z": 1647,
+            "s": 1
+        },
+        {
+            "i": 699,
+            "n": "The Diadem",
+            "l": 1,
+            "t": 0,
+            "z": 1647,
+            "s": 1
+        },
+        {
+            "i": 700,
+            "n": "The Diadem",
+            "l": 1,
+            "t": 0,
+            "z": 1647,
+            "s": 1
+        },
+        {
+            "i": 701,
+            "n": "The Diadem",
+            "l": 1,
+            "t": 1,
+            "z": 1647,
+            "s": 1
+        },
+        {
+            "i": 702,
+            "n": "The Diadem",
+            "l": 1,
+            "t": 1,
+            "z": 1647,
+            "s": 1
+        },
+        {
+            "i": 703,
+            "n": "The Diadem",
+            "l": 1,
+            "t": 3,
+            "z": 1647,
+            "s": 1
+        },
+        {
+            "i": 704,
+            "n": "The Diadem",
+            "l": 1,
+            "t": 3,
+            "z": 1647,
+            "s": 1
+        },
+        {
+            "i": 705,
+            "n": "The Diadem",
+            "l": 1,
+            "t": 3,
+            "z": 1647,
+            "s": 1
+        },
+        {
+            "i": 706,
+            "n": "The Diadem",
+            "l": 1,
+            "t": 2,
+            "z": 1647,
+            "s": 1
+        },
+        {
+            "i": 707,
+            "n": "The Diadem",
+            "l": 1,
+            "t": 2,
+            "z": 1647,
+            "s": 1
+        },
+        {
+            "i": 708,
+            "n": "The Diadem",
+            "l": 1,
+            "t": 2,
+            "z": 1647,
+            "s": 1
+        },
+        {
+            "i": 709,
+            "n": "Node",
+            "l": 80,
+            "t": 0,
+            "z": 1647,
+            "s": 1
+        },
+        {
+            "i": 710,
+            "n": "Node",
+            "l": 80,
+            "t": 1,
+            "z": 1647,
+            "s": 1
+        },
+        {
+            "i": 711,
+            "n": "Node",
+            "l": 80,
+            "t": 2,
+            "z": 1647,
+            "s": 1
+        },
+        {
+            "i": 712,
+            "n": "Node",
+            "l": 80,
+            "t": 3,
+            "z": 1647,
+            "s": 1
+        },
+        {
+            "i": 713,
+            "n": "Mount Biran Mines",
+            "l": 80,
+            "t": 1,
+            "z": 2955,
+            "s": 2,
+            "lt": "Legendary",
+            "ti": [
+                10,
+                22
+            ]
+        },
+        {
+            "i": 714,
+            "n": "The Nabaath Severance",
+            "l": 80,
+            "t": 3,
+            "z": 2955,
+            "s": 2,
+            "lt": "Legendary",
+            "ti": [
+                4,
+                16
+            ]
+        },
+        {
+            "i": 715,
+            "n": "Red Rim",
+            "l": 80,
+            "t": 0,
+            "z": 2200,
+            "s": 1
+        },
+        {
+            "i": 716,
+            "n": "Ok' Vundu Vana",
+            "l": 80,
+            "t": 0,
+            "z": 2100,
+            "s": 1
+        },
+        {
+            "i": 717,
+            "n": "The Daggers",
+            "l": 80,
+            "t": 1,
+            "z": 2001,
+            "s": 2
+        },
+        {
+            "i": 718,
+            "n": "Mourn",
+            "l": 80,
+            "t": 0,
+            "z": 2000,
+            "s": 2
+        },
+        {
+            "i": 719,
+            "n": "Whilom River",
+            "l": 80,
+            "t": 2,
+            "z": 2000,
+            "s": 1
+        },
+        {
+            "i": 720,
+            "n": "The Whale's Crown",
+            "l": 80,
+            "t": 3,
+            "z": 2100,
+            "s": 1
+        },
+        {
+            "i": 721,
+            "n": "Ashpool",
+            "l": 80,
+            "t": 3,
+            "z": 2200,
+            "s": 2
+        },
+        {
+            "i": 722,
+            "n": "Four Arms",
+            "l": 80,
+            "t": 2,
+            "z": 2002,
+            "s": 2
+        },
+        {
+            "i": 723,
+            "n": "Quickspill Delta",
+            "l": 75,
+            "t": 3,
+            "z": 2001
+        },
+        {
+            "i": 724,
+            "n": "The Convictory",
+            "l": 75,
+            "t": 1,
+            "z": 2200
+        },
+        {
+            "i": 725,
+            "n": "The Hundred Throes",
+            "l": 75,
+            "t": 2,
+            "z": 2000
+        },
+        {
+            "i": 726,
+            "n": "Weston Waters",
+            "l": 75,
+            "t": 0,
+            "z": 2002
+        },
+        {
+            "i": 727,
+            "n": "The Nidifice",
+            "l": 75,
+            "t": 3,
+            "z": 2100
+        },
+        {
+            "i": 728,
+            "n": "The Shattered Back",
+            "l": 75,
+            "t": 0,
+            "z": 2100
+        },
+        {
+            "i": 729,
+            "n": "Hidden Tear",
+            "l": 75,
+            "t": 2,
+            "z": 2407
+        },
+        {
+            "i": 730,
+            "n": "The Kobayashi Maru",
+            "l": 75,
+            "t": 1,
+            "z": 2409
+        },
+        {
+            "i": 731,
+            "n": "Yuzuka Manor",
+            "l": 75,
+            "t": 3,
+            "z": 2410
+        },
+        {
+            "i": 732,
+            "n": "The Queen's Gardens",
+            "l": 75,
+            "t": 0,
+            "z": 2408
+        },
+        {
+            "i": 734,
+            "n": "Valley of the Fallen Rainbow",
+            "l": 80,
+            "t": 2,
+            "z": 2410,
+            "s": 2
+        },
+        {
+            "i": 735,
+            "n": "The Dragon's Struggle",
+            "l": 80,
+            "t": 0,
+            "z": 2410,
+            "s": 2
+        },
+        {
+            "i": 736,
+            "n": "The Destroyer",
+            "l": 80,
+            "t": 2,
+            "z": 2408,
+            "s": 2
+        },
+        {
+            "i": 737,
+            "n": "The Pauper's Lode",
+            "l": 80,
+            "t": 0,
+            "z": 2408,
+            "s": 2
+        },
+        {
+            "i": 738,
+            "n": "The Pappus Tree",
+            "l": 80,
+            "t": 2,
+            "z": 2101,
+            "s": 2
+        },
+        {
+            "i": 739,
+            "n": "The Aqueduct",
+            "l": 80,
+            "t": 0,
+            "z": 2101,
+            "s": 2
+        },
+        {
+            "i": 740,
+            "n": "Hyperstellar Downconverter",
+            "l": 80,
+            "t": 2,
+            "z": 2101,
+            "s": 2
+        },
+        {
+            "i": 741,
+            "n": "Cooling Station",
+            "l": 80,
+            "t": 0,
+            "z": 2101,
+            "s": 2
+        },
+        {
+            "i": 742,
+            "n": "The Diadem",
+            "l": 1,
+            "t": 0,
+            "z": 1647,
+            "s": 2
+        },
+        {
+            "i": 743,
+            "n": "The Diadem",
+            "l": 1,
+            "t": 0,
+            "z": 1647,
+            "s": 2
+        },
+        {
+            "i": 744,
+            "n": "The Diadem",
+            "l": 1,
+            "t": 0,
+            "z": 1647,
+            "s": 2
+        },
+        {
+            "i": 745,
+            "n": "The Diadem",
+            "l": 1,
+            "t": 1,
+            "z": 1647,
+            "s": 2
+        },
+        {
+            "i": 746,
+            "n": "The Diadem",
+            "l": 1,
+            "t": 1,
+            "z": 1647,
+            "s": 2
+        },
+        {
+            "i": 747,
+            "n": "The Diadem",
+            "l": 1,
+            "t": 1,
+            "z": 1647,
+            "s": 2
+        },
+        {
+            "i": 748,
+            "n": "The Diadem",
+            "l": 1,
+            "t": 3,
+            "z": 1647,
+            "s": 2
+        },
+        {
+            "i": 749,
+            "n": "The Diadem",
+            "l": 1,
+            "t": 3,
+            "z": 1647,
+            "s": 2
+        },
+        {
+            "i": 750,
+            "n": "The Diadem",
+            "l": 1,
+            "t": 3,
+            "z": 1647,
+            "s": 2
+        },
+        {
+            "i": 751,
+            "n": "The Diadem",
+            "l": 1,
+            "t": 2,
+            "z": 1647,
+            "s": 2
+        },
+        {
+            "i": 752,
+            "n": "The Diadem",
+            "l": 1,
+            "t": 2,
+            "z": 1647,
+            "s": 2
+        },
+        {
+            "i": 753,
+            "n": "The Diadem",
+            "l": 1,
+            "t": 2,
+            "z": 1647,
+            "s": 2
+        },
+        {
+            "i": 754,
+            "n": "Node",
+            "l": 80,
+            "t": 0,
+            "z": 1647,
+            "s": 2
+        },
+        {
+            "i": 755,
+            "n": "Node",
+            "l": 80,
+            "t": 1,
+            "z": 1647,
+            "s": 2
+        },
+        {
+            "i": 756,
+            "n": "Node",
+            "l": 80,
+            "t": 2,
+            "z": 1647,
+            "s": 2
+        },
+        {
+            "i": 757,
+            "n": "Node",
+            "l": 80,
+            "t": 3,
+            "z": 1647,
+            "s": 2
+        },
+        {
+            "i": 758,
+            "n": "The Duergar's Tewel",
+            "l": 80,
+            "t": 0,
+            "z": 2954,
+            "s": 3,
+            "lt": "Legendary",
+            "ti": [
+                4,
+                16
+            ]
+        },
+        {
+            "i": 759,
+            "n": "Voeburtenburg",
+            "l": 80,
+            "t": 1,
+            "z": 2956,
+            "s": 3,
+            "lt": "Legendary",
+            "ti": [
+                2,
+                14
+            ]
+        },
+        {
+            "i": 760,
+            "n": "The Husk",
+            "l": 80,
+            "t": 0,
+            "z": 2957,
+            "s": 3,
+            "lt": "Legendary",
+            "ti": [
+                8,
+                20
+            ]
+        },
+        {
+            "i": 761,
+            "n": "The Hour of Certain Durance",
+            "l": 80,
+            "t": 2,
+            "z": 2953,
+            "s": 3,
+            "lt": "Legendary",
+            "ti": [
+                0,
+                12
+            ]
+        },
+        {
+            "i": 762,
+            "n": "Garik",
+            "l": 80,
+            "t": 2,
+            "z": 2955,
+            "s": 3,
+            "lt": "Legendary",
+            "ti": [
+                6,
+                18
+            ]
+        },
+        {
+            "i": 763,
+            "n": "The Isle of Consorts",
+            "l": 80,
+            "t": 3,
+            "z": 2957,
+            "s": 3,
+            "lt": "Legendary",
+            "ti": [
+                10,
+                22
+            ]
+        },
+        {
+            "i": 764,
+            "n": "Gamma Quadrant",
+            "l": 80,
+            "t": 0,
+            "z": 2101,
+            "s": 3
+        },
+        {
+            "i": 765,
+            "n": "Antithesis",
+            "l": 80,
+            "t": 2,
+            "z": 2101,
+            "s": 3
+        },
+        {
+            "i": 779,
+            "n": "Pike Falls",
+            "l": 65,
+            "t": 0,
+            "z": 2406
+        },
+        {
+            "i": 780,
+            "n": "The Forest of the Lost Shepherd",
+            "l": 75,
+            "t": 0,
+            "z": 2953
+        },
+        {
+            "i": 781,
+            "n": "The Citia Swamps",
+            "l": 80,
+            "t": 1,
+            "z": 2957
+        },
+        {
+            "i": 782,
+            "n": "Coerthas River",
+            "l": 55,
+            "t": 3,
+            "z": 2200
+        },
+        {
+            "i": 783,
+            "n": "Mirage Creek",
+            "l": 65,
+            "t": 3,
+            "z": 2406
+        },
+        {
+            "i": 784,
+            "n": "Laxan Loft",
+            "l": 75,
+            "t": 3,
+            "z": 2953
+        },
+        {
+            "i": 785,
+            "n": "The Inn at Journey's Head",
+            "l": 80,
+            "t": 3,
+            "z": 2955
+        },
+        {
+            "i": 786,
+            "n": "The Diadem",
+            "l": 1,
+            "t": 0,
+            "z": 1647,
+            "s": 3
+        },
+        {
+            "i": 787,
+            "n": "The Diadem",
+            "l": 1,
+            "t": 0,
+            "z": 1647,
+            "s": 3
+        },
+        {
+            "i": 788,
+            "n": "The Diadem",
+            "l": 1,
+            "t": 0,
+            "z": 1647,
+            "s": 3
+        },
+        {
+            "i": 789,
+            "n": "The Diadem",
+            "l": 1,
+            "t": 1,
+            "z": 1647,
+            "s": 3
+        },
+        {
+            "i": 790,
+            "n": "The Diadem",
+            "l": 1,
+            "t": 1,
+            "z": 1647,
+            "s": 3
+        },
+        {
+            "i": 791,
+            "n": "The Diadem",
+            "l": 1,
+            "t": 1,
+            "z": 1647,
+            "s": 3
+        },
+        {
+            "i": 792,
+            "n": "The Diadem",
+            "l": 1,
+            "t": 3,
+            "z": 1647,
+            "s": 3
+        },
+        {
+            "i": 793,
+            "n": "The Diadem",
+            "l": 1,
+            "t": 3,
+            "z": 1647,
+            "s": 3
+        },
+        {
+            "i": 794,
+            "n": "The Diadem",
+            "l": 1,
+            "t": 3,
+            "z": 1647,
+            "s": 3
+        },
+        {
+            "i": 795,
+            "n": "The Diadem",
+            "l": 1,
+            "t": 2,
+            "z": 1647,
+            "s": 3
+        },
+        {
+            "i": 796,
+            "n": "The Diadem",
+            "l": 1,
+            "t": 2,
+            "z": 1647,
+            "s": 3
+        },
+        {
+            "i": 797,
+            "n": "The Diadem",
+            "l": 1,
+            "t": 2,
+            "z": 1647,
+            "s": 3
+        },
+        {
+            "i": 798,
+            "n": "Node",
+            "l": 80,
+            "t": 0,
+            "z": 1647,
+            "s": 3
+        },
+        {
+            "i": 799,
+            "n": "Node",
+            "l": 80,
+            "t": 1,
+            "z": 1647,
+            "s": 3
+        },
+        {
+            "i": 800,
+            "n": "Node",
+            "l": 80,
+            "t": 2,
+            "z": 1647,
+            "s": 3
+        },
+        {
+            "i": 801,
+            "n": "Node",
+            "l": 80,
+            "t": 3,
+            "z": 1647,
+            "s": 3
+        },
+        {
+            "i": 803,
+            "n": "The Diadem",
+            "l": 80,
+            "t": 0,
+            "z": 1647,
+            "s": 3
+        },
+        {
+            "i": 806,
+            "n": "The Diadem",
+            "l": 80,
+            "t": 2,
+            "z": 1647,
+            "s": 3
+        },
+        {
+            "i": 808,
+            "n": "The Answering Quarter",
+            "l": 75,
+            "t": 0,
+            "z": 2001
+        },
+        {
+            "i": 809,
+            "n": "The Makers' Quarter",
+            "l": 75,
+            "t": 2,
+            "z": 2001
+        },
+        {
+            "i": 810,
+            "n": "Vira Nilya",
+            "l": 75,
+            "t": 0,
+            "z": 2406
+        },
+        {
+            "i": 811,
+            "n": "Virdjala",
+            "l": 75,
+            "t": 2,
+            "z": 2406
+        },
+        {
+            "i": 812,
+            "n": "Kahkol Iloh",
+            "l": 80,
+            "t": 1,
+            "z": 2411
+        },
+        {
+            "i": 813,
+            "n": "Onsal Hakair",
+            "l": 80,
+            "t": 3,
+            "z": 2411
+        },
+        {
+            "i": 815,
+            "n": "The Aesthete's Tholos",
+            "l": 85,
+            "t": 0,
+            "z": 3708
+        },
+        {
+            "i": 816,
+            "n": "Lower Acrinthos",
+            "l": 85,
+            "t": 1,
+            "z": 3708
+        },
+        {
+            "i": 817,
+            "n": "Sharlayan Hamlet",
+            "l": 90,
+            "t": 1,
+            "z": 3708
+        },
+        {
+            "i": 818,
+            "n": "Akyaali",
+            "l": 85,
+            "t": 0,
+            "z": 3709
+        },
+        {
+            "i": 819,
+            "n": "The Great Work",
+            "l": 85,
+            "t": 0,
+            "z": 3709
+        },
+        {
+            "i": 820,
+            "n": "The Hamsa Hatchery",
+            "l": 85,
+            "t": 1,
+            "z": 3709
+        },
+        {
+            "i": 821,
+            "n": "The Crushing Brand",
+            "l": 85,
+            "t": 0,
+            "z": 3711
+        },
+        {
+            "i": 822,
+            "n": "Monitoring Station G",
+            "l": 85,
+            "t": 1,
+            "z": 3710
+        },
+        {
+            "i": 823,
+            "n": "The Hungering Gardens",
+            "l": 90,
+            "t": 0,
+            "z": 3713
+        },
+        {
+            "i": 824,
+            "n": "Northerly Zephyrneus",
+            "l": 90,
+            "t": 1,
+            "z": 3713
+        },
+        {
+            "i": 825,
+            "n": "Hollow of the Flesh",
+            "l": 90,
+            "t": 0,
+            "z": 3712
+        },
+        {
+            "i": 826,
+            "n": "The Vitrified Fort",
+            "l": 90,
+            "t": 1,
+            "z": 3712
+        },
+        {
+            "i": 827,
+            "n": "The Numbing Brand",
+            "l": 90,
+            "t": 1,
+            "z": 3711,
+            "s": 2,
+            "lt": "Ephemeral",
+            "ti": [
+                0
+            ]
+        },
+        {
+            "i": 828,
+            "n": "Forum Patens",
+            "l": 90,
+            "t": 0,
+            "z": 3710,
+            "lt": "Ephemeral",
+            "ti": [
+                20
+            ]
+        },
+        {
+            "i": 829,
+            "n": "Psyche",
+            "l": 85,
+            "t": 0,
+            "z": 3708,
+            "lt": "Unspoiled",
+            "ti": [
+                0,
+                12
+            ]
+        },
+        {
+            "i": 830,
+            "n": "The Drowning Brand",
+            "l": 85,
+            "t": 0,
+            "z": 3711,
+            "lt": "Unspoiled",
+            "ti": [
+                6,
+                18
+            ]
+        },
+        {
+            "i": 831,
+            "n": "Horrea Campi",
+            "l": 90,
+            "t": 1,
+            "z": 3710,
+            "lt": "Unspoiled",
+            "ti": [
+                2,
+                14
+            ]
+        },
+        {
+            "i": 832,
+            "n": "The Twelve Wonders",
+            "l": 90,
+            "t": 1,
+            "z": 3713,
+            "s": 1,
+            "lt": "Unspoiled",
+            "ti": [
+                10,
+                22
+            ]
+        },
+        {
+            "i": 833,
+            "n": "Purusa",
+            "l": 90,
+            "t": 1,
+            "z": 3709,
+            "s": 1,
+            "lt": "Unspoiled",
+            "ti": [
+                4,
+                16
+            ]
+        },
+        {
+            "i": 834,
+            "n": "Juturna Platform G",
+            "l": 90,
+            "t": 0,
+            "z": 3710,
+            "s": 2,
+            "lt": "Legendary",
+            "ti": [
+                0,
+                12
+            ]
+        },
+        {
+            "i": 835,
+            "n": "Kydonia Knolls",
+            "l": 90,
+            "t": 1,
+            "z": 3711,
+            "s": 1,
+            "lt": "Legendary",
+            "ti": [
+                2,
+                14
+            ]
+        },
+        {
+            "i": 836,
+            "n": "Ktisis Hyperboreia",
+            "l": 90,
+            "t": 1,
+            "z": 3713,
+            "s": 1,
+            "lt": "Legendary",
+            "ti": [
+                4,
+                16
+            ]
+        },
+        {
+            "i": 837,
+            "n": "The Phreatic Conduit",
+            "l": 85,
+            "t": 2,
+            "z": 3708
+        },
+        {
+            "i": 838,
+            "n": "Meryall Agronomics",
+            "l": 85,
+            "t": 3,
+            "z": 3708
+        },
+        {
+            "i": 839,
+            "n": "The Great Work",
+            "l": 85,
+            "t": 2,
+            "z": 3709
+        },
+        {
+            "i": 840,
+            "n": "Giantsgall Grounds",
+            "l": 85,
+            "t": 3,
+            "z": 3709
+        },
+        {
+            "i": 841,
+            "n": "Yedlihmad",
+            "l": 85,
+            "t": 3,
+            "z": 3709
+        },
+        {
+            "i": 842,
+            "n": "Camp Broken Glass",
+            "l": 85,
+            "t": 2,
+            "z": 3710
+        },
+        {
+            "i": 843,
+            "n": "Liminal Station IV",
+            "l": 85,
+            "t": 3,
+            "z": 3710
+        },
+        {
+            "i": 844,
+            "n": "Southerly Zephyrneus",
+            "l": 90,
+            "t": 2,
+            "z": 3713
+        },
+        {
+            "i": 845,
+            "n": "Anagnorisis",
+            "l": 90,
+            "t": 2,
+            "z": 3713
+        },
+        {
+            "i": 846,
+            "n": "Anagnorisis",
+            "l": 90,
+            "t": 3,
+            "z": 3713
+        },
+        {
+            "i": 847,
+            "n": "Ahm Nohl",
+            "l": 90,
+            "t": 2,
+            "z": 3712
+        },
+        {
+            "i": 848,
+            "n": "Reah Tahra",
+            "l": 90,
+            "t": 3,
+            "z": 3712
+        },
+        {
+            "i": 849,
+            "n": "Logistikon Gamma",
+            "l": 90,
+            "t": 3,
+            "z": 3708,
+            "s": 2,
+            "lt": "Ephemeral",
+            "ti": [
+                8
+            ]
+        },
+        {
+            "i": 850,
+            "n": "Pavana's Remorse",
+            "l": 90,
+            "t": 2,
+            "z": 3709,
+            "lt": "Ephemeral",
+            "ti": [
+                12
+            ]
+        },
+        {
+            "i": 851,
+            "n": "The Hamsa Hatchery",
+            "l": 85,
+            "t": 2,
+            "z": 3709,
+            "lt": "Unspoiled",
+            "ti": [
+                2,
+                14
+            ]
+        },
+        {
+            "i": 852,
+            "n": "The Pipe",
+            "l": 85,
+            "t": 2,
+            "z": 3710,
+            "lt": "Unspoiled",
+            "ti": [
+                4,
+                16
+            ]
+        },
+        {
+            "i": 853,
+            "n": "The Hungering Gardens",
+            "l": 90,
+            "t": 2,
+            "z": 3713,
+            "lt": "Unspoiled",
+            "ti": [
+                0,
+                12
+            ]
+        },
+        {
+            "i": 854,
+            "n": "Logistikon Beta",
+            "l": 90,
+            "t": 3,
+            "z": 3708,
+            "s": 1,
+            "lt": "Unspoiled",
+            "ti": [
+                6,
+                18
+            ]
+        },
+        {
+            "i": 855,
+            "n": "The Ragnarok",
+            "l": 90,
+            "t": 3,
+            "z": 3712,
+            "s": 1,
+            "lt": "Unspoiled",
+            "ti": [
+                8,
+                20
+            ]
+        },
+        {
+            "i": 856,
+            "n": "Lethe",
+            "l": 90,
+            "t": 2,
+            "z": 3713,
+            "s": 1,
+            "lt": "Legendary",
+            "ti": [
+                6,
+                18
+            ]
+        },
+        {
+            "i": 857,
+            "n": "The Shroud of the Samgha",
+            "l": 90,
+            "t": 3,
+            "z": 3709,
+            "s": 1,
+            "lt": "Legendary",
+            "ti": [
+                8,
+                20
+            ]
+        },
+        {
+            "i": 858,
+            "n": "The Tube",
+            "l": 90,
+            "t": 3,
+            "z": 3712,
+            "s": 2,
+            "lt": "Legendary",
+            "ti": [
+                10,
+                22
+            ]
+        },
+        {
+            "i": 889,
+            "n": "Southern Akyaali",
+            "l": 85,
+            "t": 5,
+            "z": 3709
+        },
+        {
+            "i": 890,
+            "n": "Northern Onokoro",
+            "l": 85,
+            "t": 5,
+            "z": 2409
+        },
+        {
+            "i": 891,
+            "n": "Isari Slope",
+            "l": 85,
+            "t": 5,
+            "z": 2409
+        },
+        {
+            "i": 892,
+            "n": "Exile",
+            "l": 85,
+            "t": 5,
+            "z": 2409
+        },
+        {
+            "i": 893,
+            "n": "Western Akyaali",
+            "l": 90,
+            "t": 5,
+            "z": 3709
+        },
+        {
+            "i": 894,
+            "n": "Southern Great Runoff",
+            "l": 90,
+            "t": 5,
+            "z": 3709
+        },
+        {
+            "i": 895,
+            "n": "The Font of Maya",
+            "l": 90,
+            "t": 5,
+            "z": 3709
+        },
+        {
+            "i": 896,
+            "n": "Northeastern Bekko",
+            "l": 90,
+            "t": 5,
+            "z": 2409
+        },
+        {
+            "i": 897,
+            "n": "Eastern Barrier Isle",
+            "l": 90,
+            "t": 5,
+            "z": 2409
+        },
+        {
+            "i": 898,
+            "n": "Loch Seld Northeastern Lakebed",
+            "l": 90,
+            "t": 5,
+            "z": 2408
+        },
+        {
+            "i": 899,
+            "n": "Northwestern Onokoro",
+            "l": 85,
+            "t": 5,
+            "z": 2409,
+            "lt": "Concealed"
+        },
+        {
+            "i": 900,
+            "n": "Outer Akyaali",
+            "l": 90,
+            "t": 5,
+            "z": 3709,
+            "lt": "Concealed"
+        },
+        {
+            "i": 902,
+            "n": "Heimdall's Last Sight",
+            "l": 85,
+            "t": 3,
+            "z": 3711
+        },
+        {
+            "i": 903,
+            "n": "Loch Seld Southwestern Lakebed",
+            "l": 85,
+            "t": 5,
+            "z": 2408
+        },
+        {
+            "i": 904,
+            "n": "The Anemone Gardens",
+            "l": 85,
+            "t": 5,
+            "z": 2409
+        },
+        {
+            "i": 338,
+            "n": "Tertium",
+            "l": 90,
+            "t": 1,
+            "z": 3710,
+            "s": 2,
+            "lt": "Legendary",
+            "ti": [
+                6,
+                18
+            ]
+        },
+        {
+            "i": 346,
+            "n": "Sinus Tormenti",
+            "l": 90,
+            "t": 0,
+            "z": 3711,
+            "s": 3,
+            "lt": "Legendary",
+            "ti": [
+                8,
+                20
+            ]
+        },
+        {
+            "i": 400,
+            "n": "The Central Circuit",
+            "l": 90,
+            "t": 1,
+            "z": 3708,
+            "s": 3,
+            "lt": "Legendary",
+            "ti": [
+                10,
+                22
+            ]
+        },
+        {
+            "i": 463,
+            "n": "The Twelve Wonders",
+            "l": 90,
+            "t": 2,
+            "z": 3713,
+            "s": 3,
+            "lt": "Legendary",
+            "ti": [
+                2,
+                14
+            ]
+        },
+        {
+            "i": 627,
+            "n": "The Shroud of the Samgha",
+            "l": 90,
+            "t": 2,
+            "z": 3709,
+            "s": 3,
+            "lt": "Legendary",
+            "ti": [
+                0,
+                12
+            ]
+        },
+        {
+            "i": 695,
+            "n": "Mornveil Forest",
+            "l": 90,
+            "t": 2,
+            "z": 3708,
+            "s": 2,
+            "lt": "Legendary",
+            "ti": [
+                4,
+                16
+            ]
+        },
+        {
+            "i": 915,
+            "n": "Southwestern Isle of Ken",
+            "l": 85,
+            "t": 5,
+            "z": 2953
+        },
+        {
+            "i": 916,
+            "n": "The House of the First Light",
+            "l": 85,
+            "t": 5,
+            "z": 2956
+        },
+        {
+            "i": 917,
+            "n": "Northeast Bronze Lake Depths",
+            "l": 90,
+            "t": 5,
+            "z": 34,
+            "s": 2
+        },
+        {
+            "i": 918,
+            "n": "Voeburtenburg",
+            "l": 85,
+            "t": 1,
+            "z": 2956
+        },
+        {
+            "i": 919,
+            "n": "The Central Hills of Amber",
+            "l": 85,
+            "t": 1,
+            "z": 2955
+        },
+        {
+            "i": 932,
+            "n": "Pavana's Remorse",
+            "l": 90,
+            "t": 1,
+            "z": 3709,
+            "s": 3,
+            "lt": "Legendary",
+            "ti": [
+                6,
+                18
+            ]
+        },
+        {
+            "i": 920,
+            "n": "The Stay",
+            "l": 90,
+            "t": 0,
+            "z": 2953,
+            "s": 3
+        },
+        {
+            "i": 933,
+            "n": "Ostrakon Deka-okto",
+            "l": 90,
+            "t": 0,
+            "z": 3712,
+            "s": 4,
+            "lt": "Legendary",
+            "ti": [
+                4,
+                16
+            ]
+        },
+        {
+            "i": 934,
+            "n": "Lethe",
+            "l": 90,
+            "t": 0,
+            "z": 3713,
+            "s": 3,
+            "lt": "Legendary",
+            "ti": [
+                8,
+                20
+            ]
+        },
+        {
+            "i": 921,
+            "n": "Good Jenanna's Grace",
+            "l": 85,
+            "t": 3,
+            "z": 2956
+        },
+        {
+            "i": 922,
+            "n": "Garik",
+            "l": 85,
+            "t": 3,
+            "z": 2955
+        },
+        {
+            "i": 935,
+            "n": "Regio Urbanissima",
+            "l": 90,
+            "t": 3,
+            "z": 3710,
+            "s": 3,
+            "lt": "Legendary",
+            "ti": [
+                10,
+                22
+            ]
+        },
+        {
+            "i": 923,
+            "n": "Northern Staging Point",
+            "l": 90,
+            "t": 2,
+            "z": 2953,
+            "s": 2
+        },
+        {
+            "i": 936,
+            "n": "Lovingway's Darlings",
+            "l": 90,
+            "t": 3,
+            "z": 3711,
+            "s": 3,
+            "lt": "Legendary",
+            "ti": [
+                0,
+                12
+            ]
+        },
+        {
+            "i": 937,
+            "n": "The Central Circuit",
+            "l": 90,
+            "t": 2,
+            "z": 3708,
+            "s": 4,
+            "lt": "Legendary",
+            "ti": [
+                2,
+                14
+            ]
+        },
+        {
+            "i": 924,
+            "n": "Timh Gyeus",
+            "l": 90,
+            "t": 0,
+            "z": 2956,
+            "s": 1
+        },
+        {
+            "i": 925,
+            "n": "Samiel's Backbone",
+            "l": 90,
+            "t": 0,
+            "z": 2955,
+            "s": 2
+        },
+        {
+            "i": 926,
+            "n": "Flue Bridge",
+            "l": 90,
+            "t": 2,
+            "z": 2954,
+            "s": 1
+        },
+        {
+            "i": 927,
+            "n": "The Norvrandt Slope",
+            "l": 85,
+            "t": 3,
+            "z": 2958
+        },
+        {
+            "i": 928,
+            "n": "The Norvrandt Slope",
+            "l": 85,
+            "t": 0,
+            "z": 2958
+        },
+        {
+            "i": 929,
+            "n": "The Bright Cliff",
+            "l": 90,
+            "t": 0,
+            "z": 2954,
+            "s": 3
+        },
+        {
+            "i": 930,
+            "n": "Mithai Glorianda",
+            "l": 90,
+            "t": 2,
+            "z": 2956,
+            "s": 3
+        },
+        {
+            "i": 931,
+            "n": "The Central Hills of Amber",
+            "l": 90,
+            "t": 2,
+            "z": 2955,
+            "s": 3
+        },
+        {
+            "i": 938,
+            "n": "Good Jenanna's Grace",
+            "l": 90,
+            "t": 0,
+            "z": 2956,
+            "s": 4
+        },
+        {
+            "i": 939,
+            "n": "The Ondo Cups",
+            "l": 90,
+            "t": 0,
+            "z": 2958,
+            "s": 4
+        },
+        {
+            "i": 940,
+            "n": "The Trip",
+            "l": 90,
+            "t": 2,
+            "z": 2957,
+            "s": 4
+        },
+        {
+            "i": 941,
+            "n": "The Ondo Cups",
+            "l": 90,
+            "t": 2,
+            "z": 2958,
+            "s": 4
+        },
+        {
+            "i": 942,
+            "n": "Saibai Cavern",
+            "l": 85,
+            "t": 5,
+            "z": 2409
+        },
+        {
+            "i": 943,
+            "n": "Northwest Bronze Lake Depths",
+            "l": 90,
+            "t": 5,
+            "z": 34
+        },
+        {
+            "i": 974,
+            "n": "Chabameki",
+            "l": 95,
+            "t": 0,
+            "z": 4505
+        },
+        {
+            "i": 975,
+            "n": "Sorrow",
+            "l": 95,
+            "t": 0,
+            "z": 4505
+        },
+        {
+            "i": 976,
+            "n": "Uyuyub'",
+            "l": 95,
+            "t": 0,
+            "z": 4506
+        },
+        {
+            "i": 977,
+            "n": "Xmun Hojaw",
+            "l": 95,
+            "t": 0,
+            "z": 4507
+        },
+        {
+            "i": 978,
+            "n": "Pyariyoanaan Plain",
+            "l": 95,
+            "t": 0,
+            "z": 4508
+        },
+        {
+            "i": 979,
+            "n": "The Ut'ohmu Horizon",
+            "l": 100,
+            "t": 0,
+            "z": 4507
+        },
+        {
+            "i": 980,
+            "n": "Iq Rrax Tsoly",
+            "l": 100,
+            "t": 0,
+            "z": 4507
+        },
+        {
+            "i": 981,
+            "n": "Eshceyaani Wilds",
+            "l": 100,
+            "t": 0,
+            "z": 4508
+        },
+        {
+            "i": 982,
+            "n": "East Yyasulani",
+            "l": 100,
+            "t": 0,
+            "z": 4509
+        },
+        {
+            "i": 983,
+            "n": "Archeo Alexandria",
+            "l": 100,
+            "t": 0,
+            "z": 4509
+        },
+        {
+            "i": 984,
+            "n": "Solace",
+            "l": 95,
+            "t": 1,
+            "z": 4505
+        },
+        {
+            "i": 985,
+            "n": "Eshceyaani Wilds",
+            "l": 100,
+            "t": 1,
+            "z": 4508
+        },
+        {
+            "i": 986,
+            "n": "Uyuyub'",
+            "l": 95,
+            "t": 2,
+            "z": 4506
+        },
+        {
+            "i": 987,
+            "n": "The Dewspun Bank",
+            "l": 95,
+            "t": 2,
+            "z": 4506
+        },
+        {
+            "i": 988,
+            "n": "The Ja Tiika Heartland",
+            "l": 95,
+            "t": 2,
+            "z": 4507
+        },
+        {
+            "i": 989,
+            "n": "Eshceyaani Wilds",
+            "l": 100,
+            "t": 2,
+            "z": 4508
+        },
+        {
+            "i": 990,
+            "n": "Pyariyoanaan Plain",
+            "l": 100,
+            "t": 2,
+            "z": 4508
+        },
+        {
+            "i": 991,
+            "n": "East Yyasulani",
+            "l": 100,
+            "t": 2,
+            "z": 4509
+        },
+        {
+            "i": 992,
+            "n": "Chabameki",
+            "l": 95,
+            "t": 3,
+            "z": 4505
+        },
+        {
+            "i": 993,
+            "n": "Chabayuqeq",
+            "l": 95,
+            "t": 3,
+            "z": 4505
+        },
+        {
+            "i": 994,
+            "n": "Larh Tortoh",
+            "l": 95,
+            "t": 3,
+            "z": 4505
+        },
+        {
+            "i": 995,
+            "n": "Uyuypoga",
+            "l": 95,
+            "t": 2,
+            "z": 4506
+        },
+        {
+            "i": 996,
+            "n": "The Glostfired Bank",
+            "l": 95,
+            "t": 3,
+            "z": 4506
+        },
+        {
+            "i": 997,
+            "n": "The Ut'ohmu Horizon",
+            "l": 95,
+            "t": 3,
+            "z": 4507
+        },
+        {
+            "i": 998,
+            "n": "The Xobr'it Cinderfield",
+            "l": 95,
+            "t": 3,
+            "z": 4507
+        },
+        {
+            "i": 999,
+            "n": "Yawtanane Grasslands",
+            "l": 95,
+            "t": 3,
+            "z": 4508
+        },
+        {
+            "i": 1000,
+            "n": "The Xobr'it Cinderfield",
+            "l": 100,
+            "t": 3,
+            "z": 4507
+        },
+        {
+            "i": 1001,
+            "n": "Iq Rrax Tsoly",
+            "l": 100,
+            "t": 3,
+            "z": 4507
+        },
+        {
+            "i": 1002,
+            "n": "Yawtanane Grasslands",
+            "l": 100,
+            "t": 3,
+            "z": 4508
+        },
+        {
+            "i": 1003,
+            "n": "Everkeep Ward",
+            "l": 100,
+            "t": 3,
+            "z": 4509
+        },
+        {
+            "i": 1004,
+            "n": "Blooms of Discovery",
+            "l": 100,
+            "t": 3,
+            "z": 4510
+        },
+        {
+            "i": 1005,
+            "n": "Karvarhur the First",
+            "l": 95,
+            "t": 5,
+            "z": 4505
+        },
+        {
+            "i": 1006,
+            "n": "Eastern Marsh Ligaka",
+            "l": 95,
+            "t": 5,
+            "z": 4506
+        },
+        {
+            "i": 1007,
+            "n": "Western Marsh Ligaka",
+            "l": 95,
+            "t": 5,
+            "z": 4506
+        },
+        {
+            "i": 1008,
+            "n": "Xd'aa Talat Tsoly",
+            "l": 95,
+            "t": 5,
+            "z": 4507
+        },
+        {
+            "i": 1009,
+            "n": "Western Iq Rrax Tsoly",
+            "l": 100,
+            "t": 5,
+            "z": 4507
+        },
+        {
+            "i": 1010,
+            "n": "Eastern Iq Rrax Tsoly",
+            "l": 100,
+            "t": 5,
+            "z": 4507
+        },
+        {
+            "i": 1011,
+            "n": "Northern Lake Toari",
+            "l": 100,
+            "t": 5,
+            "z": 4508
+        },
+        {
+            "i": 1012,
+            "n": "Marsh Ligaka Depths",
+            "l": 95,
+            "t": 5,
+            "z": 4506,
+            "lt": "Concealed"
+        },
+        {
+            "i": 1013,
+            "n": "Iq Rrax Tsoly Depths",
+            "l": 100,
+            "t": 5,
+            "z": 4507,
+            "lt": "Concealed"
+        },
+        {
+            "i": 1014,
+            "n": "East Yyasulani",
+            "l": 100,
+            "t": 1,
+            "z": 4509,
+            "lt": "Ephemeral",
+            "ti": [
+                20
+            ]
+        },
+        {
+            "i": 1015,
+            "n": "The Knowable",
+            "l": 100,
+            "t": 1,
+            "z": 4510,
+            "lt": "Ephemeral",
+            "ti": [
+                0
+            ]
+        },
+        {
+            "i": 1016,
+            "n": "Eshceyaani Wilds",
+            "l": 100,
+            "t": 3,
+            "z": 4508,
+            "lt": "Ephemeral",
+            "ti": [
+                4
+            ]
+        },
+        {
+            "i": 1017,
+            "n": "Matchlock Menagerie",
+            "l": 100,
+            "t": 3,
+            "z": 4510,
+            "lt": "Ephemeral",
+            "ti": [
+                16
+            ]
+        },
+        {
+            "i": 1018,
+            "n": "Uyuypoga",
+            "l": 95,
+            "t": 0,
+            "z": 4506
+        },
+        {
+            "i": 1019,
+            "n": "Heatwells",
+            "l": 100,
+            "t": 1,
+            "z": 4510
+        },
+        {
+            "i": 1020,
+            "n": "Miyakabek'zoma",
+            "l": 95,
+            "t": 3,
+            "z": 4506
+        },
+        {
+            "i": 1021,
+            "n": "Everkeep Ward",
+            "l": 100,
+            "t": 3,
+            "z": 4509
+        },
+        {
+            "i": 1022,
+            "n": "Uyuyub'",
+            "l": 95,
+            "t": 0,
+            "z": 4506,
+            "lt": "Unspoiled",
+            "ti": [
+                10,
+                22
+            ]
+        },
+        {
+            "i": 1023,
+            "n": "Eshceyaani Wilds",
+            "l": 100,
+            "t": 0,
+            "z": 4508,
+            "lt": "Unspoiled",
+            "ti": [
+                8,
+                20
+            ]
+        },
+        {
+            "i": 1024,
+            "n": "East Yyasulani",
+            "l": 100,
+            "t": 0,
+            "z": 4509,
+            "s": 1,
+            "lt": "Unspoiled",
+            "ti": [
+                4,
+                16
+            ]
+        },
+        {
+            "i": 1025,
+            "n": "Arena of Valor",
+            "l": 100,
+            "t": 1,
+            "z": 4510,
+            "s": 1,
+            "lt": "Unspoiled",
+            "ti": [
+                0,
+                12
+            ]
+        },
+        {
+            "i": 1026,
+            "n": "Larh Tortoh",
+            "l": 95,
+            "t": 3,
+            "z": 4505,
+            "lt": "Unspoiled",
+            "ti": [
+                0,
+                12
+            ]
+        },
+        {
+            "i": 1027,
+            "n": "The Ja Tiika Heartland",
+            "l": 100,
+            "t": 2,
+            "z": 4507,
+            "lt": "Unspoiled",
+            "ti": [
+                2,
+                14
+            ]
+        },
+        {
+            "i": 1028,
+            "n": "Pyariyoanaan Plain",
+            "l": 100,
+            "t": 2,
+            "z": 4508,
+            "s": 1,
+            "lt": "Unspoiled",
+            "ti": [
+                6,
+                18
+            ]
+        },
+        {
+            "i": 1029,
+            "n": "The Knowable",
+            "l": 100,
+            "t": 3,
+            "z": 4510,
+            "s": 1,
+            "lt": "Unspoiled",
+            "ti": [
+                10,
+                22
+            ]
+        },
+        {
+            "i": 1030,
+            "n": "Naryor Gorna",
+            "l": 100,
+            "t": 1,
+            "z": 4505,
+            "s": 1,
+            "lt": "Legendary",
+            "ti": [
+                8,
+                20
+            ]
+        },
+        {
+            "i": 1031,
+            "n": "Yawtanane Grasslands",
+            "l": 100,
+            "t": 0,
+            "z": 4508,
+            "s": 1,
+            "lt": "Legendary",
+            "ti": [
+                10,
+                22
+            ]
+        },
+        {
+            "i": 1032,
+            "n": "The Knowable",
+            "l": 100,
+            "t": 0,
+            "z": 4510,
+            "s": 1,
+            "lt": "Legendary",
+            "ti": [
+                6,
+                18
+            ]
+        },
+        {
+            "i": 1033,
+            "n": "The Glostfired Bank",
+            "l": 100,
+            "t": 2,
+            "z": 4506,
+            "s": 1,
+            "lt": "Legendary",
+            "ti": [
+                0,
+                12
+            ]
+        },
+        {
+            "i": 1034,
+            "n": "Eshceyaani Wilds",
+            "l": 100,
+            "t": 2,
+            "z": 4508,
+            "s": 1,
+            "lt": "Legendary",
+            "ti": [
+                2,
+                14
+            ]
+        },
+        {
+            "i": 1035,
+            "n": "Arena of Valor",
+            "l": 100,
+            "t": 3,
+            "z": 4510,
+            "s": 1,
+            "lt": "Legendary",
+            "ti": [
+                4,
+                16
+            ]
+        },
+        {
+            "i": 1036,
+            "n": "The Ja Tiika Heartland",
+            "l": 95,
+            "t": 2,
+            "z": 4507
+        },
+        {
+            "i": 1188,
+            "n": "Uyuyub'",
+            "l": 100,
+            "t": 1,
+            "z": 4506,
+            "s": 2,
+            "lt": "Legendary",
+            "ti": [
+                8,
+                20
+            ]
+        },
+        {
+            "i": 1189,
+            "n": "The Cerulean Cexudross",
+            "l": 100,
+            "t": 0,
+            "z": 4507,
+            "s": 2,
+            "lt": "Legendary",
+            "ti": [
+                10,
+                22
+            ]
+        },
+        {
+            "i": 1190,
+            "n": "Everkeep Ward",
+            "l": 100,
+            "t": 1,
+            "z": 4509,
+            "s": 2,
+            "lt": "Legendary",
+            "ti": [
+                2,
+                14
+            ]
+        },
+        {
+            "i": 1191,
+            "n": "The Xobr'it Cinderfield",
+            "l": 100,
+            "t": 2,
+            "z": 4507,
+            "s": 2,
+            "lt": "Legendary",
+            "ti": [
+                0,
+                12
+            ]
+        },
+        {
+            "i": 1192,
+            "n": "Pyariyoanaan Plain",
+            "l": 100,
+            "t": 3,
+            "z": 4508,
+            "s": 2,
+            "lt": "Legendary",
+            "ti": [
+                4,
+                16
+            ]
+        },
+        {
+            "i": 1193,
+            "n": "East Yyasulani",
+            "l": 100,
+            "t": 2,
+            "z": 4509,
+            "s": 2,
+            "lt": "Legendary",
+            "ti": [
+                6,
+                18
+            ]
+        }
+    ]
+}

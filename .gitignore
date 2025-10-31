@@ -135,3 +135,6 @@ dmypy.json
 
 # Cache
 cache/
+
+# Project specific
+*logs

@@ -1,0 +1,1286 @@
+{
+    "equip": {
+        "9": [
+            {
+                "id": 46690
+            },
+            {
+                "id": 46613
+            },
+            {
+                "id": 46536
+            },
+            {
+                "id": 46437
+            },
+            {
+                "id": 46070
+            },
+            {
+                "id": 43161
+            },
+            {
+                "id": 43084
+            },
+            {
+                "id": 46382
+            },
+            {
+                "id": 44804
+            }
+        ],
+        "10": [
+            {
+                "id": 46695
+            },
+            {
+                "id": 46618
+            },
+            {
+                "id": 46541
+            },
+            {
+                "id": 46442
+            },
+            {
+                "id": 46075
+            },
+            {
+                "id": 43166
+            },
+            {
+                "id": 43089
+            },
+            {
+                "id": 46387
+            },
+            {
+                "id": 44809
+            }
+        ],
+        "11": [
+            {
+                "id": 46700
+            },
+            {
+                "id": 46623
+            },
+            {
+                "id": 46546
+            },
+            {
+                "id": 46447
+            },
+            {
+                "id": 46080
+            },
+            {
+                "id": 43171
+            },
+            {
+                "id": 43094
+            },
+            {
+                "id": 46392
+            },
+            {
+                "id": 44814
+            }
+        ],
+        "12": [
+            {
+                "id": 46705
+            },
+            {
+                "id": 46628
+            },
+            {
+                "id": 46551
+            },
+            {
+                "id": 46452
+            },
+            {
+                "id": 46085
+            },
+            {
+                "id": 43176
+            },
+            {
+                "id": 43099
+            },
+            {
+                "id": 46397
+            },
+            {
+                "id": 44819
+            }
+        ],
+        "13": [
+            {
+                "id": 46635
+            },
+            {
+                "id": 46558
+            },
+            {
+                "id": 46481
+            },
+            {
+                "id": 47874
+            },
+            {
+                "id": 46459
+            },
+            {
+                "id": 46015
+            },
+            {
+                "id": 44726
+            },
+            {
+                "id": 43106
+            },
+            {
+                "id": 43029
+            }
+        ],
+        "3": [
+            {
+                "id": 46677
+            },
+            {
+                "id": 46600
+            },
+            {
+                "id": 46523
+            },
+            {
+                "id": 47843
+            },
+            {
+                "id": 47838
+            },
+            {
+                "id": 47833
+            },
+            {
+                "id": 46424
+            },
+            {
+                "id": 46057
+            },
+            {
+                "id": 44630
+            }
+        ],
+        "4": [
+            {
+                "id": 46678
+            },
+            {
+                "id": 46601
+            },
+            {
+                "id": 46524
+            },
+            {
+                "id": 47844
+            },
+            {
+                "id": 47839
+            },
+            {
+                "id": 47834
+            },
+            {
+                "id": 46425
+            },
+            {
+                "id": 46342
+            },
+            {
+                "id": 46058
+            }
+        ],
+        "5": [
+            {
+                "id": 46679
+            },
+            {
+                "id": 46602
+            },
+            {
+                "id": 46525
+            },
+            {
+                "id": 47845
+            },
+            {
+                "id": 47840
+            },
+            {
+                "id": 47835
+            },
+            {
+                "id": 46426
+            },
+            {
+                "id": 46059
+            },
+            {
+                "id": 44632
+            }
+        ],
+        "7": [
+            {
+                "id": 46680
+            },
+            {
+                "id": 46603
+            },
+            {
+                "id": 46526
+            },
+            {
+                "id": 47846
+            },
+            {
+                "id": 47841
+            },
+            {
+                "id": 47836
+            },
+            {
+                "id": 46427
+            },
+            {
+                "id": 46060
+            },
+            {
+                "id": 44633
+            }
+        ],
+        "8": [
+            {
+                "id": 46681
+            },
+            {
+                "id": 46604
+            },
+            {
+                "id": 46527
+            },
+            {
+                "id": 47847
+            },
+            {
+                "id": 47842
+            },
+            {
+                "id": 47837
+            },
+            {
+                "id": 46428
+            },
+            {
+                "id": 46061
+            },
+            {
+                "id": 44634
+            }
+        ]
+    },
+    "partials": [
+        {
+            "type": "item",
+            "id": "46690",
+            "obj": {
+                "i": 46690,
+                "n": "Babyface Champion's Earring of Healing",
+                "l": 760,
+                "c": "t/55553",
+                "t": 41
+            }
+        },
+        {
+            "type": "item",
+            "id": "46613",
+            "obj": {
+                "i": 46613,
+                "n": "Augmented Historia Earrings of Healing",
+                "l": 760,
+                "c": "t/55555",
+                "t": 41
+            }
+        },
+        {
+            "type": "item",
+            "id": "46536",
+            "obj": {
+                "i": 46536,
+                "n": "Historia Earrings of Healing",
+                "l": 750,
+                "c": "t/55555",
+                "t": 41
+            }
+        },
+        {
+            "type": "item",
+            "id": "46437",
+            "obj": {
+                "i": 46437,
+                "n": "Cruiser Earring of Healing",
+                "l": 740,
+                "c": "t/55553",
+                "t": 41
+            }
+        },
+        {
+            "type": "item",
+            "id": "46070",
+            "obj": {
+                "i": 46070,
+                "n": "Ceremonial Earring of Healing",
+                "l": 740,
+                "c": "t/55549",
+                "t": 41
+            }
+        },
+        {
+            "type": "item",
+            "id": "43161",
+            "obj": {
+                "i": 43161,
+                "n": "Dark Horse Champion's Earring of Healing",
+                "l": 730,
+                "c": 55536,
+                "t": 41
+            }
+        },
+        {
+            "type": "item",
+            "id": "43084",
+            "obj": {
+                "i": 43084,
+                "n": "Augmented Quetzalli Ear Cuffs of Healing",
+                "l": 730,
+                "c": 55541,
+                "t": 41
+            }
+        },
+        {
+            "type": "item",
+            "id": "46382",
+            "obj": {
+                "i": 46382,
+                "n": "Underkeep Earrings of Healing",
+                "l": 725,
+                "c": "t/55554",
+                "t": 41
+            }
+        },
+        {
+            "type": "item",
+            "id": "44804",
+            "obj": {
+                "i": 44804,
+                "n": "Augmented Archeo Kingdom Earrings of Healing",
+                "l": 720,
+                "c": 55539,
+                "t": 41
+            }
+        },
+        {
+            "type": "item",
+            "id": "46695",
+            "obj": {
+                "i": 46695,
+                "n": "Babyface Champion's Gorget of Healing",
+                "l": 760,
+                "c": "t/55101",
+                "t": 40
+            }
+        },
+        {
+            "type": "item",
+            "id": "46618",
+            "obj": {
+                "i": 46618,
+                "n": "Augmented Historia Choker of Healing",
+                "l": 760,
+                "c": "t/55103",
+                "t": 40
+            }
+        },
+        {
+            "type": "item",
+            "id": "46541",
+            "obj": {
+                "i": 46541,
+                "n": "Historia Choker of Healing",
+                "l": 750,
+                "c": "t/55103",
+                "t": 40
+            }
+        },
+        {
+            "type": "item",
+            "id": "46442",
+            "obj": {
+                "i": 46442,
+                "n": "Cruiser Gorget of Healing",
+                "l": 740,
+                "c": "t/55101",
+                "t": 40
+            }
+        },
+        {
+            "type": "item",
+            "id": "46075",
+            "obj": {
+                "i": 46075,
+                "n": "Ceremonial Necklace of Healing",
+                "l": 740,
+                "c": "t/55100",
+                "t": 40
+            }
+        },
+        {
+            "type": "item",
+            "id": "43166",
+            "obj": {
+                "i": 43166,
+                "n": "Dark Horse Champion's Choker of Healing",
+                "l": 730,
+                "c": 55088,
+                "t": 40
+            }
+        },
+        {
+            "type": "item",
+            "id": "43089",
+            "obj": {
+                "i": 43089,
+                "n": "Augmented Quetzalli Necklace of Healing",
+                "l": 730,
+                "c": 55093,
+                "t": 40
+            }
+        },
+        {
+            "type": "item",
+            "id": "46387",
+            "obj": {
+                "i": 46387,
+                "n": "Underkeep Neckband of Healing",
+                "l": 725,
+                "c": "t/55102",
+                "t": 40
+            }
+        },
+        {
+            "type": "item",
+            "id": "44809",
+            "obj": {
+                "i": 44809,
+                "n": "Augmented Archeo Kingdom Choker of Healing",
+                "l": 720,
+                "c": 55091,
+                "t": 40
+            }
+        },
+        {
+            "type": "item",
+            "id": "46700",
+            "obj": {
+                "i": 46700,
+                "n": "Babyface Champion's Bangle of Healing",
+                "l": 760,
+                "c": "t/55899",
+                "t": 42
+            }
+        },
+        {
+            "type": "item",
+            "id": "46623",
+            "obj": {
+                "i": 46623,
+                "n": "Augmented Historia Wristband of Healing",
+                "l": 760,
+                "c": "t/55901",
+                "t": 42
+            }
+        },
+        {
+            "type": "item",
+            "id": "46546",
+            "obj": {
+                "i": 46546,
+                "n": "Historia Wristband of Healing",
+                "l": 750,
+                "c": "t/55901",
+                "t": 42
+            }
+        },
+        {
+            "type": "item",
+            "id": "46447",
+            "obj": {
+                "i": 46447,
+                "n": "Cruiser Bangle of Healing",
+                "l": 740,
+                "c": "t/55899",
+                "t": 42
+            }
+        },
+        {
+            "type": "item",
+            "id": "46080",
+            "obj": {
+                "i": 46080,
+                "n": "Ceremonial Bangle of Healing",
+                "l": 740,
+                "c": "t/55898",
+                "t": 42
+            }
+        },
+        {
+            "type": "item",
+            "id": "43171",
+            "obj": {
+                "i": 43171,
+                "n": "Dark Horse Champion's Bangle of Healing",
+                "l": 730,
+                "c": 55887,
+                "t": 42
+            }
+        },
+        {
+            "type": "item",
+            "id": "43094",
+            "obj": {
+                "i": 43094,
+                "n": "Augmented Quetzalli Bracelets of Healing",
+                "l": 730,
+                "c": 55892,
+                "t": 42
+            }
+        },
+        {
+            "type": "item",
+            "id": "46392",
+            "obj": {
+                "i": 46392,
+                "n": "Underkeep Wristband of Healing",
+                "l": 725,
+                "c": "t/55900",
+                "t": 42
+            }
+        },
+        {
+            "type": "item",
+            "id": "44814",
+            "obj": {
+                "i": 44814,
+                "n": "Augmented Archeo Kingdom Wristband of Healing",
+                "l": 720,
+                "c": 55890,
+                "t": 42
+            }
+        },
+        {
+            "type": "item",
+            "id": "46705",
+            "obj": {
+                "i": 46705,
+                "n": "Babyface Champion's Ring of Healing",
+                "l": 760,
+                "c": "t/54751",
+                "t": 43
+            }
+        },
+        {
+            "type": "item",
+            "id": "46628",
+            "obj": {
+                "i": 46628,
+                "n": "Augmented Historia Ring of Healing",
+                "l": 760,
+                "c": "t/54753",
+                "t": 43
+            }
+        },
+        {
+            "type": "item",
+            "id": "46551",
+            "obj": {
+                "i": 46551,
+                "n": "Historia Ring of Healing",
+                "l": 750,
+                "c": "t/54753",
+                "t": 43
+            }
+        },
+        {
+            "type": "item",
+            "id": "46452",
+            "obj": {
+                "i": 46452,
+                "n": "Cruiser Ring of Healing",
+                "l": 740,
+                "c": "t/54751",
+                "t": 43
+            }
+        },
+        {
+            "type": "item",
+            "id": "46085",
+            "obj": {
+                "i": 46085,
+                "n": "Ceremonial Ring of Healing",
+                "l": 740,
+                "c": "t/54750",
+                "t": 43
+            }
+        },
+        {
+            "type": "item",
+            "id": "43176",
+            "obj": {
+                "i": 43176,
+                "n": "Dark Horse Champion's Ring of Healing",
+                "l": 730,
+                "c": 54738,
+                "t": 43
+            }
+        },
+        {
+            "type": "item",
+            "id": "43099",
+            "obj": {
+                "i": 43099,
+                "n": "Augmented Quetzalli Ring of Healing",
+                "l": 730,
+                "c": 54743,
+                "t": 43
+            }
+        },
+        {
+            "type": "item",
+            "id": "46397",
+            "obj": {
+                "i": 46397,
+                "n": "Underkeep Ring of Healing",
+                "l": 725,
+                "c": "t/54752",
+                "t": 43
+            }
+        },
+        {
+            "type": "item",
+            "id": "44819",
+            "obj": {
+                "i": 44819,
+                "n": "Augmented Archeo Kingdom Ring of Healing",
+                "l": 720,
+                "c": 54741,
+                "t": 43
+            }
+        },
+        {
+            "type": "item",
+            "id": "46635",
+            "obj": {
+                "i": 46635,
+                "n": "Babyface Champion's Cane",
+                "l": 765,
+                "c": "t/32488",
+                "t": 9
+            }
+        },
+        {
+            "type": "item",
+            "id": "46558",
+            "obj": {
+                "i": 46558,
+                "n": "Augmented Historia Cane",
+                "l": 760,
+                "c": "t/32487",
+                "t": 9
+            }
+        },
+        {
+            "type": "item",
+            "id": "46481",
+            "obj": {
+                "i": 46481,
+                "n": "Historia Cane",
+                "l": 750,
+                "c": "t/32487",
+                "t": 9
+            }
+        },
+        {
+            "type": "item",
+            "id": "47874",
+            "obj": {
+                "i": 47874,
+                "n": "Phantom Crook Penumbrae",
+                "l": 745,
+                "c": "t/32489",
+                "t": 9
+            }
+        },
+        {
+            "type": "item",
+            "id": "46459",
+            "obj": {
+                "i": 46459,
+                "n": "Queensknight Cane",
+                "l": 745,
+                "c": "t/32486",
+                "t": 9
+            }
+        },
+        {
+            "type": "item",
+            "id": "46015",
+            "obj": {
+                "i": 46015,
+                "n": "Ceremonial Wand",
+                "l": 740,
+                "c": "t/32485",
+                "t": 9
+            }
+        },
+        {
+            "type": "item",
+            "id": "44726",
+            "obj": {
+                "i": 44726,
+                "n": "Ultimate Edenmorn Cane",
+                "l": 735,
+                "c": 32481,
+                "t": 9
+            }
+        },
+        {
+            "type": "item",
+            "id": "43106",
+            "obj": {
+                "i": 43106,
+                "n": "Dark Horse Champion's Cane",
+                "l": 735,
+                "c": 32471,
+                "t": 9
+            }
+        },
+        {
+            "type": "item",
+            "id": "43029",
+            "obj": {
+                "i": 43029,
+                "n": "Augmented Quetzalli Cane",
+                "l": 730,
+                "c": 32472,
+                "t": 9
+            }
+        },
+        {
+            "type": "item",
+            "id": "46677",
+            "obj": {
+                "i": 46677,
+                "n": "Babyface Champion's Headgear of Healing",
+                "l": 760,
+                "c": "t/56834",
+                "t": 34
+            }
+        },
+        {
+            "type": "item",
+            "id": "46600",
+            "obj": {
+                "i": 46600,
+                "n": "Augmented Historia Cap of Healing",
+                "l": 760,
+                "c": "t/56842",
+                "t": 34
+            }
+        },
+        {
+            "type": "item",
+            "id": "46523",
+            "obj": {
+                "i": 46523,
+                "n": "Historia Cap of Healing",
+                "l": 750,
+                "c": "t/56842",
+                "t": 34
+            }
+        },
+        {
+            "type": "item",
+            "id": "47843",
+            "obj": {
+                "i": 47843,
+                "n": "Arcanaut's Sugarloaf Hat of Healing +2",
+                "l": 745,
+                "c": "t/56817",
+                "t": 34
+            }
+        },
+        {
+            "type": "item",
+            "id": "47838",
+            "obj": {
+                "i": 47838,
+                "n": "Arcanaut's Sugarloaf Hat of Healing +1",
+                "l": 745,
+                "c": "t/56817",
+                "t": 34
+            }
+        },
+        {
+            "type": "item",
+            "id": "47833",
+            "obj": {
+                "i": 47833,
+                "n": "Arcanaut's Sugarloaf Hat of Healing",
+                "l": 745,
+                "c": "t/56817",
+                "t": 34
+            }
+        },
+        {
+            "type": "item",
+            "id": "46424",
+            "obj": {
+                "i": 46424,
+                "n": "Cruiser Headgear of Healing",
+                "l": 740,
+                "c": "t/56834",
+                "t": 34
+            }
+        },
+        {
+            "type": "item",
+            "id": "46057",
+            "obj": {
+                "i": 46057,
+                "n": "Ceremonial Hood of Healing",
+                "l": 740,
+                "c": "t/56828",
+                "t": 34
+            }
+        },
+        {
+            "type": "item",
+            "id": "44630",
+            "obj": {
+                "i": 44630,
+                "n": "Clouddark Horns of Healing",
+                "l": 730,
+                "c": 56809,
+                "t": 34
+            }
+        },
+        {
+            "type": "item",
+            "id": "46678",
+            "obj": {
+                "i": 46678,
+                "n": "Babyface Champion's Coat of Healing",
+                "l": 760,
+                "c": "t/57228",
+                "t": 35
+            }
+        },
+        {
+            "type": "item",
+            "id": "46601",
+            "obj": {
+                "i": 46601,
+                "n": "Augmented Historia Robe of Healing",
+                "l": 760,
+                "c": "t/57236",
+                "t": 35
+            }
+        },
+        {
+            "type": "item",
+            "id": "46524",
+            "obj": {
+                "i": 46524,
+                "n": "Historia Robe of Healing",
+                "l": 750,
+                "c": "t/57236",
+                "t": 35
+            }
+        },
+        {
+            "type": "item",
+            "id": "47844",
+            "obj": {
+                "i": 47844,
+                "n": "Arcanaut's Robe of Healing +2",
+                "l": 745,
+                "c": "t/57209",
+                "t": 35
+            }
+        },
+        {
+            "type": "item",
+            "id": "47839",
+            "obj": {
+                "i": 47839,
+                "n": "Arcanaut's Robe of Healing +1",
+                "l": 745,
+                "c": "t/57209",
+                "t": 35
+            }
+        },
+        {
+            "type": "item",
+            "id": "47834",
+            "obj": {
+                "i": 47834,
+                "n": "Arcanaut's Robe of Healing",
+                "l": 745,
+                "c": "t/57209",
+                "t": 35
+            }
+        },
+        {
+            "type": "item",
+            "id": "46425",
+            "obj": {
+                "i": 46425,
+                "n": "Cruiser Coat of Healing",
+                "l": 740,
+                "c": "t/57228",
+                "t": 35
+            }
+        },
+        {
+            "type": "item",
+            "id": "46342",
+            "obj": {
+                "i": 46342,
+                "n": "Ornate Ceremonial Tunic of Healing",
+                "l": 740,
+                "c": "t/57219",
+                "t": 35
+            }
+        },
+        {
+            "type": "item",
+            "id": "46058",
+            "obj": {
+                "i": 46058,
+                "n": "Ceremonial Tunic of Healing",
+                "l": 740,
+                "c": "t/57219",
+                "t": 35
+            }
+        },
+        {
+            "type": "item",
+            "id": "46679",
+            "obj": {
+                "i": 46679,
+                "n": "Babyface Champion's Halfgloves of Healing",
+                "l": 760,
+                "c": "t/56342",
+                "t": 37
+            }
+        },
+        {
+            "type": "item",
+            "id": "46602",
+            "obj": {
+                "i": 46602,
+                "n": "Augmented Historia Gloves of Healing",
+                "l": 760,
+                "c": "t/56350",
+                "t": 37
+            }
+        },
+        {
+            "type": "item",
+            "id": "46525",
+            "obj": {
+                "i": 46525,
+                "n": "Historia Gloves of Healing",
+                "l": 750,
+                "c": "t/56350",
+                "t": 37
+            }
+        },
+        {
+            "type": "item",
+            "id": "47845",
+            "obj": {
+                "i": 47845,
+                "n": "Arcanaut's Wristgloves of Healing +2",
+                "l": 745,
+                "c": "t/56324",
+                "t": 37
+            }
+        },
+        {
+            "type": "item",
+            "id": "47840",
+            "obj": {
+                "i": 47840,
+                "n": "Arcanaut's Wristgloves of Healing +1",
+                "l": 745,
+                "c": "t/56324",
+                "t": 37
+            }
+        },
+        {
+            "type": "item",
+            "id": "47835",
+            "obj": {
+                "i": 47835,
+                "n": "Arcanaut's Wristgloves of Healing",
+                "l": 745,
+                "c": "t/56324",
+                "t": 37
+            }
+        },
+        {
+            "type": "item",
+            "id": "46426",
+            "obj": {
+                "i": 46426,
+                "n": "Cruiser Halfgloves of Healing",
+                "l": 740,
+                "c": "t/56342",
+                "t": 37
+            }
+        },
+        {
+            "type": "item",
+            "id": "46059",
+            "obj": {
+                "i": 46059,
+                "n": "Ceremonial Gloves of Healing",
+                "l": 740,
+                "c": "t/56334",
+                "t": 37
+            }
+        },
+        {
+            "type": "item",
+            "id": "44632",
+            "obj": {
+                "i": 44632,
+                "n": "Clouddark Gauntlets of Healing",
+                "l": 730,
+                "c": 56317,
+                "t": 37
+            }
+        },
+        {
+            "type": "item",
+            "id": "46680",
+            "obj": {
+                "i": 46680,
+                "n": "Babyface Champion's Brais of Healing",
+                "l": 760,
+                "c": "t/57752",
+                "t": 36
+            }
+        },
+        {
+            "type": "item",
+            "id": "46603",
+            "obj": {
+                "i": 46603,
+                "n": "Augmented Historia Sarouel of Healing",
+                "l": 760,
+                "c": "t/57760",
+                "t": 36
+            }
+        },
+        {
+            "type": "item",
+            "id": "46526",
+            "obj": {
+                "i": 46526,
+                "n": "Historia Sarouel of Healing",
+                "l": 750,
+                "c": "t/57760",
+                "t": 36
+            }
+        },
+        {
+            "type": "item",
+            "id": "47846",
+            "obj": {
+                "i": 47846,
+                "n": "Arcanaut's Skirt of Healing +2",
+                "l": 745,
+                "c": "t/57734",
+                "t": 36
+            }
+        },
+        {
+            "type": "item",
+            "id": "47841",
+            "obj": {
+                "i": 47841,
+                "n": "Arcanaut's Skirt of Healing +1",
+                "l": 745,
+                "c": "t/57734",
+                "t": 36
+            }
+        },
+        {
+            "type": "item",
+            "id": "47836",
+            "obj": {
+                "i": 47836,
+                "n": "Arcanaut's Skirt of Healing",
+                "l": 745,
+                "c": "t/57734",
+                "t": 36
+            }
+        },
+        {
+            "type": "item",
+            "id": "46427",
+            "obj": {
+                "i": 46427,
+                "n": "Cruiser Brais of Healing",
+                "l": 740,
+                "c": "t/57752",
+                "t": 36
+            }
+        },
+        {
+            "type": "item",
+            "id": "46060",
+            "obj": {
+                "i": 46060,
+                "n": "Ceremonial Hose of Healing",
+                "l": 740,
+                "c": "t/57744",
+                "t": 36
+            }
+        },
+        {
+            "type": "item",
+            "id": "44633",
+            "obj": {
+                "i": 44633,
+                "n": "Clouddark Brais of Healing",
+                "l": 730,
+                "c": 57727,
+                "t": 36
+            }
+        },
+        {
+            "type": "item",
+            "id": "46681",
+            "obj": {
+                "i": 46681,
+                "n": "Babyface Champion's Boots of Healing",
+                "l": 760,
+                "c": "t/57844",
+                "t": 38
+            }
+        },
+        {
+            "type": "item",
+            "id": "46604",
+            "obj": {
+                "i": 46604,
+                "n": "Augmented Historia Shoes of Healing",
+                "l": 760,
+                "c": "t/57852",
+                "t": 38
+            }
+        },
+        {
+            "type": "item",
+            "id": "46527",
+            "obj": {
+                "i": 46527,
+                "n": "Historia Shoes of Healing",
+                "l": 750,
+                "c": "t/57852",
+                "t": 38
+            }
+        },
+        {
+            "type": "item",
+            "id": "47847",
+            "obj": {
+                "i": 47847,
+                "n": "Arcanaut's Boots of Healing +2",
+                "l": 745,
+                "c": "t/57826",
+                "t": 38
+            }
+        },
+        {
+            "type": "item",
+            "id": "47842",
+            "obj": {
+                "i": 47842,
+                "n": "Arcanaut's Boots of Healing +1",
+                "l": 745,
+                "c": "t/57826",
+                "t": 38
+            }
+        },
+        {
+            "type": "item",
+            "id": "47837",
+            "obj": {
+                "i": 47837,
+                "n": "Arcanaut's Boots of Healing",
+                "l": 745,
+                "c": "t/57826",
+                "t": 38
+            }
+        },
+        {
+            "type": "item",
+            "id": "46428",
+            "obj": {
+                "i": 46428,
+                "n": "Cruiser Boots of Healing",
+                "l": 740,
+                "c": "t/57844",
+                "t": 38
+            }
+        },
+        {
+            "type": "item",
+            "id": "46061",
+            "obj": {
+                "i": 46061,
+                "n": "Ceremonial Thighboots of Healing",
+                "l": 740,
+                "c": "t/57836",
+                "t": 38
+            }
+        },
+        {
+            "type": "item",
+            "id": "44634",
+            "obj": {
+                "i": 44634,
+                "n": "Clouddark Clawboots of Healing",
+                "l": 730,
+                "c": 57819,
+                "t": 38
+            }
+        }
+    ]
+}

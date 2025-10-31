@@ -1,3 +1,8 @@
+# Version - 1.2.0-dev - [8bc2796](https://github.com/k8thekat/GarlandToolsAPI_wrapper/commit/8bc2796)
+### Updated Error handling
+- Added more information when an error is encountered.
+- Relocated the `sample` code to a seperate file.
+
 # Version - 1.1.0-dev - [029b3b9](https://github.com/k8thekat/GarlandToolsAPI_wrapper/commit/029b3b9)
 ### Fixed type's for session objects to include `CachedSession`.
 - Fixed logic bug in the `node` function.

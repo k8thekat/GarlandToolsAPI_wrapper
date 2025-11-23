@@ -1,13 +1,902 @@
 {
     "npc": {
-        "name": "Gyotaku",
-        "id": 1025610,
-        "patch": 4.3,
-        "coords": [
-            6.7,
-            23.31
+        "name": "Dreamer",
+        "id": 1016902,
+        "patch": 3.2,
+        "title": "Egg Advocate",
+        "appearance": {
+            "gender": "Female",
+            "race": "Hyur",
+            "tribe": "Midlander",
+            "height": 50,
+            "face": 3,
+            "jaw": 3,
+            "eyebrows": 1,
+            "nose": 4,
+            "skinColor": "13, 3",
+            "skinColorCode": "#CEAC8E",
+            "muscle": 50,
+            "bust": 75,
+            "hairStyle": 131202,
+            "hairColor": "7, 3",
+            "hairColorCode": "#E0BC8C",
+            "eyeSize": "Large",
+            "eyeShape": 5,
+            "eyeColor": "21, 2",
+            "eyeColorCode": "#74AFA8",
+            "mouth": 3,
+            "lipShade": "Dark",
+            "lipColor": "5, 2",
+            "lipColorCode": "#855E47",
+            "facialfeatures": [
+                131332
+            ],
+            "facialfeatureColor": "1, 1",
+            "facialfeatureColorCode": "#F7F7F7",
+            "hash": -1486377887
+        },
+        "photo": "Enpc_1007904.png",
+        "alts": [
+            1007904,
+            1007905,
+            1007906,
+            1008099,
+            1008100,
+            1011806,
+            1011807,
+            1011808,
+            1016903,
+            1016904,
+            1019597,
+            1019598,
+            1019599,
+            1025256,
+            1025257,
+            1025258,
+            1027038,
+            1027039,
+            1027040,
+            1032644,
+            1036535,
+            1042869,
+            1045000,
+            1046091,
+            1052096
         ],
-        "zoneid": 2411,
-        "areaid": 2850
-    }
+        "appalts": [
+            1007904,
+            1011806,
+            1011877,
+            1019597,
+            1025256,
+            1027038,
+            1046091
+        ],
+        "trade": 1,
+        "shops": [
+            {
+                "name": "Seasonal Event Prizes",
+                "entries": [
+                    {
+                        "item": [
+                            {
+                                "id": "14062",
+                                "amount": 1
+                            }
+                        ],
+                        "currency": [
+                            {
+                                "id": "14944",
+                                "amount": 5
+                            }
+                        ]
+                    },
+                    {
+                        "item": [
+                            {
+                                "id": "2",
+                                "amount": 15
+                            }
+                        ],
+                        "currency": [
+                            {
+                                "id": "14944",
+                                "amount": 2
+                            }
+                        ]
+                    },
+                    {
+                        "item": [
+                            {
+                                "id": "3",
+                                "amount": 15
+                            }
+                        ],
+                        "currency": [
+                            {
+                                "id": "14944",
+                                "amount": 2
+                            }
+                        ]
+                    },
+                    {
+                        "item": [
+                            {
+                                "id": "4",
+                                "amount": 15
+                            }
+                        ],
+                        "currency": [
+                            {
+                                "id": "14944",
+                                "amount": 2
+                            }
+                        ]
+                    },
+                    {
+                        "item": [
+                            {
+                                "id": "5",
+                                "amount": 15
+                            }
+                        ],
+                        "currency": [
+                            {
+                                "id": "14944",
+                                "amount": 2
+                            }
+                        ]
+                    },
+                    {
+                        "item": [
+                            {
+                                "id": "6",
+                                "amount": 15
+                            }
+                        ],
+                        "currency": [
+                            {
+                                "id": "14944",
+                                "amount": 2
+                            }
+                        ]
+                    },
+                    {
+                        "item": [
+                            {
+                                "id": "7",
+                                "amount": 15
+                            }
+                        ],
+                        "currency": [
+                            {
+                                "id": "14944",
+                                "amount": 2
+                            }
+                        ]
+                    },
+                    {
+                        "item": [
+                            {
+                                "id": "8",
+                                "amount": 10
+                            }
+                        ],
+                        "currency": [
+                            {
+                                "id": "14944",
+                                "amount": 2
+                            }
+                        ]
+                    },
+                    {
+                        "item": [
+                            {
+                                "id": "9",
+                                "amount": 10
+                            }
+                        ],
+                        "currency": [
+                            {
+                                "id": "14944",
+                                "amount": 2
+                            }
+                        ]
+                    },
+                    {
+                        "item": [
+                            {
+                                "id": "10",
+                                "amount": 10
+                            }
+                        ],
+                        "currency": [
+                            {
+                                "id": "14944",
+                                "amount": 2
+                            }
+                        ]
+                    },
+                    {
+                        "item": [
+                            {
+                                "id": "11",
+                                "amount": 10
+                            }
+                        ],
+                        "currency": [
+                            {
+                                "id": "14944",
+                                "amount": 2
+                            }
+                        ]
+                    },
+                    {
+                        "item": [
+                            {
+                                "id": "12",
+                                "amount": 10
+                            }
+                        ],
+                        "currency": [
+                            {
+                                "id": "14944",
+                                "amount": 2
+                            }
+                        ]
+                    },
+                    {
+                        "item": [
+                            {
+                                "id": "13",
+                                "amount": 10
+                            }
+                        ],
+                        "currency": [
+                            {
+                                "id": "14944",
+                                "amount": 2
+                            }
+                        ]
+                    },
+                    {
+                        "item": [
+                            {
+                                "id": "5603",
+                                "amount": 1
+                            }
+                        ],
+                        "currency": [
+                            {
+                                "id": "14944",
+                                "amount": 3
+                            }
+                        ]
+                    },
+                    {
+                        "item": [
+                            {
+                                "id": "7796",
+                                "amount": 1
+                            }
+                        ],
+                        "currency": [
+                            {
+                                "id": "14944",
+                                "amount": 2
+                            }
+                        ]
+                    },
+                    {
+                        "item": [
+                            {
+                                "id": "6189",
+                                "amount": 1
+                            }
+                        ],
+                        "currency": [
+                            {
+                                "id": "14944",
+                                "amount": 5
+                            }
+                        ]
+                    },
+                    {
+                        "item": [
+                            {
+                                "id": "7544",
+                                "amount": 1
+                            }
+                        ],
+                        "currency": [
+                            {
+                                "id": "14944",
+                                "amount": 15
+                            }
+                        ]
+                    },
+                    {
+                        "item": [
+                            {
+                                "id": "14236",
+                                "amount": 1
+                            }
+                        ],
+                        "currency": [
+                            {
+                                "id": "14944",
+                                "amount": 5
+                            }
+                        ]
+                    }
+                ],
+                "trade": 1
+            }
+        ],
+        "equipment": [
+            {
+                "slot": 3,
+                "model": "55-3-0-0",
+                "id": 2809
+            },
+            {
+                "slot": 4,
+                "model": "38-27-0-0",
+                "id": 11961,
+                "uncertainty": 1
+            },
+            {
+                "slot": 5,
+                "model": "9903-1-0-0"
+            },
+            {
+                "slot": 7,
+                "model": "38-49-0-0",
+                "id": 11974,
+                "uncertainty": 1
+            },
+            {
+                "slot": 8,
+                "model": "38-85-0-0",
+                "id": 3849,
+                "uncertainty": 1
+            },
+            {
+                "slot": 12,
+                "model": "12-1-0-0",
+                "id": 4405
+            }
+        ]
+    },
+    "partials": [
+        {
+            "type": "npc",
+            "id": "1007904",
+            "obj": {
+                "i": 1007904,
+                "n": "Dreamer",
+                "l": 53,
+                "s": 3,
+                "t": "Egg Advocate",
+                "r": 1,
+                "a": 580,
+                "c": [
+                    10.19,
+                    9.39
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1007905",
+            "obj": {
+                "i": 1007905,
+                "n": "Dreamer",
+                "l": 28,
+                "s": 3,
+                "t": "Egg Advocate",
+                "r": 1,
+                "a": 737,
+                "c": [
+                    11.3,
+                    13.89
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1007906",
+            "obj": {
+                "i": 1007906,
+                "n": "Dreamer",
+                "l": 40,
+                "s": 3,
+                "t": "Egg Advocate",
+                "r": 1,
+                "a": 640,
+                "c": [
+                    10.69,
+                    9.16
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008099",
+            "obj": {
+                "i": 1008099,
+                "n": "Dreamer",
+                "l": 41
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1008100",
+            "obj": {
+                "i": 1008100,
+                "n": "Dreamer",
+                "l": 41
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011806",
+            "obj": {
+                "i": 1011806,
+                "n": "Dreamer",
+                "l": 53,
+                "s": 1,
+                "t": "Egg Advocate",
+                "r": 1,
+                "a": 580,
+                "c": [
+                    10.32,
+                    9.25
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011807",
+            "obj": {
+                "i": 1011807,
+                "n": "Dreamer",
+                "l": 40,
+                "s": 1,
+                "t": "Egg Advocate",
+                "r": 1,
+                "a": 640,
+                "c": [
+                    10.67,
+                    9.08
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011808",
+            "obj": {
+                "i": 1011808,
+                "n": "Dreamer",
+                "l": 28,
+                "s": 1,
+                "t": "Egg Advocate",
+                "r": 1,
+                "a": 737,
+                "c": [
+                    11.13,
+                    13.68
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016903",
+            "obj": {
+                "i": 1016903,
+                "n": "Dreamer",
+                "s": 1,
+                "t": "Egg Advocate",
+                "r": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1016904",
+            "obj": {
+                "i": 1016904,
+                "n": "Dreamer",
+                "s": 1,
+                "t": "Egg Advocate",
+                "r": 1
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019597",
+            "obj": {
+                "i": 1019597,
+                "n": "Dreamer",
+                "l": 53,
+                "s": 1,
+                "t": "Egg Advocate",
+                "a": 580,
+                "c": [
+                    10.67,
+                    8.82
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019598",
+            "obj": {
+                "i": 1019598,
+                "n": "Dreamer",
+                "l": 40,
+                "s": 1,
+                "t": "Egg Advocate",
+                "a": 640,
+                "c": [
+                    10.67,
+                    9.08
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1019599",
+            "obj": {
+                "i": 1019599,
+                "n": "Dreamer",
+                "l": 28,
+                "s": 1,
+                "t": "Egg Advocate",
+                "a": 737,
+                "c": [
+                    11.38,
+                    13.7
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1025256",
+            "obj": {
+                "i": 1025256,
+                "n": "Dreamer",
+                "l": 53,
+                "s": 1,
+                "t": "Egg Advocate",
+                "a": 580,
+                "c": [
+                    10.67,
+                    8.82
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1025257",
+            "obj": {
+                "i": 1025257,
+                "n": "Dreamer",
+                "l": 40,
+                "s": 1,
+                "t": "Egg Advocate",
+                "a": 640,
+                "c": [
+                    10.67,
+                    9.08
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1025258",
+            "obj": {
+                "i": 1025258,
+                "n": "Dreamer",
+                "l": 28,
+                "s": 1,
+                "t": "Egg Advocate",
+                "a": 737,
+                "c": [
+                    11.38,
+                    13.7
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1027038",
+            "obj": {
+                "i": 1027038,
+                "n": "Dreamer",
+                "l": 53,
+                "s": 1,
+                "a": 580,
+                "c": [
+                    10.67,
+                    8.82
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1027039",
+            "obj": {
+                "i": 1027039,
+                "n": "Dreamer",
+                "l": 40,
+                "s": 1,
+                "a": 640,
+                "c": [
+                    10.67,
+                    9.08
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1027040",
+            "obj": {
+                "i": 1027040,
+                "n": "Dreamer",
+                "l": 28,
+                "s": 1,
+                "a": 737,
+                "c": [
+                    11.38,
+                    13.7
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1032644",
+            "obj": {
+                "i": 1032644,
+                "n": "Dreamer",
+                "l": 53,
+                "s": 1,
+                "t": "Egg Advocate",
+                "r": 1,
+                "a": 580,
+                "c": [
+                    10.3,
+                    9.23
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1036535",
+            "obj": {
+                "i": 1036535,
+                "n": "Dreamer",
+                "l": 53,
+                "s": 1,
+                "t": "Egg Advocate",
+                "r": 1,
+                "a": 580,
+                "c": [
+                    10.3,
+                    9.23
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1042869",
+            "obj": {
+                "i": 1042869,
+                "n": "Dreamer",
+                "l": 53,
+                "s": 1,
+                "t": "Egg Advocate",
+                "r": 1,
+                "a": 580,
+                "c": [
+                    10.3,
+                    9.23
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1045000",
+            "obj": {
+                "i": 1045000,
+                "n": "Dreamer",
+                "l": 53,
+                "s": 1,
+                "t": "Egg Advocate",
+                "r": 1,
+                "a": 580,
+                "c": [
+                    10.32,
+                    9.17
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1046091",
+            "obj": {
+                "i": 1046091,
+                "n": "Dreamer",
+                "l": 53,
+                "s": 1,
+                "t": "Egg Advocate",
+                "a": 580,
+                "c": [
+                    10.67,
+                    8.82
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1052096",
+            "obj": {
+                "i": 1052096,
+                "n": "Dreamer",
+                "l": 53,
+                "s": 1,
+                "t": "Egg Advocate",
+                "a": 580,
+                "c": [
+                    10.33,
+                    9.18
+                ]
+            }
+        },
+        {
+            "type": "npc",
+            "id": "1011877",
+            "obj": {
+                "i": 1011877,
+                "n": "Nameless #1011877",
+                "l": 28
+            }
+        },
+        {
+            "type": "item",
+            "id": "14944",
+            "obj": {
+                "i": 14944,
+                "n": "Chipped Fortune Egg",
+                "l": 1,
+                "c": 21308,
+                "t": 85
+            }
+        },
+        {
+            "type": "item",
+            "id": "14062",
+            "obj": {
+                "i": 14062,
+                "n": "Archon Egg Tower",
+                "l": 1,
+                "c": 52216,
+                "t": 76
+            }
+        },
+        {
+            "type": "item",
+            "id": "5603",
+            "obj": {
+                "i": 5603,
+                "n": "Grade 5 Carbonized Matter",
+                "l": 90,
+                "c": 20406,
+                "t": 60
+            }
+        },
+        {
+            "type": "item",
+            "id": "7796",
+            "obj": {
+                "i": 7796,
+                "n": "Venture Promissory Note",
+                "l": 1,
+                "c": 26188,
+                "t": 61
+            }
+        },
+        {
+            "type": "item",
+            "id": "6189",
+            "obj": {
+                "i": 6189,
+                "n": "Dust Bunny",
+                "l": 1,
+                "c": 59424,
+                "t": 81
+            }
+        },
+        {
+            "type": "item",
+            "id": "7544",
+            "obj": {
+                "i": 7544,
+                "n": "Spriggan Cap",
+                "l": 1,
+                "c": 40156,
+                "t": 34
+            }
+        },
+        {
+            "type": "item",
+            "id": "14236",
+            "obj": {
+                "i": 14236,
+                "n": "Pa-Paya Orchestrion Roll",
+                "l": 1,
+                "c": 25945,
+                "t": 94
+            }
+        },
+        {
+            "type": "item",
+            "id": "2809",
+            "obj": {
+                "i": 2809,
+                "n": "Midnight Egg Cap",
+                "l": 40,
+                "c": 41102,
+                "t": 34,
+                "p": 170
+            }
+        },
+        {
+            "type": "item",
+            "id": "11961",
+            "obj": {
+                "i": 11961,
+                "n": "Holy Rainbow Coatee",
+                "l": 80,
+                "c": 42469,
+                "t": 35,
+                "p": 9884
+            }
+        },
+        {
+            "type": "item",
+            "id": "11974",
+            "obj": {
+                "i": 11974,
+                "n": "Holy Rainbow Bottoms",
+                "l": 80,
+                "c": 45692,
+                "t": 36,
+                "p": 7603
+            }
+        },
+        {
+            "type": "item",
+            "id": "3849",
+            "obj": {
+                "i": 3849,
+                "n": "Linen Gaiters",
+                "l": 38,
+                "c": 46338,
+                "t": 38,
+                "p": 3169
+            }
+        },
+        {
+            "type": "item",
+            "id": "4405",
+            "obj": {
+                "i": 4405,
+                "n": "Midnight Egg Ring",
+                "l": 1,
+                "c": 54440,
+                "t": 43,
+                "p": 980
+            }
+        }
+    ]
 }

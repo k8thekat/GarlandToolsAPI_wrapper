@@ -1,3 +1,10 @@
+# Version - 1.3.0 - [f7f7021](https://github.com/k8thekat/GarlandToolsAPI_wrapper/commit/f7f7021)
+### Updated data returns
+- Added missing key values for `NPC`
+- Added missing "partials" key to `NPCResponse`.
+- Added two new data types, `Shop` and `Equipment`.
+- Doubled `CachedSession` expire_after parameter value. (86400 -> 172800).
+
 # Version - 1.2.2 - [afa3ad7](https://github.com/k8thekat/GarlandToolsAPI_wrapper/commit/afa3ad7)
 ### Update for Release.
 - Version bump and updated `__version__`.

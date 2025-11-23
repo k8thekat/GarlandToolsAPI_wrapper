@@ -104,6 +104,12 @@ class DataResponse(TypedDict):
     item: ItemData
 
 
+class Equipment(TypedDict):
+    slot: int
+    model: str
+    id: NotRequired[int]
+    uncertainty: NotRequired[bool]
+
 class GearResponse(TypedDict):
     """The JSON structure from :class:`GarlandToolsAsync.endgame_gear()` and :class:`GarlandToolsAsync.leveling_gear()`."""
 
@@ -502,6 +508,11 @@ class NPC(TypedDict):
     appearance: NotRequired[NPCAppearance]
     photo: NotRequired[str]
     "eg. Enpc_1000236.png"
+    alts: NotRequired[list[int]]
+    appalts: NotRequired[list[int]]
+    trade: NotRequired[bool]
+    shops: NotRequired[list[Shop]]
+    equipment: NotRequired[list[Equipment]]
 
 
 class NPCAppearance(TypedDict):
@@ -540,7 +551,7 @@ class NPCResponse(TypedDict):
     """The JSON structure from :class:`GarlandAPIWrapper.npc()` function."""
 
     npc: NPC
-
+    partials: list[PartialTypeIDObj]
 
 class NQHQ(TypedDict):
     nq: int
@@ -636,6 +647,11 @@ class SearchResponse(TypedDict):
     "The type of the data. (eg. 'item', 'action', 'status', etc...)"
     id: str
     obj: PartialIndex
+
+class Shop(TypedDict):
+    name: str
+    entries: list[ShopListings]
+    trade: bool
 
 
 class ShopListings(TypedDict):

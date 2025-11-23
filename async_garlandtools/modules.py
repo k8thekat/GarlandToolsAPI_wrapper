@@ -150,7 +150,7 @@ class GarlandToolsAsync:
         *,
         session: Optional[aiohttp.ClientSession | CachedSession] = None,
         cache_location: Optional[Path] = None,
-        cache_expire_after: datetime.datetime | int | datetime.timedelta = 86400,
+        cache_expire_after: datetime.datetime | int | datetime.timedelta = 172800,
         language: str | Language = Language.English,
     ) -> None:
         """Build your GarlandToolsAsync class.
@@ -173,7 +173,7 @@ class GarlandToolsAsync:
             The location to store the request cache, by default "Path(__file__).parent/cache/".
             - Do not include a file name.
         cache_expire_after: :class:`datetime | timedelta | int`, optional
-            How long until the cache expires in seconds, by default 86400. (Roughly once a day)
+            How long until the cache expires in seconds, by default 172800. (Roughly every other day)
         language: :class:`str` | :class:`Language`, optional
             The language for API queries, by default "en".
             - Can be changed via the `language` property.

@@ -22,7 +22,7 @@ from __future__ import annotations
 
 import logging
 from pathlib import Path
-from typing import TYPE_CHECKING, Any, Literal, NamedTuple, Optional, Self, overload
+from typing import TYPE_CHECKING, Any, Literal, NamedTuple, Optional, Self, Unpack, overload
 
 from aiohttp_client_cache import SQLiteBackend
 from aiohttp_client_cache.session import CachedSession
@@ -458,12 +458,23 @@ class GarlandToolsAsync:
             raise GarlandToolsKeyError(key_name="browse", func="achievements")
         return result["browse"]
 
-    async def icon(self, icon_id: int, icon_type: IconType) -> Object:
+    async def icon(
+        self,
+        icon_id: int,
+        icon_type: IconType,
+        *,
+        thumbnail: bool = True,
+        content_only: bool = True,
+        **params: Optional[AiohttpRequestOptions],
+    ) -> Object:
         """Returns a specific icon by icon_type and icon_id.
 
         .. note::
             Typically the `icon_type` parameter will be related to the category. This can be deduced from the URL.
             - Example: `www.garlandtools.org/db/doc/fate/en/2/441.json` -> `.../doc/{category}/{language}/2/{id}.json`
+
+        .. warning::
+            Setting `thumbnail` to False can result in a `404` error due to an invalid URL.
 
         Parameters
         ----------
@@ -471,6 +482,13 @@ class GarlandToolsAsync:
             The ID of the icon. An example would be an "item" ID.
         icon_type: :class:`IconType`
             The type or category of icon the `icon_id` belongs to.
+        thumbnail: :class:`bool`, optional
+            If you want a lower resolution icon image, by default is `True`
+            - Not all Icons have a high resolution image, so having this on by default guarantees a result.
+        content_only: :class:`bool`, optional
+            A flag that causes our `self._request` function to only return raw `bytes` data instead of JSON or similar, by default is `True`.
+        **params: :class:`Optional[AiohttpRequestOptions]`
+            Any key-word parameters to supply to our :class:`aiohttp.ClientResponse` object.
 
         Returns
         -------
@@ -478,9 +496,10 @@ class GarlandToolsAsync:
             A generic object to house the response content with the url.
 
         """
-        url = f"{ICON_ENDPOINT.replace(LANGUAGE, self.language.value)}{icon_type.name}/{icon_id}.png"
-        result: bytes | Any = await self._request(url, content_only=True)
-
+        url = f"{ICON_ENDPOINT.replace(LANGUAGE, self.language.value)}{icon_type.name}/t/{icon_id}.png"
+        if thumbnail is False:
+            url = f"{ICON_ENDPOINT.replace(LANGUAGE, self.language.value)}{icon_type.name}/{icon_id}.png"
+        result: bytes | Any = await self._request(url, content_only=content_only, **params)
         return Object(icon_type=icon_type, url=url, data=result)
 
     async def instance(self, instance_id: int) -> InstanceResponse:
@@ -516,12 +535,12 @@ class GarlandToolsAsync:
             raise GarlandToolsKeyError(key_name="browse", func="instances")
         return result["browse"]
 
-    async def item(self, item_id: int) -> ItemResponse:
+    async def item(self, item_id: int | str) -> ItemResponse:
         """Returns a Item by ID.
 
         Parameters
         ----------
-        item_id: :class:`int`
+        item_id: :class:`int | str`
             The Final Fantasy 14 Item ID.
 
         Returns

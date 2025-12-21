@@ -1,3 +1,13 @@
+# Version - 1.4.1 - [9ff411c](https://github.com/k8thekat/GarlandToolsAPI_wrapper/commit/9ff411c)
+### Overall
+Merge branch 'development' of https://github.com/k8thekat/GarlandToolsAPI_wrapper into development
+- There is an item that is not obtained via an id, instead it uses the a string name. eg. `fccredit`.
+
+# Version - 1.4.0 - [ca1f464](https://github.com/k8thekat/GarlandToolsAPI_wrapper/commit/ca1f464)
+### Additional args, kwargs to update `icon` endpoint.
+- Added a positional parameter to `icon` called `thumbnail` to force return lower resolution Icon data by default. As higher resolution Icon data can fail to resolve.
+- Added additional parameters to `icon` related to `aiohttp.ClientResponse` and a `content_only` flag to force return raw bytes over JSON.
+
 # Version - 1.3.0 - [f7f7021](https://github.com/k8thekat/GarlandToolsAPI_wrapper/commit/f7f7021)
 ### Updated data returns
 - Added missing key values for `NPC`

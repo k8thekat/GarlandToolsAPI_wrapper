@@ -535,12 +535,12 @@ class GarlandToolsAsync:
             raise GarlandToolsKeyError(key_name="browse", func="instances")
         return result["browse"]
 
-    async def item(self, item_id: int) -> ItemResponse:
+    async def item(self, item_id: int | str) -> ItemResponse:
         """Returns a Item by ID.
 
         Parameters
         ----------
-        item_id: :class:`int`
+        item_id: :class:`int | str`
             The Final Fantasy 14 Item ID.
 
         Returns

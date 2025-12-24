@@ -1,3 +1,7 @@
+# Version - 1.4.2 - [adf97a4](https://github.com/k8thekat/GarlandToolsAPI_wrapper/commit/adf97a4)
+### Minor update for Icon Type
+- Added a `item_custom` field to handle a special item ID case called `fccredit`.
+
 # Version - 1.4.1 - [9ff411c](https://github.com/k8thekat/GarlandToolsAPI_wrapper/commit/9ff411c)
 ### Overall
 Merge branch 'development' of https://github.com/k8thekat/GarlandToolsAPI_wrapper into development

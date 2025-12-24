@@ -22,7 +22,7 @@ from __future__ import annotations
 
 import logging
 from pathlib import Path
-from typing import TYPE_CHECKING, Any, Literal, NamedTuple, Optional, Self, Unpack, overload
+from typing import TYPE_CHECKING, Any, Literal, NamedTuple, Optional, Self, overload
 
 from aiohttp_client_cache import SQLiteBackend
 from aiohttp_client_cache.session import CachedSession
@@ -486,7 +486,8 @@ class GarlandToolsAsync:
             If you want a lower resolution icon image, by default is `True`
             - Not all Icons have a high resolution image, so having this on by default guarantees a result.
         content_only: :class:`bool`, optional
-            A flag that causes our `self._request` function to only return raw `bytes` data instead of JSON or similar, by default is `True`.
+            A flag that causes our `self._request` function to only return raw `bytes`
+            data instead of JSON or similar, by default is `True`.
         **params: :class:`Optional[AiohttpRequestOptions]`
             Any key-word parameters to supply to our :class:`aiohttp.ClientResponse` object.
 

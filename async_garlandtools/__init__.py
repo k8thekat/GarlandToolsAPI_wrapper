@@ -23,7 +23,7 @@ from __future__ import annotations
 __title__ = "GarlandToolsAPI_wrapper"
 __author__ = "k8thekat"
 __license__ = "GNU"
-__version__ = "1.4.1"
+__version__ = "1.4.2"
 __credits__ = "Universalis, GarlandTools, GarlandTools-PIP and SquareEnix"
 
 from typing import TYPE_CHECKING, Literal, NamedTuple

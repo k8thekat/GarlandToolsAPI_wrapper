@@ -24,6 +24,7 @@ import logging
 from pathlib import Path
 from typing import TYPE_CHECKING, Any, Literal, NamedTuple, Optional, Self, overload
 
+from aiohttp.client_exceptions import ContentTypeError
 from aiohttp_client_cache import SQLiteBackend
 from aiohttp_client_cache.session import CachedSession
 
@@ -290,6 +291,7 @@ class GarlandToolsAsync:
             request_params,
         )
 
+
         # If the user supplied session is None; we create our own and set it to a private
         # attribute so we can close it later, otherwise we will use the user supplied session.
         # kwargs handler.
@@ -319,8 +321,12 @@ class GarlandToolsAsync:
             content = await data.content.read()
             LOGGER.debug("<%s._request> | Data: %s", __class__.__name__, content)
             return content
+        # If for any reason JSON parsing is failing, we will raise an exception.
+        try:
+            res: Any = await data.json()
+        except ContentTypeError:
+            raise GarlandToolsTypeError(func="request", cur_type=data.content_type, expec_type="application/json") from None
 
-        res: Any = await data.json()
         LOGGER.debug("<%s._request> | Data: %s", __class__.__name__, res)
         return res
 
@@ -331,6 +337,15 @@ class GarlandToolsAsync:
         ----------
         achievement_id: :class:`int`
             The Final Fantasy 14 Achievement ID.
+
+        Raises
+        ------
+        :class:`GarlandToolsKeyError`
+            If the "achievement" key is not found in the response data.
+        :class:`GarlandToolsTypeError`
+            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the status code is not 200.
 
         Returns
         -------
@@ -349,6 +364,15 @@ class GarlandToolsAsync:
     async def achievements(self) -> list[PartialIndex]:
         """Returns all Achievement's.
 
+        Raises
+        ------
+        :class:`GarlandToolsKeyError`
+            If the "browse" key is not found in the response data.
+        :class:`GarlandToolsTypeError`
+            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the status code is not 200.
+
         Returns
         -------
         :class:`list[PartialIndex]`
@@ -362,6 +386,16 @@ class GarlandToolsAsync:
 
     async def data(self) -> DataResponse:
         """Returns all core GarlandTools data.
+
+        Raises
+        ------
+        :class:`GarlandToolsKeyError`
+            If the "achievementCategoryIndex" key is not found in the response data.
+        :class:`GarlandToolsTypeError`
+            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the status code is not 200.
+
 
         Returns
         -------
@@ -398,6 +432,16 @@ class GarlandToolsAsync:
         job: :class:`Job`
             The Final Fantasy 14 Job you want to look up.
 
+
+        Raises
+        ------
+        :class:`GarlandToolsKeyError`
+            If the "equip" key is not found in the response data.
+        :class:`GarlandToolsTypeError`
+            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the status code is not 200.
+
         Returns
         -------
         :class:`GearResponse`
@@ -419,6 +463,15 @@ class GarlandToolsAsync:
         fate_id: :class:`int`
             The Final Fantasy 14 Fate ID.
 
+        Raises
+        ------
+        :class:`GarlandToolsKeyError`
+            If the "fate" key is not found in the response data.
+        :class:`GarlandToolsTypeError`
+            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the status code is not 200.
+
         Returns
         -------
         :class:`FateResponse`
@@ -433,6 +486,15 @@ class GarlandToolsAsync:
     async def fates(self) -> list[PartialIndex]:
         """Returns all Fates.
 
+        Raises
+        ------
+        :class:`GarlandToolsKeyError`
+            If the "browse" key is not found in the response data.
+        :class:`GarlandToolsTypeError`
+            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the status code is not 200.
+
         Returns
         -------
         :class:`list[PartialIndex]`
@@ -446,6 +508,15 @@ class GarlandToolsAsync:
 
     async def fishing(self) -> list[PartialIndex]:
         """Returns all Fishing spot data.
+
+        Raises
+        ------
+        :class:`GarlandToolsKeyError`
+            If the "browse" key is not found in the response data.
+        :class:`GarlandToolsTypeError`
+            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the status code is not 200.
 
         Returns
         -------
@@ -484,12 +555,17 @@ class GarlandToolsAsync:
             The type or category of icon the `icon_id` belongs to.
         thumbnail: :class:`bool`, optional
             If you want a lower resolution icon image, by default is `True`
-            - Not all Icons have a high resolution image, so having this on by default guarantees a result.
+            - Not all Icons have a high resolution image, so having this on by default guarantees a result(typically).
         content_only: :class:`bool`, optional
             A flag that causes our `self._request` function to only return raw `bytes`
             data instead of JSON or similar, by default is `True`.
         **params: :class:`Optional[AiohttpRequestOptions]`
             Any key-word parameters to supply to our :class:`aiohttp.ClientResponse` object.
+
+        Raises
+        ------
+        :class:`GarlandToolsRequestError`
+            If the status code is not 200.
 
         Returns
         -------
@@ -511,6 +587,15 @@ class GarlandToolsAsync:
         instance_id: :class:`int`
             The Final Fantasy 14 Instance ID.
 
+        Raises
+        ------
+        :class:`GarlandToolsKeyError`
+            If the "instance" key is not found in the response data.
+        :class:`GarlandToolsTypeError`
+            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the status code is not 200.
+
         Returns
         -------
         :class:`InstanceResponse`
@@ -524,6 +609,15 @@ class GarlandToolsAsync:
 
     async def instances(self) -> list[PartialIndex]:
         """Returns all Instances.
+
+        Raises
+        ------
+        :class:`GarlandToolsKeyError`
+            If the "browse" key is not found in the response data.
+        :class:`GarlandToolsTypeError`
+            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the status code is not 200.
 
         Returns
         -------
@@ -543,6 +637,15 @@ class GarlandToolsAsync:
         ----------
         item_id: :class:`int | str`
             The Final Fantasy 14 Item ID.
+
+        Raises
+        ------
+        :class:`GarlandToolsKeyError`
+            If the "item" key is not found in the response data.
+        :class:`GarlandToolsTypeError`
+            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the status code is not 200.
 
         Returns
         -------
@@ -577,6 +680,15 @@ class GarlandToolsAsync:
     async def leves(self) -> list[PartialIndex]:
         """Returns all Leve's.
 
+        Raises
+        ------
+        :class:`GarlandToolsKeyError`
+            If the "browse" key is not found in the response data.
+        :class:`GarlandToolsTypeError`
+            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the status code is not 200.
+
         Returns
         -------
         :class:`list[PartialIndex]`
@@ -595,6 +707,15 @@ class GarlandToolsAsync:
         ----------
         job: :class:`Job`
             The Final Fantasy 14 Job you want to look up.
+
+        Raises
+        ------
+        :class:`GarlandToolsKeyError`
+            If the "equip" key is not found in the response data.
+        :class:`GarlandToolsTypeError`
+            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the status code is not 200.
 
         Returns
         -------
@@ -619,6 +740,11 @@ class GarlandToolsAsync:
         zone: :class:`str`
             The zone name.
 
+        Raises
+        ------
+        :class:`GarlandToolsRequestError`
+            If the status code is not 200.
+
         Returns
         -------
         :class:`Object`
@@ -637,6 +763,15 @@ class GarlandToolsAsync:
         mob_id: :class:`int`
             The Final Fantasy 14 monster ID.
 
+        Raises
+        ------
+        :class:`GarlandToolsKeyError`
+            If the "mob" key is not found in the response data.
+        :class:`GarlandToolsTypeError`
+            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the status code is not 200.
+
         Returns
         -------
         :class:`MobResponse`
@@ -650,6 +785,15 @@ class GarlandToolsAsync:
 
     async def mobs(self) -> list[PartialIndex]:
         """Returns all mobs.
+
+        Raises
+        ------
+        :class:`GarlandToolsKeyError`
+            If the "browse" key is not found in the response data.
+        :class:`GarlandToolsTypeError`
+            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the status code is not 200.
 
         Returns
         -------
@@ -670,6 +814,15 @@ class GarlandToolsAsync:
         node_id: :class:`int`
             The Gatherable Node ID.
 
+        Raises
+        ------
+        :class:`GarlandToolsKeyError`
+            If the "node" key is not found in the response data.
+        :class:`GarlandToolsTypeError`
+            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the status code is not 200.
+
         Returns
         -------
         :class:`NodeResponse`
@@ -684,6 +837,15 @@ class GarlandToolsAsync:
 
     async def nodes(self) -> list[PartialIndex]:
         """Returns all Nodes.
+
+        Raises
+        ------
+        :class:`GarlandToolsKeyError`
+            If the "browse" key is not found in the response data.
+        :class:`GarlandToolsTypeError`
+            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the status code is not 200.
 
         Returns
         -------
@@ -704,6 +866,15 @@ class GarlandToolsAsync:
         npc_id: :class:`int`
             The NPC ID.
 
+        Raises
+        ------
+        :class:`GarlandToolsKeyError`
+            If the "npc" key is not found in the response data.
+        :class:`GarlandToolsTypeError`
+            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the status code is not 200.
+
         Returns
         -------
         :class:`NPCResponse`
@@ -717,6 +888,15 @@ class GarlandToolsAsync:
 
     async def npcs(self) -> list[PartialIndex]:
         """Returns all NPC's.
+
+        Raises
+        ------
+        :class:`GarlandToolsKeyError`
+            If the "browse" key is not found in the response data.
+        :class:`GarlandToolsTypeError`
+            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the status code is not 200.
 
         Returns
         -------
@@ -737,6 +917,15 @@ class GarlandToolsAsync:
         quest_id: :class:`int`
             The Final Fantasy 14 Quest ID.
 
+        Raises
+        ------
+        :class:`GarlandToolsKeyError`
+            If the "quest" key and "partials" key is not found in the response data.
+        :class:`GarlandToolsTypeError`
+            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the status code is not 200.
+
         Returns
         -------
         :class:`QuestResponse`
@@ -750,6 +939,15 @@ class GarlandToolsAsync:
 
     async def quests(self) -> list[PartialIndex]:
         """Returns all Quest's.
+
+        Raises
+        ------
+        :class:`GarlandToolsKeyError`
+            If the "browse" key is not found in the response data.
+        :class:`GarlandToolsTypeError`
+            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the status code is not 200.
 
         Returns
         -------
@@ -769,6 +967,13 @@ class GarlandToolsAsync:
         ----------
         query: :class:`str`
             The string to search for.
+
+        Raises
+        ------
+        :class:`GarlandToolsTypeError`
+            If the response data is not in JSON format, or of the response is not a :class:`list`.
+        :class:`GarlandToolsRequestError`
+            If the status code is not 200.
 
         Returns
         -------
@@ -792,6 +997,15 @@ class GarlandToolsAsync:
         status_id: :class:`int`
             The Final Fantasy 14 Status ID.
 
+        Raises
+        ------
+        :class:`GarlandToolsKeyError`
+            If the "status" key is not found in the response data.
+        :class:`GarlandToolsTypeError`
+            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the status code is not 200.
+
         Returns
         -------
         :class:`StatusResponse`
@@ -805,6 +1019,15 @@ class GarlandToolsAsync:
 
     async def statuses(self) -> list[PartialIndex]:
         """Returns all Statuses.
+
+        Raises
+        ------
+        :class:`GarlandToolsKeyError`
+            If the "browse" key is not found in the response data.
+        :class:`GarlandToolsTypeError`
+            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the status code is not 200.
 
         Returns
         -------

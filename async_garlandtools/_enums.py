@@ -78,6 +78,7 @@ class IconType(Enum):
     marker = "marker"
     node = "node"
     fate = "fate"
+    item_custom = "item/custom"
 
 
 class Language(Enum):

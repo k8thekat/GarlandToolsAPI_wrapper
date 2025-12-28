@@ -1,3 +1,8 @@
+# Version - 1.5.1 - [84395c2](https://github.com/k8thekat/GarlandToolsAPI_wrapper/commit/84395c2)
+### Minor type change to returned Request errors.
+- Changed from `GarlandToolsTypeError` to `GarlandToolsRequestError` to better facilitate the reason behind the error also containing more useful information for debugging.
+	- Updated all docs related to the change.
+
 # Version - 1.5.0 - [e509d0e](https://github.com/k8thekat/GarlandToolsAPI_wrapper/commit/e509d0e)
 ### Overall
 Merge remote-tracking branch 'refs/remotes/origin/development' into development

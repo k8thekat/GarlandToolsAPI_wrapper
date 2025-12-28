@@ -21,10 +21,10 @@ Software Foundation, 51 Franklin Street - Fifth Floor, Boston, MA
 from __future__ import annotations
 
 import logging
+from json import JSONDecodeError
 from pathlib import Path
 from typing import TYPE_CHECKING, Any, Literal, NamedTuple, Optional, Self, overload
 
-from aiohttp.client_exceptions import ContentTypeError
 from aiohttp_client_cache import SQLiteBackend
 from aiohttp_client_cache.session import CachedSession
 
@@ -291,7 +291,6 @@ class GarlandToolsAsync:
             request_params,
         )
 
-
         # If the user supplied session is None; we create our own and set it to a private
         # attribute so we can close it later, otherwise we will use the user supplied session.
         # kwargs handler.
@@ -322,11 +321,13 @@ class GarlandToolsAsync:
             LOGGER.debug("<%s._request> | Data: %s", __class__.__name__, content)
             return content
         # If for any reason JSON parsing is failing, we will raise an exception.
-        try:
-            res: Any = await data.json()
-        except ContentTypeError:
-            raise GarlandToolsTypeError(func="request", cur_type=data.content_type, expec_type="application/json") from None
-
+        if data.content_type == "application/json":
+            try:
+                res: Any = await data.json()
+            except JSONDecodeError:
+                raise GarlandToolsRequestError(data.status, url, "invalid JSON response") from None
+        else:
+            raise GarlandToolsRequestError(data.status, url, "invalid content type")
         LOGGER.debug("<%s._request> | Data: %s", __class__.__name__, res)
         return res
 
@@ -342,8 +343,8 @@ class GarlandToolsAsync:
         ------
         :class:`GarlandToolsKeyError`
             If the "achievement" key is not found in the response data.
-        :class:`GarlandToolsTypeError`
-            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the response data content type is not "application/json", or the response data fails JSON decoding.
         :class:`GarlandToolsRequestError`
             If the status code is not 200.
 
@@ -368,8 +369,8 @@ class GarlandToolsAsync:
         ------
         :class:`GarlandToolsKeyError`
             If the "browse" key is not found in the response data.
-        :class:`GarlandToolsTypeError`
-            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the response data content type is not "application/json", or the response data fails JSON decoding.
         :class:`GarlandToolsRequestError`
             If the status code is not 200.
 
@@ -391,8 +392,8 @@ class GarlandToolsAsync:
         ------
         :class:`GarlandToolsKeyError`
             If the "achievementCategoryIndex" key is not found in the response data.
-        :class:`GarlandToolsTypeError`
-            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the response data content type is not "application/json", or the response data fails JSON decoding.
         :class:`GarlandToolsRequestError`
             If the status code is not 200.
 
@@ -437,8 +438,8 @@ class GarlandToolsAsync:
         ------
         :class:`GarlandToolsKeyError`
             If the "equip" key is not found in the response data.
-        :class:`GarlandToolsTypeError`
-            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the response data content type is not "application/json", or the response data fails JSON decoding.
         :class:`GarlandToolsRequestError`
             If the status code is not 200.
 
@@ -467,8 +468,8 @@ class GarlandToolsAsync:
         ------
         :class:`GarlandToolsKeyError`
             If the "fate" key is not found in the response data.
-        :class:`GarlandToolsTypeError`
-            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the response data content type is not "application/json", or the response data fails JSON decoding.
         :class:`GarlandToolsRequestError`
             If the status code is not 200.
 
@@ -490,8 +491,8 @@ class GarlandToolsAsync:
         ------
         :class:`GarlandToolsKeyError`
             If the "browse" key is not found in the response data.
-        :class:`GarlandToolsTypeError`
-            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the response data content type is not "application/json", or the response data fails JSON decoding.
         :class:`GarlandToolsRequestError`
             If the status code is not 200.
 
@@ -513,8 +514,8 @@ class GarlandToolsAsync:
         ------
         :class:`GarlandToolsKeyError`
             If the "browse" key is not found in the response data.
-        :class:`GarlandToolsTypeError`
-            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the response data content type is not "application/json", or the response data fails JSON decoding.
         :class:`GarlandToolsRequestError`
             If the status code is not 200.
 
@@ -591,8 +592,8 @@ class GarlandToolsAsync:
         ------
         :class:`GarlandToolsKeyError`
             If the "instance" key is not found in the response data.
-        :class:`GarlandToolsTypeError`
-            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the response data content type is not "application/json", or the response data fails JSON decoding.
         :class:`GarlandToolsRequestError`
             If the status code is not 200.
 
@@ -614,8 +615,8 @@ class GarlandToolsAsync:
         ------
         :class:`GarlandToolsKeyError`
             If the "browse" key is not found in the response data.
-        :class:`GarlandToolsTypeError`
-            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the response data content type is not "application/json", or the response data fails JSON decoding.
         :class:`GarlandToolsRequestError`
             If the status code is not 200.
 
@@ -642,8 +643,8 @@ class GarlandToolsAsync:
         ------
         :class:`GarlandToolsKeyError`
             If the "item" key is not found in the response data.
-        :class:`GarlandToolsTypeError`
-            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the response data content type is not "application/json", or the response data fails JSON decoding.
         :class:`GarlandToolsRequestError`
             If the status code is not 200.
 
@@ -684,8 +685,8 @@ class GarlandToolsAsync:
         ------
         :class:`GarlandToolsKeyError`
             If the "browse" key is not found in the response data.
-        :class:`GarlandToolsTypeError`
-            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the response data content type is not "application/json", or the response data fails JSON decoding.
         :class:`GarlandToolsRequestError`
             If the status code is not 200.
 
@@ -712,8 +713,8 @@ class GarlandToolsAsync:
         ------
         :class:`GarlandToolsKeyError`
             If the "equip" key is not found in the response data.
-        :class:`GarlandToolsTypeError`
-            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the response data content type is not "application/json", or the response data fails JSON decoding.
         :class:`GarlandToolsRequestError`
             If the status code is not 200.
 
@@ -767,8 +768,8 @@ class GarlandToolsAsync:
         ------
         :class:`GarlandToolsKeyError`
             If the "mob" key is not found in the response data.
-        :class:`GarlandToolsTypeError`
-            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the response data content type is not "application/json", or the response data fails JSON decoding.
         :class:`GarlandToolsRequestError`
             If the status code is not 200.
 
@@ -790,8 +791,8 @@ class GarlandToolsAsync:
         ------
         :class:`GarlandToolsKeyError`
             If the "browse" key is not found in the response data.
-        :class:`GarlandToolsTypeError`
-            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the response data content type is not "application/json", or the response data fails JSON decoding.
         :class:`GarlandToolsRequestError`
             If the status code is not 200.
 
@@ -818,8 +819,8 @@ class GarlandToolsAsync:
         ------
         :class:`GarlandToolsKeyError`
             If the "node" key is not found in the response data.
-        :class:`GarlandToolsTypeError`
-            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the response data content type is not "application/json", or the response data fails JSON decoding.
         :class:`GarlandToolsRequestError`
             If the status code is not 200.
 
@@ -842,8 +843,8 @@ class GarlandToolsAsync:
         ------
         :class:`GarlandToolsKeyError`
             If the "browse" key is not found in the response data.
-        :class:`GarlandToolsTypeError`
-            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the response data content type is not "application/json", or the response data fails JSON decoding.
         :class:`GarlandToolsRequestError`
             If the status code is not 200.
 
@@ -870,8 +871,8 @@ class GarlandToolsAsync:
         ------
         :class:`GarlandToolsKeyError`
             If the "npc" key is not found in the response data.
-        :class:`GarlandToolsTypeError`
-            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the response data content type is not "application/json", or the response data fails JSON decoding.
         :class:`GarlandToolsRequestError`
             If the status code is not 200.
 
@@ -893,8 +894,8 @@ class GarlandToolsAsync:
         ------
         :class:`GarlandToolsKeyError`
             If the "browse" key is not found in the response data.
-        :class:`GarlandToolsTypeError`
-            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the response data content type is not "application/json", or the response data fails JSON decoding.
         :class:`GarlandToolsRequestError`
             If the status code is not 200.
 
@@ -921,8 +922,8 @@ class GarlandToolsAsync:
         ------
         :class:`GarlandToolsKeyError`
             If the "quest" key and "partials" key is not found in the response data.
-        :class:`GarlandToolsTypeError`
-            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the response data content type is not "application/json", or the response data fails JSON decoding.
         :class:`GarlandToolsRequestError`
             If the status code is not 200.
 
@@ -944,8 +945,8 @@ class GarlandToolsAsync:
         ------
         :class:`GarlandToolsKeyError`
             If the "browse" key is not found in the response data.
-        :class:`GarlandToolsTypeError`
-            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the response data content type is not "application/json", or the response data fails JSON decoding.
         :class:`GarlandToolsRequestError`
             If the status code is not 200.
 
@@ -1001,8 +1002,8 @@ class GarlandToolsAsync:
         ------
         :class:`GarlandToolsKeyError`
             If the "status" key is not found in the response data.
-        :class:`GarlandToolsTypeError`
-            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the response data content type is not "application/json", or the response data fails JSON decoding.
         :class:`GarlandToolsRequestError`
             If the status code is not 200.
 
@@ -1024,8 +1025,8 @@ class GarlandToolsAsync:
         ------
         :class:`GarlandToolsKeyError`
             If the "browse" key is not found in the response data.
-        :class:`GarlandToolsTypeError`
-            If the response data is not in JSON format.
+        :class:`GarlandToolsRequestError`
+            If the response data content type is not "application/json", or the response data fails JSON decoding.
         :class:`GarlandToolsRequestError`
             If the status code is not 200.
 

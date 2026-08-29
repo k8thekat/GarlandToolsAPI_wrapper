@@ -31,13 +31,26 @@ if cl_file.exists() is False:
 
 
 # Grab Version from `CHANGELOG.md`
+# Searches for the first `# Version - X.Y.Z - [hash](url)` line
+# instead of assuming it's always on line 0.
 with cl_file.open(encoding="utf-8") as changelog:
     changelog_data = changelog.read()
     split_data = changelog_data.split("\n")
-    ver_data = split_data[0]  # Version - *.*.*** (commit hash)
-    ver_data = ver_data.split(" ")
-    last_commit: str = ver_data[-1][1:8]
-    cl_ver: str = ver_data[-3]
+
+    ver_line: str | None = None
+    for line in split_data:
+        if line.startswith("# Version -"):
+            ver_line = line
+            break
+
+    if ver_line is not None:
+        ver_parts = ver_line.split(" ")
+        last_commit: str = ver_parts[-1][1:8]
+        cl_ver: str = ver_parts[-3]
+    else:
+        # No version header found — treat as an initial commit.
+        last_commit = ""
+        cl_ver = "0.0.0"
 
 # If the version is `0.0.0` we are initializing the repo.
 if cl_ver == "0.0.0":

@@ -48,13 +48,22 @@ ignore = [
     "PLR",
     "RUF001",
     "RUF002", # The character U+2013 "–" could be confused with the ASCII character U+002d "-", which is more common in source code.
+    "RUF003", # The character U+2013 "–" could be confused with the ASCII character U+002d "-", which is more common in source code, this is for "COMMENTS"
     "RUF009",
     "RUF052", # for filtering "local dummy variable is accessed" eg. - vars using `_`
     "SIM105",
+    "SLF001", # private function/attribute usage outside of the class it was defined.
+    "TD002", # Ignore TODO's not having a link/url to an issue.
     "TD003", # Ignore TODO's not having a link/url to an issue.
+    "TRY400", # Ingoring forced `logging.exception` statement's when using try/except.
+    "T201", # Ignore print statements.
     "UP007",
     "UP034",
     "UP045", # Type var `Optional[X]` vs `X | None`
+    "ASYNC240", # Because Umbra said "f anyio~"
+    "C901", # Too complex functions.
+    "FBT001", # Ignore "bool" type arguments and limited functionality statement.
+    "FBT002", # Ignore "bool" type arguments and limited functionality statement.
 ]
 
 [tool.ruff.lint.isort]
@@ -74,7 +83,8 @@ venvPath = "."
 venv = ".venv"
 typeCheckingMode = "strict"
 pythonVersion = "3.12"
-exclude = ["logs/**", "**/.venv/**", "**/.vscode-server/", "/usr/*"]
+exclude = ["logs/**", "**/.venv/**", "**/.vscode-server/", "/usr/*", "**/node_modules", "**/__pycache__", "**/.*"]
+# What directories to include (especially if there is non default files being used such as data files)
 include = [""]
 useLibraryCodeForTypes = true
 reportIncompatibleMethodOverride = false
@@ -89,3 +99,8 @@ version = { attr = "async_garlandtools.__version__" }
 [build-system]
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
+
+[dependency-groups]
+dev = [
+    "asqlite>=2.0.0",
+]

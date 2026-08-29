@@ -103,6 +103,39 @@ wheels = [
 ]
 
 [[package]]
+name = "asqlite"
+version = "2.0.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/c3/c6/8349e97598590d1da0675b7ffbbb1c6293af5e9421d0c8683552e1ccab1b/asqlite-2.0.0.tar.gz", hash = "sha256:97645200037f822c170e7dafa8b8422f85983a36e03060e47dcd932c0e1714a3", size = 9077, upload-time = "2024-06-25T12:15:35.711Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/1b/29/bc22327700c07d08894dfcbfb5a82349f533a0190171b3fd2d8b7dc7b8c8/asqlite-2.0.0-py3-none-any.whl", hash = "sha256:271b4206dbab14da93ff191fb03f3166d11d8feec90467653762636810f040b5", size = 8899, upload-time = "2024-06-25T12:15:34.501Z" },
+]
+
+[[package]]
+name = "async-garlandtools"
+source = { editable = "." }
+dependencies = [
+    { name = "aiohttp" },
+    { name = "aiohttp-client-cache" },
+    { name = "aiosqlite" },
+]
+
+[package.dev-dependencies]
+dev = [
+    { name = "asqlite" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "aiohttp", specifier = ">=3.12.13" },
+    { name = "aiohttp-client-cache", specifier = ">=0.13.0" },
+    { name = "aiosqlite", specifier = ">=0.21.0" },
+]
+
+[package.metadata.requires-dev]
+dev = [{ name = "asqlite", specifier = ">=2.0.0" }]
+
+[[package]]
 name = "attrs"
 version = "25.3.0"
 source = { registry = "https://pypi.org/simple" }
@@ -169,22 +202,6 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/0b/31/8fbc5af2d183bff20f21aa743b4088eac4445d2bb1cdece449ae80e4e2d1/frozenlist-1.7.0-cp313-cp313t-win32.whl", hash = "sha256:3a14027124ddb70dfcee5148979998066897e79f89f64b13328595c4bdf77c81", size = 43059, upload-time = "2025-06-09T23:02:02.072Z" },
     { url = "https://files.pythonhosted.org/packages/bb/ed/41956f52105b8dbc26e457c5705340c67c8cc2b79f394b79bffc09d0e938/frozenlist-1.7.0-cp313-cp313t-win_amd64.whl", hash = "sha256:3bf8010d71d4507775f658e9823210b7427be36625b387221642725b515dcf3e", size = 47516, upload-time = "2025-06-09T23:02:03.779Z" },
     { url = "https://files.pythonhosted.org/packages/ee/45/b82e3c16be2182bff01179db177fe144d58b5dc787a7d4492c6ed8b9317f/frozenlist-1.7.0-py3-none-any.whl", hash = "sha256:9a5af342e34f7e97caf8c995864c7a396418ae2859cc6fdf1b1073020d516a7e", size = 13106, upload-time = "2025-06-09T23:02:34.204Z" },
-]
-
-[[package]]
-name = "garlandtoolsapi-wrapper"
-source = { editable = "." }
-dependencies = [
-    { name = "aiohttp" },
-    { name = "aiohttp-client-cache" },
-    { name = "aiosqlite" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "aiohttp", specifier = ">=3.12.13" },
-    { name = "aiohttp-client-cache", specifier = ">=0.13.0" },
-    { name = "aiosqlite", specifier = ">=0.21.0" },
 ]
 
 [[package]]

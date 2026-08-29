@@ -574,6 +574,7 @@ class GarlandToolsAsync:
             A generic object to house the response content with the url.
 
         """
+        # TODO(@k8thekat): Try/Except the request to return a NON thumbnail version (higher res/looks better?)
         url = f"{ICON_ENDPOINT.replace(LANGUAGE, self.language.value)}{icon_type.name}/t/{icon_id}.png"
         if thumbnail is False:
             url = f"{ICON_ENDPOINT.replace(LANGUAGE, self.language.value)}{icon_type.name}/{icon_id}.png"

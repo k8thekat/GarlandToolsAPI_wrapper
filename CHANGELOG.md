@@ -1,3 +1,57 @@
+# Version - 1.5.2 - [a4a2168](https://github.com/k8thekat/GarlandToolsAPI_wrapper/commit/a4a2168)
+### Overall
+Dev tooling, local.py refactor and linting config updates
+
+### .github/scripts/gen_changelog.py
+- Searches for first `# Version -` line instead of assuming line 0
+	- Handles missing version header gracefully (treats as initial commit)
+
+### .gitignore
+- Added `*local_data/` pattern
+
+### .vscode/launch.json
+- Added variables reference URL comment
+
+### .vscode/tasks.json (NEW)
+- VSCode tasks for docstring attribute generation via numpy_template
+
+### NOTES.md
+- Rewrote with version bump instructions and updated commit message structure
+
+### TODO.md
+- Added icon try/except TODO and marked template update complete
+
+### async_garlandtools/__init__.py
+- Version bump 1.5.1 -> 1.5.2
+
+### async_garlandtools/modules.py
+- Added TODO comment for icon endpoint higher-res fallback
+
+### async_garlandtools/_extension.py (NEW)
+- Scaffolding for extension classes (Snowflake, Object, Item)
+
+### local.py
+- Refactored into a `Local` class with typed methods
+- Added `SQLHandler` class wrapping asqlite pool operations
+- Added `DumpParameters` and `WriteDataParameters` TypedDicts
+- Updated `LogHandler` with sentry placeholder and webhook stub
+- Fixed `subprocess.run` to use list args instead of string
+- Fixed argparse namespace handling
+
+### numpy_template/docstring_attrs.py (NEW)
+- Script to scan Python classes and insert NumPy-style Attributes sections
+- Supports preview diff, in-place write, class/line targeting
+
+### pyproject.toml
+- Added ruff ignore rules (RUF003, SLF001, TD002, TRY400, T201, ASYNC240, C901, FBT001, FBT002)
+- Expanded pyright exclude paths
+- Added `asqlite` dev dependency group
+
+### uv.lock
+- Updated lockfile for asqlite and corrected package name
+Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01AfyaxmmRUiEj4vHs2Gn7fa
+
 # Version - 1.5.1 - [84395c2](https://github.com/k8thekat/GarlandToolsAPI_wrapper/commit/84395c2)
 ### Minor type change to returned Request errors.
 - Changed from `GarlandToolsTypeError` to `GarlandToolsRequestError` to better facilitate the reason behind the error also containing more useful information for debugging.
